@@ -107,7 +107,7 @@ def build(data: dict, output: Path) -> None:
     y = para(f"NUMEROLOGY REFERENCE SERIES / {data['series_number']:02d}", y, 8.5, 12, color=PURPLE, gap=16)
     y = para(display.get('cover_title', 'Destiny / Expression'), y, 27, 33, bold=True, gap=19)
     y = para(display.get('cover_subtitle', 'Twelve interpretations of capacities and expression'), y, 17, 23, bold=True, gap=12)
-    y = para('1, 2, 3, 4, 5, 6, 7, 8, 9, 11/2, 22/4 and 33/6', y, 8.5, 12, color=PURPLE, gap=40)
+    y = para(display.get('cover_results', '1, 2, 3, 4, 5, 6, 7, 8, 9, 11/2, 22/4 and 33/6'), y, 8.5, 12, color=PURPLE, gap=40)
     y = para(display.get('cover_intro', 'Original descriptions synthesized from position-specific numerology sources, with calculation comparisons and practical editorial guidance.'), y, gap=35)
     y = para('Reading note', y, 8.5, 12, color=PURPLE, gap=12)
     y = para(data['framing_note'], y, gap=16)
@@ -143,12 +143,14 @@ def build(data: dict, output: Path) -> None:
         para(result['editorial_note'], y, 8.5, 12, color=MUTED)
         end()
 
-    # References are intentionally split across pages so long titles stay legible.
-    for idx, offset in enumerate(range(0, len(data['sources']), 10), start=1):
+    # Guides can choose a reference count suited to their titles and source list.
+    references_per_page = display.get('bibliography_page_size', 10)
+    assert isinstance(references_per_page, int) and references_per_page > 0
+    for idx, offset in enumerate(range(0, len(data['sources']), references_per_page), start=1):
         y = start('SOURCE REFERENCES')
         y = para('Bibliography' + (f' / {idx}' if idx > 1 else ''), y, 24, 29, bold=True, gap=12)
         y = para('Titles link to the exact source pages. All accessed ' + stamp + '.', y, 9, 13, color=MUTED, gap=17)
-        for s in data['sources'][offset:offset + 10]:
+        for s in data['sources'][offset:offset + references_per_page]:
             y = para('[' + s['id'] + '] ' + s['author_or_publisher'], y, 9, 12, bold=True, gap=3)
             y = para(link(s['title'], s['url']), y, 9.5, 13, markup=True, gap=13)
         if idx == 1:

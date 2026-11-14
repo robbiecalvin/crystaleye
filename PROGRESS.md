@@ -12,12 +12,13 @@ Updated November 13, 2026 (America/Vancouver).
 | 04 | Destiny / Expression | [Destiny_Expression_Research_Guide.pdf](output/pdf/Destiny_Expression_Research_Guide.pdf) | [JSON](data/destiny-expression.json), [Markdown](content/destiny-expression.md) |
 | 05 | Minor Personality | [Minor_Personality_Research_Guide.pdf](output/pdf/Minor_Personality_Research_Guide.pdf) | [JSON](data/minor-personality.json), [Markdown](content/minor-personality.md) |
 | 06 | Minor Soul’s Desire / Minor Soul Urge | [Minor_Souls_Desire_Research_Guide.pdf](output/pdf/Minor_Souls_Desire_Research_Guide.pdf) | [JSON](data/minor-souls-desire.json), [Markdown](content/minor-souls-desire.md) |
+| 07 | Balance | [Balance_Number_Research_Guide.pdf](output/pdf/Balance_Number_Research_Guide.pdf) | [JSON](data/balance.json), [Markdown](content/balance.md) |
 
 ## Current and next topic
 
-Minor Soul’s Desire / Minor Soul Urge is complete. **Next: Balance**, series 07. Stop here until the user asks to proceed. Do not generate the remaining series in a batch.
+Balance is complete. **Next: Karmic Lessons**, series 08. Stop here until the user asks to proceed. Do not generate the remaining series in a batch.
 
-After that, retain the order in [the project handoff](research/SERIES_HANDOFF.md): Karmic Lessons, Hidden Passion, First–Third Life Cycles, First–Fourth Pinnacles, First–Fourth Challenges, and Birthday Number. Each position is a separate deliverable.
+After that, retain the order in [the project handoff](research/SERIES_HANDOFF.md): Hidden Passion, First–Third Life Cycles, First–Fourth Pinnacles, First–Fourth Challenges, and Birthday Number. Each position is a separate deliverable.
 
 ## Destiny / Expression conventions
 
@@ -93,3 +94,26 @@ Rebuild instructions are in [README.md](README.md). No environment configuration
 - Evaluated the existing nameNumbers function without editing it. Confirmed Soul values: Robert James Smith 8, Bobby Smith 6, Lynn Ng 0, John Amelia 4, Joe Ng 11, Joe Joe 22 and Joe Joe Joe 33. Independently checked conditional-Y and raw-total alternatives.
 - Final repeat-build into temporary paths reproduced both PDF and Markdown byte-for-byte. An internal HTTP download check returned application/pdf, HTTP 200 and exact PDF bytes.
 - Prior guide outputs and calculator logic remain unchanged. Added this guide’s data, Markdown, PDF and research notes, and updated README/progress. No environment reconfiguration, publication or deployment was performed.
+
+
+## Balance conventions and limitations
+
+- Full birth-name word initials; use repeating Pythagorean values and reduce the summed initials completely to 1–9. Decoz explicitly reduces masters in this position: 11→2, 22→4, 33→6. The guide contains nine result profiles, not twelve.
+- The calculator currently preserves 11/22/33 through its shared reduction function. This discrepancy is documented without changing software. For app Balance 11 use guide 2; for 22 use 4; for 33 use 6. The JSON records this under calculator_compatibility.
+- Decoz’s Thomas John Hancock example has initials T2+J1+H8=11 and guide result 2; the app displays 11. Invented Ivy Ian Dana gives app 22 / guide 4; Ivy Ian Isaac Ford gives app 33 / guide 6. Ordinary 1–9 outputs already agree. Zero is not a valid result for a nonempty alphabetic birth name under this method.
+- The project takes an initial per whitespace-separated name word across birth first/middle/last fields. It removes apostrophes/hyphens within a word, so a hyphenated word supplies one initial. This tokenization is a documented project convention; no universal compound-name or transliteration rule is asserted.
+- Eleven cited articles come from three publisher families. Decoz supplies the only direct Balance-specific series found in accessible material. Numerology.com supplies general number symbolism; Bender’s boundary-setting essay explicitly concerns Life Path. These are labeled as supplementary comparisons, not additional Balance series.
+- A second accessible Balance-specific publisher remains a material gap. Exact-phrase Bender and Sarah Yip searches did not locate a direct series; Numerology.com’s live sitemap had no Balance article. Additional research sites were blocked by the configured network policy. No bypass, configuration change or claim of whole-web completeness was made.
+- The profiles focus on choosing a response during difficulty, not fixed traits, inner motivation, a date-derived Challenge, or a prediction of hardship. Decoz’s blanket blame statement in Balance 6 and clinical/guaranteed-outcome claims are not adopted. Source roles, comparisons, exclusions and access limits are preserved in [research notes](research/balance-sources.md).
+
+## Balance validation
+
+- Read the current agent instructions, progress and handoff; inspected prior-guide text and representative PDF layouts.
+- Built a 13-page Letter PDF: cover, two methodology pages, nine original three-paragraph profiles (197–212 words each), and one bibliography page. PDF and Markdown are generated from the same JSON.
+- Verified all nine results, all 27 profile paragraphs, all headings and evidence notes against extracted PDF text. Confirmed the cover lists only 1–9, sequential page numbering, Letter dimensions, and absence of missing/replacement/black-square glyphs.
+- Rendered and visually inspected every page in contact sheets, with full-size checks of the calculation page and bibliography. No clipping, orphaned headings or blank pages observed.
+- Verified all profile source annotations and all 11 bibliography destinations; every exact source URL returned HTTP 200 with article content on the final link check.
+- Executed the existing nameNumbers function without editing it; confirmed master-preserving Balance outputs 11, 22 and 33 for the documented fixtures and ordinary output 6 for Ada Ben Cora. Independently checked the fully reduced guide results.
+- Made cover result labels and bibliography page size configurable so the nine-result guide does not inherit master-number labels or a nearly empty extra reference page. Compared old and new builders on the previous Minor Soul’s Desire data: both PDF and Markdown were byte-for-byte identical.
+- Final Balance rebuild into temporary output paths reproduced both files exactly. Internal HTTP download verification returned 200, application/pdf, and the exact saved bytes.
+- Calculator and previous guide outputs remain unchanged. The completed guide, research notes, builder adjustment, README and progress are included in the GitHub commit/push workflow requested by the user. No website deployment or environment publication is involved.

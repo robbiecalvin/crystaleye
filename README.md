@@ -2,7 +2,7 @@
 
 Completed guides and related project changes are committed and pushed to GitHub `main` after validation, as requested by the user. Publishing a cloud environment preserves its workspace snapshot separately; it does not replace a Git commit and push.
 
-[Destiny / Expression](output/pdf/Destiny_Expression_Research_Guide.pdf) (04), [Minor Personality](output/pdf/Minor_Personality_Research_Guide.pdf) (05), and [Minor Soul’s Desire](output/pdf/Minor_Souls_Desire_Research_Guide.pdf) (06) are complete. [PROGRESS.md](PROGRESS.md) records the sequence and validation.
+[Destiny / Expression](output/pdf/Destiny_Expression_Research_Guide.pdf) (04), [Minor Personality](output/pdf/Minor_Personality_Research_Guide.pdf) (05), [Minor Soul’s Desire](output/pdf/Minor_Souls_Desire_Research_Guide.pdf) (06), and [Balance](output/pdf/Balance_Number_Research_Guide.pdf) (07) are complete. [PROGRESS.md](PROGRESS.md) records the sequence and validation.
 
 - Authoritative editable content: [data/destiny-expression.json](data/destiny-expression.json)
 - Generated reading copy: [content/destiny-expression.md](content/destiny-expression.md)
@@ -38,3 +38,12 @@ Build Minor Soul’s Desire / Minor Soul Urge with:
 ```
 
 Its [JSON](data/minor-souls-desire.json), [Markdown](content/minor-souls-desire.md), and [research notes](research/minor-souls-desire-sources.md) distinguish direct minor interpretations from main Soul Urge comparisons. The 33/6 profile is an explicit current-name adaptation; the calculation includes 33, but the consulted direct Minor series has no separate 33 entry.
+
+
+Build Balance with:
+
+```sh
+/workspace/.crystaleye-tools/venv/bin/python /workspace/crystaleye/scripts/build_pdf.py --data /workspace/crystaleye/data/balance.json
+```
+
+Its [JSON](data/balance.json), [Markdown](content/balance.md), and [research notes](research/balance-sources.md) follow the sourced 1–9 Balance convention. Master totals are reduced for this guide, unlike the calculator’s current Balance formula; the correspondence is documented without changing calculator behavior. Direct Balance evidence comes from Decoz, while the other cited publishers supply explicitly labeled general-number and Life Path comparisons.
