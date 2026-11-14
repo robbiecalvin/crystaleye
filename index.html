@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#111219" />
+    <meta
+      name="description"
+      content="Explore your name and numbers with Crystaleye’s numerology calculator, researched reference guides, and cyberpunk tarot collection."
+    />
+    <title>Crystaleye — Numbers, symbols & a little self-discovery</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/site.css" />
+    <script src="assets/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a class="brand" href="#top" aria-label="Crystaleye home">
+        <svg class="brand-mark" viewBox="0 0 48 32" aria-hidden="true">
+          <path d="M2 16Q24-10 46 16Q24 42 2 16Z" />
+          <path d="m24 5 9 11-9 11-9-11Z" />
+          <circle cx="24" cy="16" r="3" />
+        </svg>
+        <span>crystaleye<span class="brand-dot">.</span></span>
+      </a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        <span>Menu</span
+        ><svg viewBox="0 0 20 20" aria-hidden="true">
+          <path d="M3 6h14M3 14h14" />
+        </svg>
+      </button>
+      <nav id="site-nav" aria-label="Main navigation">
+        <a href="#numerology">Numerology</a>
+        <a href="#tarot">Tarot</a>
+        <a href="#library">The library</a>
+      </nav>
+      <a class="header-cta" href="numerology-calculator/index.html"
+        >Find your numbers <span aria-hidden="true">→</span></a
+      >
+    </header>
+
+    <main id="main">
+      <section class="hero wrap" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="tiny-star" aria-hidden="true">✧</span> A space for the
+            curious
+          </p>
+          <h1 id="hero-title">
+            Find a pattern.<br />Make it <em>personal.</em>
+          </h1>
+          <p class="hero-description">
+            Your name. Your numbers. Your own perspective.<br
+              class="desktop-break"
+            />
+            Explore the symbols that give you a new way to look within.
+          </p>
+          <div class="hero-actions">
+            <a
+              class="button button-gold"
+              href="numerology-calculator/index.html"
+              >Explore your numbers <span aria-hidden="true">→</span></a
+            >
+            <a class="text-link" href="#library"
+              >Browse the guides <span aria-hidden="true">→</span></a
+            >
+          </div>
+          <div class="hero-note">
+            <span class="note-line" aria-hidden="true"></span> A little wonder.
+            A little insight. Always your interpretation.
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orb-glow"></div>
+          <svg class="eye-orbit" viewBox="0 0 500 500" fill="none">
+            <defs>
+              <radialGradient id="iris-glow">
+                <stop stop-color="#b7a1d3" stop-opacity=".25" />
+                <stop offset="1" stop-color="#85709e" stop-opacity="0" />
+              </radialGradient>
+              <linearGradient
+                id="eye-line"
+                x1="65"
+                y1="140"
+                x2="440"
+                y2="350"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#8b7459" />
+                <stop offset=".5" stop-color="#e2c296" />
+                <stop offset="1" stop-color="#8d718b" />
+              </linearGradient>
+            </defs>
+            <circle
+              cx="250"
+              cy="250"
+              r="238"
+              stroke="#b59774"
+              stroke-opacity=".15"
+            />
+            <circle
+              cx="250"
+              cy="250"
+              r="211"
+              stroke="#b59774"
+              stroke-opacity=".45"
+            />
+            <circle
+              cx="250"
+              cy="250"
+              r="190"
+              stroke="#b59774"
+              stroke-opacity=".2"
+              stroke-dasharray="1 9"
+            />
+            <path
+              d="M250 31v438M31 250h438M95 95l310 310M95 405 405 95"
+              stroke="#af9dbe"
+              stroke-opacity=".1"
+            />
+            <g class="orbit-lines" stroke="#b09abc" stroke-opacity=".14">
+              <path d="m250 93 136 236H114Z" />
+              <path d="m250 407 136-236H114Z" />
+              <circle cx="250" cy="250" r="157" />
+            </g>
+            <circle cx="250" cy="250" r="150" fill="url(#iris-glow)" />
+            <path
+              d="M72 250q178-185 356 0-178 185-356 0Z"
+              stroke="url(#eye-line)"
+              stroke-width="1.4"
+            />
+            <path
+              d="M95 250q155-140 310 0-155 140-310 0Z"
+              stroke="#b9a7c9"
+              stroke-opacity=".18"
+            />
+            <circle
+              cx="250"
+              cy="250"
+              r="77"
+              stroke="#c6b1d5"
+              stroke-opacity=".65"
+            />
+            <circle
+              cx="250"
+              cy="250"
+              r="65"
+              stroke="#b59774"
+              stroke-opacity=".32"
+            />
+            <path
+              d="m250 194 37 56-37 56-37-56Z"
+              fill="#b8a0cd"
+              fill-opacity=".08"
+              stroke="#c9b2d8"
+              stroke-opacity=".8"
+            />
+            <path d="m250 218 21 32-21 32-21-32Z" stroke="#e2c296" />
+            <circle cx="250" cy="250" r="7" fill="#e2c296" />
+            <g class="orbit-numbers" fill="#cfb38e" text-anchor="middle">
+              <text x="250" y="57">1</text>
+              <text x="382" y="104">2</text>
+              <text x="452" y="225">3</text>
+              <text x="427" y="361">4</text>
+              <text x="322" y="451">5</text>
+              <text x="178" y="451">6</text>
+              <text x="73" y="361">7</text>
+              <text x="48" y="225">8</text>
+              <text x="118" y="104">9</text>
+            </g>
+            <g fill="#dbc19b">
+              <circle cx="250" cy="39" r="2.5" />
+              <circle cx="39" cy="250" r="2.5" />
+              <circle cx="461" cy="250" r="2.5" />
+              <circle cx="250" cy="461" r="2.5" />
+            </g>
+            <path d="m404 78 3 9 9 3-9 3-3 9-3-9-9-3 9-3Z" fill="#d4b58c" />
+            <path d="m82 398 2 6 6 2-6 2-2 6-2-6-6-2 6-2Z" fill="#b39cc7" />
+          </svg>
+          <span class="art-caption">As curious as you are</span>
+          <span class="art-coordinate">01 — 09 / ∞</span>
+        </div>
+      </section>
+
+      <div class="intro-strip wrap" aria-label="Explore Crystaleye">
+        <span>Numbers for perspective</span><span aria-hidden="true">✧</span
+        ><span>Symbols for reflection</span><span aria-hidden="true">✧</span
+        ><span>Room for your own meaning</span>
+      </div>
+
+      <section
+        class="numerology-section wrap section-space"
+        id="numerology"
+        aria-labelledby="numerology-title"
+      >
+        <div class="section-heading">
+          <p class="eyebrow">01 / Numerology</p>
+          <span class="section-aside">A different way to read your story</span>
+        </div>
+        <div class="calculator-feature">
+          <div class="feature-copy">
+            <span class="feature-tag">The numerology calculator</span>
+            <h2 id="numerology-title">
+              There’s more<br />to your <em>name.</em>
+            </h2>
+            <p>
+              Start with your birth name and birthday. Discover your core
+              numbers, explore the name you use today, and follow the patterns
+              through your chart.
+            </p>
+            <a
+              class="button button-gold"
+              href="numerology-calculator/index.html"
+              >Calculate my numbers <span aria-hidden="true">→</span></a
+            >
+            <p class="small-note">
+              No sign-up. Your entries stay in your browser.
+            </p>
+          </div>
+          <div
+            class="number-study"
+            aria-label="Explore Life Path, Expression, and Soul’s Desire"
+          >
+            <div class="study-header">
+              <span>A few parts of the picture</span
+              ><span aria-hidden="true">✦</span>
+            </div>
+            <div class="study-row">
+              <span class="study-symbol" aria-hidden="true">☉</span>
+              <div>
+                <h3>Life Path</h3>
+                <p>Development &amp; life themes</p>
+              </div>
+              <span class="study-index">01</span>
+            </div>
+            <div class="study-row">
+              <span class="study-symbol" aria-hidden="true">◇</span>
+              <div>
+                <h3>Expression</h3>
+                <p>Capacities &amp; how you express them</p>
+              </div>
+              <span class="study-index">02</span>
+            </div>
+            <div class="study-row">
+              <span class="study-symbol" aria-hidden="true">☽</span>
+              <div>
+                <h3>Soul’s Desire</h3>
+                <p>Inner motivation &amp; fulfillment</p>
+              </div>
+              <span class="study-index">03</span>
+            </div>
+            <a class="study-bottom" href="#library"
+              >Give your numbers some context
+              <span aria-hidden="true">→</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="library-section wrap section-space"
+        id="library"
+        aria-labelledby="library-title"
+      >
+        <div class="section-heading">
+          <p class="eyebrow">02 / The reference library</p>
+          <span class="section-aside">Read slowly. Keep what resonates.</span>
+        </div>
+        <div class="library-heading">
+          <div>
+            <h2 id="library-title">Go a little <em>deeper.</em></h2>
+            <p>
+              Researched interpretations. Different perspectives.<br />Seven
+              guides to explore at your own pace.
+            </p>
+          </div>
+          <div class="library-controls" hidden data-enhanced-controls>
+            <label class="search-label" for="guide-search">Find a guide</label>
+            <div class="search-field">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="10.5" cy="10.5" r="6.5" />
+                <path d="m16 16 5 5" /></svg
+              ><input
+                id="guide-search"
+                type="search"
+                placeholder="Try “soul” or “life path”…"
+                autocomplete="off"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="library-toolbar">
+          <div
+            class="filter-group"
+            role="group"
+            aria-label="Filter guides"
+            hidden
+            data-enhanced-controls
+          >
+            <button type="button" data-filter="all" aria-pressed="true">
+              All guides</button
+            ><button type="button" data-filter="core" aria-pressed="false">
+              Core numbers</button
+            ><button
+              type="button"
+              data-filter="supporting"
+              aria-pressed="false"
+            >
+              Supporting numbers
+            </button>
+          </div>
+          <p
+            id="guide-count"
+            role="status"
+            aria-live="polite"
+            aria-atomic="true"
+          >
+            7 guides
+          </p>
+        </div>
+        <ul class="guide-list" id="guide-list">
+          <li
+            class="guide-row"
+            data-category="core"
+            data-search="life path birth date development lessons"
+          >
+            <span class="guide-number">01</span>
+            <div class="guide-info">
+              <h3>Life Path</h3>
+              <p>The broad themes of development and life lessons.</p>
+            </div>
+            <span class="guide-type">Core number</span
+            ><a
+              class="pdf-link"
+              href="Life_Path_Research_Guide.pdf"
+              download
+              aria-label="Download Life Path guide PDF"
+              >PDF <span aria-hidden="true">↓</span></a
+            >
+          </li>
+          <li
+            class="guide-row"
+            data-category="core"
+            data-search="destiny expression name capacities abilities talents"
+          >
+            <span class="guide-number">02</span>
+            <div class="guide-info">
+              <h3>Destiny / Expression</h3>
+              <p>Name-derived capacities and ways of expressing them.</p>
+            </div>
+            <span class="guide-type">Core number</span
+            ><a
+              class="pdf-link"
+              href="output/pdf/Destiny_Expression_Research_Guide.pdf"
+              download
+              aria-label="Download Destiny and Expression guide PDF"
+              >PDF <span aria-hidden="true">↓</span></a
+            >
+          </li>
+          <li
+            class="guide-row"
+            data-category="core"
+            data-search="personality outward first impression consonants"
+          >
+            <span class="guide-number">03</span>
+            <div class="guide-info">
+              <h3>Personality</h3>
+              <p>The outward impression you may make on others.</p>
+            </div>
+            <span class="guide-type">Core number</span
+            ><a
+              class="pdf-link"
+              href="Personality_Number_Research_Guide.pdf"
+              download
+              aria-label="Download Personality guide PDF"
+              >PDF <span aria-hidden="true">↓</span></a
+            >
+          </li>
+          <li
+            class="guide-row"
+            data-category="core"
+            data-search="soul souls soul's soul’s desire urge heart hearts heart's heart’s inner motivation vowels fulfillment"
+          >
+            <span class="guide-number">04</span>
+            <div class="guide-info">
+              <h3>Soul’s Desire</h3>
+              <p>Inner motivation, values, and a sense of fulfillment.</p>
+            </div>
+            <span class="guide-type">Core number</span
+            ><a
+              class="pdf-link"
+              href="Souls_Desire_Research_Guide.pdf"
+              download
+              aria-label="Download Soul’s Desire guide PDF"
+              >PDF <span aria-hidden="true">↓</span></a
+            >
+          </li>
+          <li
+            class="guide-row"
+            data-category="supporting"
+            data-search="minor personality current name short social outward impression"
+          >
+            <span class="guide-number">05</span>
+            <div class="guide-info">
+              <h3>Minor Personality</h3>
+              <p>Everyday presentation through the name you use now.</p>
+            </div>
+            <span class="guide-type">Supporting number</span
+            ><a
+              class="pdf-link"
+              href="output/pdf/Minor_Personality_Research_Guide.pdf"
+              download
+              aria-label="Download Minor Personality guide PDF"
+              >PDF <span aria-hidden="true">↓</span></a
+            >
+          </li>
+          <li
+            class="guide-row"
+            data-category="supporting"
+            data-search="minor soul souls soul's soul’s desire urge heart current name motivation fulfillment"
+          >
+            <span class="guide-number">06</span>
+            <div class="guide-info">
+              <h3>Minor Soul’s Desire</h3>
+              <p>A current-name lens on motivation and fulfillment.</p>
+            </div>
+            <span class="guide-type">Supporting number</span
+            ><a
+              class="pdf-link"
+              href="output/pdf/Minor_Souls_Desire_Research_Guide.pdf"
+              download
+              aria-label="Download Minor Soul’s Desire guide PDF"
+              >PDF <span aria-hidden="true">↓</span></a
+            >
+          </li>
+          <li
+            class="guide-row"
+            data-category="supporting"
+            data-search="balance difficulty stress response initials"
+          >
+            <span class="guide-number">07</span>
+            <div class="guide-info">
+              <h3>Balance</h3>
+              <p>Symbolic approaches to responding when life is difficult.</p>
+            </div>
+            <span class="guide-type">Supporting number</span
+            ><a
+              class="pdf-link"
+              href="output/pdf/Balance_Number_Research_Guide.pdf"
+              download
+              aria-label="Download Balance guide PDF"
+              >PDF <span aria-hidden="true">↓</span></a
+            >
+          </li>
+        </ul>
+        <div class="empty-search" id="empty-search" hidden>
+          <h3>No guides found just yet.</h3>
+          <p>Try a different word or view the full collection.</p>
+          <button class="text-link" id="clear-search" type="button">
+            Show all guides <span aria-hidden="true">→</span>
+          </button>
+        </div>
+        <p class="library-note">
+          Each guide includes its calculation conventions and source references.
+          Interpretations can differ between traditions.
+        </p>
+      </section>
+
+      <section
+        class="tarot-section section-space"
+        id="tarot"
+        aria-labelledby="tarot-title"
+      >
+        <div class="tarot-inner wrap">
+          <div
+            class="tarot-art"
+            aria-label="Three cards from the cyberpunk tarot collection"
+          >
+            <img
+              class="tarot-card card-moon"
+              src="assets/images/tarot-moon.webp"
+              alt="The Moon tarot card: a luminous moon above a neon city and water"
+              width="480"
+              height="720"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              class="tarot-card card-star"
+              src="assets/images/tarot-star.webp"
+              alt="The Star tarot card: a radiant figure under a star with streams of colored light"
+              width="480"
+              height="720"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              class="tarot-card card-sun"
+              src="assets/images/tarot-sun.webp"
+              alt="The Sun tarot card: a brilliant sun above a vivid futuristic landscape"
+              width="480"
+              height="720"
+              loading="lazy"
+              decoding="async"
+            />
+            <span class="tarot-art-label"
+              >A familiar language. A different world.</span
+            >
+          </div>
+          <div class="tarot-copy">
+            <p class="eyebrow">03 / Tarot</p>
+            <h2 id="tarot-title">Old symbols.<br /><em>New light.</em></h2>
+            <p>
+              Step into a vivid, cyberpunk take on tarot. Explore the imagery,
+              spend time with a symbol, and see what questions it opens up for
+              you.
+            </p>
+            <a
+              class="button button-outline"
+              href="Tarot%20Guide.pdf"
+              target="_blank"
+              rel="noopener"
+              >Open the tarot guide <span aria-hidden="true">→</span></a
+            >
+            <p class="small-note">
+              A visual companion for your own reflection.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing wrap" aria-label="Our approach">
+        <span class="closing-star" aria-hidden="true">✧</span>
+        <p>
+          There’s no single way to read a life.<br />Just more ways to
+          <em>pay attention.</em>
+        </p>
+        <a class="text-link" href="numerology-calculator/index.html"
+          >Start exploring <span aria-hidden="true">→</span></a
+        >
+      </section>
+    </main>
+
+    <footer class="site-footer wrap">
+      <div class="footer-top">
+        <a class="brand footer-brand" href="#top"
+          >crystaleye<span class="brand-dot">.</span></a
+        >
+        <p>Numbers. Symbols. A little self-discovery.</p>
+        <a
+          class="text-link"
+          href="https://github.com/robbiecalvin/crystaleye"
+          target="_blank"
+          rel="noopener"
+          >The project <span aria-hidden="true">→</span></a
+        >
+      </div>
+      <div class="footer-bottom">
+        <p>
+          Numerology and tarot are symbolic traditions for reflection, not
+          scientifically validated assessments or predictions.
+        </p>
+        <a href="#top"
+          >Back to the beginning <span aria-hidden="true">↑</span></a
+        >
+      </div>
+    </footer>
+  </body>
+</html>

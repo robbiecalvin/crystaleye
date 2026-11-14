@@ -1,4 +1,4 @@
-# Crystaleye numerology reference series
+# Crystaleye
 
 Completed guides and related project changes are committed and pushed to GitHub `main` after validation, as requested by the user. Publishing a cloud environment preserves its workspace snapshot separately; it does not replace a Git commit and push.
 
@@ -50,3 +50,16 @@ Its [JSON](data/balance.json), [Markdown](content/balance.md), and [research not
 
 
 Karmic Lessons is in progress: [data](data/karmic-lessons.json), [reading draft](content/karmic-lessons.md), and [research notes](research/karmic-lessons-sources.md). It uses a set-valued result model, with multiple or no selected lessons. The user’s new Personality.pdf must be inspected and matched before the final PDF is produced; the uploaded attachment exceeded the file tool’s 32 MiB transfer limit. Previous layout output is provisional and is not listed as a completed guide. The same new design will apply to subsequent guides.
+
+
+## Homepage
+
+Open [index.html](index.html) for the responsive Crystaleye homepage: the existing numerology calculator, a searchable library of seven completed PDF guides, and the tarot guide with artwork from CyberPunkTarotDeck. No build, account, external service, or package installation is required. Search and mobile menu controls use progressive enhancement; navigation and PDF links also work without JavaScript.
+
+To preview from the repository root:
+
+```sh
+python -m http.server 8000
+```
+
+Visit `http://localhost:8000`. Homepage styles and interactions are in `assets/site.css` and `assets/site.js`. The three WebP images in `assets/images` are compressed derivatives of the existing Star, Moon, and Sun deck images; originals are preserved. The in-progress Karmic Lessons draft is excluded from the completed library.

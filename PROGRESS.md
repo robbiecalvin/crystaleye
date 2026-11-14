@@ -130,3 +130,11 @@ Rebuild instructions are in [README.md](README.md). No environment configuration
 - Validated the provisional 15-page PDF: all 27 profile paragraphs and nine evidence notes match the structured content; all page dimensions and numbering are correct; every page was rendered and visually inspected. This does not validate a match to the newly supplied design. All twelve exact cited URLs returned HTTP 200 with article content.
 - Added set-valued profile catalogs and optional methodology tables to the shared builder. Draft PDF/Markdown reproduce byte-for-byte; old/new builders produce identical Balance outputs for the previous single-result schema. Final output must be rebuilt and fully checked after the new template is available.
 - The pending-reference state, research draft, reusable builder changes and user’s new design requirement are saved as work in progress for the GitHub sync workflow. No Karmic Lessons completion claim, environment publication or website deployment is made.
+
+
+## Crystaleye homepage
+
+- Built root index.html with responsive dark plum and gold styling, original eye artwork, calculator links, seven completed PDF guides, and existing tarot material. Added compressed WebP derivatives of three repository deck images; original artwork is preserved.
+- Added accessible mobile navigation and progressively enhanced library search/category filters. Navigation and all guides remain available without JavaScript. No external runtime dependencies, analytics, or storage were added.
+- Browser validation covers desktop and mobile layouts, 320px width, mobile menu dismissal/navigation, category/search/reset/empty states, local PDF destinations, and the existing calculator producing 21 result cards. Checked the no-JavaScript fallback and inspected rendered desktop/mobile pages.
+- This website task does not advance the Karmic Lessons research draft or change calculator formulas and existing PDFs. Files are committed and pushed through the requested GitHub workflow; no deployment or environment publication is involved.
