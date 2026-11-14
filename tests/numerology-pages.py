@@ -21,6 +21,8 @@ def main():
         assert len(page.ids)==len(set(page.ids)),p
         assert text.count('class="merch-product"')==3,p
         assert text.count('assets/cyberpunk.css')==1,p
+        assert text.count('assets/mobile-toolbar.css')==1,p
+        assert text.count('class="mobile-toolbar"')==1,p
         for href in page.links:
             u=urlparse(href)
             if u.scheme or u.netloc:continue
@@ -30,6 +32,9 @@ def main():
             assert target.is_file(),(p,href,target)
             if u.fragment and target.suffix=='.html':assert unquote(u.fragment) in parsed[target].ids,(p,href)
             count+=1
+    home=(ROOT/'index.html').read_text()
+    assert home.index('id="astrology"') < home.index('id="tarot"') < home.index('id="calculator"')
+    assert home.count('id="mini-form"')==1
     config=json.loads((ROOT/'data/numerology-topics.json').read_text());profiles=json.loads((ROOT/'data/numerology-profiles.json').read_text())['topics']
     assert len(config['topics'])==21
     assert sum(len(v['profiles']) for v in profiles.values())==81

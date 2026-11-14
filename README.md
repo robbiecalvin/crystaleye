@@ -110,3 +110,10 @@ node --test tests/*.test.mjs
 ```
 
 The audit verifies that every uploaded image has a placement or documented identical alias, every served image is encoded WebP, all image URLs resolve, and the untouched source files match their recorded hashes. Portraits, constellations, number illustrations, card faces, card backs, logo, and page backgrounds have separate explicit roles.
+
+
+## Homepage and mobile navigation
+
+The homepage now leads with Astrology, followed by Tarot and the embedded three-number numerology calculator. The guide library and merchandise remain below these primary sections. Both the homepage and numerology hub use the same form component (`quick_numerology_calculator` in `scripts/site_components.py`) and the same calculation module. Its result and artwork links resolve relative to the module, so they work from either location.
+
+All 321 pages include a fixed bottom toolbar on mobile widths up to 760px, linking to the Astrology, Tarot, and Numerology main pages. It works without JavaScript, indicates the active wing, provides touch-sized targets, and reserves bottom space including device safe-area insets. Desktop layouts hide it. Styles are in `assets/mobile-toolbar.css`; generated pages and the hand-maintained-page refresh helper preserve it on rebuild.

@@ -49,15 +49,18 @@ if (form) {
       const link = document.createElement("a");
       link.href =
         result[key] === 0
-          ? `${slug}/#calculation`
-          : `${slug}/number-${result[key]}/`;
+          ? new URL(`${slug}/#calculation`, import.meta.url).href
+          : new URL(`${slug}/number-${result[key]}/`, import.meta.url).href;
       link.textContent =
         result[key] === 0 ? "Read the method →" : "Explore this result →";
       article.append(heading, value, description, link);
       if ([1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33].includes(result[key])) {
         const art = document.createElement("img");
         art.className = "mini-number-art";
-        art.src = `../assets/images/numerology/numbers/number-${result[key]}.webp`;
+        art.src = new URL(
+          `../assets/images/numerology/numbers/number-${result[key]}.webp`,
+          import.meta.url,
+        ).href;
         art.alt = "";
         art.setAttribute("aria-hidden", "true");
         article.append(art);

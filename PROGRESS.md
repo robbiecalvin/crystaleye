@@ -182,3 +182,11 @@ Rebuild instructions are in [README.md](README.md). No environment configuration
 - Replaced the astrology hub and all twelve sign heroes with the correct zodiac portraits, and added the ten matching constellation panels separately. Updated the shared background to the starfield asset so it does not accidentally become a character portrait. Sun/Moon/rising emblems remain in their proper roles.
 - Updated headers to use the supplied gem eye logo, restored the 78 card faces and card back from the new source collection, and routed homepage/shop/draw previews through the canonical deck assets. Retired the three redundant homepage tarot thumbnails. Page builders retain all new placements on rebuild.
 - Automated audits cover all uploaded sources, actual WebP signatures/hashes, all static image/CSS references, all 321 pages' links/anchors, and the existing calculator/draw/calendar tests. Browser review checks image decoding, precise topic/sign/result mappings, animated card draw, and mobile layouts. Calculator formulas, existing written profiles/PDFs, prices, and subscription availability are unchanged.
+
+
+## Homepage order and mobile toolbar — November 14, 2026
+
+- Reordered the homepage to Astrology first, Tarot second, and the embedded three-result numerology calculator third. Retained the seven-guide library and merchandise below the primary sections. The former generic hero and advanced-calculator promotional panel were replaced by the requested sequence.
+- Extracted a shared calculator component used by both the homepage and numerology hub. Both retain Personality, Life Path, and app Destiny only; formulas remain unchanged. Module-relative profile/artwork URLs work from both locations.
+- Added static mobile bottom navigation across all 321 pages, with Astrology, Tarot, and Numerology links to their main pages, active-wing indicators, keyboard focus, touch targets, safe-area-aware padding, and content clearance. It is hidden above the mobile breakpoint and works without JavaScript.
+- Shared components and all page generators retain the toolbar and calculator on rebuild. Static checks cover every page and homepage order; browser checks cover calculator results and links on both pages, mobile/desktop navigation, nested routes, page-end clearance, and no-JavaScript links.

@@ -1192,3 +1192,47 @@ h2 {
     font-size: 43px;
   }
 }
+/* Homepage priorities: Astrology, Tarot, then the three-number calculator. */
+.home-astrology {
+  margin-top: 0;
+  padding-block: 65px;
+  border-top: 0;
+  min-height: 570px;
+}
+.home-astrology h1 {
+  font: clamp(50px, 5.1vw, 76px) / 1.1 var(--serif);
+  letter-spacing: -2px;
+  margin: 26px 0;
+}
+.home-astrology h1 em {
+  font-style: normal;
+}
+.home-astrology .astrology-entry-art {
+  max-width: 490px;
+}
+.home-astrology .astrology-entry-art img {
+  mix-blend-mode: screen;
+}
+.home-astrology + .tarot-section {
+  margin-top: 0;
+}
+.home-astrology ~ .num-calculator-band {
+  margin-top: 0;
+}
+@media (max-width: 760px) {
+  .home-astrology {
+    min-height: 0;
+    padding-block: 35px 40px;
+    gap: 25px;
+  }
+  .home-astrology > div:last-child {
+    grid-row: 1;
+  }
+  .home-astrology h1 {
+    font-size: clamp(43px, 10vw, 61px);
+    letter-spacing: -1.5px;
+  }
+  .home-astrology .astrology-entry-art {
+    max-width: 310px;
+  }
+}
