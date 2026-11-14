@@ -4,7 +4,7 @@
 
 ## Daily draws
 
-The complete existing 78-card CyberPunkTarotDeck is available to both draws, using optimized WebP derivatives in `assets/images/tarot/`. The card back is a derivative of `CyberPunkTarotDeck/Cover.png`; original artwork is preserved. Every card has an individual upright focus, yesterday reflection, and tomorrow gratitude prompt in `data/tarot-cards.json`. Source filenames are recorded even where their original spelling differs from the corrected display name.
+The complete supplied 78-card deck is available to both draws, using optimized WebP derivatives in `assets/images/tarot/`. Sources now live in `assets/images/webpimages/`, including `Cover.webp` for the card back; the user replaced the earlier `CyberPunkTarotDeck` source folder. The source files are preserved, and the site copies are actually encoded as WebP. Every card has an individual upright focus, yesterday reflection, and tomorrow gratitude prompt in `data/tarot-cards.json`. Source filenames are recorded even where their original spelling differs from the corrected display name.
 
 The free draw offers an easier, mixed, or more demanding **symbolic day theme**, with a practical response. It does not claim to predict a real event. The planned $5.99 CAD/month three-card subscription assigns distinct cards to yesterday's lesson, today's focus, and tomorrow's gratitude. A clearly labeled public preview demonstrates the spread; it is not a paid account or active subscription. Tarot and astrology subscriptions are separate products.
 

@@ -1,0 +1,1246 @@
+{
+  "images": {
+    "tarot.the-fool": {
+      "path": "assets/images/tarot/the-fool.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "950d6da09e90c17b63ea0ff8005f0f1913a42083934a5f6c45ba0b05f3077541",
+      "source_format": "PNG",
+      "webp_sha256": "a0da5886319169a0982818408b6de1b35cd1683ff52283e39629b5d57c7cd356",
+      "bytes": 107416
+    },
+    "tarot.the-magician": {
+      "path": "assets/images/tarot/the-magician.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "9f2e6df1ef5d1f22b0ef3c82eb19588433080c9e6de77115a56b9f047e3b1a16",
+      "source_format": "PNG",
+      "webp_sha256": "58763ec62a5d9a0576e2167a422adb697e2b2d9dfd16b230503ea58096a861bd",
+      "bytes": 106214
+    },
+    "tarot.the-high-priestess": {
+      "path": "assets/images/tarot/the-high-priestess.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "ce82d8c9aa24d3f2516962ffebc8cc02117803dafab475fd5871112ca6f0c996",
+      "source_format": "PNG",
+      "webp_sha256": "c0cb5c57a675bd774cc1073f05c322707f3ac45c85202f8ef7c39cb11da6d73e",
+      "bytes": 74672
+    },
+    "tarot.the-empress": {
+      "path": "assets/images/tarot/the-empress.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "be2a252a23af752e4c3b7abd8c554ac85ce49cdfd3df89c864e283550174217e",
+      "source_format": "PNG",
+      "webp_sha256": "eccef987892c5886f93e426cc795c315903c1d9b22a4b40276594e6f607a244c",
+      "bytes": 118578
+    },
+    "tarot.the-emperor": {
+      "path": "assets/images/tarot/the-emperor.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "4b5d4aad41addc8b41a375accd5a6d34c17da902111247f305de5aa237782e0c",
+      "source_format": "PNG",
+      "webp_sha256": "806c8247043596632ee7ecb9e024eb66ae33d3167a343d4da9ef7b4ce2bb2c17",
+      "bytes": 125104
+    },
+    "tarot.the-hierophant": {
+      "path": "assets/images/tarot/the-hierophant.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "7f4676a12e071fe63db5699a623998acbd23edc2bcbfcd79be30f8b2e599f0cc",
+      "source_format": "PNG",
+      "webp_sha256": "21c86595903ef7575535d4f6e497f1269310e18b165568d4a8b62721181f43b9",
+      "bytes": 126246
+    },
+    "tarot.the-lovers": {
+      "path": "assets/images/tarot/the-lovers.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "760606c65ed86f05145ead2188150f72433cd6a02e6a5ea3eda36f7957e79237",
+      "source_format": "PNG",
+      "webp_sha256": "e6f113a7de0f80765931e44c7be62cb6f858932bd276516befcb9d26a2862d5e",
+      "bytes": 110658
+    },
+    "tarot.the-chariot": {
+      "path": "assets/images/tarot/the-chariot.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "550081202bf6c0c9193834cce054b11a03f6a29f8ce86c065d88961288ef5591",
+      "source_format": "PNG",
+      "webp_sha256": "f24d166b64b80ca31c8589107637d9468f8caaca927d05304cb3a8d6672e789b",
+      "bytes": 129066
+    },
+    "tarot.strength": {
+      "path": "assets/images/tarot/strength.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "e682125331d2bdf5ab8c5eaeea05a267b8b4f8b670d75d7cae47c1eab006a991",
+      "source_format": "PNG",
+      "webp_sha256": "94fa7db605c0691d18c4c62e8b8166e3fcc4145c1ecb8392803231bb0d582ade",
+      "bytes": 111492
+    },
+    "tarot.the-hermit": {
+      "path": "assets/images/tarot/the-hermit.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "89a0da0eb945d4a8b651ccc867cdf9cfee741b1e07cc0b76e7c23910bd811837",
+      "source_format": "PNG",
+      "webp_sha256": "5a63a064d5ffc0bb1312106906928098c25290e414fb332750aebd699791ed51",
+      "bytes": 93084
+    },
+    "tarot.wheel-of-fortune": {
+      "path": "assets/images/tarot/wheel-of-fortune.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "861e9099abc195a483d394a1802272139f0f530d5bd0ab6b234a8174e4d98561",
+      "source_format": "PNG",
+      "webp_sha256": "ea6b7a12305e58db013cd62fd9d9485d6c4a148d6d5bf10f9f9d4aea1b7349d5",
+      "bytes": 134614
+    },
+    "tarot.justice": {
+      "path": "assets/images/tarot/justice.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "fc4fbcaa6b1e43ec2e1c2b332e4e87870f204b146e4af6f70ffcb37cc2c900e3",
+      "source_format": "PNG",
+      "webp_sha256": "59fc20163aad79b50b43d70bc6a6bd4f10494321fd5fec0a745e76a788ac6dd0",
+      "bytes": 120656
+    },
+    "tarot.the-hanged-man": {
+      "path": "assets/images/tarot/the-hanged-man.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "dce6b37d0a2a1a5d1d498af44f9d88b28f117d48ce1bc9fedf364b054ccb4c3d",
+      "source_format": "PNG",
+      "webp_sha256": "ae8f03d58487e8aef9a1644e5ab78d6510d440733b7f91792a5e43afc2ec3f88",
+      "bytes": 109642
+    },
+    "tarot.death": {
+      "path": "assets/images/tarot/death.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "5e18d45dc19ace1fa01a92b9d61259617dd16cb57d2d57d7d418fe09195f671e",
+      "source_format": "PNG",
+      "webp_sha256": "50f972085039a109b1a19cb474a1e3bb0250d1babb95c15625e003787f80beaf",
+      "bytes": 108278
+    },
+    "tarot.temperance": {
+      "path": "assets/images/tarot/temperance.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "b887eb9cc03eefa1722bc499ee7f3b3200ddcedc585bd96306d3c9da8ca5d1a1",
+      "source_format": "PNG",
+      "webp_sha256": "3a15a2788ff52b048914359498556dee0e71358779bd5fa2a078fb4614091281",
+      "bytes": 126110
+    },
+    "tarot.the-devil": {
+      "path": "assets/images/tarot/the-devil.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "6877532da157e10f8e3f30f49290ba17eb04ed507efc53776a9364a39efc0628",
+      "source_format": "PNG",
+      "webp_sha256": "b30c32378bcea2b709ba052ffc4bcfe4d577d89a76a25a732484afc11421c78a",
+      "bytes": 118860
+    },
+    "tarot.the-tower": {
+      "path": "assets/images/tarot/the-tower.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "148cfecc1899a0288ae8e6b5c1850ba806c1dcf282176c02a586cf7fb9f3f31c",
+      "source_format": "PNG",
+      "webp_sha256": "bd6545fc89d25c6459994b12c294dc035684e8306753d2c2cbe72f1796fbb36b",
+      "bytes": 108634
+    },
+    "tarot.the-star": {
+      "path": "assets/images/tarot/the-star.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "43fed1d212cc33767df2139f655e45434b6e6bac312054228791b32c259c9186",
+      "source_format": "PNG",
+      "webp_sha256": "dff419de3da7c60cd8dd2f7388c5b04acdd37a3105190bdff8b6aef9d5616d00",
+      "bytes": 90482
+    },
+    "tarot.the-moon": {
+      "path": "assets/images/tarot/the-moon.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "9c236bbed5d257a5b2492750a376e114f45a37b0510f91b6c6733d61e3a9f1e8",
+      "source_format": "PNG",
+      "webp_sha256": "093d5d68f476755a4a38f63039f24a9b20ef1e243cfb577eb3025a6dd9ffeaee",
+      "bytes": 87396
+    },
+    "tarot.the-sun": {
+      "path": "assets/images/tarot/the-sun.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "0f07ae5585d9bd9c376f9eea04dcf007cd65aa2e1e478b5c81520aefdd5d9e2d",
+      "source_format": "PNG",
+      "webp_sha256": "4c596dbfb3a4808fa33f5b81ede156f37986452f1cdf67db4995266d82f84fe0",
+      "bytes": 125982
+    },
+    "tarot.judgement": {
+      "path": "assets/images/tarot/judgement.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "4ea69c1360a4da25019f8f19c15dfa0d9cb1ca5924664f68f9c700d7f68546bb",
+      "source_format": "PNG",
+      "webp_sha256": "9aca3da9dfcf288c82941db17bd9fc507acb5b6bf6ffb68f56a1f67d552a60fc",
+      "bytes": 116808
+    },
+    "tarot.the-world": {
+      "path": "assets/images/tarot/the-world.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "c6cd3d9bc86157928739fb8f9c8ea5a19e59902a1b68c4660ab34d406ef8c07f",
+      "source_format": "PNG",
+      "webp_sha256": "ba5c234e6d7295f1d3e6ed80a0e6ed5b7b81181709c4ef4438ba510cc7bc1f89",
+      "bytes": 98552
+    },
+    "tarot.ace-of-swords": {
+      "path": "assets/images/tarot/ace-of-swords.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "cc28f0aaa56d8524e8418043d815a89d2922e8f374fcc65f6d9dd83bccffd42c",
+      "source_format": "PNG",
+      "webp_sha256": "6250d26fb502361e52990fb6059a171a1f0debc208e8e977455898156dd5daa6",
+      "bytes": 87242
+    },
+    "tarot.two-of-swords": {
+      "path": "assets/images/tarot/two-of-swords.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "fa189ed087a6956edd4ebd19c4a94ea543f7278e2ff42067170d948394d77ce2",
+      "source_format": "PNG",
+      "webp_sha256": "f2c3dc46fe5fbd323feb0fe1ecc67d0784e4b6e19a5db782bb9304b9d7ed1cb1",
+      "bytes": 127288
+    },
+    "tarot.three-of-swords": {
+      "path": "assets/images/tarot/three-of-swords.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "f77f78122e0e5e29a7440523fec69777c55c187dc81d6f96635312d0cfa91c4d",
+      "source_format": "PNG",
+      "webp_sha256": "eb4193e21c8e10e39879ec2ab7321e22990b280cd17c2846c7a9b6c5fd665d2a",
+      "bytes": 89454
+    },
+    "tarot.four-of-swords": {
+      "path": "assets/images/tarot/four-of-swords.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "a0bd44968b6aca2a01fb2aaa6b0f694b81ef73dac3ab941daf623c5528108ba9",
+      "source_format": "PNG",
+      "webp_sha256": "420fa1d04cd1f7bf107f68615b0b93bd99ce054d6e6d28e37f7475f21b882a09",
+      "bytes": 87920
+    },
+    "tarot.five-of-swords": {
+      "path": "assets/images/tarot/five-of-swords.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "58201a93369abf0d1e5a3e97eb2d636e33e821c6d2747a54d4fb6436444676c2",
+      "source_format": "PNG",
+      "webp_sha256": "9608f3b164818be867e4fd3ed8ee886c6ae984c9a5dad58b11f2f3dffd63e9cc",
+      "bytes": 88270
+    },
+    "tarot.six-of-swords": {
+      "path": "assets/images/tarot/six-of-swords.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "ba7b2b8dce22c243544d1d5d001240d1ff119328b5466f77acde0930128c45e5",
+      "source_format": "PNG",
+      "webp_sha256": "f81bc1f75f7259b8935c7c5f0d7f191f0b5dcc37d7c0967584784404f7be0b6e",
+      "bytes": 100952
+    },
+    "tarot.seven-of-swords": {
+      "path": "assets/images/tarot/seven-of-swords.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "8e552602314b58986663e6e0c44283fbe1700fe4203e3e652acbc8e72baa8cb3",
+      "source_format": "PNG",
+      "webp_sha256": "50861037b5935587e577f0ac5354947a5204f19f2a83b1683a784713b88864c7",
+      "bytes": 92170
+    },
+    "tarot.eight-of-swords": {
+      "path": "assets/images/tarot/eight-of-swords.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "c94abde281799ea354df884f55c68a4a7dab8fc1758ecf4be3c6b9deea5a3005",
+      "source_format": "PNG",
+      "webp_sha256": "f957185a2093b18d38dd27629174a0302ef350f50c58d743dbad045a163ecdf1",
+      "bytes": 108864
+    },
+    "tarot.nine-of-swords": {
+      "path": "assets/images/tarot/nine-of-swords.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "f60a5b02f819182728ef17d2ad3d971c7eee7f051cb622f3274cf82302710122",
+      "source_format": "PNG",
+      "webp_sha256": "d0a83a5fe784a4a5dcb8b7d271ca6f7e8da3ccda1ad1f9011fcac3ac6583255b",
+      "bytes": 80674
+    },
+    "tarot.ten-of-swords": {
+      "path": "assets/images/tarot/ten-of-swords.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "d1708937aca8c2cfcf910548b784cf8352e7c5e61f240dcda95ba7a1d7150c66",
+      "source_format": "PNG",
+      "webp_sha256": "0776956fdff4cdd4924b9bb3f5ad621bff92a60ed39811b75194cd1ba7a46dc0",
+      "bytes": 122406
+    },
+    "tarot.page-of-swords": {
+      "path": "assets/images/tarot/page-of-swords.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "6cd82add1fe35e2f014befb317e111c58f8dcef740995712f02828689003bd7e",
+      "source_format": "PNG",
+      "webp_sha256": "184118b0a51b5213877d46f2f48b3b9b6c35df22d4649fd28d86ff9c091f2ed7",
+      "bytes": 107296
+    },
+    "tarot.knight-of-swords": {
+      "path": "assets/images/tarot/knight-of-swords.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "d6f52df6783058591d42c87fbb4a6c1685c093c2f07e2f82684f756447d8a832",
+      "source_format": "PNG",
+      "webp_sha256": "bc906e02d0525805079a7e091189efac64e39fc4e36ab99a458ea2c5f76b143b",
+      "bytes": 130860
+    },
+    "tarot.queen-of-swords": {
+      "path": "assets/images/tarot/queen-of-swords.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "2c5945e57c42092724fa602b5beff7b01dd7ac647424d7fa76de728f9edefb0a",
+      "source_format": "PNG",
+      "webp_sha256": "6ef960214e8c68440ef94f1d429ab5ed0423f7602a9b88831bdfcc1536da755d",
+      "bytes": 108996
+    },
+    "tarot.king-of-swords": {
+      "path": "assets/images/tarot/king-of-swords.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "bfeb21a6e2ee24ecce712bfc9b8213b78984a98fa79e2b9bd8d17026632d8bb9",
+      "source_format": "PNG",
+      "webp_sha256": "c262498a27a25a5c884ef48029ee1f87e49f7ad8779609e00141a942a09a98d1",
+      "bytes": 104790
+    },
+    "tarot.ace-of-cups": {
+      "path": "assets/images/tarot/ace-of-cups.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "b34e22599c50eaea521414c8d8c936088d54c8881d1113851f8405a6053398f6",
+      "source_format": "PNG",
+      "webp_sha256": "5a252f4bb1b937d4076df1bb9958666a8ae8697181943c3cb44d3e79555631c5",
+      "bytes": 130282
+    },
+    "tarot.two-of-cups": {
+      "path": "assets/images/tarot/two-of-cups.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "58dc287be25731381ddb9f2bfc65652540151719297a7707d3df93efcd574c69",
+      "source_format": "PNG",
+      "webp_sha256": "87317780eece7460baaae8ef8737e953baa7d6b707cd74a1a962509c9b72337d",
+      "bytes": 126954
+    },
+    "tarot.three-of-cups": {
+      "path": "assets/images/tarot/three-of-cups.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "456b872aa04cb58e9c9756dc39b95a598dadb975ea232d388a9b6dce1cafd1c1",
+      "source_format": "PNG",
+      "webp_sha256": "39f141ee3f87bcbd07fb6f904657002531d78e0909a60f941ccde4c812f76122",
+      "bytes": 118704
+    },
+    "tarot.four-of-cups": {
+      "path": "assets/images/tarot/four-of-cups.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "352b96409dc2ee02342ff850c0a96e19183b18bc311b8cac8ef57a63d22c230f",
+      "source_format": "PNG",
+      "webp_sha256": "4e44648fe34e8633e918bb734f75cb65f89a1585a448057c3f344a50c902ccb5",
+      "bytes": 96976
+    },
+    "tarot.five-of-cups": {
+      "path": "assets/images/tarot/five-of-cups.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "26bbcc7a9d93688bf41fef31be85990512a47bea61744fd41d3fb2d27d1033b6",
+      "source_format": "PNG",
+      "webp_sha256": "9946182a0fc670d8315f43a2dc96f2ac1761dcfae31a1177d4baebe0212bb60b",
+      "bytes": 100362
+    },
+    "tarot.six-of-cups": {
+      "path": "assets/images/tarot/six-of-cups.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "a9a7d9a01212e227770b275ece44f30a52dc7f00faa97e2c0fafe1df988a2145",
+      "source_format": "PNG",
+      "webp_sha256": "0072e7f2b7806c5008e3f3ac7fc4dbcc2fa7da24f781fd7d9cddc4a06c48fd31",
+      "bytes": 110110
+    },
+    "tarot.seven-of-cups": {
+      "path": "assets/images/tarot/seven-of-cups.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "2f64817074f276919501a03567dd9ddb878c20493add6f0376f9f94d0ed46a94",
+      "source_format": "PNG",
+      "webp_sha256": "0c1f363232beda371bd9ec2b2d7d542b478cce5a40b460c24c4a823c9335d4a4",
+      "bytes": 117002
+    },
+    "tarot.eight-of-cups": {
+      "path": "assets/images/tarot/eight-of-cups.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "fa91d3e5e23428a66a2eff64dee56619ee40117fff669b09d836b3787a844362",
+      "source_format": "PNG",
+      "webp_sha256": "15fcd8efc83a0a12795aeeb2ec5ba5497c8e18e85b12e31b16540018eeba8050",
+      "bytes": 126676
+    },
+    "tarot.nine-of-cups": {
+      "path": "assets/images/tarot/nine-of-cups.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "10f2692f9ea0276a16316430b94a1337bc7c440f4092e5145e2e3354d3799cf6",
+      "source_format": "PNG",
+      "webp_sha256": "b9021730ea0cc2176b65a8efacbf1bb28bb1c34c063c9f667e77d5e09ce598a1",
+      "bytes": 119830
+    },
+    "tarot.ten-of-cups": {
+      "path": "assets/images/tarot/ten-of-cups.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "c10232e56d0ebd1dac9548a250217a84bbbddf242280c0be0da3c6456150dcb0",
+      "source_format": "PNG",
+      "webp_sha256": "871da7992258dabe994d87889a603f5fe76cc129e28d329999553cb7b134a635",
+      "bytes": 83584
+    },
+    "tarot.page-of-cups": {
+      "path": "assets/images/tarot/page-of-cups.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "0b64b939d14fb4b95fbf4a2b8287725c4cdf8ab19d3c491c71457839eae0f97c",
+      "source_format": "PNG",
+      "webp_sha256": "6997382426b52b9e080d0425bae3a2bd6725bd270e28ed84ede9f07bc964fba6",
+      "bytes": 118804
+    },
+    "tarot.knight-of-cups": {
+      "path": "assets/images/tarot/knight-of-cups.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "cc353290bf59420deffb5180fe4bc80b8bea5134361599f1f6f1e95e5ab60066",
+      "source_format": "PNG",
+      "webp_sha256": "c6ce601cdedc7e03121f9becb41b24ceb82f56639422deb591b579a1b9bee529",
+      "bytes": 135430
+    },
+    "tarot.queen-of-cups": {
+      "path": "assets/images/tarot/queen-of-cups.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "d71ce427dc69728100ff3bac278f9402df0b98a52a318bfbd9714cea6a5b834e",
+      "source_format": "PNG",
+      "webp_sha256": "9292626ec5282fa5f357c31d42a402d9024ec66a9a7e5d07c2e5bc6bc85d5b55",
+      "bytes": 138856
+    },
+    "tarot.king-of-cups": {
+      "path": "assets/images/tarot/king-of-cups.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "41b0f102cab7c40deef6a4031b435d9dbd37090003dcb41b231b324167364ec2",
+      "source_format": "PNG",
+      "webp_sha256": "4f175f6506a6029c834b29767eec973c29e93af98b379ff6ef5563900773ee46",
+      "bytes": 137606
+    },
+    "tarot.ace-of-pentacles": {
+      "path": "assets/images/tarot/ace-of-pentacles.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "5869a26e2b8c4e63c667ac59ec2474e0ef0262b421556d2b6a184ba30d67c722",
+      "source_format": "PNG",
+      "webp_sha256": "589d68cf87200df045e534bec5ddd44c3a2b799a08113cfa50089d21cdff93d5",
+      "bytes": 129348
+    },
+    "tarot.two-of-pentacles": {
+      "path": "assets/images/tarot/two-of-pentacles.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "3b8791db968aac988590c3711104072bd4285311a6be95c24d359dcf4e576131",
+      "source_format": "PNG",
+      "webp_sha256": "fdb3d4c9ab996c10955ddab553877727dc6169715448e3252e73f65d660f6776",
+      "bytes": 118784
+    },
+    "tarot.three-of-pentacles": {
+      "path": "assets/images/tarot/three-of-pentacles.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "da2e5c0649bfd7b26ad82582f8b58a93bd968a22bb70add6fd21041bb2f753cb",
+      "source_format": "PNG",
+      "webp_sha256": "ad608a4e3762dccbc79b128c7669f903b145fd4b6b2cf0b125b40bb2a7fb3651",
+      "bytes": 116430
+    },
+    "tarot.four-of-pentacles": {
+      "path": "assets/images/tarot/four-of-pentacles.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "585df164ba9dd3bd3c316e59d7491e700dfb3f7c3609ad6ff88a59f1878e9c59",
+      "source_format": "PNG",
+      "webp_sha256": "1402645cba4d02ba3ab817a62364d1e6c7292b93342f9f897e20f434cb0a8551",
+      "bytes": 92926
+    },
+    "tarot.five-of-pentacles": {
+      "path": "assets/images/tarot/five-of-pentacles.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "5e873bab171fe625f28f76c363eca648aaf074ac01c9f07afed9958aa0d46631",
+      "source_format": "PNG",
+      "webp_sha256": "bf2aa7e0bd91abdb46239bc313487db2137ab6d4eb90dd35c53ed075147cbfa5",
+      "bytes": 94610
+    },
+    "tarot.six-of-pentacles": {
+      "path": "assets/images/tarot/six-of-pentacles.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "c975ec2413477ff52ca2aced0ae54267981cb5880d6be33ec95d3ebc88987b9d",
+      "source_format": "PNG",
+      "webp_sha256": "4eb85ffcb400d69d6724bb525be68290d4dad1572e6ae6c0224aed59d5c7a600",
+      "bytes": 89086
+    },
+    "tarot.seven-of-pentacles": {
+      "path": "assets/images/tarot/seven-of-pentacles.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "8500748a190cce949d5d54ed24474f2a9c2b0f9c59177eb9cf5db1a95b72f42f",
+      "source_format": "PNG",
+      "webp_sha256": "5bbbe0f51c983056815386c3946149a6506923d52259a6dcd4da994221a02234",
+      "bytes": 116406
+    },
+    "tarot.eight-of-pentacles": {
+      "path": "assets/images/tarot/eight-of-pentacles.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "b634bf622ad745305475b87750a58e11206719c26ea1823baea39f91ffdadc9e",
+      "source_format": "PNG",
+      "webp_sha256": "c1a5de0253ddab89f8c5d01809619047ed7b006c54c306dd47e2a6f0e531a6ee",
+      "bytes": 124300
+    },
+    "tarot.nine-of-pentacles": {
+      "path": "assets/images/tarot/nine-of-pentacles.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "383970b5c2138978baccc4e4710881606e5830825a66349dcca16291f7bb8521",
+      "source_format": "PNG",
+      "webp_sha256": "29188c2f933028c1125bebfea0de0420049f105c495926c1c31d5f9ff7c21750",
+      "bytes": 115054
+    },
+    "tarot.ten-of-pentacles": {
+      "path": "assets/images/tarot/ten-of-pentacles.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "437797d222b4d7bff1363cd15c7e0bc79bb6c4e848bdaa3c8433ed5e476e8e72",
+      "source_format": "PNG",
+      "webp_sha256": "7b1b8f503ba7474dea4187cd5867bfd73b5886ae60c3146291fed45a1d1dc060",
+      "bytes": 99790
+    },
+    "tarot.page-of-pentacles": {
+      "path": "assets/images/tarot/page-of-pentacles.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "952a95a78113d86305af4429d2c0e9083ea663e4600914f5173425857573f53f",
+      "source_format": "PNG",
+      "webp_sha256": "36c52982034879281a8780dc2fc8a69eab76f30b654b4b7683dc2d0b46f6aca1",
+      "bytes": 121652
+    },
+    "tarot.knight-of-pentacles": {
+      "path": "assets/images/tarot/knight-of-pentacles.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "351cb46a006e4fa9fd36c04122b6c285d7244918ae1cd0a0f8e19568dc85f0d4",
+      "source_format": "PNG",
+      "webp_sha256": "50fb103682bfbda510a74eecfe0777070588fc9afdce15ea68f9dbbcf809d43d",
+      "bytes": 124516
+    },
+    "tarot.queen-of-pentacles": {
+      "path": "assets/images/tarot/queen-of-pentacles.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "c9b89addbf31257c0b93a2d8f8423c49a5b77b61ea16a00f31a95b1d376bc4fb",
+      "source_format": "PNG",
+      "webp_sha256": "94c8330843bb2cd8e6ecb5418801b36b10d4d405d37d4359bd1ff7ee54430cc9",
+      "bytes": 90740
+    },
+    "tarot.king-of-pentacles": {
+      "path": "assets/images/tarot/king-of-pentacles.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "41cfae75c7ec2f27abd15b81601b4e176d4e6cec94d259dce6d839ec8d48650f",
+      "source_format": "PNG",
+      "webp_sha256": "744be3966f22967f6abf95a4f86a7d3c1b6e7fdd6e37849c98a0f083bc25a0a2",
+      "bytes": 131792
+    },
+    "tarot.ace-of-wands": {
+      "path": "assets/images/tarot/ace-of-wands.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "152ea3039fe5fd12bfbe166a9cafe7bc08f9df8e5aa1f97c9eb2b057719bc3e7",
+      "source_format": "PNG",
+      "webp_sha256": "e14603b647034341fb1f679c2fda997593a07c518312909e318e24afab427ce5",
+      "bytes": 118404
+    },
+    "tarot.two-of-wands": {
+      "path": "assets/images/tarot/two-of-wands.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "f9879ed30d70642786166cbe7cfcd7e7d5c2c07c490cf179f78921d72e7b2123",
+      "source_format": "PNG",
+      "webp_sha256": "1beeeabce216731b9c0ab124a6890d87dc1177b2d1c2d725af71a194f8d9e841",
+      "bytes": 130306
+    },
+    "tarot.three-of-wands": {
+      "path": "assets/images/tarot/three-of-wands.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "4169eafba2638b67dab37ab8eeb2f08780e0b20f08cfebc030a981620c44cb04",
+      "source_format": "PNG",
+      "webp_sha256": "39d9e524fbd661ab41ffa9f11cfa24c374c1a27017e206a4f5b43444b83182b2",
+      "bytes": 103880
+    },
+    "tarot.four-of-wands": {
+      "path": "assets/images/tarot/four-of-wands.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "4a2b77fa0ebc1ff13d6873bbbbddd62ea1cbee27af39a8de0e79ff5cdacd7996",
+      "source_format": "PNG",
+      "webp_sha256": "553a5269d4dec55f7dfae368100f819fbaf26d7c528b96f785a87d1a8a25e9f9",
+      "bytes": 99020
+    },
+    "tarot.five-of-wands": {
+      "path": "assets/images/tarot/five-of-wands.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "7e57ceca7516585575fed246b93c51c71fabc945c4f7a64ba609ca1e43ff7825",
+      "source_format": "PNG",
+      "webp_sha256": "c65c49916b5a39ae79e2656e53c1ff9bfd7a755d6161982dd30613e4407598a4",
+      "bytes": 96724
+    },
+    "tarot.six-of-wands": {
+      "path": "assets/images/tarot/six-of-wands.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "1b100dfbd0d1c906abe3bc2cc170f73b68075504f9123c2984c2dc05bb0e20d9",
+      "source_format": "PNG",
+      "webp_sha256": "94f8fb4a890ebb68f806cf25597ceeec962355e7e1036be218860a4194f11f1e",
+      "bytes": 136558
+    },
+    "tarot.seven-of-wands": {
+      "path": "assets/images/tarot/seven-of-wands.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "e23118756af045e6b43814b7ee291b7e930f9903545fa0e1ba305c204d1b7f79",
+      "source_format": "PNG",
+      "webp_sha256": "0ce27044070cd125a816ec495a57a6bad02d6ab7be6a7368e7b50b34ad644e10",
+      "bytes": 92120
+    },
+    "tarot.eight-of-wands": {
+      "path": "assets/images/tarot/eight-of-wands.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "666b061a60170e22fb12b661e427ed58281c8fff2ebea8753167b1a5f0d9f088",
+      "source_format": "PNG",
+      "webp_sha256": "cb7aefa269c114c2a02b82a73394df7da63ec3db2358abec7c00d9a0bfc02657",
+      "bytes": 103122
+    },
+    "tarot.nine-of-wands": {
+      "path": "assets/images/tarot/nine-of-wands.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "cf6870b14c7ad4a96491e06ba4093437a7b65e15ad8f567b4a66e12b957738c8",
+      "source_format": "PNG",
+      "webp_sha256": "ef02dfc5df58f02ae390b35292c0863cbf3af2a1e512f36c17060fd9c3b754c7",
+      "bytes": 107670
+    },
+    "tarot.ten-of-wands": {
+      "path": "assets/images/tarot/ten-of-wands.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "70430c47f1f701436599070a3fb88c4ece9400510b49c0999d2cba8e39a78d74",
+      "source_format": "PNG",
+      "webp_sha256": "4763d87d219cbcf555d4be96a0af64437d206ad9adf933c5e83aa4f50e14f378",
+      "bytes": 93232
+    },
+    "tarot.page-of-wands": {
+      "path": "assets/images/tarot/page-of-wands.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "2046cb4ce08fe738c085ae4f897d0d70645688518cd40f58a8156ec441799354",
+      "source_format": "PNG",
+      "webp_sha256": "536de864f258acb5dece7073731131a3b4617dc12c13f2f61bc243b9b86e8990",
+      "bytes": 104598
+    },
+    "tarot.knight-of-wands": {
+      "path": "assets/images/tarot/knight-of-wands.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "7d3de6597e4d77f9d9055aff9af34c4946b5c37daefbef2010b10b045aa2b3a8",
+      "source_format": "PNG",
+      "webp_sha256": "0c2f8560e8ba831d95af07642181586cf87b14ab197c6fc1c652d1c9ce11961f",
+      "bytes": 121330
+    },
+    "tarot.queen-of-wands": {
+      "path": "assets/images/tarot/queen-of-wands.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "d2a99854abc7d04677ea4f9415f7783f5378ad8d831cfd1aa4b190dfd6e1c8e4",
+      "source_format": "PNG",
+      "webp_sha256": "7169c083de6bf92627b5f1b91eefcf77fe714e6a7d36526741c7200559f1cfd4",
+      "bytes": 105102
+    },
+    "tarot.king-of-wands": {
+      "path": "assets/images/tarot/king-of-wands.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "6cb306046a63ca0de03c14d8d717ed7a7141bb2e71ee1c438abff576304fd743",
+      "source_format": "PNG",
+      "webp_sha256": "cd142351607ab5e2fd6c412523db68010ae8d3e444719840ca810159a97e6ddb",
+      "bytes": 132610
+    },
+    "tarot.card-back": {
+      "path": "assets/images/tarot/card-back.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "fb16d186f6c37e7fef0ac89b4f9516fec9717abaf72c4cd192ee9610e707350a",
+      "source_format": "PNG",
+      "webp_sha256": "b974c3b6053551c04b0e40108ffeaead48c366103a479e28ae82d748b2722347",
+      "bytes": 107480
+    },
+    "astrology.sign.aries": {
+      "path": "assets/images/astrology/aries.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "dd1098d3199255918d2f26f10a15b70c70c327c68625d60817b2106915c03974",
+      "source_format": "PNG",
+      "webp_sha256": "4e68f6c5ade589f27ff3f0c3a34b6c6bbd74349c5f691a4618b507168ec3ef86",
+      "bytes": 325530
+    },
+    "astrology.sign.taurus": {
+      "path": "assets/images/astrology/taurus.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "8cf1639d3b10bd560fc8829103305b9b79ee23a8b9729c116179668d87bfb046",
+      "source_format": "PNG",
+      "webp_sha256": "1b81529d6235b32739a58ac9fab3817f317ff1cb8b03424c1286de8a2bd3730a",
+      "bytes": 356022
+    },
+    "astrology.sign.gemini": {
+      "path": "assets/images/astrology/gemini.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "a4b8c94a80257c1e71d9cc47f0bf332eb24f7a3fdb743cbcdc68cd56f1f581fd",
+      "source_format": "PNG",
+      "webp_sha256": "3e1e18c06a9844d66fbfb9264e27dd5170ed22d53d6685bf8f2bcc3978deebd3",
+      "bytes": 352200
+    },
+    "astrology.sign.cancer": {
+      "path": "assets/images/astrology/cancer.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "7bd3ff6b95465523bfc66d963f01177973c8d1ea29aa37ef0b8facabd0dff4ab",
+      "source_format": "PNG",
+      "webp_sha256": "199d4fd2e0f6a462f9f66cb8a54d767f31642e8a0193deae493592569b61c19b",
+      "bytes": 317808
+    },
+    "astrology.sign.leo": {
+      "path": "assets/images/astrology/leo.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "a1224937ca2f1511dd55da8106c41e40d501a6dad9d6a72f96dbec410071a953",
+      "source_format": "PNG",
+      "webp_sha256": "d84b9c11c1638eb7df00eab30b663f23bd3bb761721f25879ab8a06c6459823d",
+      "bytes": 335744
+    },
+    "astrology.sign.virgo": {
+      "path": "assets/images/astrology/virgo.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "d8c2a299c9bf017b235a280dc1732f20d7c178300afefd2ae3a53e87a7f7307b",
+      "source_format": "PNG",
+      "webp_sha256": "72342801e4127df20cd3aabaa387ba0a8c470cb422bb108a4bf83725ae3ab372",
+      "bytes": 338608
+    },
+    "astrology.sign.libra": {
+      "path": "assets/images/astrology/libra.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "7082eb16279f19b02a7f0b0ddf03951e294eba02f52a82769eff4378fd2b2f45",
+      "source_format": "PNG",
+      "webp_sha256": "a1994163b7e2dd91ed51a0e144cc075ce5c3d15235ffbce47c16d747a4248be6",
+      "bytes": 266428
+    },
+    "astrology.sign.scorpio": {
+      "path": "assets/images/astrology/scorpio.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "4bccde0ce9df83dcf85f7eac7c664e9f49ac4ab2f3b4876cda3c2705893f2fad",
+      "source_format": "PNG",
+      "webp_sha256": "b5a048dd6f66c7d14526d81e342f15faac75fdaa7b3eb123411592a14e2fcd21",
+      "bytes": 345332
+    },
+    "astrology.sign.sagittarius": {
+      "path": "assets/images/astrology/sagittarius.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "681079138129b65dd32edbc259f758a0323f046cdd4d1f8ed9dac2cbed0f719c",
+      "source_format": "PNG",
+      "webp_sha256": "efbe0555d4e1aa4b04776c9b2601f4f9bcd002f2803565376cbe6b7f1cc2618a",
+      "bytes": 327390
+    },
+    "astrology.sign.capricorn": {
+      "path": "assets/images/astrology/capricorn.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "21e41ae44ff566f08891c589de6ecb3a2cc7e744d316f2792a68aed4c89d3242",
+      "source_format": "PNG",
+      "webp_sha256": "b44e8d47ce6c27a73389aab04e8e698b3e209be0d69a3caf6cc6ad9008a1b9a2",
+      "bytes": 345582
+    },
+    "astrology.sign.aquarius": {
+      "path": "assets/images/astrology/aquarius.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "05973c7e90ada272386f62c556823ed48d859d594f34a1dc5dc6cfea2a74addb",
+      "source_format": "PNG",
+      "webp_sha256": "e0f4aafaf2d9f7c8a1dc5fb723c2e64a4562f5b7bf84d749e0a8924c662d7fb3",
+      "bytes": 352168
+    },
+    "astrology.sign.pisces": {
+      "path": "assets/images/astrology/pisces.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "a4eba877f1bb215a584f8f845cd2a5c85fa5e5effb2387c5ebf7858048983c31",
+      "source_format": "PNG",
+      "webp_sha256": "4223ff2af1d5842e2ae953c96093adb1e942434f933b4f15c18dd3c2c48b4a80",
+      "bytes": 325038
+    },
+    "astrology.stars.gemini": {
+      "path": "assets/images/astrology/gemini-stars.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "69c49504f3aec8aa934666c771d31efa7d73717925fdeba0484553df91112354",
+      "source_format": "PNG",
+      "webp_sha256": "0bbe0665421bfdd76a912c2349a91006027e8a2bc9a853cf376486b0550e983b",
+      "bytes": 114344
+    },
+    "astrology.stars.cancer": {
+      "path": "assets/images/astrology/cancer-stars.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "f9c93772a7335f57d56d1595e72c70d452ff4b4b0aeda6558153c849a61ddd72",
+      "source_format": "PNG",
+      "webp_sha256": "51f08a02a6d66a3ffe7a5be1b3b495cef26c8416437bad8706ef9a8accb1b04a",
+      "bytes": 79956
+    },
+    "astrology.stars.leo": {
+      "path": "assets/images/astrology/leo-stars.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "716f16bf93512fa9420af75efaaa90faff48ca3517830d9876d72092ac181e16",
+      "source_format": "PNG",
+      "webp_sha256": "0bc93e01144d3b191c5d93108fe9f1507e8dabd5beb808f236eaeb51cb63bbef",
+      "bytes": 83870
+    },
+    "astrology.stars.virgo": {
+      "path": "assets/images/astrology/virgo-stars.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "be431aba48e3486800b7b8f1be497dcb96d01b5baa606d2321dc49f8b7505e7d",
+      "source_format": "PNG",
+      "webp_sha256": "c18e60428ed4e8df18f8b8f57d377531e876d08f1842a92c182897c2b860fde8",
+      "bytes": 77770
+    },
+    "astrology.stars.libra": {
+      "path": "assets/images/astrology/libra-stars.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "0c71231e7676cad4edda0d7ed956c303be3dfdb34769120e8978d15c6427e9dc",
+      "source_format": "PNG",
+      "webp_sha256": "bdbf16e115f9032ac9766a06270b0786fff61256e4264090e1a3203dca638210",
+      "bytes": 105494
+    },
+    "astrology.stars.scorpio": {
+      "path": "assets/images/astrology/scorpio-stars.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "e24b8e2e1adeb437654b6e904b2559d285ba0710de9dd120d01436f7f37a28d8",
+      "source_format": "PNG",
+      "webp_sha256": "a5dda908e894e8aab4d0df52108cd7bbad48f2368dfcb8f483c3adc73bdac2eb",
+      "bytes": 106220
+    },
+    "astrology.stars.sagittarius": {
+      "path": "assets/images/astrology/sagittarius-stars.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "820b4c143807b5ac48dc5b39a174659c0640fc431bc2fa4e0290e6197008181d",
+      "source_format": "PNG",
+      "webp_sha256": "8181d90ba6de2d0156e3953caf4cbf004b41975bee95720277d605cb8b7b374f",
+      "bytes": 170018
+    },
+    "astrology.stars.capricorn": {
+      "path": "assets/images/astrology/capricorn-stars.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "b4c5c2f869dd960b7fbc1449f65da16e054764c55d0486b4bd4d8c81c5bd8def",
+      "source_format": "PNG",
+      "webp_sha256": "a1a819be52ae2101a1cc5e35f738e89893f571f64ee514d9f2883f0d16045167",
+      "bytes": 84670
+    },
+    "astrology.stars.aquarius": {
+      "path": "assets/images/astrology/aquarius-stars.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "8fa60ab6763f329a380398aec546741f92c535c344a95235e68085fdbdb6bacc",
+      "source_format": "PNG",
+      "webp_sha256": "a46975673f5627660221815d11589b8cfa62a0a46cb3a155ce4ce48f2b8376f1",
+      "bytes": 86134
+    },
+    "astrology.stars.pisces": {
+      "path": "assets/images/astrology/pisces-stars.webp",
+      "width": 733,
+      "height": 1100,
+      "source_sha256": "e5d422798887798607d314ce2c8c94817a7b51439e9777f77dfd93eefbbb9b40",
+      "source_format": "PNG",
+      "webp_sha256": "f5a04d5f7fb1bd86e88a37181aeda83651e21ea15f70d35e16c5eee489735068",
+      "bytes": 89548
+    },
+    "astrology.sun": {
+      "path": "assets/images/astrology/sun.webp",
+      "width": 900,
+      "height": 900,
+      "source_sha256": "0c771eab61cc55c0dd010b6e17e15d81b76682f2c5b0636dafd1305da9a42282",
+      "source_format": "PNG",
+      "webp_sha256": "d70091c32c47b853e9bc43176e2a3f8fd7beb579cce9f507cbf7a0a0dc91d0b8",
+      "bytes": 258702
+    },
+    "astrology.moon": {
+      "path": "assets/images/astrology/moon.webp",
+      "width": 900,
+      "height": 900,
+      "source_sha256": "31e69de53193826a9afa8ada8c50774ffddbd29d696b434d558e90b24133e369",
+      "source_format": "PNG",
+      "webp_sha256": "76159d726501c6189113c72357bc4d7f47e20d45ec9cb60bbf76a18b853101fa",
+      "bytes": 194606
+    },
+    "astrology.rising": {
+      "path": "assets/images/astrology/rising.webp",
+      "width": 900,
+      "height": 900,
+      "source_sha256": "ea47e58a89bfcf556dd9dd5510a0bf1135069b71b767887b0b7a47c3c47bbe7b",
+      "source_format": "PNG",
+      "webp_sha256": "7ad4d121093306f6f3f39656bf923093456ea22b7bebaaa835dff8095a0ae8d3",
+      "bytes": 201172
+    },
+    "numerology.topic.personality": {
+      "path": "assets/images/numerology/topics/personality.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "7d569efba6727599db8e99bf6087a9c1527da87a0e739e60b415e584c5844742",
+      "source_format": "PNG",
+      "webp_sha256": "dbb59f30f67aa861a7127c7ec2c85fe65d26ee300c6eea3437681038495a484e",
+      "bytes": 380680
+    },
+    "numerology.topic.minor-personality": {
+      "path": "assets/images/numerology/topics/minor-personality.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "9d86fe2775102648fbdd2b142f327d5e1ac4a47b47a35b4da6d353614a9e90f9",
+      "source_format": "PNG",
+      "webp_sha256": "79299d572169b926212c0bc2d09506990296c566add6ac80b119fee3e3e87afc",
+      "bytes": 292634
+    },
+    "numerology.topic.souls-desire": {
+      "path": "assets/images/numerology/topics/souls-desire.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "31ac9a04e94c2c35dba6ca07b3e9761d61d75255bd5061457f558ad253d8e1ff",
+      "source_format": "PNG",
+      "webp_sha256": "5aca2076abd66e844a1b25503db388119da58a1806e77ad774c6688eab35fc76",
+      "bytes": 325168
+    },
+    "numerology.topic.minor-souls-desire": {
+      "path": "assets/images/numerology/topics/minor-souls-desire.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "8edf636d98d9ba3091192446a98b829332d1967493ced03654d10b6d941901ea",
+      "source_format": "PNG",
+      "webp_sha256": "31f356b0a2c25e1c874d19e1e2d9412319eabd167e70b4291c65b684441fb43b",
+      "bytes": 176224
+    },
+    "numerology.topic.life-path": {
+      "path": "assets/images/numerology/topics/life-path.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "f297639425e48288da03d4f84238ec84c9e955ff1cfe31c73469928f91286c95",
+      "source_format": "PNG",
+      "webp_sha256": "71b5c3c459d4644f3b95f57a7dfe572b3fa6f22adb33ed6fa8c62960e47dc6bd",
+      "bytes": 349260
+    },
+    "numerology.topic.destiny": {
+      "path": "assets/images/numerology/topics/destiny.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "9479e402e8e46645a833fabdb70c3b1f1c4dbccea0a20a89855a30c6454700d6",
+      "source_format": "PNG",
+      "webp_sha256": "e7afb9223acc5caf95001669179b85e1f8e354889b84ffc4201017008b9669f0",
+      "bytes": 402776
+    },
+    "numerology.topic.balance": {
+      "path": "assets/images/numerology/topics/balance.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "dcfdd185b4af66e07151fa181e4d7c8a25875a14ee15cfae4f1d11a333c3a201",
+      "source_format": "PNG",
+      "webp_sha256": "c930884437aaab7f4f13cf8f6bff13a0d23b47b1d54c778a1802f1e726c51119",
+      "bytes": 284954
+    },
+    "numerology.topic.karmic-lessons": {
+      "path": "assets/images/numerology/topics/karmic-lessons.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "0e0bc96f5d1e059ecc93e54667905b5f4f33b2fd9c1cd0e1b447a31e42aed598",
+      "source_format": "PNG",
+      "webp_sha256": "fa3e2a8172bcbdc3806b357324324047f5b9505164e47100991b831384dc8527",
+      "bytes": 354384
+    },
+    "numerology.topic.hidden-passion": {
+      "path": "assets/images/numerology/topics/hidden-passion.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "be69e5c98745912b02a1c941adc88e028593e724ba6230461e24f1b725a95d80",
+      "source_format": "PNG",
+      "webp_sha256": "51aa470775246625814bbb4113fab2511308afb1759198512c2ff858debcb0e9",
+      "bytes": 265588
+    },
+    "numerology.topic.birthday": {
+      "path": "assets/images/numerology/topics/birthday.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "806ed9eefb318baf53a3cbfeecfb76df72e22d542bfc5f5fc83c369d56f4a79b",
+      "source_format": "PNG",
+      "webp_sha256": "41c7fb6e0cf698277e7ce762c4f130b6445cac983878469e38a92c7ff27dd6da",
+      "bytes": 338928
+    },
+    "numerology.topic.first-life-cycle": {
+      "path": "assets/images/numerology/topics/first-life-cycle.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "ac8016e8173c6c4f94a64b04b945f4df8e830e772e83d7b91f4656eb851d33ee",
+      "source_format": "PNG",
+      "webp_sha256": "31c982cbb2cad7f812cc230a49e8aa43d17eaec5466b642ad7fbad7b3609c2e3",
+      "bytes": 252346
+    },
+    "numerology.topic.second-life-cycle": {
+      "path": "assets/images/numerology/topics/second-life-cycle.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "7f0ca23c2737cd04c4eec395258de0c79a08d9b895a5e2362e5cbf303f8d3852",
+      "source_format": "PNG",
+      "webp_sha256": "589495593e4af703cb6c85d143b1e0d970e5465f2bd9ade7e06d3701d037207c",
+      "bytes": 471646
+    },
+    "numerology.topic.third-life-cycle": {
+      "path": "assets/images/numerology/topics/third-life-cycle.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "e251102e4421731ee1b9fa6aa4b204212bd7f000803b427d0f28e57ac9d5355b",
+      "source_format": "PNG",
+      "webp_sha256": "5cf868493b1e46d7389037a724176d9c4b6e494ebbe735af43617a124c60274f",
+      "bytes": 339278
+    },
+    "numerology.topic.first-pinnacle": {
+      "path": "assets/images/numerology/topics/first-pinnacle.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "e28c64478b3606a98d9431f412e81052f5339b720f51bd5489f8273bb8ed2f9d",
+      "source_format": "PNG",
+      "webp_sha256": "fbbe96d409de1ef4237bff580ee7be2021839353fa03ffabf297167811c1c351",
+      "bytes": 368964
+    },
+    "numerology.topic.second-pinnacle": {
+      "path": "assets/images/numerology/topics/second-pinnacle.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "9cab756ab9bbd7d8b9361760070f692c96acb7f6fef3dfeb33f41d0b5fc6bbb6",
+      "source_format": "PNG",
+      "webp_sha256": "0ce638c401a6fc60416de6aa79ae698d2466d4d887af5dfdb93467e6ac104c02",
+      "bytes": 340270
+    },
+    "numerology.topic.third-pinnacle": {
+      "path": "assets/images/numerology/topics/third-pinnacle.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "b0e2acef833f2848d4732d5c9441e63e756f436cec1937dd33d6454d600e50f6",
+      "source_format": "PNG",
+      "webp_sha256": "0291cac90e48efc30f4fda6307b4a9239b89c64498d13b33bb487b345ef3f5e2",
+      "bytes": 332218
+    },
+    "numerology.topic.fourth-pinnacle": {
+      "path": "assets/images/numerology/topics/fourth-pinnacle.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "4eda74b7a315f0ad40e64c511c95d31b9c46590607d978bec5cc153d61aa62e7",
+      "source_format": "PNG",
+      "webp_sha256": "db8dd3da53e558731fa61beb1d7baf4742c37c31a125766fc52f00bb5501ea0e",
+      "bytes": 324636
+    },
+    "numerology.topic.first-challenge": {
+      "path": "assets/images/numerology/topics/first-challenge.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "1ecb11177f91d27149f659183839513737702ce7b76ec2f0d4793ad906e308f8",
+      "source_format": "PNG",
+      "webp_sha256": "d092ba765226e56dddf1e10c7625b0f56dd7a677af71c237b771d51f95b5bbba",
+      "bytes": 385014
+    },
+    "numerology.topic.second-challenge": {
+      "path": "assets/images/numerology/topics/second-challenge.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "78f7cd229a16e29916bb7b8e9343ed472eecca204977ed037931626e0628d6f6",
+      "source_format": "PNG",
+      "webp_sha256": "a4d7d91ee455cdc98be9c928d987a1a3c07999f300f9a58b675ae7038fe0ce72",
+      "bytes": 323034
+    },
+    "numerology.topic.third-challenge": {
+      "path": "assets/images/numerology/topics/third-challenge.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "5781462f3f4ba1b17c6a919815714e6edfd71bd9acf62cbede165ab853f52adb",
+      "source_format": "PNG",
+      "webp_sha256": "b7a2d248fe8cec6cfdc5efb2e332a10182b4db8ef7f15ab02c11c62cda89e4eb",
+      "bytes": 332870
+    },
+    "numerology.topic.fourth-challenge": {
+      "path": "assets/images/numerology/topics/fourth-challenge.webp",
+      "width": 800,
+      "height": 1200,
+      "source_sha256": "b44833439818d1801074b5b4d4c1a02d750c9af0d566815595b0f69ce11046bc",
+      "source_format": "PNG",
+      "webp_sha256": "a2304523aa84dff16a6d6c42c66a339175c09381143ec9a61b01269081423192",
+      "bytes": 387590
+    },
+    "numerology.number.1": {
+      "path": "assets/images/numerology/numbers/number-1.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "e0b235ea172f22c1ef46211457134074ba0edccef188fb332b3551a388a8c57f",
+      "source_format": "PNG",
+      "webp_sha256": "6a7e85b9f4df9fd37853f642099b6984281edb3a22127c3a3b35358123b6f06a",
+      "bytes": 144796
+    },
+    "numerology.number.2": {
+      "path": "assets/images/numerology/numbers/number-2.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "2384f93d39d6827f7ed251a6dd130e67ccb8ed814cdb05ab702d401127470497",
+      "source_format": "PNG",
+      "webp_sha256": "facc03698a7d2a7842ac4dbba26be77ce8da0054c415340e2d39b0303582aa1a",
+      "bytes": 157232
+    },
+    "numerology.number.3": {
+      "path": "assets/images/numerology/numbers/number-3.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "1727f67c5636d130e3912092f074094e2b0f84d3d397fb494a1a887b6dde865c",
+      "source_format": "PNG",
+      "webp_sha256": "a6648d937d4be5222634375f4b0d5df7055b7c3d01a36bb0a60c7990cfd2cbac",
+      "bytes": 183066
+    },
+    "numerology.number.4": {
+      "path": "assets/images/numerology/numbers/number-4.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "1a126a08356541bedbed694d16b8dadf0a23e948ed38055b3f2d508ba3a79b72",
+      "source_format": "PNG",
+      "webp_sha256": "3d3ab4bdb1842d290ac523b60217b23ffa0fdc9a507037014ae58903e1de18d8",
+      "bytes": 114092
+    },
+    "numerology.number.5": {
+      "path": "assets/images/numerology/numbers/number-5.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "4b57eacf9e627766f36cce7940f2fc5ce83576d75a870c69d3f8275477575747",
+      "source_format": "PNG",
+      "webp_sha256": "5f923dd82f91fa10e0edffc992ecfb31ff4611158d043d4522b7e8c8ad58b91d",
+      "bytes": 119950
+    },
+    "numerology.number.6": {
+      "path": "assets/images/numerology/numbers/number-6.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "14b9cdae282e6c91167ee5e4ce3d77e6f6f4dd9f8d1be897d53806463b58ea72",
+      "source_format": "PNG",
+      "webp_sha256": "82998d34c43174bb884dc93b6b4e54bb37b28ad620e50e0993f0c57432201024",
+      "bytes": 128262
+    },
+    "numerology.number.7": {
+      "path": "assets/images/numerology/numbers/number-7.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "b84cbe53a5035808353327ccb4233c022caaf28b297e68858afb0ce6ce2875b6",
+      "source_format": "PNG",
+      "webp_sha256": "7f10074735f293ac4dc6fa6c20d6b94ea765f0908ee13522136e17f064e7a873",
+      "bytes": 101602
+    },
+    "numerology.number.8": {
+      "path": "assets/images/numerology/numbers/number-8.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "a703785c9c0e23dd62e1b150c0e6f7f4de56b666231f9a23384584d1b9a0ad09",
+      "source_format": "PNG",
+      "webp_sha256": "72d021252f2a6bca69e05ca79530aa8f6647e04bf5d7283931678a613f977943",
+      "bytes": 167378
+    },
+    "numerology.number.9": {
+      "path": "assets/images/numerology/numbers/number-9.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "7bcd62146acbbd7ef1c637500b2cbf013ee48686d17e7c3a2d4793a65ac0a950",
+      "source_format": "PNG",
+      "webp_sha256": "3496ba20d3b47490950f9389f9403a1689dc2df7adf049c39a570de2344d6333",
+      "bytes": 133582
+    },
+    "numerology.number.11": {
+      "path": "assets/images/numerology/numbers/number-11.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "c38fa9c7aa6ee790a70eb8a1aa840c5a0e6786ca8ea81f0e997508ef1a034792",
+      "source_format": "PNG",
+      "webp_sha256": "71c6a5888689de2158d2000db40fc7782e9ba126ef4e7563e2e609f60fdb643c",
+      "bytes": 135492
+    },
+    "numerology.number.22": {
+      "path": "assets/images/numerology/numbers/number-22.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "b37d0f978cddeb063d896f5bb356812bf71fb6ee73bedc6d948622b31d805973",
+      "source_format": "PNG",
+      "webp_sha256": "ce0ac3b426468305169ff562875a30a6c99526ef49f978b4196a6a6b6e966c88",
+      "bytes": 152878
+    },
+    "numerology.number.33": {
+      "path": "assets/images/numerology/numbers/number-33.webp",
+      "width": 480,
+      "height": 720,
+      "source_sha256": "9e9c20a9cb27be37d61ae651fe06858b6a41db8e2e2263dfe2afe323cdbc8a81",
+      "source_format": "PNG",
+      "webp_sha256": "52523f8983223f1b7f4c018d34d68b5d88ae067d0b0fec8396d090833934fd2a",
+      "bytes": 140712
+    },
+    "brand.logo": {
+      "path": "assets/images/site-logo.webp",
+      "width": 384,
+      "height": 384,
+      "source_sha256": "8aa23080003d3d0aa549b3e3d49671a191ea4e5c6e6644b8532c1e6a7f64ed10",
+      "source_format": "PNG",
+      "webp_sha256": "9026b4ad55969a2d9bdd89cb13c704b3544f905e94297d8f17d92744320c2121",
+      "bytes": 28070
+    }
+  }
+}

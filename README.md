@@ -54,7 +54,7 @@ Karmic Lessons is in progress: [data](data/karmic-lessons.json), [reading draft]
 
 ## Homepage
 
-Open [index.html](index.html) for the responsive Crystaleye homepage: the existing numerology calculator, a searchable library of seven completed PDF guides, and the tarot guide with artwork from CyberPunkTarotDeck. No build, account, external service, or package installation is required. Search and mobile menu controls use progressive enhancement; navigation and PDF links also work without JavaScript.
+Open [index.html](index.html) for the responsive Crystaleye homepage: the existing numerology calculator, a searchable library of seven completed PDF guides, and the tarot wing with the supplied Crystal Eye deck artwork. No build, account, external service, or package installation is required. Search and mobile menu controls use progressive enhancement; navigation and PDF links also work without JavaScript.
 
 To preview from the repository root:
 
@@ -62,7 +62,7 @@ To preview from the repository root:
 python -m http.server 8000
 ```
 
-Visit `http://localhost:8000`. Homepage styles and interactions are in `assets/site.css` and `assets/site.js`. The three WebP images in `assets/images` are compressed derivatives of the existing Star, Moon, and Sun deck images; originals are preserved. The in-progress Karmic Lessons draft is excluded from the completed library.
+Visit `http://localhost:8000`. Homepage styles and interactions are in `assets/site.css` and `assets/site.js`. The homepage uses the same canonical Star, Moon, and Sun assets in `assets/images/tarot/` as the tarot wing. The earlier duplicate homepage thumbnails have been retired. The in-progress Karmic Lessons draft is excluded from the completed library.
 
 
 ## Astrology
@@ -87,4 +87,26 @@ The [shop](shop/index.html) presents the Tarot Guide Book ($19.99 CAD), Crystal 
 
 The [numerology hub](numerology/index.html) answers what numerology is and how old its traditions are, offers a simple Personality/Life Path/Destiny calculator, and links to all 21 chart positions. The 21 topic libraries contain 276 result routes: the twelve requested numbers per topic, plus the valid Birthday and Challenge extras. **81 profiles** use the seven completed guides; unfinished profiles are visibly marked as placeholders, and convention notes explain values that do not apply to a position.
 
-The [Full Numerology report](numerology/report.html) is listed at **$19.99 CAD, one-time purchase**, with ordering coming soon. See [numerology/README.md](numerology/README.md) for content provenance, formula differences, build commands, and tests. Rebuild with `python scripts/build_numerology.py`. Archive 3.zip could not be transferred because it exceeds 32 MiB; its new artwork remains pending an accessible compressed or split copy.
+The [Full Numerology report](numerology/report.html) is listed at **$19.99 CAD, one-time purchase**, with ordering coming soon. See [numerology/README.md](numerology/README.md) for content provenance, formula differences, build commands, and tests. Rebuild with `python scripts/build_numerology.py`. The previously blocked numerology artwork is now available through the user’s GitHub image upload and is integrated across the wing.
+
+
+## Supplied images and rebuilds
+
+All 139 files in `assets/images/webpimages/` are accounted for in [data/site-images.json](data/site-images.json): 138 distinct illustrations plus an exact Aries duplicate named `cyberttaurus.webp`. The real Taurus image is `tauruscyber.webp`. Filename quirks such as `detiny`, `eocyber`, `ibrastars`, `sagitarriusstars`, and `thirdchalennge` are mapped explicitly to the correct pages.
+
+The uploaded files have WebP extensions but contain PNG data internally. They are kept untouched as source artwork. `scripts/build_images.py` makes actual WebP browser assets (about 22.1 MiB in total, rather than serving roughly 657 MiB of unique source files). Metadata and source/output hashes are in `data/site-image-build.json`. Formatting, resizing, and compression preserve the supplied compositions; no new illustrations are substituted.
+
+Rebuild images with Pillow installed, then rebuild the pages:
+
+```sh
+/workspace/.crystaleye-tools/venv/bin/python scripts/build_images.py
+python scripts/build_astrology.py
+python scripts/build_numerology.py
+python scripts/build_tarot.py
+python scripts/build_merchandise.py
+python scripts/audit_site_images.py
+python tests/numerology-pages.py
+node --test tests/*.test.mjs
+```
+
+The audit verifies that every uploaded image has a placement or documented identical alias, every served image is encoded WebP, all image URLs resolve, and the untouched source files match their recorded hashes. Portraits, constellations, number illustrations, card faces, card backs, logo, and page backgrounds have separate explicit roles.

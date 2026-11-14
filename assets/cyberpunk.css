@@ -34,7 +34,7 @@ body::before {
   background-image:
     radial-gradient(ellipse at 22% 45%, #080d1bd9, transparent 73%),
     linear-gradient(180deg, #080d1b38, #090b18a6),
-    url("images/astrology/aquarius.webp");
+    url("images/astrology/aquarius-stars.webp");
   background-size: cover;
   background-position:
     center,
@@ -469,4 +469,24 @@ summary:focus-visible {
 }
 .calculator-site-nav a:first-child {
   margin-right: auto;
+}
+/* The supplied gem eye replaces the earlier line-art brand mark. */
+.brand-mark.image-logo {
+  width: 43px;
+  height: 38px;
+  object-fit: contain;
+  mix-blend-mode: screen;
+  filter: drop-shadow(0 0 8px #ad68e24d);
+}
+.calculator-site-nav .image-logo {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  margin-right: 9px;
+}
+@media (max-width: 760px) {
+  .brand-mark.image-logo {
+    width: 36px;
+    height: 34px;
+  }
 }

@@ -1272,3 +1272,223 @@ h3 {
     font-size: 42px;
   }
 }
+/* Uploaded numerology artwork: topic portraits and exact-number illustrations. */
+.numerology-hero-art {
+  position: relative;
+  width: 100%;
+  max-width: 520px;
+  height: 480px;
+  min-width: 0;
+  justify-self: end;
+}
+.numerology-hero-art figure {
+  position: absolute;
+  width: 39%;
+  margin: 0;
+  top: 58px;
+}
+.numerology-hero-art figure:nth-child(1) {
+  left: 4%;
+  transform: rotate(-8deg);
+}
+.numerology-hero-art figure:nth-child(2) {
+  left: 30.5%;
+  top: 10px;
+  z-index: 2;
+}
+.numerology-hero-art figure:nth-child(3) {
+  right: 4%;
+  transform: rotate(8deg);
+}
+.numerology-hero-art img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid #99bfea45;
+  box-shadow:
+    0 15px 35px #0007,
+    0 0 22px #b447c527;
+}
+.numerology-hero-art figcaption {
+  text-align: center;
+  color: #c8eaf1;
+  font-size: 10px;
+  padding: 12px 0;
+  text-shadow: 0 2px 7px #000;
+}
+.topic-card {
+  display: grid;
+  grid-template-columns: 82px minmax(0, 1fr);
+  column-gap: 20px;
+  align-content: start;
+}
+.topic-card-image {
+  grid-column: 1;
+  grid-row: 1/5;
+  width: 82px;
+  height: auto;
+  display: block;
+  border-radius: 3px;
+  border: 1px solid #b18bdf3d;
+}
+.topic-card > .eyebrow,
+.topic-card > h3,
+.topic-card > p,
+.topic-card > .topic-state {
+  grid-column: 2;
+}
+.topic-card h3 {
+  margin-top: 5px;
+  font-size: 23px;
+  overflow-wrap: anywhere;
+}
+.topic-card .topic-state {
+  width: fit-content;
+}
+.topic-art,
+.result-art {
+  margin: 0;
+  width: 100%;
+  justify-self: end;
+  max-width: 290px;
+}
+.topic-art img,
+.result-art img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow:
+    0 14px 32px #0005,
+    0 0 30px #8835be24;
+  border: 1px solid #a9b7df3d;
+}
+.result-art {
+  max-width: 225px;
+}
+.number-tile {
+  position: relative;
+  padding: 14px;
+  min-height: 0;
+  gap: 13px;
+}
+.number-tile-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+.number-tile:has(.number-tile-image) > span {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 15px;
+  padding: 3px 6px;
+  border-radius: 2px;
+  color: #e4faff;
+  background: #071421cf;
+  border: 1px solid #9ec9dc3d;
+}
+@media (max-width: 1100px) {
+  .numerology-hero-art {
+    height: 400px;
+  }
+  .topic-card {
+    grid-template-columns: 72px minmax(0, 1fr);
+    column-gap: 17px;
+  }
+  .topic-card-image {
+    width: 72px;
+  }
+  .topic-card h3 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 760px) {
+  .numerology-hero-art {
+    height: 335px;
+    max-width: 380px;
+    justify-self: center;
+  }
+  .numerology-hero-art figure {
+    top: 42px;
+  }
+  .numerology-hero-art figure:nth-child(2) {
+    top: 0;
+  }
+  .numerology-hero-art figcaption {
+    font-size: 9px;
+  }
+  .topic-art,
+  .result-art {
+    justify-self: center;
+    max-width: 220px;
+  }
+  .topic-card {
+    grid-template-columns: 80px minmax(0, 1fr);
+    column-gap: 20px;
+  }
+  .topic-card-image {
+    width: 80px;
+  }
+  .number-tile {
+    padding: 10px;
+    gap: 12px;
+  }
+  .number-tile:has(.number-tile-image) > span {
+    top: 14px;
+    left: 14px;
+    font-size: 11px;
+  }
+  .topic-card h3 {
+    font-size: 23px;
+  }
+}
+@media (max-width: 380px) {
+  .numerology-hero-art {
+    height: 290px;
+  }
+  .numerology-hero-art figcaption {
+    font-size: 8px;
+  }
+  .topic-card {
+    grid-template-columns: 65px minmax(0, 1fr);
+    column-gap: 15px;
+  }
+  .topic-card-image {
+    width: 65px;
+  }
+  .topic-card h3 {
+    font-size: 21px;
+  }
+  .number-tile {
+    padding: 8px;
+  }
+  .number-tile:has(.number-tile-image) > span {
+    top: 11px;
+    left: 11px;
+    font-size: 10px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .numerology-hero-art figure {
+    transition: none;
+  }
+}
+
+.mini-result {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+.mini-number-art {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.17;
+  z-index: -1;
+  pointer-events: none;
+}

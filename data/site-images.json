@@ -1,0 +1,1526 @@
+{
+  "source_directory": "assets/images/webpimages",
+  "note": "All 139 uploaded files are mapped. cyberttaurus.webp is byte-identical to the Aries portrait and is an Aries alias, never Taurus. Uploaded files retain their supplied names; browser derivatives are actual encoded WebP.",
+  "images": [
+    {
+      "id": "tarot.the-fool",
+      "source": "assets/images/webpimages/The Fool.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/the-fool.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "The Fool upright tarot card"
+    },
+    {
+      "id": "tarot.the-magician",
+      "source": "assets/images/webpimages/The  Magician.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/the-magician.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "The Magician upright tarot card"
+    },
+    {
+      "id": "tarot.the-high-priestess",
+      "source": "assets/images/webpimages/The High Priestess.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/the-high-priestess.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "The High Priestess upright tarot card"
+    },
+    {
+      "id": "tarot.the-empress",
+      "source": "assets/images/webpimages/The Empress.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/the-empress.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "The Empress upright tarot card"
+    },
+    {
+      "id": "tarot.the-emperor",
+      "source": "assets/images/webpimages/The Emporor.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/the-emperor.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "The Emperor upright tarot card"
+    },
+    {
+      "id": "tarot.the-hierophant",
+      "source": "assets/images/webpimages/The Heirophant.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/the-hierophant.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "The Hierophant upright tarot card"
+    },
+    {
+      "id": "tarot.the-lovers",
+      "source": "assets/images/webpimages/The Lovers.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/the-lovers.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "The Lovers upright tarot card"
+    },
+    {
+      "id": "tarot.the-chariot",
+      "source": "assets/images/webpimages/The Chariot.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/the-chariot.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "The Chariot upright tarot card"
+    },
+    {
+      "id": "tarot.strength",
+      "source": "assets/images/webpimages/Strength.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/strength.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Strength upright tarot card"
+    },
+    {
+      "id": "tarot.the-hermit",
+      "source": "assets/images/webpimages/The Hermit.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/the-hermit.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "The Hermit upright tarot card"
+    },
+    {
+      "id": "tarot.wheel-of-fortune",
+      "source": "assets/images/webpimages/Wheel of Fortune.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/wheel-of-fortune.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Wheel of Fortune upright tarot card"
+    },
+    {
+      "id": "tarot.justice",
+      "source": "assets/images/webpimages/Justice.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/justice.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Justice upright tarot card"
+    },
+    {
+      "id": "tarot.the-hanged-man",
+      "source": "assets/images/webpimages/The Hanged Man.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/the-hanged-man.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "The Hanged Man upright tarot card"
+    },
+    {
+      "id": "tarot.death",
+      "source": "assets/images/webpimages/Death.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/death.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Death upright tarot card"
+    },
+    {
+      "id": "tarot.temperance",
+      "source": "assets/images/webpimages/Temperance.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/temperance.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Temperance upright tarot card"
+    },
+    {
+      "id": "tarot.the-devil",
+      "source": "assets/images/webpimages/The Devil.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/the-devil.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "The Devil upright tarot card"
+    },
+    {
+      "id": "tarot.the-tower",
+      "source": "assets/images/webpimages/The Tower.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/the-tower.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "The Tower upright tarot card"
+    },
+    {
+      "id": "tarot.the-star",
+      "source": "assets/images/webpimages/The Star.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/the-star.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "The Star upright tarot card"
+    },
+    {
+      "id": "tarot.the-moon",
+      "source": "assets/images/webpimages/The Moon.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/the-moon.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "The Moon upright tarot card"
+    },
+    {
+      "id": "tarot.the-sun",
+      "source": "assets/images/webpimages/The Sun.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/the-sun.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "The Sun upright tarot card"
+    },
+    {
+      "id": "tarot.judgement",
+      "source": "assets/images/webpimages/Judgement.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/judgement.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Judgement upright tarot card"
+    },
+    {
+      "id": "tarot.the-world",
+      "source": "assets/images/webpimages/The World.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/the-world.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "The World upright tarot card"
+    },
+    {
+      "id": "tarot.ace-of-swords",
+      "source": "assets/images/webpimages/ace_of_swords.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/ace-of-swords.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Ace of Swords upright tarot card"
+    },
+    {
+      "id": "tarot.two-of-swords",
+      "source": "assets/images/webpimages/two_of_swords.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/two-of-swords.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Two of Swords upright tarot card"
+    },
+    {
+      "id": "tarot.three-of-swords",
+      "source": "assets/images/webpimages/three_of_swords.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/three-of-swords.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Three of Swords upright tarot card"
+    },
+    {
+      "id": "tarot.four-of-swords",
+      "source": "assets/images/webpimages/four_of_swords.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/four-of-swords.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Four of Swords upright tarot card"
+    },
+    {
+      "id": "tarot.five-of-swords",
+      "source": "assets/images/webpimages/five_of_swords.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/five-of-swords.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Five of Swords upright tarot card"
+    },
+    {
+      "id": "tarot.six-of-swords",
+      "source": "assets/images/webpimages/six_of_swords.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/six-of-swords.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Six of Swords upright tarot card"
+    },
+    {
+      "id": "tarot.seven-of-swords",
+      "source": "assets/images/webpimages/seven_of_swords.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/seven-of-swords.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Seven of Swords upright tarot card"
+    },
+    {
+      "id": "tarot.eight-of-swords",
+      "source": "assets/images/webpimages/eight_of_swords.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/eight-of-swords.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Eight of Swords upright tarot card"
+    },
+    {
+      "id": "tarot.nine-of-swords",
+      "source": "assets/images/webpimages/nine_of_swords.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/nine-of-swords.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Nine of Swords upright tarot card"
+    },
+    {
+      "id": "tarot.ten-of-swords",
+      "source": "assets/images/webpimages/ten_of_swords.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/ten-of-swords.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Ten of Swords upright tarot card"
+    },
+    {
+      "id": "tarot.page-of-swords",
+      "source": "assets/images/webpimages/page_of_swords.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/page-of-swords.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Page of Swords upright tarot card"
+    },
+    {
+      "id": "tarot.knight-of-swords",
+      "source": "assets/images/webpimages/knight_of_swords.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/knight-of-swords.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Knight of Swords upright tarot card"
+    },
+    {
+      "id": "tarot.queen-of-swords",
+      "source": "assets/images/webpimages/queen_of_swords.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/queen-of-swords.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Queen of Swords upright tarot card"
+    },
+    {
+      "id": "tarot.king-of-swords",
+      "source": "assets/images/webpimages/king_of_swords.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/king-of-swords.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "King of Swords upright tarot card"
+    },
+    {
+      "id": "tarot.ace-of-cups",
+      "source": "assets/images/webpimages/ace_of_cups.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/ace-of-cups.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Ace of Cups upright tarot card"
+    },
+    {
+      "id": "tarot.two-of-cups",
+      "source": "assets/images/webpimages/two_of_cups.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/two-of-cups.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Two of Cups upright tarot card"
+    },
+    {
+      "id": "tarot.three-of-cups",
+      "source": "assets/images/webpimages/three_of_cups.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/three-of-cups.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Three of Cups upright tarot card"
+    },
+    {
+      "id": "tarot.four-of-cups",
+      "source": "assets/images/webpimages/four_of_cups.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/four-of-cups.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Four of Cups upright tarot card"
+    },
+    {
+      "id": "tarot.five-of-cups",
+      "source": "assets/images/webpimages/five_of_cups.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/five-of-cups.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Five of Cups upright tarot card"
+    },
+    {
+      "id": "tarot.six-of-cups",
+      "source": "assets/images/webpimages/six_of_cups.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/six-of-cups.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Six of Cups upright tarot card"
+    },
+    {
+      "id": "tarot.seven-of-cups",
+      "source": "assets/images/webpimages/seven_of_cups.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/seven-of-cups.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Seven of Cups upright tarot card"
+    },
+    {
+      "id": "tarot.eight-of-cups",
+      "source": "assets/images/webpimages/eight_of_cups.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/eight-of-cups.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Eight of Cups upright tarot card"
+    },
+    {
+      "id": "tarot.nine-of-cups",
+      "source": "assets/images/webpimages/nine_of_cups.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/nine-of-cups.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Nine of Cups upright tarot card"
+    },
+    {
+      "id": "tarot.ten-of-cups",
+      "source": "assets/images/webpimages/ten_of_cups.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/ten-of-cups.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Ten of Cups upright tarot card"
+    },
+    {
+      "id": "tarot.page-of-cups",
+      "source": "assets/images/webpimages/page_of_cups.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/page-of-cups.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Page of Cups upright tarot card"
+    },
+    {
+      "id": "tarot.knight-of-cups",
+      "source": "assets/images/webpimages/knight_of_cups.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/knight-of-cups.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Knight of Cups upright tarot card"
+    },
+    {
+      "id": "tarot.queen-of-cups",
+      "source": "assets/images/webpimages/queen_of_cups.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/queen-of-cups.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Queen of Cups upright tarot card"
+    },
+    {
+      "id": "tarot.king-of-cups",
+      "source": "assets/images/webpimages/king_of_cups.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/king-of-cups.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "King of Cups upright tarot card"
+    },
+    {
+      "id": "tarot.ace-of-pentacles",
+      "source": "assets/images/webpimages/ace_of_pentacles.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/ace-of-pentacles.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Ace of Pentacles upright tarot card"
+    },
+    {
+      "id": "tarot.two-of-pentacles",
+      "source": "assets/images/webpimages/two_of_pentacles.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/two-of-pentacles.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Two of Pentacles upright tarot card"
+    },
+    {
+      "id": "tarot.three-of-pentacles",
+      "source": "assets/images/webpimages/three_of_pentacles.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/three-of-pentacles.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Three of Pentacles upright tarot card"
+    },
+    {
+      "id": "tarot.four-of-pentacles",
+      "source": "assets/images/webpimages/four_of_pentacles.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/four-of-pentacles.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Four of Pentacles upright tarot card"
+    },
+    {
+      "id": "tarot.five-of-pentacles",
+      "source": "assets/images/webpimages/five_of_pentacles.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/five-of-pentacles.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Five of Pentacles upright tarot card"
+    },
+    {
+      "id": "tarot.six-of-pentacles",
+      "source": "assets/images/webpimages/six_of_pentacles.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/six-of-pentacles.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Six of Pentacles upright tarot card"
+    },
+    {
+      "id": "tarot.seven-of-pentacles",
+      "source": "assets/images/webpimages/seven_of_pentacles.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/seven-of-pentacles.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Seven of Pentacles upright tarot card"
+    },
+    {
+      "id": "tarot.eight-of-pentacles",
+      "source": "assets/images/webpimages/eight_of_pentacles.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/eight-of-pentacles.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Eight of Pentacles upright tarot card"
+    },
+    {
+      "id": "tarot.nine-of-pentacles",
+      "source": "assets/images/webpimages/nine_of_pentacles.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/nine-of-pentacles.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Nine of Pentacles upright tarot card"
+    },
+    {
+      "id": "tarot.ten-of-pentacles",
+      "source": "assets/images/webpimages/ten_of_pentacles.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/ten-of-pentacles.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Ten of Pentacles upright tarot card"
+    },
+    {
+      "id": "tarot.page-of-pentacles",
+      "source": "assets/images/webpimages/page_of_pentacles.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/page-of-pentacles.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Page of Pentacles upright tarot card"
+    },
+    {
+      "id": "tarot.knight-of-pentacles",
+      "source": "assets/images/webpimages/knight_of_pentacles.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/knight-of-pentacles.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Knight of Pentacles upright tarot card"
+    },
+    {
+      "id": "tarot.queen-of-pentacles",
+      "source": "assets/images/webpimages/queen_of_pentacles.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/queen-of-pentacles.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Queen of Pentacles upright tarot card"
+    },
+    {
+      "id": "tarot.king-of-pentacles",
+      "source": "assets/images/webpimages/king_of_pentacles.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/king-of-pentacles.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "King of Pentacles upright tarot card"
+    },
+    {
+      "id": "tarot.ace-of-wands",
+      "source": "assets/images/webpimages/ace_of_wands.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/ace-of-wands.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Ace of Wands upright tarot card"
+    },
+    {
+      "id": "tarot.two-of-wands",
+      "source": "assets/images/webpimages/two_of_wands.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/two-of-wands.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Two of Wands upright tarot card"
+    },
+    {
+      "id": "tarot.three-of-wands",
+      "source": "assets/images/webpimages/three_of_wands.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/three-of-wands.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Three of Wands upright tarot card"
+    },
+    {
+      "id": "tarot.four-of-wands",
+      "source": "assets/images/webpimages/four_of_wands.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/four-of-wands.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Four of Wands upright tarot card"
+    },
+    {
+      "id": "tarot.five-of-wands",
+      "source": "assets/images/webpimages/five_of_wands.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/five-of-wands.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Five of Wands upright tarot card"
+    },
+    {
+      "id": "tarot.six-of-wands",
+      "source": "assets/images/webpimages/six_of_wands.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/six-of-wands.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Six of Wands upright tarot card"
+    },
+    {
+      "id": "tarot.seven-of-wands",
+      "source": "assets/images/webpimages/seven_of_wands.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/seven-of-wands.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Seven of Wands upright tarot card"
+    },
+    {
+      "id": "tarot.eight-of-wands",
+      "source": "assets/images/webpimages/eight_of_wands.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/eight-of-wands.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Eight of Wands upright tarot card"
+    },
+    {
+      "id": "tarot.nine-of-wands",
+      "source": "assets/images/webpimages/nine_of_wands.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/nine-of-wands.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Nine of Wands upright tarot card"
+    },
+    {
+      "id": "tarot.ten-of-wands",
+      "source": "assets/images/webpimages/ten_of_wands.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/ten-of-wands.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Ten of Wands upright tarot card"
+    },
+    {
+      "id": "tarot.page-of-wands",
+      "source": "assets/images/webpimages/page_of_wands.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/page-of-wands.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Page of Wands upright tarot card"
+    },
+    {
+      "id": "tarot.knight-of-wands",
+      "source": "assets/images/webpimages/knight_of_wands.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/knight-of-wands.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Knight of Wands upright tarot card"
+    },
+    {
+      "id": "tarot.queen-of-wands",
+      "source": "assets/images/webpimages/queen_of_wands.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/queen-of-wands.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Queen of Wands upright tarot card"
+    },
+    {
+      "id": "tarot.king-of-wands",
+      "source": "assets/images/webpimages/king_of_wands.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/king-of-wands.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "King of Wands upright tarot card"
+    },
+    {
+      "id": "tarot.card-back",
+      "source": "assets/images/webpimages/Cover.webp",
+      "aliases": [],
+      "output": "assets/images/tarot/card-back.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Back of the Crystal Eye tarot deck"
+    },
+    {
+      "id": "astrology.sign.aries",
+      "source": "assets/images/webpimages/ariescyber.webp",
+      "aliases": [
+        "assets/images/webpimages/cyberttaurus.webp"
+      ],
+      "output": "assets/images/astrology/aries.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Aries zodiac portrait"
+    },
+    {
+      "id": "astrology.sign.taurus",
+      "source": "assets/images/webpimages/tauruscyber.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/taurus.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Taurus zodiac portrait"
+    },
+    {
+      "id": "astrology.sign.gemini",
+      "source": "assets/images/webpimages/geminicyber.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/gemini.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Gemini zodiac portrait"
+    },
+    {
+      "id": "astrology.sign.cancer",
+      "source": "assets/images/webpimages/cancercyber.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/cancer.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Cancer zodiac portrait"
+    },
+    {
+      "id": "astrology.sign.leo",
+      "source": "assets/images/webpimages/eocyber.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/leo.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Leo zodiac portrait"
+    },
+    {
+      "id": "astrology.sign.virgo",
+      "source": "assets/images/webpimages/virgocyber.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/virgo.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Virgo zodiac portrait"
+    },
+    {
+      "id": "astrology.sign.libra",
+      "source": "assets/images/webpimages/libracyber.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/libra.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Libra zodiac portrait"
+    },
+    {
+      "id": "astrology.sign.scorpio",
+      "source": "assets/images/webpimages/scorpiocyber.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/scorpio.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Scorpio zodiac portrait"
+    },
+    {
+      "id": "astrology.sign.sagittarius",
+      "source": "assets/images/webpimages/sagittariuscyber.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/sagittarius.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Sagittarius zodiac portrait"
+    },
+    {
+      "id": "astrology.sign.capricorn",
+      "source": "assets/images/webpimages/capricorncyber.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/capricorn.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Capricorn zodiac portrait"
+    },
+    {
+      "id": "astrology.sign.aquarius",
+      "source": "assets/images/webpimages/aquariuscyber.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/aquarius.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Aquarius zodiac portrait"
+    },
+    {
+      "id": "astrology.sign.pisces",
+      "source": "assets/images/webpimages/piscescyber.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/pisces.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Pisces zodiac portrait"
+    },
+    {
+      "id": "astrology.stars.gemini",
+      "source": "assets/images/webpimages/geministars.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/gemini-stars.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Gemini constellation artwork"
+    },
+    {
+      "id": "astrology.stars.cancer",
+      "source": "assets/images/webpimages/cancerstars.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/cancer-stars.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Cancer constellation artwork"
+    },
+    {
+      "id": "astrology.stars.leo",
+      "source": "assets/images/webpimages/leostars.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/leo-stars.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Leo constellation artwork"
+    },
+    {
+      "id": "astrology.stars.virgo",
+      "source": "assets/images/webpimages/virgostars.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/virgo-stars.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Virgo constellation artwork"
+    },
+    {
+      "id": "astrology.stars.libra",
+      "source": "assets/images/webpimages/ibrastars.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/libra-stars.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Libra constellation artwork"
+    },
+    {
+      "id": "astrology.stars.scorpio",
+      "source": "assets/images/webpimages/scorpiostars.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/scorpio-stars.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Scorpio constellation artwork"
+    },
+    {
+      "id": "astrology.stars.sagittarius",
+      "source": "assets/images/webpimages/sagitarriusstars.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/sagittarius-stars.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Sagittarius constellation artwork"
+    },
+    {
+      "id": "astrology.stars.capricorn",
+      "source": "assets/images/webpimages/capricornstars.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/capricorn-stars.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Capricorn constellation artwork"
+    },
+    {
+      "id": "astrology.stars.aquarius",
+      "source": "assets/images/webpimages/aquariusstars.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/aquarius-stars.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Aquarius constellation artwork"
+    },
+    {
+      "id": "astrology.stars.pisces",
+      "source": "assets/images/webpimages/piscesstars.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/pisces-stars.webp",
+      "max_size": [
+        900,
+        1100
+      ],
+      "role": "Pisces constellation artwork"
+    },
+    {
+      "id": "astrology.sun",
+      "source": "assets/images/webpimages/sun.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/sun.webp",
+      "max_size": [
+        900,
+        900
+      ],
+      "role": "Sun emblem"
+    },
+    {
+      "id": "astrology.moon",
+      "source": "assets/images/webpimages/moon.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/moon.webp",
+      "max_size": [
+        900,
+        900
+      ],
+      "role": "Moon emblem"
+    },
+    {
+      "id": "astrology.rising",
+      "source": "assets/images/webpimages/rising.webp",
+      "aliases": [],
+      "output": "assets/images/astrology/rising.webp",
+      "max_size": [
+        900,
+        900
+      ],
+      "role": "Rising emblem"
+    },
+    {
+      "id": "numerology.topic.personality",
+      "source": "assets/images/webpimages/personality.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/personality.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "Personality illustration"
+    },
+    {
+      "id": "numerology.topic.minor-personality",
+      "source": "assets/images/webpimages/minorpersonality.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/minor-personality.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "Minor Personality illustration"
+    },
+    {
+      "id": "numerology.topic.souls-desire",
+      "source": "assets/images/webpimages/soulsdesire.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/souls-desire.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "Soul’s Desire illustration"
+    },
+    {
+      "id": "numerology.topic.minor-souls-desire",
+      "source": "assets/images/webpimages/minorsoulsdesire.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/minor-souls-desire.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "Minor Soul’s Desire illustration"
+    },
+    {
+      "id": "numerology.topic.life-path",
+      "source": "assets/images/webpimages/lifepath.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/life-path.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "Life Path illustration"
+    },
+    {
+      "id": "numerology.topic.destiny",
+      "source": "assets/images/webpimages/detiny.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/destiny.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "Destiny / Expression illustration"
+    },
+    {
+      "id": "numerology.topic.balance",
+      "source": "assets/images/webpimages/balance.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/balance.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "Balance illustration"
+    },
+    {
+      "id": "numerology.topic.karmic-lessons",
+      "source": "assets/images/webpimages/karmiclessons.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/karmic-lessons.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "Karmic Lessons illustration"
+    },
+    {
+      "id": "numerology.topic.hidden-passion",
+      "source": "assets/images/webpimages/hiddenpassion.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/hidden-passion.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "Hidden Passion illustration"
+    },
+    {
+      "id": "numerology.topic.birthday",
+      "source": "assets/images/webpimages/birthday.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/birthday.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "Birthday illustration"
+    },
+    {
+      "id": "numerology.topic.first-life-cycle",
+      "source": "assets/images/webpimages/firstlifecycle.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/first-life-cycle.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "First Life Cycle illustration"
+    },
+    {
+      "id": "numerology.topic.second-life-cycle",
+      "source": "assets/images/webpimages/secondlifecycle.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/second-life-cycle.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "Second Life Cycle illustration"
+    },
+    {
+      "id": "numerology.topic.third-life-cycle",
+      "source": "assets/images/webpimages/thirdlifecycle.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/third-life-cycle.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "Third Life Cycle illustration"
+    },
+    {
+      "id": "numerology.topic.first-pinnacle",
+      "source": "assets/images/webpimages/firstpinnacle.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/first-pinnacle.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "First Pinnacle illustration"
+    },
+    {
+      "id": "numerology.topic.second-pinnacle",
+      "source": "assets/images/webpimages/secondpinnacle.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/second-pinnacle.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "Second Pinnacle illustration"
+    },
+    {
+      "id": "numerology.topic.third-pinnacle",
+      "source": "assets/images/webpimages/thirdpinnacle.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/third-pinnacle.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "Third Pinnacle illustration"
+    },
+    {
+      "id": "numerology.topic.fourth-pinnacle",
+      "source": "assets/images/webpimages/fourthpinnacle.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/fourth-pinnacle.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "Fourth Pinnacle illustration"
+    },
+    {
+      "id": "numerology.topic.first-challenge",
+      "source": "assets/images/webpimages/firstchallenge.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/first-challenge.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "First Challenge illustration"
+    },
+    {
+      "id": "numerology.topic.second-challenge",
+      "source": "assets/images/webpimages/secondchallenge.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/second-challenge.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "Second Challenge illustration"
+    },
+    {
+      "id": "numerology.topic.third-challenge",
+      "source": "assets/images/webpimages/thirdchalennge.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/third-challenge.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "Third Challenge illustration"
+    },
+    {
+      "id": "numerology.topic.fourth-challenge",
+      "source": "assets/images/webpimages/fourthchallenge.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/topics/fourth-challenge.webp",
+      "max_size": [
+        800,
+        1200
+      ],
+      "role": "Fourth Challenge illustration"
+    },
+    {
+      "id": "numerology.number.1",
+      "source": "assets/images/webpimages/number1.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/numbers/number-1.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Number 1 illustration"
+    },
+    {
+      "id": "numerology.number.2",
+      "source": "assets/images/webpimages/number2.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/numbers/number-2.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Number 2 illustration"
+    },
+    {
+      "id": "numerology.number.3",
+      "source": "assets/images/webpimages/number3.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/numbers/number-3.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Number 3 illustration"
+    },
+    {
+      "id": "numerology.number.4",
+      "source": "assets/images/webpimages/number4.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/numbers/number-4.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Number 4 illustration"
+    },
+    {
+      "id": "numerology.number.5",
+      "source": "assets/images/webpimages/number5.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/numbers/number-5.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Number 5 illustration"
+    },
+    {
+      "id": "numerology.number.6",
+      "source": "assets/images/webpimages/number6.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/numbers/number-6.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Number 6 illustration"
+    },
+    {
+      "id": "numerology.number.7",
+      "source": "assets/images/webpimages/number7.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/numbers/number-7.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Number 7 illustration"
+    },
+    {
+      "id": "numerology.number.8",
+      "source": "assets/images/webpimages/number8.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/numbers/number-8.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Number 8 illustration"
+    },
+    {
+      "id": "numerology.number.9",
+      "source": "assets/images/webpimages/number9.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/numbers/number-9.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Number 9 illustration"
+    },
+    {
+      "id": "numerology.number.11",
+      "source": "assets/images/webpimages/number11.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/numbers/number-11.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Number 11 illustration"
+    },
+    {
+      "id": "numerology.number.22",
+      "source": "assets/images/webpimages/number22.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/numbers/number-22.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Number 22 illustration"
+    },
+    {
+      "id": "numerology.number.33",
+      "source": "assets/images/webpimages/number33.webp",
+      "aliases": [],
+      "output": "assets/images/numerology/numbers/number-33.webp",
+      "max_size": [
+        480,
+        720
+      ],
+      "role": "Number 33 illustration"
+    },
+    {
+      "id": "brand.logo",
+      "source": "assets/images/webpimages/kristalizelogo.webp",
+      "aliases": [],
+      "output": "assets/images/site-logo.webp",
+      "max_size": [
+        384,
+        384
+      ],
+      "role": "Supplied neon gemstone eye logo"
+    }
+  ]
+}

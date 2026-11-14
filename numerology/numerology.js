@@ -54,6 +54,14 @@ if (form) {
       link.textContent =
         result[key] === 0 ? "Read the method →" : "Explore this result →";
       article.append(heading, value, description, link);
+      if ([1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33].includes(result[key])) {
+        const art = document.createElement("img");
+        art.className = "mini-number-art";
+        art.src = `../assets/images/numerology/numbers/number-${result[key]}.webp`;
+        art.alt = "";
+        art.setAttribute("aria-hidden", "true");
+        article.append(art);
+      }
       grid.append(article);
     }
     const note = document.createElement("p");

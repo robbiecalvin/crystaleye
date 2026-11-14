@@ -26,7 +26,7 @@
         "Growth direction": "Develop patience, finish what was started, and distinguish a meaningful challenge from a fight that serves no purpose.",
         "Reflection prompt": "Where would a deliberate response accomplish more than an immediate reaction?"
       },
-      "image": "sun",
+      "image": "aries",
       "moon": "An Aries Moon is traditionally associated with quick, direct emotional reactions and a strong need for agency. You may feel better after moving, naming the issue, or taking a useful first step. Frustration can flare when you feel trapped or managed, then pass before someone else has caught up. Ask for a pause before an argument becomes a contest. Emotional independence can coexist with receiving comfort; you do not have to solve a feeling before sharing it.",
       "rising": "Aries rising describes an approach to new situations that is immediate, bold, and willing to learn by doing. Others may initially read you as confident even when you are improvising. You tend to open a door by making the first move. Its traditional chart ruler is Mars; Mars’s sign, house, and aspects add context to this description. Practice checking the room before setting the pace, so initiative becomes an invitation rather than pressure.",
       "mate": {
@@ -36,7 +36,8 @@
       "friend": {
         "sign": "Gemini",
         "explanation": "Gemini supplies curiosity and fresh ideas; Aries supplies the courage to try them. Your friendship can stay lively when the next adventure leaves room for a real check-in and you both follow through."
-      }
+      },
+      "constellation_image": null
     },
     {
       "slug": "taurus",
@@ -63,7 +64,7 @@
         "Growth direction": "Build flexibility alongside stability. Recognize that changing direction can protect security rather than threaten it.",
         "Reflection prompt": "Am I preserving something valuable, or simply protecting something familiar?"
       },
-      "image": "rising",
+      "image": "taurus",
       "moon": "A Taurus Moon is traditionally associated with a need for steadiness, sensory comfort, and trust built through repetition. Familiar meals, a peaceful room, or time outdoors may help you settle after a demanding day. Unexpected changes can feel personal when they disturb your sense of safety. Ask whether you need reassurance, a practical plan, or simply time to adjust. Let comfort support you without making a familiar but unhelpful situation impossible to leave.",
       "rising": "Taurus rising suggests a measured entrance into the world: observant, grounded, and inclined to establish trust before accelerating. Others may experience you as reassuring or quietly determined. Your pace is a resource, though it need not become a rule that every new opportunity must follow. Venus is the traditional chart ruler; its placement adds detail about connection and values. Say clearly when you need time, then stay open to what the new experience could offer.",
       "mate": {
@@ -73,7 +74,8 @@
       "friend": {
         "sign": "Cancer",
         "explanation": "Cancer’s attentiveness and Taurus’s steadiness can make ordinary time together feel restorative. A shared meal may mean more than a grand outing. Respect each other’s boundaries instead of assuming loyalty means permanent availability."
-      }
+      },
+      "constellation_image": null
     },
     {
       "slug": "gemini",
@@ -110,7 +112,8 @@
       "friend": {
         "sign": "Aries",
         "explanation": "Aries is often ready to act on the ideas Gemini is delighted to invent. Give your adventures a little follow-through, and remember that friendly teasing works best when both people are enjoying it."
-      }
+      },
+      "constellation_image": "gemini-stars"
     },
     {
       "slug": "cancer",
@@ -147,7 +150,8 @@
       "friend": {
         "sign": "Taurus",
         "explanation": "Taurus’s steady presence can complement Cancer’s emotional attentiveness. Familiar rituals help the friendship deepen. Keep the care reciprocal, and allow changes in routine without treating them as a loss of affection."
-      }
+      },
+      "constellation_image": "cancer-stars"
     },
     {
       "slug": "leo",
@@ -184,7 +188,8 @@
       "friend": {
         "sign": "Libra",
         "explanation": "Libra’s social ease and Leo’s generous spirit can turn simple plans into celebrations. You may enjoy art, hosting, or encouraging a shared circle. Be honest when keeping things pleasant would hide a real need."
-      }
+      },
+      "constellation_image": "leo-stars"
     },
     {
       "slug": "virgo",
@@ -221,7 +226,8 @@
       "friend": {
         "sign": "Scorpio",
         "explanation": "Scorpio’s depth and Virgo’s discernment can create a loyal friendship built on substantive conversation. You may appreciate each other’s discretion. Ask before analyzing a friend’s motives or offering an unsolicited repair plan."
-      }
+      },
+      "constellation_image": "virgo-stars"
     },
     {
       "slug": "libra",
@@ -258,7 +264,8 @@
       "friend": {
         "sign": "Leo",
         "explanation": "Leo’s wholehearted encouragement and Libra’s thoughtfulness can create a friendship full of shared pleasures. Celebrate each other without turning appreciation into an obligation, and say when you would prefer a quiet night."
-      }
+      },
+      "constellation_image": "libra-stars"
     },
     {
       "slug": "scorpio",
@@ -295,7 +302,8 @@
       "friend": {
         "sign": "Virgo",
         "explanation": "Virgo’s practical honesty can complement Scorpio’s preference for substance. Quiet support and confidential conversations may matter more than a busy social calendar. Give each other permission to say, “I just need you to listen.”"
-      }
+      },
+      "constellation_image": "scorpio-stars"
     },
     {
       "slug": "sagittarius",
@@ -332,7 +340,8 @@
       "friend": {
         "sign": "Aries",
         "explanation": "Aries’s initiative meets Sagittarius’s enthusiasm for discovery. You may encourage each other to try something unfamiliar. Keep the friendship generous by respecting different limits and following through after the exciting plan is made."
-      }
+      },
+      "constellation_image": "sagittarius-stars"
     },
     {
       "slug": "capricorn",
@@ -369,7 +378,8 @@
       "friend": {
         "sign": "Pisces",
         "explanation": "Pisces’s imagination and Capricorn’s practical support can help a friendship turn ideas into something tangible. Honor each other’s different paces, and make sure encouragement does not slip into managing or rescuing."
-      }
+      },
+      "constellation_image": "capricorn-stars"
     },
     {
       "slug": "aquarius",
@@ -406,7 +416,8 @@
       "friend": {
         "sign": "Gemini",
         "explanation": "Gemini’s curiosity can meet Aquarius’s inventive thinking in long conversations and unusual projects. Make space for personal check-ins alongside the ideas, and remember that changing a position can show learning rather than inconsistency."
-      }
+      },
+      "constellation_image": "aquarius-stars"
     },
     {
       "slug": "pisces",
@@ -443,7 +454,8 @@
       "friend": {
         "sign": "Capricorn",
         "explanation": "Capricorn’s grounded encouragement and Pisces’s imaginative perspective can help each person see more options. Keep the care reciprocal: one friend need not always be the organizer and the other the dreamer."
-      }
+      },
+      "constellation_image": "pisces-stars"
     }
   ]
 }

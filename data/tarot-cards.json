@@ -4,7 +4,7 @@
     {
       "id": "the-fool",
       "name": "The Fool",
-      "source": "The Fool.png",
+      "source": "assets/images/webpimages/The Fool.webp",
       "arcana": "major",
       "number": 0,
       "tone": "mixed",
@@ -16,7 +16,7 @@
     {
       "id": "the-magician",
       "name": "The Magician",
-      "source": "The  Magician.png",
+      "source": "assets/images/webpimages/The  Magician.webp",
       "arcana": "major",
       "number": 1,
       "tone": "easy",
@@ -28,7 +28,7 @@
     {
       "id": "the-high-priestess",
       "name": "The High Priestess",
-      "source": "The High Priestess.png",
+      "source": "assets/images/webpimages/The High Priestess.webp",
       "arcana": "major",
       "number": 2,
       "tone": "mixed",
@@ -40,7 +40,7 @@
     {
       "id": "the-empress",
       "name": "The Empress",
-      "source": "The Empress.png",
+      "source": "assets/images/webpimages/The Empress.webp",
       "arcana": "major",
       "number": 3,
       "tone": "easy",
@@ -52,7 +52,7 @@
     {
       "id": "the-emperor",
       "name": "The Emperor",
-      "source": "The Emporor.png",
+      "source": "assets/images/webpimages/The Emporor.webp",
       "arcana": "major",
       "number": 4,
       "tone": "mixed",
@@ -64,7 +64,7 @@
     {
       "id": "the-hierophant",
       "name": "The Hierophant",
-      "source": "The Heirophant.png",
+      "source": "assets/images/webpimages/The Heirophant.webp",
       "arcana": "major",
       "number": 5,
       "tone": "mixed",
@@ -76,7 +76,7 @@
     {
       "id": "the-lovers",
       "name": "The Lovers",
-      "source": "The Lovers.png",
+      "source": "assets/images/webpimages/The Lovers.webp",
       "arcana": "major",
       "number": 6,
       "tone": "easy",
@@ -88,7 +88,7 @@
     {
       "id": "the-chariot",
       "name": "The Chariot",
-      "source": "The Chariot.png",
+      "source": "assets/images/webpimages/The Chariot.webp",
       "arcana": "major",
       "number": 7,
       "tone": "mixed",
@@ -100,7 +100,7 @@
     {
       "id": "strength",
       "name": "Strength",
-      "source": "Strength.png",
+      "source": "assets/images/webpimages/Strength.webp",
       "arcana": "major",
       "number": 8,
       "tone": "easy",
@@ -112,7 +112,7 @@
     {
       "id": "the-hermit",
       "name": "The Hermit",
-      "source": "The Hermit.png",
+      "source": "assets/images/webpimages/The Hermit.webp",
       "arcana": "major",
       "number": 9,
       "tone": "mixed",
@@ -124,7 +124,7 @@
     {
       "id": "wheel-of-fortune",
       "name": "Wheel of Fortune",
-      "source": "Wheel of Fortune.png",
+      "source": "assets/images/webpimages/Wheel of Fortune.webp",
       "arcana": "major",
       "number": 10,
       "tone": "mixed",
@@ -136,7 +136,7 @@
     {
       "id": "justice",
       "name": "Justice",
-      "source": "Justice.png",
+      "source": "assets/images/webpimages/Justice.webp",
       "arcana": "major",
       "number": 11,
       "tone": "mixed",
@@ -148,7 +148,7 @@
     {
       "id": "the-hanged-man",
       "name": "The Hanged Man",
-      "source": "The Hanged Man.png",
+      "source": "assets/images/webpimages/The Hanged Man.webp",
       "arcana": "major",
       "number": 12,
       "tone": "mixed",
@@ -160,7 +160,7 @@
     {
       "id": "death",
       "name": "Death",
-      "source": "Death.png",
+      "source": "assets/images/webpimages/Death.webp",
       "arcana": "major",
       "number": 13,
       "tone": "hard",
@@ -172,7 +172,7 @@
     {
       "id": "temperance",
       "name": "Temperance",
-      "source": "Temperance.png",
+      "source": "assets/images/webpimages/Temperance.webp",
       "arcana": "major",
       "number": 14,
       "tone": "easy",
@@ -184,7 +184,7 @@
     {
       "id": "the-devil",
       "name": "The Devil",
-      "source": "The Devil.png",
+      "source": "assets/images/webpimages/The Devil.webp",
       "arcana": "major",
       "number": 15,
       "tone": "hard",
@@ -196,7 +196,7 @@
     {
       "id": "the-tower",
       "name": "The Tower",
-      "source": "The Tower.png",
+      "source": "assets/images/webpimages/The Tower.webp",
       "arcana": "major",
       "number": 16,
       "tone": "hard",
@@ -208,7 +208,7 @@
     {
       "id": "the-star",
       "name": "The Star",
-      "source": "The Star.png",
+      "source": "assets/images/webpimages/The Star.webp",
       "arcana": "major",
       "number": 17,
       "tone": "easy",
@@ -220,7 +220,7 @@
     {
       "id": "the-moon",
       "name": "The Moon",
-      "source": "The Moon.png",
+      "source": "assets/images/webpimages/The Moon.webp",
       "arcana": "major",
       "number": 18,
       "tone": "mixed",
@@ -232,7 +232,7 @@
     {
       "id": "the-sun",
       "name": "The Sun",
-      "source": "The Sun.png",
+      "source": "assets/images/webpimages/The Sun.webp",
       "arcana": "major",
       "number": 19,
       "tone": "easy",
@@ -244,7 +244,7 @@
     {
       "id": "judgement",
       "name": "Judgement",
-      "source": "Judgement.png",
+      "source": "assets/images/webpimages/Judgement.webp",
       "arcana": "major",
       "number": 20,
       "tone": "mixed",
@@ -256,7 +256,7 @@
     {
       "id": "the-world",
       "name": "The World",
-      "source": "The World.png",
+      "source": "assets/images/webpimages/The World.webp",
       "arcana": "major",
       "number": 21,
       "tone": "easy",
@@ -268,7 +268,7 @@
     {
       "id": "ace-of-swords",
       "name": "Ace of Swords",
-      "source": "ace_of_swords.png",
+      "source": "assets/images/webpimages/ace_of_swords.webp",
       "arcana": "minor",
       "suit": "swords",
       "rank": "Ace",
@@ -281,7 +281,7 @@
     {
       "id": "two-of-swords",
       "name": "Two of Swords",
-      "source": "two_of_swords.png",
+      "source": "assets/images/webpimages/two_of_swords.webp",
       "arcana": "minor",
       "suit": "swords",
       "rank": "Two",
@@ -294,7 +294,7 @@
     {
       "id": "three-of-swords",
       "name": "Three of Swords",
-      "source": "three_of_swords.png",
+      "source": "assets/images/webpimages/three_of_swords.webp",
       "arcana": "minor",
       "suit": "swords",
       "rank": "Three",
@@ -307,7 +307,7 @@
     {
       "id": "four-of-swords",
       "name": "Four of Swords",
-      "source": "four_of_swords.png",
+      "source": "assets/images/webpimages/four_of_swords.webp",
       "arcana": "minor",
       "suit": "swords",
       "rank": "Four",
@@ -320,7 +320,7 @@
     {
       "id": "five-of-swords",
       "name": "Five of Swords",
-      "source": "five_of_swords.png",
+      "source": "assets/images/webpimages/five_of_swords.webp",
       "arcana": "minor",
       "suit": "swords",
       "rank": "Five",
@@ -333,7 +333,7 @@
     {
       "id": "six-of-swords",
       "name": "Six of Swords",
-      "source": "six_of_swords.png",
+      "source": "assets/images/webpimages/six_of_swords.webp",
       "arcana": "minor",
       "suit": "swords",
       "rank": "Six",
@@ -346,7 +346,7 @@
     {
       "id": "seven-of-swords",
       "name": "Seven of Swords",
-      "source": "seven_of_swords.png",
+      "source": "assets/images/webpimages/seven_of_swords.webp",
       "arcana": "minor",
       "suit": "swords",
       "rank": "Seven",
@@ -359,7 +359,7 @@
     {
       "id": "eight-of-swords",
       "name": "Eight of Swords",
-      "source": "eight_of_swords.png",
+      "source": "assets/images/webpimages/eight_of_swords.webp",
       "arcana": "minor",
       "suit": "swords",
       "rank": "Eight",
@@ -372,7 +372,7 @@
     {
       "id": "nine-of-swords",
       "name": "Nine of Swords",
-      "source": "nine_of_swords.png",
+      "source": "assets/images/webpimages/nine_of_swords.webp",
       "arcana": "minor",
       "suit": "swords",
       "rank": "Nine",
@@ -385,7 +385,7 @@
     {
       "id": "ten-of-swords",
       "name": "Ten of Swords",
-      "source": "ten_of_swords.png",
+      "source": "assets/images/webpimages/ten_of_swords.webp",
       "arcana": "minor",
       "suit": "swords",
       "rank": "Ten",
@@ -398,7 +398,7 @@
     {
       "id": "page-of-swords",
       "name": "Page of Swords",
-      "source": "page_of_swords.png",
+      "source": "assets/images/webpimages/page_of_swords.webp",
       "arcana": "minor",
       "suit": "swords",
       "rank": "Page",
@@ -411,7 +411,7 @@
     {
       "id": "knight-of-swords",
       "name": "Knight of Swords",
-      "source": "knight_of_swords.png",
+      "source": "assets/images/webpimages/knight_of_swords.webp",
       "arcana": "minor",
       "suit": "swords",
       "rank": "Knight",
@@ -424,7 +424,7 @@
     {
       "id": "queen-of-swords",
       "name": "Queen of Swords",
-      "source": "queen_of_swords.png",
+      "source": "assets/images/webpimages/queen_of_swords.webp",
       "arcana": "minor",
       "suit": "swords",
       "rank": "Queen",
@@ -437,7 +437,7 @@
     {
       "id": "king-of-swords",
       "name": "King of Swords",
-      "source": "king_of_swords.png",
+      "source": "assets/images/webpimages/king_of_swords.webp",
       "arcana": "minor",
       "suit": "swords",
       "rank": "King",
@@ -450,7 +450,7 @@
     {
       "id": "ace-of-cups",
       "name": "Ace of Cups",
-      "source": "ace_of_cups.png",
+      "source": "assets/images/webpimages/ace_of_cups.webp",
       "arcana": "minor",
       "suit": "cups",
       "rank": "Ace",
@@ -463,7 +463,7 @@
     {
       "id": "two-of-cups",
       "name": "Two of Cups",
-      "source": "two_of_cups.png",
+      "source": "assets/images/webpimages/two_of_cups.webp",
       "arcana": "minor",
       "suit": "cups",
       "rank": "Two",
@@ -476,7 +476,7 @@
     {
       "id": "three-of-cups",
       "name": "Three of Cups",
-      "source": "three_of_cups.png",
+      "source": "assets/images/webpimages/three_of_cups.webp",
       "arcana": "minor",
       "suit": "cups",
       "rank": "Three",
@@ -489,7 +489,7 @@
     {
       "id": "four-of-cups",
       "name": "Four of Cups",
-      "source": "four_of_cups.png",
+      "source": "assets/images/webpimages/four_of_cups.webp",
       "arcana": "minor",
       "suit": "cups",
       "rank": "Four",
@@ -502,7 +502,7 @@
     {
       "id": "five-of-cups",
       "name": "Five of Cups",
-      "source": "five_of_cups.png",
+      "source": "assets/images/webpimages/five_of_cups.webp",
       "arcana": "minor",
       "suit": "cups",
       "rank": "Five",
@@ -515,7 +515,7 @@
     {
       "id": "six-of-cups",
       "name": "Six of Cups",
-      "source": "six_of_cups.png",
+      "source": "assets/images/webpimages/six_of_cups.webp",
       "arcana": "minor",
       "suit": "cups",
       "rank": "Six",
@@ -528,7 +528,7 @@
     {
       "id": "seven-of-cups",
       "name": "Seven of Cups",
-      "source": "seven_of_cups.png",
+      "source": "assets/images/webpimages/seven_of_cups.webp",
       "arcana": "minor",
       "suit": "cups",
       "rank": "Seven",
@@ -541,7 +541,7 @@
     {
       "id": "eight-of-cups",
       "name": "Eight of Cups",
-      "source": "eight_of_cups.png",
+      "source": "assets/images/webpimages/eight_of_cups.webp",
       "arcana": "minor",
       "suit": "cups",
       "rank": "Eight",
@@ -554,7 +554,7 @@
     {
       "id": "nine-of-cups",
       "name": "Nine of Cups",
-      "source": "nine_of_cups.png",
+      "source": "assets/images/webpimages/nine_of_cups.webp",
       "arcana": "minor",
       "suit": "cups",
       "rank": "Nine",
@@ -567,7 +567,7 @@
     {
       "id": "ten-of-cups",
       "name": "Ten of Cups",
-      "source": "ten_of_cups.png",
+      "source": "assets/images/webpimages/ten_of_cups.webp",
       "arcana": "minor",
       "suit": "cups",
       "rank": "Ten",
@@ -580,7 +580,7 @@
     {
       "id": "page-of-cups",
       "name": "Page of Cups",
-      "source": "page_of_cups.png",
+      "source": "assets/images/webpimages/page_of_cups.webp",
       "arcana": "minor",
       "suit": "cups",
       "rank": "Page",
@@ -593,7 +593,7 @@
     {
       "id": "knight-of-cups",
       "name": "Knight of Cups",
-      "source": "knight_of_cups.png",
+      "source": "assets/images/webpimages/knight_of_cups.webp",
       "arcana": "minor",
       "suit": "cups",
       "rank": "Knight",
@@ -606,7 +606,7 @@
     {
       "id": "queen-of-cups",
       "name": "Queen of Cups",
-      "source": "queen_of_cups.png",
+      "source": "assets/images/webpimages/queen_of_cups.webp",
       "arcana": "minor",
       "suit": "cups",
       "rank": "Queen",
@@ -619,7 +619,7 @@
     {
       "id": "king-of-cups",
       "name": "King of Cups",
-      "source": "king_of_cups.png",
+      "source": "assets/images/webpimages/king_of_cups.webp",
       "arcana": "minor",
       "suit": "cups",
       "rank": "King",
@@ -632,7 +632,7 @@
     {
       "id": "ace-of-pentacles",
       "name": "Ace of Pentacles",
-      "source": "ace_of_pentacles.png",
+      "source": "assets/images/webpimages/ace_of_pentacles.webp",
       "arcana": "minor",
       "suit": "pentacles",
       "rank": "Ace",
@@ -645,7 +645,7 @@
     {
       "id": "two-of-pentacles",
       "name": "Two of Pentacles",
-      "source": "two_of_pentacles.png",
+      "source": "assets/images/webpimages/two_of_pentacles.webp",
       "arcana": "minor",
       "suit": "pentacles",
       "rank": "Two",
@@ -658,7 +658,7 @@
     {
       "id": "three-of-pentacles",
       "name": "Three of Pentacles",
-      "source": "three_of_pentacles.png",
+      "source": "assets/images/webpimages/three_of_pentacles.webp",
       "arcana": "minor",
       "suit": "pentacles",
       "rank": "Three",
@@ -671,7 +671,7 @@
     {
       "id": "four-of-pentacles",
       "name": "Four of Pentacles",
-      "source": "four_of_pentacles.png",
+      "source": "assets/images/webpimages/four_of_pentacles.webp",
       "arcana": "minor",
       "suit": "pentacles",
       "rank": "Four",
@@ -684,7 +684,7 @@
     {
       "id": "five-of-pentacles",
       "name": "Five of Pentacles",
-      "source": "five_of_pentacles.png",
+      "source": "assets/images/webpimages/five_of_pentacles.webp",
       "arcana": "minor",
       "suit": "pentacles",
       "rank": "Five",
@@ -697,7 +697,7 @@
     {
       "id": "six-of-pentacles",
       "name": "Six of Pentacles",
-      "source": "six_of_pentacles.png",
+      "source": "assets/images/webpimages/six_of_pentacles.webp",
       "arcana": "minor",
       "suit": "pentacles",
       "rank": "Six",
@@ -710,7 +710,7 @@
     {
       "id": "seven-of-pentacles",
       "name": "Seven of Pentacles",
-      "source": "seven_of_pentacles.png",
+      "source": "assets/images/webpimages/seven_of_pentacles.webp",
       "arcana": "minor",
       "suit": "pentacles",
       "rank": "Seven",
@@ -723,7 +723,7 @@
     {
       "id": "eight-of-pentacles",
       "name": "Eight of Pentacles",
-      "source": "eight_of_pentacles.png",
+      "source": "assets/images/webpimages/eight_of_pentacles.webp",
       "arcana": "minor",
       "suit": "pentacles",
       "rank": "Eight",
@@ -736,7 +736,7 @@
     {
       "id": "nine-of-pentacles",
       "name": "Nine of Pentacles",
-      "source": "nine_of_pentacles.png",
+      "source": "assets/images/webpimages/nine_of_pentacles.webp",
       "arcana": "minor",
       "suit": "pentacles",
       "rank": "Nine",
@@ -749,7 +749,7 @@
     {
       "id": "ten-of-pentacles",
       "name": "Ten of Pentacles",
-      "source": "ten_of_pentacles.png",
+      "source": "assets/images/webpimages/ten_of_pentacles.webp",
       "arcana": "minor",
       "suit": "pentacles",
       "rank": "Ten",
@@ -762,7 +762,7 @@
     {
       "id": "page-of-pentacles",
       "name": "Page of Pentacles",
-      "source": "page_of_pentacles.png",
+      "source": "assets/images/webpimages/page_of_pentacles.webp",
       "arcana": "minor",
       "suit": "pentacles",
       "rank": "Page",
@@ -775,7 +775,7 @@
     {
       "id": "knight-of-pentacles",
       "name": "Knight of Pentacles",
-      "source": "knight_of_pentacles.png",
+      "source": "assets/images/webpimages/knight_of_pentacles.webp",
       "arcana": "minor",
       "suit": "pentacles",
       "rank": "Knight",
@@ -788,7 +788,7 @@
     {
       "id": "queen-of-pentacles",
       "name": "Queen of Pentacles",
-      "source": "queen_of_pentacles.png",
+      "source": "assets/images/webpimages/queen_of_pentacles.webp",
       "arcana": "minor",
       "suit": "pentacles",
       "rank": "Queen",
@@ -801,7 +801,7 @@
     {
       "id": "king-of-pentacles",
       "name": "King of Pentacles",
-      "source": "king_of_pentacles.png",
+      "source": "assets/images/webpimages/king_of_pentacles.webp",
       "arcana": "minor",
       "suit": "pentacles",
       "rank": "King",
@@ -814,7 +814,7 @@
     {
       "id": "ace-of-wands",
       "name": "Ace of Wands",
-      "source": "ace_of_wands.png",
+      "source": "assets/images/webpimages/ace_of_wands.webp",
       "arcana": "minor",
       "suit": "wands",
       "rank": "Ace",
@@ -827,7 +827,7 @@
     {
       "id": "two-of-wands",
       "name": "Two of Wands",
-      "source": "two_of_wands.png",
+      "source": "assets/images/webpimages/two_of_wands.webp",
       "arcana": "minor",
       "suit": "wands",
       "rank": "Two",
@@ -840,7 +840,7 @@
     {
       "id": "three-of-wands",
       "name": "Three of Wands",
-      "source": "three_of_wands.png",
+      "source": "assets/images/webpimages/three_of_wands.webp",
       "arcana": "minor",
       "suit": "wands",
       "rank": "Three",
@@ -853,7 +853,7 @@
     {
       "id": "four-of-wands",
       "name": "Four of Wands",
-      "source": "four_of_wands.png",
+      "source": "assets/images/webpimages/four_of_wands.webp",
       "arcana": "minor",
       "suit": "wands",
       "rank": "Four",
@@ -866,7 +866,7 @@
     {
       "id": "five-of-wands",
       "name": "Five of Wands",
-      "source": "five_of_wands.png",
+      "source": "assets/images/webpimages/five_of_wands.webp",
       "arcana": "minor",
       "suit": "wands",
       "rank": "Five",
@@ -879,7 +879,7 @@
     {
       "id": "six-of-wands",
       "name": "Six of Wands",
-      "source": "six_of_wands.png",
+      "source": "assets/images/webpimages/six_of_wands.webp",
       "arcana": "minor",
       "suit": "wands",
       "rank": "Six",
@@ -892,7 +892,7 @@
     {
       "id": "seven-of-wands",
       "name": "Seven of Wands",
-      "source": "seven_of_wands.png",
+      "source": "assets/images/webpimages/seven_of_wands.webp",
       "arcana": "minor",
       "suit": "wands",
       "rank": "Seven",
@@ -905,7 +905,7 @@
     {
       "id": "eight-of-wands",
       "name": "Eight of Wands",
-      "source": "eight_of_wands.png",
+      "source": "assets/images/webpimages/eight_of_wands.webp",
       "arcana": "minor",
       "suit": "wands",
       "rank": "Eight",
@@ -918,7 +918,7 @@
     {
       "id": "nine-of-wands",
       "name": "Nine of Wands",
-      "source": "nine_of_wands.png",
+      "source": "assets/images/webpimages/nine_of_wands.webp",
       "arcana": "minor",
       "suit": "wands",
       "rank": "Nine",
@@ -931,7 +931,7 @@
     {
       "id": "ten-of-wands",
       "name": "Ten of Wands",
-      "source": "ten_of_wands.png",
+      "source": "assets/images/webpimages/ten_of_wands.webp",
       "arcana": "minor",
       "suit": "wands",
       "rank": "Ten",
@@ -944,7 +944,7 @@
     {
       "id": "page-of-wands",
       "name": "Page of Wands",
-      "source": "page_of_wands.png",
+      "source": "assets/images/webpimages/page_of_wands.webp",
       "arcana": "minor",
       "suit": "wands",
       "rank": "Page",
@@ -957,7 +957,7 @@
     {
       "id": "knight-of-wands",
       "name": "Knight of Wands",
-      "source": "knight_of_wands.png",
+      "source": "assets/images/webpimages/knight_of_wands.webp",
       "arcana": "minor",
       "suit": "wands",
       "rank": "Knight",
@@ -970,7 +970,7 @@
     {
       "id": "queen-of-wands",
       "name": "Queen of Wands",
-      "source": "queen_of_wands.png",
+      "source": "assets/images/webpimages/queen_of_wands.webp",
       "arcana": "minor",
       "suit": "wands",
       "rank": "Queen",
@@ -983,7 +983,7 @@
     {
       "id": "king-of-wands",
       "name": "King of Wands",
-      "source": "king_of_wands.png",
+      "source": "assets/images/webpimages/king_of_wands.webp",
       "arcana": "minor",
       "suit": "wands",
       "rank": "King",

@@ -8,7 +8,7 @@ The astrology hub is `astrology/index.html`; each of the twelve signs has its ow
 - `data/astrology-readings.json` contains the paired free one-line summaries and detailed editorial readings, plus shared daily reflection themes.
 - `scripts/build_astrology.py` generates the hub, twelve profiles, and `astrology/reading-data.mjs` from those files. Run `python scripts/build_astrology.py` with Python 3.12+. No packages are required. Edit the data and builder, not the generated HTML.
 - `astrology.css`, `astrology.js`, and `reading-engine.mjs` are maintained directly. Shared Crystaleye navigation comes from `assets/site.js`.
-- `assets/images/astrology/` contains optimized WebP derivatives of all thirteen supplied images. Ten constellation images were supplied, Gemini through Pisces. Aries uses the supplied solar emblem and Taurus the sunrise emblem; they are not mislabeled as constellation images. Sun/Moon/rising emblems also appear on the hub and profiles. The source archive was treated as artwork, not instructions.
+- `assets/images/astrology/` now contains all twelve supplied zodiac portraits, the ten matching constellation images (Gemini–Pisces), and Sun/Moon/rising emblems, derived from `assets/images/webpimages/`. Portraits appear on the hub and sign heroes; constellations have separate matching profile panels. Aries and Taurus now use their own zodiac artwork. The misnamed `cyberttaurus.webp` is an exact duplicate of the Aries ram and is mapped only as an Aries alias. The actual Taurus bull comes from `tauruscyber.webp`. See `data/site-images.json` for every source-to-site mapping.
 
 ## Free readings and email preview
 

@@ -49,7 +49,7 @@ The Challenge overviews explicitly identify the existing app's custom zero-clamp
 
 The main-page history distinguishes ancient number symbolism/Pythagorean traditions from later name-and-date numerology rather than assigning one founding date to all systems. It links to Stanford's Pythagoras entry as background context. This task did not involve new live research guides; attempts to retrieve external historical reference pages were blocked by the environment's network access. No claim of live source verification is made.
 
-The user's **Archive 3.zip** exceeded the attachment tool's 32 MiB transfer limit. Its contents and images could not be inspected or incorporated. No instructions from it were adopted. A compressed or split archive below the transfer limit is needed to apply that new artwork. The wing currently uses the existing shared imagery-driven theme and original geometric number motifs; it does not claim to feature the inaccessible new images.
+The image-archive transfer limit is now resolved by the user's GitHub upload into `assets/images/webpimages/`. All 21 topic illustrations and all twelve number illustrations are placed: topic cards and topic heroes use their matching artwork; standard result routes and result grids use the corresponding digit illustration. The quick calculator blends in the matching result-number art. Birthdays without a supplied digit image, and Challenge 0, use the appropriate topic illustration instead of an incorrect numeral. The main hero features Personality, Life Path, and Destiny artwork. The new supplied eye logo is used in navigation. See `data/site-images.json` and `scripts/audit_site_images.py` for complete coverage and format checks.
 
 ## Verification
 
