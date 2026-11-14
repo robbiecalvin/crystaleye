@@ -63,3 +63,10 @@ python -m http.server 8000
 ```
 
 Visit `http://localhost:8000`. Homepage styles and interactions are in `assets/site.css` and `assets/site.js`. The three WebP images in `assets/images` are compressed derivatives of the existing Star, Moon, and Sun deck images; originals are preserved. The in-progress Karmic Lessons draft is excluded from the completed library.
+
+
+## Astrology
+
+The [astrology wing](astrology/index.html) includes all twelve sign profiles with the supplied material, Moon and rising interpretations, suggested love/friendship pairings, free daily editorial one-liners, and a birth-chart calculation explainer. The upcoming daily email is priced at **$5.99 CAD/month** and has an interactive three-sign preview with Sunday, month-opening, and month-end additions. Stripe and email delivery are intentionally deferred at the user's request; the page clearly marks subscriptions as coming soon and collects neither payments nor email addresses.
+
+See [astrology/README.md](astrology/README.md) for editable sources, rebuild instructions, reading-library limits, tests, and the future integration contract. The astrology content is generated with `python scripts/build_astrology.py`; no dependency installation is needed.

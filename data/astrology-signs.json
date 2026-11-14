@@ -1,0 +1,449 @@
+{
+  "provenance": "Base profiles supplied by the user; Moon, rising, compatibility, and editorial readings expanded for Crystaleye. Tropical zodiac. House associations are symbolic modern analogies, not actual natal house placements.",
+  "signs": [
+    {
+      "slug": "aries",
+      "name": "Aries",
+      "glyph": "♈",
+      "archetype": "The Pioneer",
+      "attributes": {
+        "Approximate dates": "March 21–April 19",
+        "Symbol": "The Ram",
+        "Element": "Fire",
+        "Modality": "Cardinal",
+        "Ruling planet": "Mars",
+        "Traditional house association": "First: identity, initiative, self-expression",
+        "Core motivation": "To act, discover, and establish independence"
+      },
+      "sections": {
+        "Personality": "Aries represents the spark that turns an idea into action. Direct, energetic, and competitive, this sign is associated with people who would rather attempt something difficult than spend three weeks discussing why it might fail. Aries values freedom, honest reactions, and the chance to meet life head-on.",
+        "Strengths": "Courage, initiative, enthusiasm, resilience, and decisive leadership. Aries can energize a stalled project, defend someone being mistreated, or take the first step when everyone else hesitates.",
+        "Challenges": "Impatience, impulsiveness, defensiveness, and difficulty sustaining interest after the initial excitement fades. Their urgency can make other people feel rushed or overlooked. Anger may arrive quickly, even when Aries has no intention of carrying a lasting grudge.",
+        "Love and relationships": "Aries tends to seek chemistry, direct communication, and an independent partner. They often express affection through initiative: making plans, pursuing someone openly, or showing up when action is needed. Relationships work best when disagreement remains respectful and neither person treats independence as rejection.",
+        "Friendship": "Adventurous, encouraging, and willing to stand beside a friend in a difficult moment. Aries may need reminders that listening can be more useful than immediately charging into battle.",
+        "Work and money": "Traditionally suited to fast-moving environments, entrepreneurship, competitive work, and roles requiring initiative. Financially, enthusiasm can encourage spontaneous purchases or ambitious risks; clear limits help turn boldness into sustainable progress.",
+        "Under stress": "May become argumentative, impatient, or determined to handle everything alone.",
+        "Growth direction": "Develop patience, finish what was started, and distinguish a meaningful challenge from a fight that serves no purpose.",
+        "Reflection prompt": "Where would a deliberate response accomplish more than an immediate reaction?"
+      },
+      "image": "sun",
+      "moon": "An Aries Moon is traditionally associated with quick, direct emotional reactions and a strong need for agency. You may feel better after moving, naming the issue, or taking a useful first step. Frustration can flare when you feel trapped or managed, then pass before someone else has caught up. Ask for a pause before an argument becomes a contest. Emotional independence can coexist with receiving comfort; you do not have to solve a feeling before sharing it.",
+      "rising": "Aries rising describes an approach to new situations that is immediate, bold, and willing to learn by doing. Others may initially read you as confident even when you are improvising. You tend to open a door by making the first move. Its traditional chart ruler is Mars; Mars’s sign, house, and aspects add context to this description. Practice checking the room before setting the pace, so initiative becomes an invitation rather than pressure.",
+      "mate": {
+        "sign": "Leo",
+        "explanation": "A playful fire-sign pairing: Leo brings warmth and creative staying power to Aries’s initiative. Both may enjoy direct affection and shared adventures. Share the spotlight and keep arguments from becoming contests of pride."
+      },
+      "friend": {
+        "sign": "Gemini",
+        "explanation": "Gemini supplies curiosity and fresh ideas; Aries supplies the courage to try them. Your friendship can stay lively when the next adventure leaves room for a real check-in and you both follow through."
+      }
+    },
+    {
+      "slug": "taurus",
+      "name": "Taurus",
+      "glyph": "♉",
+      "archetype": "The Builder",
+      "attributes": {
+        "Approximate dates": "April 20–May 20",
+        "Symbol": "The Bull",
+        "Element": "Earth",
+        "Modality": "Fixed",
+        "Ruling planet": "Venus",
+        "Traditional house association": "Second: resources, values, material security",
+        "Core motivation": "To create stability and enjoy a meaningful, tangible life"
+      },
+      "sections": {
+        "Personality": "Taurus is associated with steadiness, sensuality, and a practical appreciation of what lasts. This sign prefers substance over spectacle: reliable people, comfortable surroundings, good food, and work that produces a concrete result. Taurus often moves deliberately, building trust and momentum over time.",
+        "Strengths": "Patience, loyalty, persistence, resourcefulness, and an eye for quality. Taurus can maintain something long after the novelty has disappeared, making them a stabilizing presence in relationships and collaborative work.",
+        "Challenges": "Stubbornness, possessiveness, resistance to change, and remaining in familiar circumstances after they have stopped being healthy or useful. A desire for security can become an attempt to control every variable.",
+        "Love and relationships": "Taurus typically values consistency, physical affection, shared routines, and dependable commitment. They may express love through practical care and thoughtful comforts. Trust grows through repeated actions, although loyalty should never require tolerating mistreatment.",
+        "Friendship": "Reliable, generous, and comfortable with companionship that does not demand constant entertainment. Taurus often creates the space where everyone can settle down and feel welcome.",
+        "Work and money": "Associated with craftsmanship, design, hospitality, food, land, and patient resource management. They may prioritize saving and lasting purchases, although a love of luxury can complicate an otherwise sensible budget.",
+        "Under stress": "May dig in, withdraw, overindulge, or reject change before considering its benefits.",
+        "Growth direction": "Build flexibility alongside stability. Recognize that changing direction can protect security rather than threaten it.",
+        "Reflection prompt": "Am I preserving something valuable, or simply protecting something familiar?"
+      },
+      "image": "rising",
+      "moon": "A Taurus Moon is traditionally associated with a need for steadiness, sensory comfort, and trust built through repetition. Familiar meals, a peaceful room, or time outdoors may help you settle after a demanding day. Unexpected changes can feel personal when they disturb your sense of safety. Ask whether you need reassurance, a practical plan, or simply time to adjust. Let comfort support you without making a familiar but unhelpful situation impossible to leave.",
+      "rising": "Taurus rising suggests a measured entrance into the world: observant, grounded, and inclined to establish trust before accelerating. Others may experience you as reassuring or quietly determined. Your pace is a resource, though it need not become a rule that every new opportunity must follow. Venus is the traditional chart ruler; its placement adds detail about connection and values. Say clearly when you need time, then stay open to what the new experience could offer.",
+      "mate": {
+        "sign": "Virgo",
+        "explanation": "This earth-sign pairing often shares an appreciation for dependable actions and practical care. Taurus can soften Virgo’s perfectionism, while Virgo helps turn shared values into daily habits. Make room for affection that is not another improvement project."
+      },
+      "friend": {
+        "sign": "Cancer",
+        "explanation": "Cancer’s attentiveness and Taurus’s steadiness can make ordinary time together feel restorative. A shared meal may mean more than a grand outing. Respect each other’s boundaries instead of assuming loyalty means permanent availability."
+      }
+    },
+    {
+      "slug": "gemini",
+      "name": "Gemini",
+      "glyph": "♊",
+      "archetype": "The Connector",
+      "attributes": {
+        "Approximate dates": "May 21–June 20",
+        "Symbol": "The Twins",
+        "Element": "Air",
+        "Modality": "Mutable",
+        "Ruling planet": "Mercury",
+        "Traditional house association": "Third: communication, learning, local connections",
+        "Core motivation": "To understand, exchange ideas, and explore possibilities"
+      },
+      "sections": {
+        "Personality": "Gemini is associated with curiosity, mental agility, and a lively interest in people and information. This sign often approaches life through conversation, questions, humor, and experimentation. The Twins symbolize an ability to consider multiple perspectives, rather than the simplistic stereotype of being “two-faced.”",
+        "Strengths": "Adaptability, wit, communication, inventiveness, and quick learning. Gemini can translate complex ideas, introduce people who should know each other, and discover connections that others miss.",
+        "Challenges": "Scattered attention, inconsistency, overthinking, and talking around emotions instead of experiencing them. An appetite for novelty can make commitment feel limiting, even when depth would offer something new.",
+        "Love and relationships": "Gemini often seeks mental chemistry, humor, and room for individual interests. Conversation is a major form of intimacy. Relationships benefit when curiosity is matched by reliability and difficult feelings receive more than a clever explanation.",
+        "Friendship": "Engaging, sociable, and full of recommendations, stories, and unexpected questions. They may connect easily with many people while reserving deeper vulnerability for a smaller circle.",
+        "Work and money": "Associated with writing, teaching, sales, media, languages, marketing, and work involving varied information. Money may flow toward gadgets, courses, travel, and new interests; simple systems can help organize competing priorities.",
+        "Under stress": "May become restless, excessively talkative, distracted, or emotionally detached.",
+        "Growth direction": "Practice sustained attention, follow through on commitments, and allow uncertainty without immediately filling it with more information.",
+        "Reflection prompt": "What could I discover by staying with one subject—or one feeling—a little longer?"
+      },
+      "image": "gemini",
+      "moon": "A Gemini Moon is traditionally associated with processing feelings through language, questions, and exchange. You may need to talk something through before you know what you feel, or change your surroundings to regain perspective. Information can soothe you, but collecting more of it is not always the same as emotional clarity. Try naming one feeling without explaining it away. A person who listens without demanding a finished answer can offer the freedom you need.",
+      "rising": "Gemini rising suggests an alert, conversational way of meeting the world. You may arrive with a question, notice a useful connection, or adapt your style to the situation. Others can read you as sociable even when you are mostly observing. Mercury is the traditional chart ruler, and its placement gives this curiosity a more specific direction. Let your flexibility serve an intention: you do not need to become every version of yourself that a room might enjoy.",
+      "mate": {
+        "sign": "Libra",
+        "explanation": "Air-sign rapport can bring conversation, humor, and a shared interest in people. Libra offers consideration while Gemini keeps the relationship curious. Practice making decisions and stating difficult feelings rather than charming your way around them."
+      },
+      "friend": {
+        "sign": "Aries",
+        "explanation": "Aries is often ready to act on the ideas Gemini is delighted to invent. Give your adventures a little follow-through, and remember that friendly teasing works best when both people are enjoying it."
+      }
+    },
+    {
+      "slug": "cancer",
+      "name": "Cancer",
+      "glyph": "♋",
+      "archetype": "The Protector",
+      "attributes": {
+        "Approximate dates": "June 21–July 22",
+        "Symbol": "The Crab",
+        "Element": "Water",
+        "Modality": "Cardinal",
+        "Ruling luminary": "The Moon",
+        "Traditional house association": "Fourth: home, roots, belonging, private life",
+        "Core motivation": "To create emotional security and meaningful belonging"
+      },
+      "sections": {
+        "Personality": "Cancer is associated with emotional sensitivity, memory, protectiveness, and attachment to people and places that feel like home. Its cardinal quality makes it an active creator of connection, rather than merely a passive or timid sign. The Crab’s shell symbolizes the boundary between vulnerability and self-protection.",
+        "Strengths": "Empathy, devotion, emotional attentiveness, persistence, and the ability to nurture people or projects through uncertain beginnings.",
+        "Challenges": "Taking things personally, indirect communication, holding onto past hurts, and confusing being needed with being loved. Protective instincts can become controlling when fear replaces trust.",
+        "Love and relationships": "Cancer generally values tenderness, emotional availability, and dependable care. They may show affection by remembering details, preparing something comforting, or creating shared traditions. Healthy intimacy requires naming needs clearly instead of expecting a partner to infer them.",
+        "Friendship": "Often attentive and deeply invested in the people they consider their inner circle. They may remember significant dates and emotional details that others forget.",
+        "Work and money": "Associated with hospitality, education, care-oriented work, food, history, and home-related industries. Financial security may carry strong emotional significance, making a reliable cushion especially reassuring.",
+        "Under stress": "May retreat, become defensive, revisit old grievances, or give too much while silently resenting it.",
+        "Growth direction": "Establish boundaries, ask directly for support, and allow others to care without making yourself indispensable.",
+        "Reflection prompt": "What do I need to express plainly instead of hoping someone will notice?"
+      },
+      "image": "cancer",
+      "moon": "A Cancer Moon is traditionally associated with strong emotional memory and a need for belonging. The Moon rules Cancer, making themes of care, home, and responsiveness especially prominent in this symbolic reading. You may notice a room’s emotional tone before anyone names it. Make space to ask what you need instead of automatically tending to everyone else. A reassuring routine and direct reassurance can help you distinguish a present concern from an old hurt.",
+      "rising": "Cancer rising suggests a receptive, protective way of approaching unfamiliar situations. You may first assess whether a place or person feels safe, gradually sharing more as trust develops. Others can perceive warmth alongside reserve. The Moon is the traditional chart ruler; its natal position adds context to this changing emotional rhythm. Sensitivity can guide your boundaries, while direct questions help keep a first impression from becoming an assumption about another person’s intentions.",
+      "mate": {
+        "sign": "Pisces",
+        "explanation": "Shared water-sign sensitivity can encourage tenderness, imagination, and an intuitive feeling of being understood. Cancer may create a secure base while Pisces brings emotional breadth. Name expectations aloud and give each person room for separate feelings."
+      },
+      "friend": {
+        "sign": "Taurus",
+        "explanation": "Taurus’s steady presence can complement Cancer’s emotional attentiveness. Familiar rituals help the friendship deepen. Keep the care reciprocal, and allow changes in routine without treating them as a loss of affection."
+      }
+    },
+    {
+      "slug": "leo",
+      "name": "Leo",
+      "glyph": "♌",
+      "archetype": "The Creator",
+      "attributes": {
+        "Approximate dates": "July 23–August 22",
+        "Symbol": "The Lion",
+        "Element": "Fire",
+        "Modality": "Fixed",
+        "Ruling luminary": "The Sun",
+        "Traditional house association": "Fifth: creativity, pleasure, romance, self-expression",
+        "Core motivation": "To express individuality and give life warmth and meaning"
+      },
+      "sections": {
+        "Personality": "Leo is associated with creativity, dignity, generosity, and the desire to participate wholeheartedly in life. Recognition matters because Leo wants its contribution to be seen and valued. This can appear as theatrical confidence, but it can also take the form of quiet pride in a craft, relationship, or community.",
+        "Strengths": "Warmth, courage, loyalty, creative vision, and the ability to encourage others. Leo can make people feel celebrated and bring conviction to a shared purpose.",
+        "Challenges": "Pride, sensitivity to criticism, dependence on approval, and difficulty sharing attention. A confident presentation can conceal uncertainty about whether affection will remain when performance stops.",
+        "Love and relationships": "Leo often seeks affection, admiration, loyalty, and expressive romance. They may show love generously and enjoy making a partner feel special. Relationships thrive when appreciation is mutual and neither person must continually prove their worth.",
+        "Friendship": "Encouraging, protective, playful, and often enthusiastic about celebrating a friend’s achievements.",
+        "Work and money": "Associated with leadership, performance, design, entertainment, teaching, and visible creative work. Spending may favor memorable experiences, gifts, and personal presentation; long-term planning helps support that generosity.",
+        "Under stress": "May become dramatic, defensive, controlling, or unusually dependent on reassurance.",
+        "Growth direction": "Develop self-worth that survives criticism, make room for others to shine, and create without requiring universal applause.",
+        "Reflection prompt": "What would I still love doing if nobody praised me for it?"
+      },
+      "image": "leo",
+      "moon": "A Leo Moon is traditionally associated with a need for warm, generous affection and room for creative expression. Feeling seen may matter deeply, even if you appear self-assured. Play, celebration, and sincere appreciation can restore your spirits. When you feel overlooked, ask directly for connection before pride turns disappointment into distance. Emotional dignity does not require performing happiness; being loved in an ordinary, unpolished moment is meaningful recognition too.",
+      "rising": "Leo rising suggests a vivid, wholehearted approach to new situations. Others may notice your presence, style, or willingness to bring people together before they see the quieter parts of you. This does not require being outgoing in every setting. The Sun is the traditional chart ruler; its placement helps explain where you seek purpose and expression. Use visibility to include others, and give yourself permission to enter a room without having to carry it.",
+      "mate": {
+        "sign": "Aries",
+        "explanation": "Fire-sign enthusiasm can make this an affectionate, energetic match. Aries encourages action, while Leo adds loyalty and creative warmth. Make admiration mutual and leave room for both partners to lead."
+      },
+      "friend": {
+        "sign": "Libra",
+        "explanation": "Libra’s social ease and Leo’s generous spirit can turn simple plans into celebrations. You may enjoy art, hosting, or encouraging a shared circle. Be honest when keeping things pleasant would hide a real need."
+      }
+    },
+    {
+      "slug": "virgo",
+      "name": "Virgo",
+      "glyph": "♍",
+      "archetype": "The Refiner",
+      "attributes": {
+        "Approximate dates": "August 23–September 22",
+        "Symbol": "The Maiden, often carrying wheat",
+        "Element": "Earth",
+        "Modality": "Mutable",
+        "Ruling planet": "Mercury",
+        "Traditional house association": "Sixth: daily work, routines, service, maintenance",
+        "Core motivation": "To understand what is useful and make it work better"
+      },
+      "sections": {
+        "Personality": "Virgo is associated with discernment, practical intelligence, and attention to the details that support everyday life. This sign notices what is missing, inefficient, or in need of care. Its deeper theme is thoughtful improvement, not the stereotype that every Virgo has an immaculate desk.",
+        "Strengths": "Observation, organization, precision, adaptability, and dependable service. Virgo can turn a vague goal into manageable steps and catch problems before they spread.",
+        "Challenges": "Perfectionism, excessive criticism, worry, and tying personal worth to productivity or usefulness. Trying to eliminate every possible mistake can prevent worthwhile work from being completed.",
+        "Love and relationships": "Virgo often expresses affection through practical help, remembering preferences, and making a partner’s life easier. They tend to value honesty, competence, and consideration. A useful relationship lesson is learning when someone wants assistance and when they simply want understanding.",
+        "Friendship": "Thoughtful, observant, and often the person who notices a practical need before anyone mentions it.",
+        "Work and money": "Associated with editing, research, analysis, administration, technical work, and quality control. Their financial approach may emphasize planning and value, although excessive comparison can turn ordinary decisions into exhausting projects.",
+        "Under stress": "May overwork, fixate on flaws, micromanage, or become sharply self-critical.",
+        "Growth direction": "Accept workable imperfection, rest without earning it first, and recognize that care does not require constant correction.",
+        "Reflection prompt": "What is already good enough to use, share, or enjoy?"
+      },
+      "image": "virgo",
+      "moon": "A Virgo Moon is traditionally associated with finding emotional steadiness through useful routines, clarity, and practical care. You may notice the small detail that would make a difficult day easier. When worried, however, the urge to fix everything can turn inward as criticism. Ask whether the moment needs a solution or compassionate company. Rest, imperfect expression, and receiving help belong in your emotional toolkit; you are more than the person who keeps things working.",
+      "rising": "Virgo rising suggests an observant, considered approach to unfamiliar situations. You may scan for what is needed and quietly organize a useful response. Others can initially see competence before recognizing your humor or sensitivity. Mercury is the traditional chart ruler, and its placement adds detail to how you observe and communicate. Preparation can support you without becoming a condition for participation. Let people encounter a work in progress rather than waiting to feel flawless.",
+      "mate": {
+        "sign": "Taurus",
+        "explanation": "An earth-sign connection can make care tangible through dependable routines and shared values. Taurus offers ease; Virgo offers thoughtful attention. Keep your home and relationship from becoming a checklist that leaves no room for pleasure."
+      },
+      "friend": {
+        "sign": "Scorpio",
+        "explanation": "Scorpio’s depth and Virgo’s discernment can create a loyal friendship built on substantive conversation. You may appreciate each other’s discretion. Ask before analyzing a friend’s motives or offering an unsolicited repair plan."
+      }
+    },
+    {
+      "slug": "libra",
+      "name": "Libra",
+      "glyph": "♎",
+      "archetype": "The Diplomat",
+      "attributes": {
+        "Approximate dates": "September 23–October 22",
+        "Symbol": "The Scales",
+        "Element": "Air",
+        "Modality": "Cardinal",
+        "Ruling planet": "Venus",
+        "Traditional house association": "Seventh: partnership, agreements, one-to-one relationships",
+        "Core motivation": "To create fairness, connection, and balanced exchange"
+      },
+      "sections": {
+        "Personality": "Libra is associated with social intelligence, aesthetic awareness, and the ability to see competing perspectives. This sign actively seeks connection and cooperation. Its interest in harmony can produce skilled diplomacy, although genuine fairness sometimes requires an uncomfortable conversation.",
+        "Strengths": "Tact, collaboration, charm, thoughtful judgment, and an instinct for proportion. Libra can help people negotiate differences and create environments that feel welcoming and considered.",
+        "Challenges": "Indecision, people-pleasing, avoidance of conflict, and adjusting too much to another person’s preferences. Understanding every side of a question can make it difficult to choose one.",
+        "Love and relationships": "Partnership is a central Libra theme. They often value mutual respect, shared experiences, romance, and considerate communication. Relationships become stronger when Libra expresses preferences clearly and allows disagreement without treating it as a threat to connection.",
+        "Friendship": "Sociable, thoughtful, and skilled at bringing people together. They may need to resist becoming the permanent mediator in other people’s disputes.",
+        "Work and money": "Associated with mediation, law, design, client relations, communications, and collaborative creative work. Spending may favor beauty and shared experiences; clear priorities help balance pleasure with financial commitments.",
+        "Under stress": "May become avoidant, passive-aggressive, indecisive, or preoccupied with others’ approval.",
+        "Growth direction": "Make decisions with incomplete certainty, set boundaries, and recognize that fairness includes your own needs.",
+        "Reflection prompt": "What would I choose if I did not have to keep everyone pleased?"
+      },
+      "image": "libra",
+      "moon": "A Libra Moon is traditionally associated with a need for considerate exchange, relational balance, and a calm environment. You may discover what you feel through a thoughtful conversation with someone you trust. Tension can tempt you to accommodate too quickly, leaving your own preference unspoken. Practice naming that preference before negotiating. Harmony becomes more nourishing when it can contain disagreement; you do not have to manage another person’s every reaction to be a caring companion.",
+      "rising": "Libra rising suggests a socially aware, diplomatic way of entering new situations. Others may notice your tact, aesthetic sense, or effort to put people at ease. A pleasant introduction need not be a promise to agree. Venus is the traditional chart ruler; its placement adds context about your style of connection and what you value. Allow your own preferences into the first conversation so the relationship begins with a real person, rather than an endlessly adaptable host.",
+      "mate": {
+        "sign": "Gemini",
+        "explanation": "Air-sign curiosity can make conversation an enduring source of attraction. Libra brings consideration and Gemini brings fresh perspectives. Clear agreements help this lively connection stay grounded when decisions or difficult emotions arrive."
+      },
+      "friend": {
+        "sign": "Leo",
+        "explanation": "Leo’s wholehearted encouragement and Libra’s thoughtfulness can create a friendship full of shared pleasures. Celebrate each other without turning appreciation into an obligation, and say when you would prefer a quiet night."
+      }
+    },
+    {
+      "slug": "scorpio",
+      "name": "Scorpio",
+      "glyph": "♏",
+      "archetype": "The Investigator",
+      "attributes": {
+        "Approximate dates": "October 23–November 21",
+        "Symbol": "The Scorpion",
+        "Element": "Water",
+        "Modality": "Fixed",
+        "Ruling planets": "Mars traditionally; Pluto in modern astrology",
+        "Traditional house association": "Eighth: shared resources, intimacy, endings, transformation",
+        "Core motivation": "To discover what is real and form bonds with depth"
+      },
+      "sections": {
+        "Personality": "Scorpio is associated with emotional intensity, privacy, determination, and an interest in what lies beneath appearances. This sign tends to value depth over casual disclosure. Its symbolism concerns vulnerability, power, and transformation; it does not make someone inherently dangerous, manipulative, or untrustworthy.",
+        "Strengths": "Focus, loyalty, persistence, discretion, and willingness to confront difficult subjects. Scorpio can remain engaged with complex situations that others would prefer to avoid.",
+        "Challenges": "Suspicion, jealousy, secrecy, resentment, and attempts to control circumstances to prevent emotional exposure. A strong interpretation of someone’s motives can feel certain without being accurate.",
+        "Love and relationships": "Scorpio often seeks honesty, emotional depth, loyalty, and substantial trust. They may take time to reveal themselves fully. Healthy intimacy develops through consent, openness, and dependable behavior—not tests of devotion or demands for unrestricted access.",
+        "Friendship": "Selective and deeply committed once trust develops. They often prefer a few substantial relationships to a large circle of casual connections.",
+        "Work and money": "Associated with investigation, research, strategy, crisis-oriented work, and the management of shared resources. Their financial approach may be private and deliberate, although emotional power struggles can complicate joint decisions.",
+        "Under stress": "May withdraw, obsess over unanswered questions, test others, or hold tightly to a grievance.",
+        "Growth direction": "Separate intuition from evidence, communicate fears directly, and allow vulnerability without surrendering boundaries.",
+        "Reflection prompt": "What am I trying to control because I am afraid to feel uncertain?"
+      },
+      "image": "scorpio",
+      "moon": "A Scorpio Moon is traditionally associated with emotionally intense, private responses and a need for dependable trust. You may want to understand what a feeling means before exposing it. Depth can be a gift, but uncertainty is not proof that someone is hiding something. Ask a clear question rather than testing loyalty. Choose people who respect confidentiality and boundaries, and let vulnerability develop through repeated, consensual acts of honesty rather than total disclosure all at once.",
+      "rising": "Scorpio rising suggests a focused, observant approach to the unfamiliar. Others may sense reserve or intensity before you decide how much to reveal. Privacy can be a deliberate boundary rather than a problem to overcome. Mars is the traditional chart ruler; modern astrology also considers Pluto, whose placement adds another interpretive layer. Let observation remain curious: a first impression is useful information, but it does not give unrestricted access to someone else’s motives.",
+      "mate": {
+        "sign": "Cancer",
+        "explanation": "Water-sign depth can support a relationship with strong loyalty and emotional attentiveness. Cancer offers nurturing warmth, while Scorpio brings focus and a willingness to face difficult subjects. Avoid loyalty tests, and make security a shared practice."
+      },
+      "friend": {
+        "sign": "Virgo",
+        "explanation": "Virgo’s practical honesty can complement Scorpio’s preference for substance. Quiet support and confidential conversations may matter more than a busy social calendar. Give each other permission to say, “I just need you to listen.”"
+      }
+    },
+    {
+      "slug": "sagittarius",
+      "name": "Sagittarius",
+      "glyph": "♐",
+      "archetype": "The Explorer",
+      "attributes": {
+        "Approximate dates": "November 22–December 21",
+        "Symbol": "The Archer, often depicted as a centaur",
+        "Element": "Fire",
+        "Modality": "Mutable",
+        "Ruling planet": "Jupiter",
+        "Traditional house association": "Ninth: philosophy, higher learning, travel, worldview",
+        "Core motivation": "To expand experience and discover meaning"
+      },
+      "sections": {
+        "Personality": "Sagittarius is associated with exploration, frankness, humor, and the pursuit of a larger perspective. The journey may be geographical, intellectual, spiritual, or creative. This sign wants room to ask big questions and discover possibilities beyond familiar assumptions.",
+        "Strengths": "Optimism, generosity, independence, adaptability, and an ability to inspire others with a broader vision.",
+        "Challenges": "Overpromising, restlessness, bluntness, and treating personal convictions as universal truth. Confidence in what might happen can outrun attention to what must actually be done.",
+        "Love and relationships": "Sagittarius often values honesty, humor, shared discovery, and freedom within commitment. They may express affection through experiences and enthusiastic encouragement. Relationships benefit when independence is paired with clear agreements and consistent follow-through.",
+        "Friendship": "Adventurous, candid, and often ready to offer perspective when a situation feels suffocating. Their encouragement is most useful when it leaves room for another person’s immediate reality.",
+        "Work and money": "Associated with teaching, publishing, travel, communication, entrepreneurship, and work involving a mission or broad audience. Spending may favor experiences and opportunities; practical checks help keep optimism from becoming overextension.",
+        "Under stress": "May escape into new plans, minimize difficulties, become preachy, or resist necessary commitments.",
+        "Growth direction": "Practice tact, attend to details, and discover the freedom that comes from keeping a chosen commitment.",
+        "Reflection prompt": "Which possibility deserves enough commitment to become real?"
+      },
+      "image": "sagittarius",
+      "moon": "A Sagittarius Moon is traditionally associated with a need for emotional space, honest conversation, and a sense of possibility. Learning, movement, or a wider perspective can help you recover your optimism. Yet an inspiring explanation may arrive before a difficult feeling has received attention. Stay with the immediate experience long enough to acknowledge it. Freedom can include choosing a dependable person and returning to a conversation, rather than always finding another horizon.",
+      "rising": "Sagittarius rising suggests an open, exploratory way of meeting life. Others may notice humor, candor, or enthusiasm for a bigger question. You may begin by looking for what is possible rather than cataloguing obstacles. Jupiter is the traditional chart ruler, with its placement adding context to your search for growth. Keep curiosity alongside conviction, and check how your words land. A welcoming invitation leaves room for someone whose experience differs from your own.",
+      "mate": {
+        "sign": "Aquarius",
+        "explanation": "An appetite for freedom, ideas, and unconventional experiences can make this an energizing match. Sagittarius brings exploration and Aquarius brings independent perspective. Discuss commitment explicitly so autonomy and reliability support each other."
+      },
+      "friend": {
+        "sign": "Aries",
+        "explanation": "Aries’s initiative meets Sagittarius’s enthusiasm for discovery. You may encourage each other to try something unfamiliar. Keep the friendship generous by respecting different limits and following through after the exciting plan is made."
+      }
+    },
+    {
+      "slug": "capricorn",
+      "name": "Capricorn",
+      "glyph": "♑",
+      "archetype": "The Strategist",
+      "attributes": {
+        "Approximate dates": "December 22–January 19",
+        "Symbol": "The Sea-Goat",
+        "Element": "Earth",
+        "Modality": "Cardinal",
+        "Ruling planet": "Saturn",
+        "Traditional house association": "Tenth: responsibility, vocation, reputation, public contribution",
+        "Core motivation": "To build something durable and earn self-respect"
+      },
+      "sections": {
+        "Personality": "Capricorn is associated with discipline, ambition, practicality, and awareness of consequences. This sign tends to think in terms of structure and time: what is required, what can be sustained, and what will remain useful later. The Sea-Goat also carries imaginative symbolism beyond Capricorn’s familiar reputation for seriousness.",
+        "Strengths": "Patience, strategic thinking, responsibility, resourcefulness, and persistence through setbacks. Capricorn can translate an ambitious goal into a realistic long-term effort.",
+        "Challenges": "Overwork, rigidity, pessimism, emotional reserve, and measuring worth through achievement or status. Competence can become a shield against admitting vulnerability or asking for help.",
+        "Love and relationships": "Capricorn often values reliability, integrity, and shared long-term intentions. Affection may appear through consistent presence and practical commitment. Relationships deepen when responsibility is accompanied by tenderness, play, and explicit emotional expression.",
+        "Friendship": "Selective, dependable, and often willing to provide concrete support when circumstances become difficult.",
+        "Work and money": "Associated with operations, management, engineering, administration, and institution-building. They may favor saving, planning, and durable purchases, although security can become an endlessly moving target.",
+        "Under stress": "May become controlling, emotionally distant, excessively demanding, or convinced they must carry everything alone.",
+        "Growth direction": "Allow rest and pleasure, share responsibility, and build an identity that includes more than usefulness and achievement.",
+        "Reflection prompt": "What deserves a place in my life even if it produces nothing measurable?"
+      },
+      "image": "capricorn",
+      "moon": "A Capricorn Moon is traditionally associated with a need for emotional reliability, dignity, and a sense that life has a workable structure. You may care deeply while showing it through responsibility rather than immediate disclosure. Under strain, competence can become a reason to carry everything alone. Let trusted people know what is difficult before exhaustion speaks for you. Comfort does not have to be earned by finishing a task, and a feeling need not be productive to deserve time.",
+      "rising": "Capricorn rising suggests a deliberate, responsible approach to unfamiliar situations. Others may initially see composure or seriousness, even when your private self is playful. You may prefer to understand expectations before taking a visible role. Saturn is the traditional chart ruler; its placement adds detail about boundaries, effort, and timing. Allow preparation to help you enter the room, then leave room for warmth. Respect can grow through honesty about your limits as well as visible competence.",
+      "mate": {
+        "sign": "Taurus",
+        "explanation": "Shared earth-sign values can support patience, loyalty, and long-term plans. Taurus can remind Capricorn to enjoy what is being built, while Capricorn contributes structure. Let tenderness and rest be part of the plan from the beginning."
+      },
+      "friend": {
+        "sign": "Pisces",
+        "explanation": "Pisces’s imagination and Capricorn’s practical support can help a friendship turn ideas into something tangible. Honor each other’s different paces, and make sure encouragement does not slip into managing or rescuing."
+      }
+    },
+    {
+      "slug": "aquarius",
+      "name": "Aquarius",
+      "glyph": "♒",
+      "archetype": "The Innovator",
+      "attributes": {
+        "Approximate dates": "January 20–February 18",
+        "Symbol": "The Water Bearer",
+        "Element": "Air",
+        "Modality": "Fixed",
+        "Ruling planets": "Saturn traditionally; Uranus in modern astrology",
+        "Traditional house association": "Eleventh: groups, networks, shared ideals, future goals",
+        "Core motivation": "To preserve independence and improve collective possibilities"
+      },
+      "sections": {
+        "Personality": "Aquarius is associated with independent thought, unconventional perspectives, and an interest in systems and communities. Despite its Water Bearer symbol, it is an air sign. Its outlook often asks how established rules could be redesigned and how people might live differently.",
+        "Strengths": "Originality, principled thinking, inventiveness, intellectual independence, and the ability to connect individual concerns with broader patterns.",
+        "Challenges": "Emotional detachment, stubbornness, contrarianism, and becoming more invested in an ideal than in the people affected by it. Independence can become isolation when ordinary needs for closeness feel inconvenient.",
+        "Love and relationships": "Aquarius often values friendship, intellectual connection, autonomy, and acceptance of individuality. They may prefer relationships with consciously chosen expectations. Emotional closeness grows when personal feelings receive the same attention as abstract ideas.",
+        "Friendship": "Often drawn to varied communities and people who challenge conventional categories. Aquarius may be socially connected while remaining private about personal vulnerabilities.",
+        "Work and money": "Associated with technology, science, systems design, research, community organizing, and social innovation. Spending may support unusual interests or shared causes; practical evaluation helps distinguish a useful innovation from an appealing theory.",
+        "Under stress": "May intellectualize feelings, withdraw, become rigidly ideological, or reject advice simply because it feels restrictive.",
+        "Growth direction": "Stay emotionally present, reconsider cherished positions, and make room for individual complexity within broad principles.",
+        "Reflection prompt": "How can I bring my ideals into the way I treat the person directly in front of me?"
+      },
+      "image": "aquarius",
+      "moon": "An Aquarius Moon is traditionally associated with a need for autonomy, intellectual breathing room, and relationships that respect individuality. You may step back to understand a feeling before discussing it. That perspective can be helpful, but explaining emotion is not always the same as being present with it. Try describing the personal impact before considering the wider theory. Belonging does not require constant agreement, and accepting comfort does not cancel your independence.",
+      "rising": "Aquarius rising suggests an independent, questioning approach to new environments. Others may notice originality, a distinctive style, or an interest in how the group works. You may connect easily around an idea while taking more time to reveal private concerns. Saturn is the traditional chart ruler; modern astrology also considers Uranus. Their placements provide context beyond a generic description of rebellion. Let experimentation include ordinary human needs, and stay curious about the people behind a system.",
+      "mate": {
+        "sign": "Sagittarius",
+        "explanation": "A shared interest in autonomy and possibility can make this pairing lively and open-minded. Aquarius contributes a future-oriented perspective; Sagittarius brings exploration. Translate abstract freedom into practical agreements about time, affection, and reliability."
+      },
+      "friend": {
+        "sign": "Gemini",
+        "explanation": "Gemini’s curiosity can meet Aquarius’s inventive thinking in long conversations and unusual projects. Make space for personal check-ins alongside the ideas, and remember that changing a position can show learning rather than inconsistency."
+      }
+    },
+    {
+      "slug": "pisces",
+      "name": "Pisces",
+      "glyph": "♓",
+      "archetype": "The Dreamer",
+      "attributes": {
+        "Approximate dates": "February 19–March 20",
+        "Symbol": "Two Fish swimming in opposite directions",
+        "Element": "Water",
+        "Modality": "Mutable",
+        "Ruling planets": "Jupiter traditionally; Neptune in modern astrology",
+        "Traditional house association": "Twelfth: solitude, contemplation, hidden experience, release",
+        "Core motivation": "To experience connection, imagination, and meaning beyond rigid boundaries"
+      },
+      "sections": {
+        "Personality": "Pisces is associated with imagination, compassion, sensitivity, and receptiveness to atmosphere and symbolism. This sign often approaches experience through feeling, imagery, music, or intuition. The two Fish suggest the tension between participating in everyday life and being drawn toward an inner world.",
+        "Strengths": "Creativity, empathy, adaptability, tenderness, and an ability to recognize emotional complexity without demanding a simple explanation.",
+        "Challenges": "Unclear boundaries, idealization, avoidance, indecision, and taking responsibility for feelings that belong to other people. Compassion can become self-erasure when limits are treated as unkind.",
+        "Love and relationships": "Pisces often seeks emotional resonance, affection, imagination, and a sense of deep understanding. They may express love through creativity and attentive care. Relationships work best when romantic hopes are supported by clear communication and observable behavior.",
+        "Friendship": "Often a gentle listener and imaginative companion. Pisces benefits from reciprocal friendships where support does not become a permanent rescue role.",
+        "Work and money": "Associated with music, visual art, film, writing, supportive work, and imaginative problem-solving. Financial routines can provide useful grounding, especially when generosity or avoidance makes tracking resources difficult.",
+        "Under stress": "May retreat into fantasy, postpone decisions, become overwhelmed, or agree to things they do not actually want.",
+        "Growth direction": "Establish compassionate boundaries, check impressions against evidence, and give creative ambitions a practical structure.",
+        "Reflection prompt": "What boundary would let me remain caring without abandoning myself?"
+      },
+      "image": "pisces",
+      "moon": "A Pisces Moon is traditionally associated with emotional receptivity, imagination, and a need for restorative space. Music, creative expression, or quiet may help you understand feelings that arrive before words. You may absorb a room’s mood without realizing it is not entirely your own. Ask what belongs to you and what you are choosing to carry for someone else. Boundaries can protect compassion, making it possible to remain caring without becoming responsible for every difficult feeling nearby.",
+      "rising": "Pisces rising suggests a receptive, imaginative way of meeting the world. Others may notice gentleness, an adaptable style, or a quality that is difficult to categorize. You may first sense an atmosphere and decide how to engage afterward. Jupiter is the traditional chart ruler; modern astrology also considers Neptune. Their placements bring context to this sensitivity. Check impressions against what is actually said, and let a clear boundary support your openness rather than treating it as a failure of kindness.",
+      "mate": {
+        "sign": "Cancer",
+        "explanation": "Water-sign empathy can support tenderness, creativity, and an affectionate sense of home. Cancer may offer continuity while Pisces opens space for imagination. Keep needs and boundaries explicit so intuition does not become a substitute for conversation."
+      },
+      "friend": {
+        "sign": "Capricorn",
+        "explanation": "Capricorn’s grounded encouragement and Pisces’s imaginative perspective can help each person see more options. Keep the care reciprocal: one friend need not always be the organizer and the other the dreamer."
+      }
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "description": "Original date-based editorial reflection prompts. No live planetary transits or natal chart calculation. Teasers summarize the same entries used in the detailed preview. A shared daily focus adds variation across the calendar.",
+  "themes": [
+    {
+      "title": "One thing at a time",
+      "text": "Give one task your undivided attention and let the rest wait its turn."
+    },
+    {
+      "title": "A clearer conversation",
+      "text": "Choose a conversation that would benefit from fewer assumptions and one thoughtful question."
+    },
+    {
+      "title": "Room to receive",
+      "text": "Notice an offer of practical help and consider accepting it without immediately returning the favor."
+    },
+    {
+      "title": "A gentler pace",
+      "text": "Build a little breathing room between commitments instead of treating every gap as wasted time."
+    },
+    {
+      "title": "Small brave choices",
+      "text": "Try one manageable action you have been avoiding; it need not become a dramatic reinvention."
+    },
+    {
+      "title": "The useful boundary",
+      "text": "Make your availability clear so that a generous intention does not become an unspoken obligation."
+    },
+    {
+      "title": "Follow the curiosity",
+      "text": "Let a sincere question guide you toward something you would like to understand more deeply."
+    },
+    {
+      "title": "Enough for now",
+      "text": "Decide what would count as enough progress before the day becomes an endless moving target."
+    },
+    {
+      "title": "Care in practice",
+      "text": "Turn one caring intention into a concrete gesture that respects both people’s capacity."
+    },
+    {
+      "title": "A little perspective",
+      "text": "Take a step back from the immediate story and ask what another reasonable explanation might be."
+    },
+    {
+      "title": "Keep the promise small",
+      "text": "Choose a promise you can keep today rather than a larger one that depends on perfect conditions."
+    },
+    {
+      "title": "Pleasure has a place",
+      "text": "Leave room for an ordinary pleasure that does not need to improve you or impress anyone."
+    },
+    {
+      "title": "Name the need",
+      "text": "Say what would help you feel supported instead of hoping the right person will infer it."
+    },
+    {
+      "title": "Make it workable",
+      "text": "Simplify one plan until its next step fits the time and resources you actually have."
+    },
+    {
+      "title": "Trust through action",
+      "text": "Look for consistent behavior and offer one dependable action of your own."
+    },
+    {
+      "title": "Try another way",
+      "text": "Experiment with a small change while keeping the parts of your routine that genuinely support you."
+    },
+    {
+      "title": "Listen all the way",
+      "text": "Let someone complete a thought before preparing the explanation or solution you want to offer."
+    },
+    {
+      "title": "An honest reset",
+      "text": "Acknowledge what is not working and make one adjustment without turning it into a verdict on yourself."
+    },
+    {
+      "title": "Share the weight",
+      "text": "Ask who can contribute before assuming every responsibility needs to stay with you."
+    },
+    {
+      "title": "Notice what remains",
+      "text": "Give a little attention to the people and practices that still support you after novelty fades."
+    },
+    {
+      "title": "Leave a little space",
+      "text": "Allow an unanswered question to remain open while you take care of what is clear."
+    },
+    {
+      "title": "A modest beginning",
+      "text": "Begin with a step small enough to repeat instead of waiting for an ideal burst of motivation."
+    },
+    {
+      "title": "Let it be seen",
+      "text": "Share a useful piece of work or an honest feeling before you have polished away every uncertainty."
+    },
+    {
+      "title": "Return to the body",
+      "text": "Pause for food, water, movement, or rest before asking yourself for another difficult decision."
+    },
+    {
+      "title": "Choose with care",
+      "text": "Check whether your next yes serves a real value or only a moment of pressure."
+    },
+    {
+      "title": "Good company",
+      "text": "Seek the kind of companionship in which you can be present without having to perform."
+    },
+    {
+      "title": "Practice the repair",
+      "text": "Make a specific apology or adjustment where it would help, and let changed behavior do the rest."
+    },
+    {
+      "title": "A clearer finish line",
+      "text": "Give an open-ended task a stopping point so completion can become something you recognize."
+    },
+    {
+      "title": "Keep what helps",
+      "text": "Retain one useful lesson while letting go of the demand to handle everything exactly as before."
+    },
+    {
+      "title": "Room for play",
+      "text": "Try something low-stakes whose only purpose is curiosity, enjoyment, or a little shared laughter."
+    },
+    {
+      "title": "Look at the evidence",
+      "text": "Notice what has actually changed before deciding that an old pattern is repeating itself."
+    }
+  ],
+  "readings": {
+    "aries": [
+      {
+        "teaser": "Main character energy is great; let someone else finish a sentence.",
+        "body": "A conversation may benefit from your courage, but it also needs your attention. Say the honest thing without racing to the final word. If you feel yourself turning a difference of opinion into a competition, ask one sincere question before responding. Your initiative becomes more useful when another person has room to contribute."
+      },
+      {
+        "teaser": "Your next big move could use a tiny pause button.",
+        "body": "Choose one action that advances a real priority instead of reacting to everything that feels urgent. A brief pause can help you see whether you are solving a problem or simply chasing momentum. Put a finish line on the task before starting. You can be bold and still check the details."
+      },
+      {
+        "teaser": "You can lead the charge without charging your social battery into debt.",
+        "body": "Notice where your enthusiasm is doing too much work for the group. Ask someone to share the responsibility before resentment builds. A direct request is more useful than expecting people to match your pace automatically. Save some energy for something that restores you rather than proving how much you can carry."
+      },
+      {
+        "teaser": "The challenge today is finishing, not finding a shinier starting line.",
+        "body": "Return to a promise or project that lost its initial sparkle. Take one manageable step toward completion before inviting another possibility into the day. Consistency does not have to feel dramatic to count as progress. Let a modest, finished action give you more confidence than an impressive list of intentions."
+      }
+    ],
+    "taurus": [
+      {
+        "teaser": "Comfort zone called; it says you can visit without moving back in.",
+        "body": "Keep one comforting routine while making space for a small change. You do not have to replace everything familiar to discover a better way forward. Ask what is genuinely supporting your stability and what is simply hard to release. A low-stakes experiment can help you learn without demanding an immediate commitment."
+      },
+      {
+        "teaser": "Your peace is precious; your stubborn streak is not a security system.",
+        "body": "Give a disagreement time to breathe before deciding it threatens your values. State what matters to you clearly, then listen for the part of another view that might be useful. You can maintain a boundary without defending every old preference. Flexibility may protect the very steadiness you are trying to keep."
+      },
+      {
+        "teaser": "Treat yourself, but perhaps let the budget attend the meeting.",
+        "body": "Choose a pleasure that leaves you feeling cared for rather than obligated afterward. A little attention to your resources can make enjoyment easier, not smaller. Name what you actually want before reaching for a purchase or automatic yes. Lasting comfort often starts with a practical decision that respects tomorrow too."
+      },
+      {
+        "teaser": "Slow and steady is a strategy, not an excuse to ghost the first step.",
+        "body": "Make one concrete move on something you have been patiently considering. You may not get complete certainty before beginning, and a small trial is allowed to remain a trial. Decide what enough preparation looks like. Your steadiness becomes an advantage when it gives useful action a sustainable rhythm."
+      }
+    ],
+    "gemini": [
+      {
+        "teaser": "Close a mental tab before opening another personality subplot.",
+        "body": "Pick one conversation or task to receive your full attention. The next interesting idea will still be there after you follow the current one a little deeper. If your mind is running ahead, write the distraction down and return. Completing a thought can bring more relief than collecting another possible direction."
+      },
+      {
+        "teaser": "A clever reply is lovely; an honest feeling has entered the chat.",
+        "body": "Let a personal conversation include something that cannot be polished into a joke. You do not need a complete explanation before admitting that something matters. Ask for time if you need it, then return to the subject. Your curiosity can help you understand a feeling without talking yourself out of having it."
+      },
+      {
+        "teaser": "You have range; your calendar still has limits.",
+        "body": "Look at your commitments before offering another enthusiastic yes. Choose the invitation that serves a real interest rather than the fear of missing an interesting story. Clear expectations will protect your flexibility better than a vague promise. Give someone a definite answer, even if the honest answer needs to be no."
+      },
+      {
+        "teaser": "Ask the follow-up question; the plot twist is usually in the listening.",
+        "body": "Approach someone with curiosity instead of rehearsing your next contribution. There may be a useful detail beneath a familiar story if you slow down enough to hear it. Repeat back what you understood before adding your perspective. A focused exchange can satisfy your need for connection more deeply than several distracted ones."
+      }
+    ],
+    "cancer": [
+      {
+        "teaser": "Your feelings deserve words, not a scavenger hunt.",
+        "body": "Ask directly for the care or reassurance you need instead of hoping someone decodes your silence. A request gives another person a fair chance to respond. Notice whether an old disappointment is adding weight to the present moment. You can protect your tenderness while checking what is actually happening now."
+      },
+      {
+        "teaser": "Being everyone’s emotional support crab still requires office hours.",
+        "body": "Check your capacity before becoming the place where every difficult feeling lands. Offering care does not require unlimited access to your time. A gentle boundary can make your support more sustainable and more sincere. Leave room for someone to look after you without immediately trying to repay the favor."
+      },
+      {
+        "teaser": "Nostalgia is a playlist, not a lease you have to renew.",
+        "body": "Enjoy a meaningful memory without using it as the only measure of what comes next. Something familiar may need an updated agreement rather than another attempt to recreate the past. Ask what would feel supportive in your life as it is now. A new ritual can honor a connection without freezing it in time."
+      },
+      {
+        "teaser": "Make yourself at home in your own needs for a change.",
+        "body": "Give one ordinary part of your day the attention you usually offer someone else. Prepare a meal, clear a restful corner, or make a request that would help you feel settled. This is not a reward for finishing everyone else’s tasks. Your sense of belonging also needs your active participation."
+      }
+    ],
+    "leo": [
+      {
+        "teaser": "You can shine without turning the group chat into an awards ceremony.",
+        "body": "Bring warmth to a shared effort and make a point of noticing someone else’s contribution. Generosity feels best when appreciation moves in both directions. If you are waiting to be recognized, say what support would mean to you. You do not have to amplify the performance to make a genuine need visible."
+      },
+      {
+        "teaser": "Today’s standing ovation may be one quiet thing you are proud of.",
+        "body": "Give a creative impulse a little time before deciding whether anyone else will understand it. An ordinary act of expression can reconnect you with what you enjoy for its own sake. Make something, wear something, or try something that feels personally meaningful. Your approval deserves a place beside the audience’s response."
+      },
+      {
+        "teaser": "Pride looks fabulous until it starts answering your messages.",
+        "body": "If disappointment is making you distant, consider stating the vulnerable truth instead. Someone cannot respond to a need they only see disguised as irritation. Offer a clear invitation to reconnect without demanding a dramatic gesture. Warmth and dignity can coexist with saying that your feelings were hurt."
+      },
+      {
+        "teaser": "Share the spotlight; it is not a limited-edition accessory.",
+        "body": "Invite another person to lead a piece of something you care about. You may discover more enjoyment when you are participating rather than carrying the entire mood. Ask what they want to contribute and resist polishing it into your own style. Confidence can make room without becoming any less visible."
+      }
+    ],
+    "virgo": [
+      {
+        "teaser": "Done is looking suspiciously more useful than perfect.",
+        "body": "Choose a realistic stopping point for a task that could absorb endless adjustment. Check the details that matter, then let the work be useful to someone. If you notice another flaw, ask whether fixing it changes the outcome or only delays your relief. A completed draft can teach you more than a protected ideal."
+      },
+      {
+        "teaser": "Your inner critic could use a lunch break and less authority.",
+        "body": "Notice the tone you use when something takes longer than expected. Replace one accusation with a concrete description of what would help. Food, rest, clarification, or a second pair of eyes may be more effective than pushing harder. Your ability to improve a situation begins with treating yourself as part of it."
+      },
+      {
+        "teaser": "Not every feeling is a spreadsheet asking to be fixed.",
+        "body": "Before offering advice, ask whether the person wants practical help or a listening ear. Include yourself in that question if you are trying to optimize your way through a difficult mood. Being present can be a useful contribution without producing an immediate solution. Let care arrive as attention, not another assignment."
+      },
+      {
+        "teaser": "A tiny useful step beats an elaborate plan to become a new human.",
+        "body": "Pick one routine that would make the day easier and keep the experiment modest. You do not need to redesign every habit to notice a meaningful improvement. Try the change once, observe what happens, and adjust with kindness. Consistency grows more easily around a realistic practice than a standard you already dread."
+      }
+    ],
+    "libra": [
+      {
+        "teaser": "Your preference would like a seat at the table, please.",
+        "body": "Name what you want before checking how everyone else feels about it. You can be considerate without making your own view the last item on the agenda. A clear preference gives people something honest to work with. The aim is a fair exchange, not a flawless performance of being easy to please."
+      },
+      {
+        "teaser": "Keeping the peace should not require losing your point.",
+        "body": "Address one small tension while it is still manageable. Use a direct observation and a specific request rather than waiting for the perfect diplomatic opening. Another person’s discomfort does not automatically mean you have been unfair. A connection can become stronger when it has room for an ordinary, respectful disagreement."
+      },
+      {
+        "teaser": "The prettiest option is not always the one your future self ordered.",
+        "body": "Look past presentation when considering a choice or agreement. Ask what it will feel like to live with the decision after the initial appeal fades. Give yourself a practical criterion and a reasonable deadline. Beauty can remain part of your values without becoming the only voice in the discussion."
+      },
+      {
+        "teaser": "You have considered both sides; now consider actually choosing.",
+        "body": "Make a decision that is small enough to revise if new information arrives. Waiting for universal agreement can keep you tied to someone else’s schedule. State the next step and allow it to be imperfect. Clarity often grows through participation rather than another round of imagining every possible reaction."
+      }
+    ],
+    "scorpio": [
+      {
+        "teaser": "Your intuition is interesting; ask for the receipts before sentencing.",
+        "body": "Separate what you have observed from what you are interpreting. A direct question may do more for trust than another hour of privately investigating a tone or delay. Give the answer space to be ordinary rather than forcing a hidden meaning onto it. Discernment becomes more reliable when it remains open to evidence."
+      },
+      {
+        "teaser": "Mystery is a vibe, but clear communication also has range.",
+        "body": "Share one honest detail with someone who has earned your trust. You can choose a useful level of openness without handing over every private thought. Let a request be specific enough that the other person can respond. Intimacy grows through clear, voluntary exchanges rather than a test they do not know they are taking."
+      },
+      {
+        "teaser": "You can put down the grudge without endorsing the original nonsense.",
+        "body": "Consider whether carrying an old grievance is still protecting something important. You do not owe reconciliation to anyone who has not respected your boundaries. You can still choose to redirect attention toward your own life. Name the lesson you want to keep and one piece of vigilance you are ready to release."
+      },
+      {
+        "teaser": "Depth is attractive; a spiral is just depth with bad directions.",
+        "body": "Give a persistent question a defined amount of attention, then take a grounding action. Not every uncertainty becomes clearer through more intensity. A practical task or candid conversation can interrupt the loop without dismissing what matters. Let your focus serve a decision instead of feeding a search for absolute certainty."
+      }
+    ],
+    "sagittarius": [
+      {
+        "teaser": "Adventure is calling; first, answer the message you promised to send.",
+        "body": "Honor a small commitment before following the next exciting possibility. Reliability can make your freedom easier to enjoy because fewer loose ends travel with you. Tell someone what you can genuinely deliver and when. A truthful limit will serve the connection better than an inspiring promise that has no room in your day."
+      },
+      {
+        "teaser": "Your hot take might benefit from a cool glass of tact.",
+        "body": "Share a strong opinion as an invitation to exchange perspectives, not a final verdict. Ask what experience has shaped the other person’s view. You can remain candid while choosing words that leave room for their dignity. A larger perspective begins with curiosity about a reality that is not your own."
+      },
+      {
+        "teaser": "The horizon is lovely; the next practical step is right here.",
+        "body": "Bring a broad ambition down to one action you can complete today. Identify the resource, conversation, or detail that would make the possibility more real. You do not have to lose your enthusiasm to consider logistics. A little structure can carry your vision further than another burst of hopeful planning."
+      },
+      {
+        "teaser": "Optimism is welcome; let the difficult feeling finish its sentence.",
+        "body": "Stay present with a concern before offering yourself or someone else a brighter interpretation. Acknowledging discomfort does not mean surrendering hope. Ask what needs support in the immediate situation. Your perspective will become more generous when it includes the part that cannot be solved by looking on the bright side."
+      }
+    ],
+    "capricorn": [
+      {
+        "teaser": "Your to-do list is not a character reference.",
+        "body": "Choose what actually needs to be done and leave room for being a person outside the work. Notice if you are using another task to postpone rest or a personal conversation. One clear boundary around your time can improve the quality of what remains. Reliability includes making commitments your energy can sustain."
+      },
+      {
+        "teaser": "Delegate something before you become the entire organization chart.",
+        "body": "Ask for concrete help with a responsibility you have been treating as yours alone. Explain the outcome you need without controlling every step of how someone achieves it. Shared effort may feel unfamiliar before it feels relieving. Give another person the chance to be dependable in their own way."
+      },
+      {
+        "teaser": "Build the future, but remember to inhabit this afternoon.",
+        "body": "Make a small place for enjoyment that does not need to justify itself as productive. A long-term plan is meant to support a life, not continually delay it. Notice one thing you have already built that you can appreciate now. Progress can include learning how to receive the benefit of your effort."
+      },
+      {
+        "teaser": "A solid plan can survive one honest admission that you are tired.",
+        "body": "Check whether the standard you are carrying still fits the actual circumstances. Adjust the scope or deadline before strain makes the decision for you. Stating a limit early is a responsible act, not evidence that you have failed. A sustainable next step will outlast a performance of having everything under control."
+      }
+    ],
+    "aquarius": [
+      {
+        "teaser": "Save humanity after you reply to the actual human in front of you.",
+        "body": "Bring one broad value into a small personal interaction. Listen to what a person is asking for before explaining how the wider system could work better. A thoughtful response can make your ideals tangible. You may learn something useful by staying close to the individual detail instead of moving immediately to the theory."
+      },
+      {
+        "teaser": "Being unconventional is optional; being emotionally available is a skill.",
+        "body": "Try naming the personal feeling beneath a strong opinion. You can keep your independence while letting someone know what has affected you. Give a trusted person a specific way to offer support. Connection does not require identical views, only enough presence to recognize that the relationship contains more than an exchange of ideas."
+      },
+      {
+        "teaser": "Your brilliant new system still needs a mildly boring first step.",
+        "body": "Test an interesting idea on a small, real problem before redesigning everything around it. Ask the people affected what would be useful to them. An experiment becomes more informative when you define what success would look like. Keep enough flexibility to change the design instead of defending its originality."
+      },
+      {
+        "teaser": "Plot twist: changing your mind can be the independent move.",
+        "body": "Revisit a position you have held strongly and ask what new information deserves attention. You do not owe an outdated conclusion permanent loyalty. Distinguish a meaningful principle from the habit of disagreeing. Your perspective can remain distinctive while growing more accurate, generous, or useful to the people around you."
+      }
+    ],
+    "pisces": [
+      {
+        "teaser": "Your empathy is not an unlimited data plan.",
+        "body": "Check your capacity before taking on another person’s emotional urgency. You can care and still ask for a pause or suggest another source of support. Notice which feelings remain after you step away from the conversation. A clear boundary can help compassion feel like a choice rather than a current pulling you under."
+      },
+      {
+        "teaser": "Dream big, then give the dream an actual calendar slot.",
+        "body": "Choose one imaginative idea and make a modest appointment with it. Gather the material, write the first lines, or ask the practical question that would let you begin. Inspiration does not need to disappear when a plan enters the room. A little structure can give your creativity a safer place to develop."
+      },
+      {
+        "teaser": "A vibe check is useful; a direct question is surprisingly underrated.",
+        "body": "Check an impression against what has actually been said. Sensitivity can alert you to something worth discussing without telling you the whole story. Ask for clarity rather than filling the silence with a hopeful or worrying interpretation. Give yourself permission to wait for observable behavior before deciding what a connection means."
+      },
+      {
+        "teaser": "Being kind does not require a yes in every available font.",
+        "body": "Make one answer more honest by removing the part that comes from guilt. A considerate no can protect the warmth you want to offer freely. If you need time to decide, say that instead of agreeing automatically. Relationships have more room to breathe when your kindness includes your own limits."
+      }
+    ]
+  }
+}

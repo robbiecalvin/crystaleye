@@ -1124,3 +1124,71 @@ h2 {
     transform: none;
   }
 }
+
+/* Homepage doorway to the astrology wing. */
+.astrology-entry {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  align-items: center;
+  margin-top: 85px;
+  padding-block: 45px;
+  border-block: 1px solid var(--line);
+}
+.astrology-entry-art {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+.astrology-entry-art img {
+  width: 43%;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+}
+.astrology-entry-art img:last-child {
+  width: 48%;
+  margin-top: -30px;
+}
+.astrology-entry h2 {
+  font: 51px/1.12 var(--serif);
+  letter-spacing: -1.7px;
+  margin: 22px 0;
+}
+.astrology-entry h2 em {
+  color: #bca7e2;
+  font-weight: 400;
+}
+.astrology-entry p:not(.eyebrow) {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.9;
+  max-width: 390px;
+}
+.astrology-entry .button {
+  margin-top: 15px;
+}
+.astrology-entry .text-link {
+  display: flex;
+  margin-top: 20px;
+  color: var(--gold);
+  font-size: 10px;
+}
+@media (max-width: 760px) {
+  .astrology-entry {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-top: 50px;
+    padding-block: 30px;
+  }
+  .astrology-entry-art {
+    max-width: 350px;
+    margin-inline: auto;
+  }
+  .astrology-entry h2 {
+    font-size: 43px;
+  }
+}

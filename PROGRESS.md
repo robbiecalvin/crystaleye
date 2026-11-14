@@ -138,3 +138,13 @@ Rebuild instructions are in [README.md](README.md). No environment configuration
 - Added accessible mobile navigation and progressively enhanced library search/category filters. Navigation and all guides remain available without JavaScript. No external runtime dependencies, analytics, or storage were added.
 - Browser validation covers desktop and mobile layouts, 320px width, mobile menu dismissal/navigation, category/search/reset/empty states, local PDF destinations, and the existing calculator producing 21 result cards. Checked the no-JavaScript fallback and inspected rendered desktop/mobile pages.
 - This website task does not advance the Karmic Lessons research draft or change calculator formulas and existing PDFs. Files are committed and pushed through the requested GitHub workflow; no deployment or environment publication is involved.
+
+
+## Astrology wing
+
+- Added an astrology hub and twelve static sign pages, preserving every supplied attribute and profile section. Added distinct Moon/rising readings, explainers for finding chart placements, and suggested romantic/friendship matches with symbolic-compatibility context.
+- Optimized and featured all thirteen supplied images. The archive contains ten constellation images (Gemini–Pisces), with supplied celestial emblems used for Aries and Taurus. Added the astrology wing to root-home navigation and a new homepage feature.
+- Built date-based free one-liners and an interactive three-placement email preview from a shared editorial reading engine. Sunday reflections, month-ahead previews, and last-day growth challenges combine on calendar overlaps and handle leap years. The starter library's rotation is documented; these readings do not use live planetary transits.
+- The user confirmed $5.99 CAD/month and deferred Stripe/email integration. The offer is labeled coming soon; no payment, email collection, or sending service is active.
+- Calendar/reading tests cover all signs and placement lenses, Sunday/month-boundary overlaps, leap years, invalid dates, preview shortcuts, and teaser/detail consistency. Browser checks cover profiles, local links/assets, anchors, element filters, preview controls, mobile navigation, and responsive/no-JavaScript behavior.
+- Existing numerology calculations and PDFs are preserved. This separate website task does not advance the pending Karmic Lessons PDF.
