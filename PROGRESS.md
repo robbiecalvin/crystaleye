@@ -16,9 +16,9 @@ Updated November 13, 2026 (America/Vancouver).
 
 ## Current and next topic
 
-Balance is complete. **Next: Karmic Lessons**, series 08. Stop here until the user asks to proceed. Do not generate the remaining series in a batch.
+Balance is complete. **Current: Karmic Lessons**, series 08 — research draft prepared; final PDF layout awaits an accessible copy of the user’s new Personality.pdf design reference. **Next after completion: Hidden Passion**, series 09. Do not advance while Karmic Lessons remains unfinished.
 
-After that, retain the order in [the project handoff](research/SERIES_HANDOFF.md): Hidden Passion, First–Third Life Cycles, First–Fourth Pinnacles, First–Fourth Challenges, and Birthday Number. Each position is a separate deliverable.
+After that, retain the order in [the project handoff](research/SERIES_HANDOFF.md): First–Third Life Cycles, First–Fourth Pinnacles, First–Fourth Challenges, and Birthday Number. Each position is a separate deliverable.
 
 ## Destiny / Expression conventions
 
@@ -117,3 +117,16 @@ Rebuild instructions are in [README.md](README.md). No environment configuration
 - Made cover result labels and bibliography page size configurable so the nine-result guide does not inherit master-number labels or a nearly empty extra reference page. Compared old and new builders on the previous Minor Soul’s Desire data: both PDF and Markdown were byte-for-byte identical.
 - Final Balance rebuild into temporary output paths reproduced both files exactly. Internal HTTP download verification returned 200, application/pdf, and the exact saved bytes.
 - Calculator and previous guide outputs remain unchanged. The completed guide, research notes, builder adjustment, README and progress are included in the GitHub commit/push workflow requested by the user. No website deployment or environment publication is involved.
+
+
+## Karmic Lessons — research draft, not complete
+
+- The user now requires all remaining PDFs to match the structure and appearance of newly uploaded Personality.pdf. The file tool rejected transfer because the attachment exceeds 32 MiB. Its contents and layout have not been inspected. A compressed copy below the limit or smaller split PDF parts are required to finish layout work. No instructions from the uninspected attachment were adopted.
+- Saved [structured research content](data/karmic-lessons.json), [editable reading draft](content/karmic-lessons.md), and [source notes](research/karmic-lessons-sources.md). Data is explicitly marked draft_pending_design_reference. The provisional PDF is retained outside the checkout at /tmp/karmic-work/Karmic_Lessons_Research_Draft.pdf, not published as a completed output in output/pdf.
+- Karmic Lessons use the set of birth-name letter values absent from 1–9. The schema separates result_model, valid_lesson_values, lesson_profiles, empty_set_reading, and example_cases. Multiple lessons are not summed or reduced. None is an empty set, not Lesson 0 or proof that personal development is complete. Masters are not lesson members.
+- Three publisher families and twelve cited articles were consulted live. Decoz supplies the direct missing-value method and all nine lessons. Numerology.com supplies general symbolism only. Decoz’s and Sarah Yip’s debt articles clarify a different category, not more lesson interpretations. A second accessible direct Karmic Lessons publisher remains a material source gap.
+- The nine original profile drafts are 195–203 words each. Missing letters are not presented as proof of personal deficiency, past-life events, moral debt, deserved hardship or required future experiences. Calculator logic remains unchanged.
+- Verified calculator cases: James Oliver Smith → [7]; James Smyth → [3, 6, 9]; James Oliver Smyth → []; A A → [2, 3, 4, 5, 6, 7, 8, 9]. Checked repeated-letter/punctuation invariance and rejection of empty input. Independently counted every frequency-table cell.
+- Validated the provisional 15-page PDF: all 27 profile paragraphs and nine evidence notes match the structured content; all page dimensions and numbering are correct; every page was rendered and visually inspected. This does not validate a match to the newly supplied design. All twelve exact cited URLs returned HTTP 200 with article content.
+- Added set-valued profile catalogs and optional methodology tables to the shared builder. Draft PDF/Markdown reproduce byte-for-byte; old/new builders produce identical Balance outputs for the previous single-result schema. Final output must be rebuilt and fully checked after the new template is available.
+- The pending-reference state, research draft, reusable builder changes and user’s new design requirement are saved as work in progress for the GitHub sync workflow. No Karmic Lessons completion claim, environment publication or website deployment is made.

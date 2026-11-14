@@ -47,3 +47,6 @@ Build Balance with:
 ```
 
 Its [JSON](data/balance.json), [Markdown](content/balance.md), and [research notes](research/balance-sources.md) follow the sourced 1–9 Balance convention. Master totals are reduced for this guide, unlike the calculator’s current Balance formula; the correspondence is documented without changing calculator behavior. Direct Balance evidence comes from Decoz, while the other cited publishers supply explicitly labeled general-number and Life Path comparisons.
+
+
+Karmic Lessons is in progress: [data](data/karmic-lessons.json), [reading draft](content/karmic-lessons.md), and [research notes](research/karmic-lessons-sources.md). It uses a set-valued result model, with multiple or no selected lessons. The user’s new Personality.pdf must be inspected and matched before the final PDF is produced; the uploaded attachment exceeded the file tool’s 32 MiB transfer limit. Previous layout output is provisional and is not listed as a completed guide. The same new design will apply to subsequent guides.

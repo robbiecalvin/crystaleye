@@ -13,7 +13,7 @@ from pathlib import Path
 from reportlab.lib import colors
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.pdfgen.canvas import Canvas
-from reportlab.platypus import Paragraph
+from reportlab.platypus import Paragraph, Table, TableStyle
 
 ROOT = Path(__file__).resolve().parents[1]
 NAVY = '#20243b'
@@ -22,14 +22,27 @@ MUTED = '#646779'
 LEFT, WIDTH, BOTTOM = 58, 496, 65
 
 
+def profile_data(data: dict) -> tuple[list, list]:
+    """Return permitted identifiers and the guide's profile catalog."""
+    if data.get('result_model', {}).get('type') == 'set':
+        return data['valid_lesson_values'], data['lesson_profiles']
+    return data['valid_results'], data['results']
+
+
 def markdown(data: dict) -> str:
+    _, profiles = profile_data(data)
     label = data.get('presentation', {}).get('markdown_result_label', 'Expression')
     parts = [f"# {data['title']}", f"Numerology Reference Series / {data['series_number']:02d}",
              f"Prepared for {data['prepared_for']} | {data['prepared_on']}", data['framing_note'],
              '## Overview and methodology']
     for section in data['methodology_sections']:
         parts += ['### ' + section['title'], section['text']]
-    for result in data['results']:
+        if section.get('table'):
+            table = section['table']
+            parts += ['\n'.join(['| ' + ' | '.join(map(str, table['headers'])) + ' |',
+                                  '| ' + ' | '.join(['---'] * len(table['headers'])) + ' |'] +
+                                 ['| ' + ' | '.join(map(str, row)) + ' |' for row in table['rows']])]
+    for result in profiles:
         parts += [f"## {label} {result['number']}: {result['subtitle']}"]
         for field in ['core_meaning', 'potential_difficulties', 'constructive_direction']:
             parts.append(result[field])
@@ -45,12 +58,13 @@ def markdown(data: dict) -> str:
 
 
 def build(data: dict, output: Path) -> None:
-    assert data['valid_results'] and len(set(data['valid_results'])) == len(data['valid_results'])
-    assert [r['number'] for r in data['results']] == data['valid_results']
+    valid_values, profiles = profile_data(data)
+    assert valid_values and len(set(valid_values)) == len(valid_values)
+    assert [r['number'] for r in profiles] == valid_values
     display = data.get('presentation', {})
     sources = {s['id']: s for s in data['sources']}
     assert len(sources) == len(data['sources'])
-    for result in data['results']:
+    for result in profiles:
         assert len(result['source_ids']) >= 2
         assert all(s in sources for s in result['source_ids'])
         assert all(result[k].strip() for k in ['core_meaning', 'potential_difficulties', 'constructive_direction'])
@@ -125,11 +139,32 @@ def build(data: dict, output: Path) -> None:
         for section in sections:
             y = para(section['title'], y, 12, 16, bold=True, gap=5)
             y = para(section['text'], y, 10, 14, gap=13)
+            if section.get('table'):
+                table = section['table']
+                rows = [table['headers']] + table['rows']
+                cells = []
+                for row_index, row in enumerate(rows):
+                    style = ParagraphStyle('cell', fontName='Helvetica-Bold' if row_index == 0 else 'Helvetica',
+                                           fontSize=9, leading=12, alignment=1, textColor=colors.HexColor(NAVY))
+                    cells.append([Paragraph(escape(str(value)), style) for value in row])
+                widths = table.get('column_widths', [WIDTH / len(rows[0])] * len(rows[0]))
+                grid = Table(cells, colWidths=widths)
+                grid.setStyle(TableStyle([
+                    ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor('#f1eef7')),
+                    ('GRID', (0, 0), (-1, -1), 0.5, colors.HexColor('#d7d5e1')),
+                    ('TOPPADDING', (0, 0), (-1, -1), 6),
+                    ('BOTTOMPADDING', (0, 0), (-1, -1), 6),
+                ]))
+                _, height = grid.wrap(WIDTH, 700)
+                if y - height < BOTTOM:
+                    raise ValueError(f'Page {page}: table exceeds bottom margin')
+                grid.drawOn(canvas, LEFT, y - height)
+                y -= height + 14
         end()
 
-    for result in data['results']:
+    for result in profiles:
         y = start(display.get('section_label', 'CAPACITIES AND THEIR EXPRESSION'))
-        y = para(display.get('result_label', 'EXPRESSION') + ' ' + result['number'], y, 8.5, 12, color=PURPLE, gap=14)
+        y = para(display.get('result_label', 'EXPRESSION') + ' ' + str(result['number']), y, 8.5, 12, color=PURPLE, gap=14)
         y = para(result['subtitle'], y, 27, 32, bold=True, gap=18)
         for field in ['core_meaning', 'potential_difficulties', 'constructive_direction']:
             y = para(result[field], y)
