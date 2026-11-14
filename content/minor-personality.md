@@ -1,0 +1,451 @@
+# Minor Personality Number
+
+Numerology Reference Series / 05
+
+Prepared for Robbie | 2026-11-13
+
+Numerology is a symbolic belief system, not a scientifically validated assessment or prediction method. These descriptions offer possibilities for reflection, not established facts about you or other people’s reactions.
+
+## Overview and methodology
+
+### An everyday name and a perceived image
+
+Minor Personality is interpreted as the outward image associated with the name you currently use. Decoz’s sample readings define it from that name’s consonants and connect it with how you think or hope others perceive you. His online FAQs use a short name, as introduced socially, and describe a casual impression. This is distinct from the full birth-name Personality, Soul’s Desire (inner motivation), and Destiny / Expression (capacities and expression). It is not a period of life, a diagnosis, or a replacement for the rest of a chart. [S1, S8, D1, NC]
+
+### The project convention used here
+
+Use the calculator’s current first, middle, and last-name inputs, including a middle name when supplied. If no alternative name is supplied, the calculator copies the birth-name inputs; the Minor and main Personality results then match. That is a project default, not evidence that the number has been independently confirmed twice. Decoz’s short/social-name wording can omit names the project retains. Bender defines minor names as current first and last in an Expression article; that adjacent-position rule is a comparison, not a separate Minor Personality formula. [D1, BM; project app.js]
+
+### Consonants and letter values
+
+For compatibility with the calculator, exclude A, E, I, O, U; treat Y as a consonant and W as a consonant. Use the repeating Pythagorean table:
+1: A J S | 2: B K T | 3: C L U
+4: D M V | 5: E N W | 6: F O X
+7: G P Y | 8: H Q Z | 9: I R
+For each word, sum its consonant values and reduce by adding digits, stopping at 1–9, 11, 22, or 33. Combine the reduced word totals and reduce with the same exceptions. An all-vowel word contributes 0. Spaces separate words; apostrophes and hyphens carry no value. This mirrors the project’s processing, not a universal spelling rule. [D0; project app.js]
+
+### Worked example: Bobby Smith
+
+Invented current name: Bobby Smith. Bobby contributes B(2) + B(2) + B(2) + Y(7) = 13, then 4. Smith contributes S(1) + M(4) + T(2) + H(8) = 15, then 6. Combine 4 + 6 = 10, then 1. For an invented birth name Robert James Smith, consonant word results are 22, 6, and 6; total 34 becomes 7. Thus the project can show main Personality 7 and Minor Personality 1. These are calculation examples, not readings of a real person. [Project app.js; editorial arithmetic]
+
+### Retained results and a zero input case
+
+This guide retains 1–9, 11/2, 22/4, and 33/6 under the selected name-number method. Decoz publishes explicit Minor FAQs for 11, 22, and 33, while his main calculation preserves all three. Their roots show the relationship to 2, 4, and 6; they do not rank human worth. If the whole entered name contains no consonants, the calculator returns 0. No researched Minor Personality 0 meaning was found: treat that as no consonant-derived result to interpret, not a thirteenth personality type. [D0, D11, D22, D33; project app.js]
+
+### Name scope and Y can change the result
+
+The everyday name, short social name, and current legal name are not automatically identical. Decoz discusses current-name aspects; his Minor FAQs use a short introduction name. Bender’s adjacent minor-name rule uses current first and last; Sarah Yip discusses a current legal name as Destiny, illustrating a different label and scope. Record exactly which name is used. Decoz also allows Y to be a vowel depending on context. This guide keeps the calculator’s fixed Y rule: if Y were excluded in Bobby Smith, the result would be 3 rather than 1. Do not silently mix those conventions. [DN, D1, BM, Y, D0]
+
+### What the research does and does not cover
+
+Four publisher families were consulted, but they do not provide four Minor Personality series. Decoz supplies explicit short-name FAQs for 1–4, 6–9, 11, 22, and 33, plus public sample readings for 1 and 8. His consulted 5 page has main Personality material only; its current-name application is explicitly editorial. Numerology.com supplies a main-position definition and general number symbolism for comparison. Bender and Yip contribute name-convention contrasts only. No second publisher’s complete Minor Personality series was found in the accessible sources; the available network destinations limited the search. [D0, DN, S1, S8, BM, Y, NC, NM]
+
+### Reading the profiles without overstating them
+
+Each profile is a new synthesis about everyday presentation, not an earlier Personality description with a new heading. Direct Minor material and supplementary general symbolism are identified on each result page. General symbolism is not treated as another Minor-specific interpretation. In particular, master-number symbolism is often more expansive than Decoz’s practical Minor descriptions; this guide keeps the roots central and identifies additions. Practical final paragraphs and descriptive subtitles are editorial. Agreement among practitioners is not independent evidence. [D11, D22, D33, NM; source roles on each profile]
+
+### Boundaries and naming uncertainty
+
+Use these descriptions to consider what you communicate and what you hope to communicate; neither can establish what another person actually thinks. No result proves appearance, medical conditions, childhood experiences, supernatural perception, relationship outcomes, or a requirement to serve others. Claims of timed name-change effects and inevitable struggle are not adopted. Document a transliteration for non-Latin letters rather than claiming one universal mapping. A name change is not required to use this guide, and no change to calculator behavior is part of this research task. [Editorial scope and synthesis]
+
+## Minor Personality 1: A self-directed everyday introduction
+
+Minor Personality 1 emphasizes the image of someone ready to act on their own judgment. In the setting represented by your current name, you may hope to appear clear about your direction, willing to begin, and comfortable having an individual point of view. This reading concerns an everyday introduction rather than your whole character. Its constructive impression is initiative that gives an encounter momentum and makes your position easy to understand.
+
+The same presentation can feel closed when certainty arrives before curiosity. Others may assume you have already decided, or hesitate to offer an idea because you seem unlikely to need it. Decoz's Minor Personality material stresses originality alongside this risk of intimidation; the general symbolism of 1 adds a warning about forceful pursuit of a goal. Confidence and approachability can therefore send different signals.
+
+As an editorial application, try pairing a clear statement with an open question. Say what you propose, then invite a response before filling the silence. Acknowledging a useful contribution need not weaken your own position. Let your introduction communicate that you can take responsibility while remaining interested in the people sharing the situation.
+
+Evidence scope: Direct Minor FAQ from one publisher; comparison source supplies general symbolism, not a second Minor profile.
+
+Sources: D1, N1, S1
+
+Final paragraph: practical editorial synthesis. Current-name context follows the project convention.
+
+## Minor Personality 2: A welcome with a visible voice
+
+Minor Personality 2 emphasizes an approachable current-name presentation: considerate, receptive, and easy to speak with. You may hope to be encountered as someone who gives a conversation time and notices how other people are feeling. The emphasis is on the tone of everyday contact. It does not establish what you privately want, nor does it mean that every person will experience your manner in the same way.
+
+A gentle introduction may leave your own preferences unclear. Someone can mistake your willingness to listen for agreement, or expect you to keep a conversation comfortable at your own expense. Decoz's Minor Personality description highlights warmth and sensitivity; the general interpretation of 2 gives more attention to hesitation and insufficient assertiveness. Together they suggest a tension between making room for others and disappearing from the exchange.
+
+As an editorial application, offer a preference early, while the situation still feels simple. Ask what someone means before assuming that a change of tone concerns you. You can remain considerate while requesting time, declining a suggestion, or disagreeing calmly. An inviting presentation becomes clearer when people can recognize both your attention and your boundaries.
+
+Evidence scope: Direct Minor FAQ from one publisher; comparison source supplies general symbolism, not a second Minor profile.
+
+Sources: D2, N2
+
+Final paragraph: practical editorial synthesis. Current-name context follows the project convention.
+
+## Minor Personality 3: An expressive introduction that invites connection
+
+Minor Personality 3 emphasizes a lively, communicative way of being encountered through your current name. You may hope to bring interest to an ordinary exchange, make a new person feel included, or give an introduction a memorable touch of humor. Its social emphasis is different from a claim about artistic ability. The theme concerns how expressiveness becomes visible before others know the quieter or more complicated parts of you.
+
+The presentation can be misunderstood when entertainment fills every pause. A playful response may sound dismissive in a serious moment, while enthusiasm can make an informal possibility sound like a promise. Decoz's Minor Personality description connects charm with the risk of scattered attention; the general symbolism of 3 also contrasts expressive ease with limited depth. Being engaging does not tell another person how reliably you will listen or follow through.
+
+As an editorial application, leave room for an exchange to change pace. Ask a second question, acknowledge a difficult point without turning it into a joke, and distinguish an appealing idea from an agreement. Your everyday introduction can stay animated while showing that you are also present for what matters to someone else.
+
+Evidence scope: Direct Minor FAQ from one publisher; comparison source supplies general symbolism, not a second Minor profile.
+
+Sources: D3, N3
+
+Final paragraph: practical editorial synthesis. Current-name context follows the project convention.
+
+## Minor Personality 4: A steady, dependable introduction
+
+Minor Personality 4 emphasizes the image of someone practical, prepared, and consistent. Through the name you currently use, you may hope to communicate that your word has substance and that you will approach a situation with care. This can make an introduction feel reassuring when expectations are uncertain. It is a theme of visible dependability, rather than proof that you have a particular job, lifestyle, or family role.
+
+An orderly presentation can become difficult to approach when it suggests that there is only one acceptable way to proceed. Others may withhold an unusual suggestion or assume you dislike anything spontaneous. Decoz's Minor Personality description foregrounds stability and thoughtful planning. The broader interpretation of 4 supplies the counterpoint: firmness can become rigidity when a preferred method is treated as the only reasonable one.
+
+As an editorial application, make your expectations clear while showing which details are open to discussion. Say why a boundary matters, and ask whether someone has another workable approach. Let a small sign of enjoyment accompany your competence. An everyday impression of reliability is easier to trust when people can also see your flexibility and willingness to learn.
+
+Evidence scope: Direct Minor FAQ from one publisher; comparison source supplies general symbolism, not a second Minor profile.
+
+Sources: D4, N4
+
+Final paragraph: practical editorial synthesis. Current-name context follows the project convention.
+
+## Minor Personality 5: An open, adaptable everyday presence
+
+This profile adapts the main Personality 5 interpretation to a current-name setting; a separate Minor Personality 5 description was not found in the consulted sources. Under that adaptation, you may hope to appear curious, responsive, and comfortable meeting something unfamiliar. Your introduction may suggest an interest in possibilities rather than a fixed script. The focus is the social impression associated with the selected name, not a prediction of travel or continual change.
+
+The main Personality description and the general symbolism of 5 both connect this openness with a possible impression of restlessness. Moving quickly between subjects or proposing several options may make it harder for another person to know what you mean to keep. A lively exchange can feel unfinished if attention seems to leave as soon as the novelty fades. This is a possible reading of the presentation, not a judgment about your reliability.
+
+As an editorial application, give curiosity a clear point of contact. Remember a detail, complete an agreed next step, or say plainly that you are exploring rather than committing. A consistent signal of attention lets an adaptable introduction feel welcoming without asking others to guess where they stand.
+
+Evidence scope: Editorial current-name adaptation of a main Personality profile; no direct Minor 5 text found.
+
+Sources: D5, N5
+
+Final paragraph: practical editorial synthesis. Current-name context follows the project convention.
+
+## Minor Personality 6: Warmth with room for your limits
+
+Minor Personality 6 emphasizes a current-name presentation associated with warmth, fairness, and a reassuring welcome. You may hope that people encounter you as considerate and willing to help, someone who makes an unfamiliar setting feel easier to enter. This is an interpretation of the everyday image you communicate. It does not prescribe parenthood, partnership, or responsibility for maintaining everyone else's comfort.
+
+The tension appears when a caring impression invites expectations you have not agreed to meet. You may find it difficult to correct an assumption that you are always available, or feel that a refusal would undermine the welcome you offered. Decoz's Minor Personality description stresses compassion and sensitivity; the general meaning of 6 adds the danger of neglecting your own needs. Warmth can become harder to sustain when its practical limits remain invisible.
+
+As an editorial application, make offers specific: what you can do, when you can do it, and what remains someone else's decision. Receive help without treating it as a failure of generosity. An approachable everyday presence can include a calm limit; consideration is more useful when it supports an arrangement both people understand.
+
+Evidence scope: Direct Minor FAQ from one publisher; comparison source supplies general symbolism, not a second Minor profile.
+
+Sources: D6, N6
+
+Final paragraph: practical editorial synthesis. Current-name context follows the project convention.
+
+## Minor Personality 7: Quiet depth with a point of entry
+
+Minor Personality 7 emphasizes a reserved, reflective current-name presentation. You may hope to be encountered as someone who considers a question carefully, values substance, and does not speak simply to occupy the silence. In a new setting, this can suggest independence and depth. It describes a possible everyday impression, not a measurement of intelligence or proof that you possess knowledge other people lack.
+
+Reserve can also leave others unsure whether an approach would be welcome. A long pause may be read as disapproval, while a careful question may sound like a challenge when its purpose is not explained. Decoz's Minor Personality description highlights guarded depth and selective openness; the general symbolism of 7 adds caution about secrecy and suspicion. The difficulty is making thoughtful attention legible without giving up the privacy you value.
+
+As an editorial application, offer a small point of entry. Explain what interests you, say when you need time to think, or share one observation before asking a demanding question. You need not become more talkative than you wish. A clear sign of interest can let an independent presentation coexist with an invitation to connect.
+
+Evidence scope: Direct Minor FAQ from one publisher; comparison source supplies general symbolism, not a second Minor profile.
+
+Sources: D7, N7
+
+Final paragraph: practical editorial synthesis. Current-name context follows the project convention.
+
+## Minor Personality 8: An assured, approachable presence
+
+Minor Personality 8 emphasizes an everyday image of capability, decisiveness, and authority. You may hope that the name you currently use accompanies a clear, composed introduction: someone able to handle responsibility and take a situation seriously. Decoz's direct Minor Personality material places particular weight on the strength of this impression. Here, the emphasis remains on presentation, not on proven leadership skill, social rank, or a promised financial outcome.
+
+An assured manner can become imposing when others cannot tell whether their input would matter. A concise instruction may sound like a command, or an emphasis on standards may seem more concerned with status than with the people involved. General symbolism for 8 reinforces the risk of dismissing another viewpoint. The appearance of control can therefore make it harder to receive information that a useful decision requires.
+
+As an editorial application, show how you want people to participate. Explain the reason behind a request, acknowledge what you do not yet know, and invite an alternative before closing the discussion. An authoritative introduction need not demand deference. It can communicate that you are prepared to act and equally prepared to be accountable.
+
+Evidence scope: Direct Minor FAQ from one publisher; comparison source supplies general symbolism, not a second Minor profile.
+
+Sources: D8, N8, S8
+
+Final paragraph: practical editorial synthesis. Current-name context follows the project convention.
+
+## Minor Personality 9: A broad outlook with a human touch
+
+Minor Personality 9 emphasizes a composed, expressive current-name presentation with a sense of wider human concern. You may hope to appear thoughtful about differences, aware of a larger context, and able to bring a gracious tone to an encounter. Decoz's Minor Personality description combines dignity with compassion and sensitivity. These themes concern the impression associated with your everyday name, rather than proof of wisdom, moral standing, or a special role in society.
+
+A broad perspective can become remote if the person in front of you feels addressed as an example rather than as an individual. A carefully managed introduction may also conceal uncertainty and make warmth harder to recognize. The general symbolism of 9 stresses inclusion and support; Decoz adds a stronger emphasis on bearing and charisma. The useful tension is between an expansive image and direct, ordinary human contact.
+
+As an editorial application, ask about a specific experience before offering a general conclusion. Let another person revise your understanding, and allow a preference or uncertainty of your own to show. A generous everyday impression becomes more accessible when it includes conversation at the scale of the person actually sharing it.
+
+Evidence scope: Direct Minor FAQ from one publisher; comparison source supplies general symbolism, not a second Minor profile.
+
+Sources: D9, N9
+
+Final paragraph: practical editorial synthesis. Current-name context follows the project convention.
+
+## Minor Personality 11/2: A sensitive introduction grounded in ordinary contact
+
+Minor Personality 11/2 emphasizes a gentle, receptive current-name presentation closely connected with the 2 root. You may hope to be encountered as attentive, reassuring, and able to make an exchange feel meaningful. Decoz's Minor Personality description particularly stresses approachability and patient listening. General master-number symbolism adds inspiration and heightened sensitivity, but those additions are supplementary rather than a separate, independently confirmed Minor Personality interpretation.
+
+The difficulty is letting an image of unusual understanding become an expectation that you should know what others have not said. You may hesitate to correct that impression or feel pressure to make every encounter significant. A receptive manner can also leave your own position indistinct. None of this implies psychic ability or an unavoidable emotional burden; it is an editorial reading of the tension between sensitivity and clear social communication.
+
+As an editorial application, ask rather than assume. Name what you have heard, check whether it is accurate, and state what you can offer. Keep ordinary preferences and limits visible alongside your attentiveness. The cooperative 2 root provides a practical foundation: an introduction can be thoughtful and encouraging without making you responsible for interpreting another person's inner life.
+
+Evidence scope: Direct Minor FAQ from one publisher; comparison source supplies general symbolism, not a second Minor profile.
+
+Sources: D11, NM
+
+Final paragraph: practical editorial synthesis. Current-name context follows the project convention.
+
+## Minor Personality 22/4: A dependable image without the weight of perfection
+
+Minor Personality 22/4 emphasizes a steady, dependable current-name presentation rooted in the practical qualities of 4. You may hope to be encountered as someone who can hold an arrangement together and give others confidence in what happens next. Decoz's Minor Personality description stays close to this ordinary reliability. General master-number symbolism adds the image of a builder who connects plans with practical action; it does not establish that casual acquaintances will see exceptional potential in you.
+
+The tension can arise when an image of competence leaves no room for limits. Others may expect you to organize everything, or you may hesitate to admit that a plan needs help. The more expansive symbolism of 22 can add unnecessary pressure if it is treated as an obligation to impress. This guide retains the result without ranking it above 4 or requiring an achievement of unusual scale.
+
+As an editorial application, make the boundary of your responsibility as clear as your willingness to contribute. Share the plan, identify uncertainty, and welcome another person's expertise. A dependable everyday introduction becomes stronger when people can see how you cooperate, rather than assuming that your composure means you must carry everything alone.
+
+Evidence scope: Direct Minor FAQ from one publisher; comparison source supplies general symbolism, not a second Minor profile.
+
+Sources: D22, NM
+
+Final paragraph: practical editorial synthesis. Current-name context follows the project convention.
+
+## Minor Personality 33/6: A caring introduction with room for your own voice
+
+Minor Personality 33/6 emphasizes a welcoming, considerate current-name presentation closely tied to the 6 root. You may hope to be encountered as someone who values comfort, understanding, and a thoughtful environment. Decoz's Minor Personality description combines hospitality with artistic sensitivity and a preference for substance over display. General symbolism for 33 adds teaching and generous example, but this is supplementary context, not proof of a special calling or an independent Minor Personality tradition.
+
+A caring image can become constraining when people expect constant patience or assume that you have no needs of your own. You may also mistake disagreement with your presentation for rejection of what you hoped to offer. Decoz stresses sensitivity to praise and criticism; the wider 33 symbolism can intensify the pressure if service is treated as compulsory. The guide therefore keeps ordinary care central and rejects an obligation to sacrifice yourself.
+
+As an editorial application, let the welcome include your own preferences. Ask before advising, say when an offer has reached its limit, and leave room to receive consideration in return. A nurturing introduction can be warm and expressive without making permanent availability the price of being valued.
+
+Evidence scope: Direct Minor FAQ from one publisher; comparison source supplies general symbolism, not a second Minor profile.
+
+Sources: D33, NM
+
+Final paragraph: practical editorial synthesis. Current-name context follows the project convention.
+
+## Bibliography
+
+### [D0] Hans Decoz / World Numerology
+
+[Personality Numbers and Meanings in Numerology | Hans Decoz](https://www.worldnumerology.com/numerology-personality/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: Main Personality: consonants, name-part reduction, conditional Y, and 11/22/33. Not by itself a Minor-specific result series.
+
+### [DN] Hans Decoz / World Numerology
+
+[Numerology and the Impact of Name Changes | Hans Decoz](https://www.worldnumerology.com/numerology-for-name-changes/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: Explicitly names Minor Personality among current-name aspects; current-name self-image and distinction from full birth-name core.
+
+### [S1] Hans Decoz / World Numerology
+
+[Personality Profile — Vince Tarriano (public sample)](https://www.worldnumerology.com/numerology-readings/sample-numerology-readings-members/personality-profile-numerology-reading.pdf)
+
+Accessed 2026-11-13. Public PDF retrieved live (HTTP 200), text extracted; Minor Personality definition and result 1 read on printed page 30. Only the relevant sections support this guide, not unrelated chart claims.
+
+Coverage: Consonants of current name; how one thinks or hopes others perceive one; direct Minor Personality 1.
+
+### [S8] Hans Decoz / World Numerology
+
+[Personality Profile — Jonathan Seagull (public sample)](https://www.worldnumerology.com/numerology-app/sample-readings-new/personality-profile-sample-wn-app.pdf)
+
+Accessed 2026-11-13. Public PDF retrieved live (HTTP 200), text extracted; Minor Personality definition and result 8 read on printed page 29. Only the relevant sections support this guide, not unrelated chart claims.
+
+Coverage: Consonants of current name; how one thinks or hopes others perceive one; direct Minor Personality 8.
+
+### [BM] Felicia Bender
+
+[Numerology: How To Calculate The Destiny or Expression Number – Felicia Bender](https://feliciabender.com/numerology/numerology-how-to-calculate-the-destiny-or-expression-number/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: Defines minor as current first and last name in an Expression article. Used only to contrast name scope, not as a Minor Personality formula or result source.
+
+### [Y] Sarah Yip
+
+[Sarah Yip on The Morning Show 2025 – Name Numerology Special! – Sarah Yip](https://sarahyip.com/sarah-yip-on-the-morning-show-2025-name-numerology-special/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full. Embedded video not watched and linked case studies not read.
+
+Coverage: Written article discusses current legal name as Destiny. Different name-based labels; no Minor Personality formula or profiles.
+
+### [NC] Numerology.com Staff
+
+[Your Core Numbers in Numerology | Numerology.com](https://www.numerology.com/articles/your-numerology-chart/core-numbers-numerology/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: Main Personality from birth-name consonants, outwardly shared traits and first impression; explicitly a core position.
+
+### [NM] Numerology.com Staff
+
+[The Master Numbers of Numerology | Numerology.com](https://www.numerology.com/articles/about-numerology/master-numbers/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: General 11/22/33 symbolism; roots and name-derived placements. Supplementary context only, not Minor Personality profiles.
+
+### [D1] Hans Decoz / World Numerology
+
+[Personality Number 1 – Meaning, Strengths & How Others See You | Hans Decoz](https://www.worldnumerology.com/numerology-personality/meaning-of-personality-number-1/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: Explicit Minor Personality 1 FAQ: short/social name, casual impression. Main Personality text also compared; both belong to one publisher.
+
+### [D2] Hans Decoz / World Numerology
+
+[Personality Number 2 – Meaning, Strengths & How Others See You | Hans Decoz](https://www.worldnumerology.com/numerology-personality/meaning-of-personality-number-2/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: Explicit Minor Personality 2 FAQ: short/social name, casual impression. Main Personality text also compared; both belong to one publisher.
+
+### [D3] Hans Decoz / World Numerology
+
+[Personality Number 3 – Meaning, Strengths & How Others See You | Hans Decoz](https://www.worldnumerology.com/numerology-personality/meaning-of-personality-number-3/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: Explicit Minor Personality 3 FAQ: short/social name, casual impression. Main Personality text also compared; both belong to one publisher.
+
+### [D4] Hans Decoz / World Numerology
+
+[Personality Number 4 – Meaning, Strengths & How Others See You | Hans Decoz](https://www.worldnumerology.com/numerology-personality/meaning-of-personality-number-4/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: Explicit Minor Personality 4 FAQ: short/social name, casual impression. Main Personality text also compared; both belong to one publisher.
+
+### [D5] Hans Decoz / World Numerology
+
+[Personality Number 5 Meaning – Adventurous & Free-Spirited | Hans Decoz](https://www.worldnumerology.com/numerology-personality/meaning-of-personality-number-5/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: Main Personality 5 only; consulted page has no separate Minor Personality FAQ. Current-name application is editorial.
+
+### [D6] Hans Decoz / World Numerology
+
+[Personality Number 6 – Meaning, Strengths & How Others See You | Hans Decoz](https://www.worldnumerology.com/numerology-personality/meaning-of-personality-number-6/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: Explicit Minor Personality 6 FAQ: short/social name, casual impression. Main Personality text also compared; both belong to one publisher.
+
+### [D7] Hans Decoz / World Numerology
+
+[Personality Number 7 – Meaning, Strengths & How Others See You | Hans Decoz](https://www.worldnumerology.com/numerology-personality/meaning-of-personality-number-7/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: Explicit Minor Personality 7 FAQ: short/social name, casual impression. Main Personality text also compared; both belong to one publisher.
+
+### [D8] Hans Decoz / World Numerology
+
+[Personality Number 8 – Meaning, Strengths & How Others See You | Hans Decoz](https://www.worldnumerology.com/numerology-personality/meaning-of-personality-number-8/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: Explicit Minor Personality 8 FAQ: short/social name, casual impression. Main Personality text also compared; both belong to one publisher.
+
+### [D9] Hans Decoz / World Numerology
+
+[Personality Number 9 – Meaning, Strengths | Decoz](https://www.worldnumerology.com/numerology-personality/meaning-of-personality-number-9/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: Explicit Minor Personality 9 FAQ: short/social name, casual impression. Main Personality text also compared; both belong to one publisher.
+
+### [D11] Hans Decoz / World Numerology
+
+[Personality Number 11 – Meaning in Numerology | Hans Decoz](https://www.worldnumerology.com/numerology-personality/meaning-of-personality-number-11/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: Explicit Minor Personality 11 FAQ: short/social name, casual impression. Main Personality text also compared; both belong to one publisher.
+
+### [D22] Hans Decoz / World Numerology
+
+[Personality Number 22 & Meaning in Numerology | Hans Decoz](https://www.worldnumerology.com/numerology-personality/meaning-of-personality-number-22/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: Explicit Minor Personality 22 FAQ: short/social name, casual impression. Main Personality text also compared; both belong to one publisher.
+
+### [D33] Hans Decoz / World Numerology
+
+[Personality Number 33 & Meaning in Numerology | Hans Decoz](https://www.worldnumerology.com/numerology-personality/meaning-of-personality-number-33/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: Explicit Minor Personality 33 FAQ: short/social name, casual impression. Main Personality text also compared; both belong to one publisher.
+
+### [N1] Numerology.com Staff
+
+[Number 1 Meaning | Numerology.com](https://www.numerology.com/articles/about-numerology/single-digit-number-1-meaning/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: General number 1 definition, strengths, and weaknesses; no Minor Personality-specific interpretation. Life Path and Tarot/Astrology portions not used to define this position.
+
+### [N2] Numerology.com Staff
+
+[Number 2 Meaning | Numerology.com](https://www.numerology.com/articles/about-numerology/single-digit-number-2-meaning/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: General number 2 definition, strengths, and weaknesses; no Minor Personality-specific interpretation. Life Path and Tarot/Astrology portions not used to define this position.
+
+### [N3] Numerology.com Staff
+
+[Number 3 Meaning | Numerology.com](https://www.numerology.com/articles/about-numerology/single-digit-number-3-meaning/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: General number 3 definition, strengths, and weaknesses; no Minor Personality-specific interpretation. Life Path and Tarot/Astrology portions not used to define this position.
+
+### [N4] Numerology.com Staff
+
+[Number 4 Meaning | Numerology.com](https://www.numerology.com/articles/about-numerology/single-digit-number-4-meaning/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: General number 4 definition, strengths, and weaknesses; no Minor Personality-specific interpretation. Life Path and Tarot/Astrology portions not used to define this position.
+
+### [N5] Numerology.com Staff
+
+[Number 5 Meaning | Numerology.com](https://www.numerology.com/articles/about-numerology/single-digit-number-5-meaning/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: General number 5 definition, strengths, and weaknesses; no Minor Personality-specific interpretation. Life Path and Tarot/Astrology portions not used to define this position.
+
+### [N6] Numerology.com Staff
+
+[Number 6 Meaning | Numerology.com](https://www.numerology.com/articles/about-numerology/single-digit-number-6-meaning/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: General number 6 definition, strengths, and weaknesses; no Minor Personality-specific interpretation. Life Path and Tarot/Astrology portions not used to define this position.
+
+### [N7] Numerology.com Staff
+
+[Number 7 Meaning | Numerology.com](https://www.numerology.com/articles/about-numerology/single-digit-number-7-meaning/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: General number 7 definition, strengths, and weaknesses; no Minor Personality-specific interpretation. Life Path and Tarot/Astrology portions not used to define this position.
+
+### [N8] Numerology.com Staff
+
+[Number 8 Meaning | Numerology.com](https://www.numerology.com/articles/about-numerology/single-digit-number-8-meaning/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: General number 8 definition, strengths, and weaknesses; no Minor Personality-specific interpretation. Life Path and Tarot/Astrology portions not used to define this position.
+
+### [N9] Numerology.com Staff
+
+[Number 9 Meaning | Numerology.com](https://www.numerology.com/articles/about-numerology/single-digit-number-9-meaning/)
+
+Accessed 2026-11-13. Live public HTTPS article retrieved (HTTP 200); relevant article text read in full.
+
+Coverage: General number 9 definition, strengths, and weaknesses; no Minor Personality-specific interpretation. Life Path and Tarot/Astrology portions not used to define this position.
