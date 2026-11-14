@@ -81,3 +81,10 @@ The [shop](shop/index.html) presents the Tarot Guide Book ($19.99 CAD), Crystal 
 ## Shared cyberpunk design
 
 [assets/cyberpunk.css](assets/cyberpunk.css) applies the user's imagery-led direction across the homepage, astrology, tarot, shop, and calculator: a continuous nebula background from supplied artwork, cyan/violet light, subtle grid texture, geometric headings, translucent panels, and luminous card frames. The theme loads after page-specific styles. Backgrounds and accents preserve contrast, mobile layouts, keyboard focus, and reduced-motion preferences. The calculator's formulas and JavaScript are unchanged.
+
+
+## Numerology wing
+
+The [numerology hub](numerology/index.html) answers what numerology is and how old its traditions are, offers a simple Personality/Life Path/Destiny calculator, and links to all 21 chart positions. The 21 topic libraries contain 276 result routes: the twelve requested numbers per topic, plus the valid Birthday and Challenge extras. **81 profiles** use the seven completed guides; unfinished profiles are visibly marked as placeholders, and convention notes explain values that do not apply to a position.
+
+The [Full Numerology report](numerology/report.html) is listed at **$19.99 CAD, one-time purchase**, with ordering coming soon. See [numerology/README.md](numerology/README.md) for content provenance, formula differences, build commands, and tests. Rebuild with `python scripts/build_numerology.py`. Archive 3.zip could not be transferred because it exceeds 32 MiB; its new artwork remains pending an accessible compressed or split copy.
