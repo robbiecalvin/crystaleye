@@ -1,0 +1,163 @@
+{
+  "framework": "An editorial three-act Fool’s Journey using Rider–Waite–Smith ordering: Fool as prologue, I–VII, VIII–XIV, XV–XXI. It is one teaching structure, not a universal historical division. Strength VIII and Justice XI; other deck traditions may order them differently.",
+  "acts": [
+    {
+      "id": "act-one",
+      "title": "Act I · Learning to meet the world",
+      "subtitle": "I–VII · The Magician to The Chariot",
+      "range": [
+        1,
+        7
+      ],
+      "paragraphs": [
+        "The Fool begins at zero: curious, untested, and willing to enter a world that cannot be understood entirely in advance. In this teaching framework the Fool is the traveler, and the next twenty-one cards form three groups of seven. Act I is about building a self that can participate in ordinary life: discovering resources, receiving care, meeting rules, making choices, and learning to direct energy. It is a developmental story, not a schedule everyone must follow.",
+        "The Magician introduces agency: the traveler discovers tools and the possibility of acting with intention. The High Priestess adds a quieter kind of knowing, asking for attention to what is sensed but not yet explained. The Empress brings nourishment, creativity, and the conditions in which something can grow. The Emperor introduces structure and limits, showing how protection becomes useful when it supports life rather than controlling it.",
+        "The Hierophant asks what we learn from teachers, communities, and inherited practices, including when those teachings deserve a question. The Lovers brings a choice about values and connection: belonging becomes more conscious when it is freely chosen. The Chariot closes the act by coordinating different impulses into a direction. Its achievement is not that uncertainty disappears; it is that the traveler can move with purpose while carrying complexity.",
+        "In a reading, these cards can invite questions about beginnings, confidence, learning, values, and personal direction. Ask: what support or skill am I building, and what do I want to do with it? Their appearance does not establish that someone is immature or at a particular life stage. A practiced adult can be a beginner again whenever life asks for a new kind of participation."
+      ],
+      "prompt": "Where am I learning to act for myself without assuming I must do everything alone?"
+    },
+    {
+      "id": "act-two",
+      "title": "Act II · Meeting the inner world",
+      "subtitle": "VIII–XIV · Strength to Temperance",
+      "range": [
+        8,
+        14
+      ],
+      "paragraphs": [
+        "Act II asks what happens when competence and forward movement do not answer every question. The traveler meets strong feelings, solitude, changing circumstances, consequences, pauses, and endings. The emphasis turns from establishing control to developing a more flexible relationship with experience. Inner work here is ordinary and practical: noticing reactions, reassessing a decision, resting, or asking for a different kind of support.",
+        "Strength opens this act with courage expressed through patience and compassion. The Hermit draws attention inward, making room for a considered perspective rather than a borrowed answer. The Wheel of Fortune introduces cycles and conditions no individual can fully direct. Justice asks for an honest view of choices and consequences: responsibility is more useful than either self-excuse or indiscriminate blame.",
+        "The Hanged Man interrupts the usual timetable and offers a change of viewpoint. Death names the reality of endings and transitions; it is not a literal prediction of physical death. Something may need to be released before energy is available for another way of living. Temperance closes the act through integration: apparently competing needs can sometimes be blended into a sustainable rhythm instead of forced into an all-or-nothing choice.",
+        "In a reading, these cards can point toward perspective, adjustment, accountability, or the emotional work of change. Ask what is within your influence and what needs a different response. Do not turn the story into a demand that hardship is necessary, deserved, or secretly beneficial. The useful question is what care, truth, or flexibility could help you meet the circumstances you actually have."
+      ],
+      "prompt": "What would become possible if I stopped treating every pause or change as a failure?"
+    },
+    {
+      "id": "act-three",
+      "title": "Act III · Rebuilding a wider life",
+      "subtitle": "XV–XXI · The Devil to The World",
+      "range": [
+        15,
+        21
+      ],
+      "paragraphs": [
+        "The final act explores attachments, disrupted assumptions, renewed hope, uncertainty, clarity, reassessment, and completion. The traveler is no longer simply gathering tools or trying to perfect an inner self. The question is how to return to life with a more honest relationship to limits, other people, and the patterns that once seemed inevitable. Integration is a practice, not a final state of being beyond difficulty.",
+        "The Devil examines the bonds of habit, fear, appetite, or obligation, inviting a realistic look at agency without blaming someone for every constraint they face. The Tower challenges an unstable structure or assumption. It can be read as a prompt to check foundations and gather support; it does not promise disaster. The Star offers a quieter counterpoint: replenishment, openness, and hope that does not require pretending the difficult part never happened.",
+        "The Moon asks the traveler to move carefully through ambiguity, distinguishing imagination and intuition from verified information. The Sun brings a possibility of openness, enjoyment, and clearer expression. Judgement introduces an honest review and an invitation to respond differently with what has been learned. The World completes the sequence through integration: the traveler can acknowledge a whole experience and bring its lessons into another beginning.",
+        "In a reading, these cards can frame questions about patterns, truth, recovery, and completion. Avoid assuming that drawing a late-numbered card makes someone more evolved than drawing an early one. A completed chapter can be followed by another Fool moment. The story loops because life keeps offering new contexts in which to practice attention, courage, connection, and care."
+      ],
+      "prompt": "What am I ready to integrate, and what kind of beginning could that make room for?"
+    }
+  ],
+  "suits": [
+    {
+      "slug": "swords",
+      "name": "Swords",
+      "element": "Air",
+      "tagline": "A clear mind. A kinder edge.",
+      "domains": "Thought, communication, decisions, conflict, and the stories we tell ourselves.",
+      "intro": "Swords explores the mind in action: how we name a situation, decide what is true, communicate, and respond when perspectives clash. The same sharpness that can cut through confusion can also become harshness, worry, or the need to win. Air is its common modern elemental association; systems and decks can vary.",
+      "sections": [
+        [
+          "What the suit represents",
+          "Think of Swords as the meeting point between thought and consequence. A clear statement can establish a useful boundary; an untested assumption can make a situation feel more threatening than the evidence supports. When several Swords appear, consider what needs to be said, verified, decided, or allowed to rest. Their presence does not mean a bad event is inevitable."
+        ],
+        [
+          "The story from Ace to Ten",
+          "The Ace introduces clarity or a question that cuts to the center. The Two pauses at a decision, the Three acknowledges pain, and the Four makes space for recovery. The Five examines the cost of conflict; the Six moves toward a different situation. The Seven asks about strategy and honesty, the Eight about perceived restriction, and the Nine about worry. The Ten recognizes an ending or exhausted approach. These are different situations, not ten compulsory stages of suffering."
+        ],
+        [
+          "Reading the court cards",
+          "The Page asks and observes; the Knight moves quickly with an argument or conviction. The Queen practices discernment and direct boundaries, while the King considers judgment, responsibility, and the use of authority. Read these as approaches you might use, encounter, or need to balance, rather than assigning gender, age, or a particular person automatically."
+        ],
+        [
+          "Reading Swords in your own life",
+          "At work, ask whether expectations and decisions are clear. In relationships, ask what was actually said and what you inferred. In self-reflection, notice whether thinking is helping you choose or keeping you in a loop. A useful question is “What do I know, what am I assuming, and what conversation would help?” A grounded response might be one direct request, a fact check, or a genuine break."
+        ]
+      ],
+      "prompt": "Which thought is clarifying the situation, and which one is only making more noise?"
+    },
+    {
+      "slug": "cups",
+      "name": "Cups",
+      "element": "Water",
+      "tagline": "Feel it. Name it. Let it move.",
+      "domains": "Emotion, relationships, imagination, intuition, and the give-and-take of care.",
+      "intro": "Cups explores emotional life: what we feel, how we connect, what we hope for, and the care that helps us remain open. Its common modern element is Water, which offers a useful image for feelings that move, gather, overflow, or need a containing bank. Sensitivity becomes more useful when it travels with honest communication and boundaries.",
+      "sections": [
+        [
+          "What the suit represents",
+          "Cups is not limited to romance. It can concern a friendship, a creative project, a memory, an emotional need, or the atmosphere in a group. Several Cups may invite closer attention to how you are receiving and expressing care. They do not reveal another person’s private feelings as fact. Ask a question and listen to the answer instead of treating a card as access to someone else’s inner world."
+        ],
+        [
+          "The story from Ace to Ten",
+          "The Ace opens to feeling and the Two explores mutual exchange. The Three celebrates companionship, while the Four pauses around disengagement or an overlooked offer. The Five acknowledges disappointment and the Six revisits memory and familiar kindness. The Seven considers possibilities and idealization; the Eight asks whether it is time to seek something more meaningful. The Nine recognizes contentment, and the Ten explores shared belonging. Joy and sadness both belong in the suit."
+        ],
+        [
+          "Reading the court cards",
+          "The Page approaches a feeling with curiosity, and the Knight gives it an invitation or expressive gesture. The Queen offers empathy with emotional attentiveness; the King practices steadiness without suppressing feeling. Each role has a shadow: naivety, idealization, overgiving, or emotional distance. These are available ways of responding, not fixed identities or rules about gender."
+        ],
+        [
+          "Reading Cups in your own life",
+          "In a relationship, ask what care looks like in behavior as well as intention. In creative work, give imagination something tangible to inhabit. If a reading feels emotionally intense, return to the present and identify one need you can express directly. “What am I feeling, and what would support me?” is often more useful than “What do the cards say they secretly feel?”"
+        ]
+      ],
+      "prompt": "What feeling needs acknowledgement, and what boundary would help me meet it with care?"
+    },
+    {
+      "slug": "pentacles",
+      "name": "Pentacles",
+      "element": "Earth",
+      "tagline": "Make it real. Make it sustainable.",
+      "domains": "Resources, work, skills, the body, home, and the material conditions of everyday life.",
+      "intro": "Pentacles explores what can be tended, practiced, shared, and sustained. With Earth as its common modern element, it brings attention to resources and ordinary life: time, money, food, craft, rest, home, and practical support. It asks whether a plan can live in the real world, not merely whether it sounds impressive.",
+      "sections": [
+        [
+          "What the suit represents",
+          "Pentacles includes money but is not a promise of income, a diagnosis, or investment advice. It can describe the patience of learning a skill, a need for material help, or the responsibilities of managing a shared resource. When several Pentacles appear, ask what needs a realistic plan and what kind of support would make it sustainable. Material difficulty is not evidence of a personal or spiritual failure."
+        ],
+        [
+          "The story from Ace to Ten",
+          "The Ace offers a tangible beginning. The Two balances competing demands, the Three develops skill through cooperation, and the Four examines security and control. The Five recognizes need and the importance of available support; the Six explores generosity and fair exchange. The Seven reviews patient effort, the Eight practices a craft, and the Nine enjoys a measure of independence. The Ten considers continuity, community, and what can be passed on."
+        ],
+        [
+          "Reading the court cards",
+          "The Page studies the basics, while the Knight makes progress through dependable effort. The Queen brings practical care and resourcefulness; the King considers stewardship and lasting responsibility. Their useful qualities do not require wealth or status. Ask which approach would help now, and where study might become procrastination, routine become rigidity, care become overwork, or security become control."
+        ],
+        [
+          "Reading Pentacles in your own life",
+          "Look for a next step that fits the resources you actually have. A budget, a prepared meal, a small practice session, or asking for help may be a more useful response than an ambitious reinvention. In relationships, notice the care expressed through consistent behavior and fair sharing of work. In a project, ask what enough progress looks like and when you will review it."
+        ]
+      ],
+      "prompt": "What small, repeatable act would make the life I want more workable?"
+    },
+    {
+      "slug": "wands",
+      "name": "Wands",
+      "element": "Fire",
+      "tagline": "Find the spark. Give it direction.",
+      "domains": "Creativity, desire, initiative, ambition, confidence, and the energy to begin.",
+      "intro": "Wands explores the spark that becomes an action: inspiration, enthusiasm, desire, creative risk, and the will to pursue something meaningful. Fire is its common modern elemental association. The suit also asks how energy is managed, because an inspiring beginning and a sustainable commitment are different kinds of work.",
+      "sections": [
+        [
+          "What the suit represents",
+          "Wands can concern a project, an adventure, an attraction, a cause, or the wish to express yourself more fully. Several Wands may highlight motivation, pace, visibility, and competing priorities. More energy is not always the answer; sometimes direction, rest, or a clearer agreement matters more. A challenging Wands card can invite you to renegotiate the load rather than push harder."
+        ],
+        [
+          "The story from Ace to Ten",
+          "The Ace introduces a spark and the Two considers a direction. The Three prepares for expansion, and the Four marks a shared milestone. The Five meets friction or competing approaches; the Six recognizes progress. The Seven protects a considered position, while the Eight coordinates movement and communication. The Nine asks about reserves and resilience. The Ten reviews a burden that may need to be shared or put down. Enthusiasm has limits, and that is part of the story."
+        ],
+        [
+          "Reading the court cards",
+          "The Page experiments with curiosity, and the Knight commits energy to movement or adventure. The Queen offers creative confidence and warmth; the King coordinates vision and leadership. These roles belong to anyone. Ask where enthusiasm needs follow-through, visibility needs generosity, or leadership needs a willingness to hear a different view. Passion becomes more useful when it supports other people’s agency as well as your own."
+        ],
+        [
+          "Reading Wands in your own life",
+          "At a beginning, try an experiment small enough to teach you something. In a busy period, identify the priority that deserves your limited attention. In a group, distinguish productive differences from a contest that is draining everyone. A useful action might be to begin, invite help, share credit, or decline another obligation. Let momentum serve a value rather than becoming its own demand."
+        ]
+      ],
+      "prompt": "What deserves my energy, and what would help me give it without burning out?"
+    }
+  ]
+}

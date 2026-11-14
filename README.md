@@ -70,3 +70,14 @@ Visit `http://localhost:8000`. Homepage styles and interactions are in `assets/s
 The [astrology wing](astrology/index.html) includes all twelve sign profiles with the supplied material, Moon and rising interpretations, suggested love/friendship pairings, free daily editorial one-liners, and a birth-chart calculation explainer. The upcoming daily email is priced at **$5.99 CAD/month** and has an interactive three-sign preview with Sunday, month-opening, and month-end additions. Stripe and email delivery are intentionally deferred at the user's request; the page clearly marks subscriptions as coming soon and collects neither payments nor email addresses.
 
 See [astrology/README.md](astrology/README.md) for editable sources, rebuild instructions, reading-library limits, tests, and the future integration contract. The astrology content is generated with `python scripts/build_astrology.py`; no dependency installation is needed.
+
+
+## Tarot and merchandise
+
+The [tarot wing](tarot/index.html) has an animated free daily card, a browser-session journal, a clearly labeled three-card subscription preview ($5.99 CAD/month), and five learning pages covering the three-act Major Arcana story and all four suits. All 78 existing cards have upright interpretations for the daily focus and each spread position. [Tarot documentation](tarot/README.md) describes session behavior, editable sources, rebuild commands, and tests.
+
+The [shop](shop/index.html) presents the Tarot Guide Book ($19.99 CAD), Crystal Eye Tarot Deck ($39.99 CAD), and Book + Card bundle ($49.99 CAD). All 22 pages advertise and link to these items through a shared static component. Checkout remains coming soon, consistent with the user's decision to connect payment systems later.
+
+## Shared cyberpunk design
+
+[assets/cyberpunk.css](assets/cyberpunk.css) applies the user's imagery-led direction across the homepage, astrology, tarot, shop, and calculator: a continuous nebula background from supplied artwork, cyan/violet light, subtle grid texture, geometric headings, translucent panels, and luminous card frames. The theme loads after page-specific styles. Backgrounds and accents preserve contrast, mobile layouts, keyboard focus, and reduced-motion preferences. The calculator's formulas and JavaScript are unchanged.

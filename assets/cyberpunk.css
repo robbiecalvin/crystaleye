@@ -1,0 +1,472 @@
+/* Shared visual layer: imagery supplies the light; midnight surfaces keep text readable. */
+:root {
+  --bg: #080b19;
+  --ink: #f1f4ff;
+  --text: #f1f4ff;
+  --muted: #bdc2d8;
+  --gold: #ffd080;
+  --purple: #c7a5ff;
+  --line: rgba(152, 180, 247, 0.21);
+  --cyber-cyan: #8cecf6;
+  --cyber-pink: #f5a4df;
+  --cyber-violet: #bf9cff;
+  --display-font: "Trebuchet MS", "Avenir Next", system-ui, sans-serif;
+  --serif: var(--display-font);
+}
+html {
+  background: #080b19;
+}
+body {
+  position: relative;
+  isolation: isolate;
+  background:
+    radial-gradient(ellipse at 100% 5%, #591b7040, transparent 43%),
+    radial-gradient(ellipse at 0 28%, #10395838, transparent 50%),
+    linear-gradient(160deg, #080d1c, #101020 47%, #090c19);
+  color: var(--ink);
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background-image:
+    radial-gradient(ellipse at 22% 45%, #080d1bd9, transparent 73%),
+    linear-gradient(180deg, #080d1b38, #090b18a6),
+    url("images/astrology/aquarius.webp");
+  background-size: cover;
+  background-position:
+    center,
+    center,
+    70% 40%;
+  background-repeat: no-repeat;
+  opacity: 0.33;
+  filter: saturate(1.2);
+}
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(#80d9f407 1px, transparent 1px),
+    linear-gradient(90deg, #80d9f407 1px, transparent 1px);
+  background-size: 72px 72px;
+  mask-image: linear-gradient(#0008, transparent 85%);
+}
+/* A single heading rule intentionally supersedes the original editorial type styles. */
+h1,
+h2,
+h3,
+.brand,
+.merch-section h2,
+.merch-section .merch-product h3 {
+  font-family: var(--display-font) !important;
+}
+h1,
+h2 {
+  font-weight: 600 !important;
+}
+h3 {
+  font-weight: 500 !important;
+}
+.hero h1,
+.astro-hero h1,
+.tarot-hero h1,
+.learning-hero h1,
+.shop-hero h1 {
+  font-size: clamp(46px, 5vw, 74px);
+  line-height: 1.1;
+  letter-spacing: -2.5px;
+}
+h1 em,
+h2 em,
+.hero h1 em,
+.astro-hero h1 em,
+.tarot-hero h1 em,
+.learning-hero h1 em,
+.shop-hero h1 em,
+.astrology-entry h2 em,
+.closing em {
+  color: var(--cyber-cyan);
+  font-style: normal;
+  text-shadow:
+    0 0 28px #39d9ed35,
+    1px 1px 0 #c235d443;
+}
+.brand {
+  font-weight: 500;
+  letter-spacing: -0.8px;
+}
+.brand-dot {
+  color: var(--cyber-pink);
+}
+.brand-mark {
+  color: var(--cyber-cyan);
+  filter: drop-shadow(0 0 7px #2dc9dc60);
+}
+.site-header {
+  border-bottom-color: #8cdbea3b;
+  background: linear-gradient(90deg, #0c102100, #15152d38, #0c102100);
+}
+.header-cta {
+  border-color: #9c84d36b;
+  color: #d2d4fa;
+  background: #3f286221;
+}
+.header-cta:hover {
+  border-color: var(--cyber-cyan);
+  background: #183e532e;
+}
+.eyebrow,
+.feature-tag,
+.merch-section .merch-kicker {
+  color: var(--cyber-cyan);
+  letter-spacing: 1.7px;
+}
+.tiny-star,
+.closing-star {
+  color: var(--cyber-pink);
+  text-shadow: 0 0 15px #f475d980;
+}
+.button-gold,
+.button-gold:hover {
+  color: #090f20;
+  background: linear-gradient(110deg, #91e8ef, #c0b2ff);
+  border: 1px solid #c2e8ffb3;
+  box-shadow:
+    0 0 24px #45d2ef14,
+    inset 0 1px 0 #fff4;
+}
+.button-gold:hover {
+  box-shadow:
+    0 0 30px #46d9f333,
+    0 0 12px #ba6beb22;
+}
+.button-outline {
+  color: #d7e7ff;
+  border-color: #a7bce16b;
+  background: #19334740;
+}
+.button-outline:hover {
+  background: #224a5f55;
+  border-color: #91e8ef;
+}
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--cyber-cyan);
+  outline-offset: 5px;
+}
+::selection {
+  background: #8d2b94;
+  color: #fff;
+}
+.hero-art {
+  filter: drop-shadow(0 0 32px #b23ee827);
+}
+.orb-glow {
+  background: radial-gradient(
+    circle,
+    #ae55d54a,
+    #2a85952b 45%,
+    transparent 72%
+  );
+}
+.orbit-lines {
+  stroke: #9bc3e278;
+}
+.hero-orbit {
+  border-color: #a3e1ec2e;
+  background: radial-gradient(
+    ellipse,
+    #7f4cb33b,
+    #27708313 55%,
+    transparent 72%
+  );
+}
+.hero-orbit::before {
+  border-color: #c86fdd30;
+}
+.big-three-art {
+  filter: drop-shadow(0 0 25px #6829a821);
+}
+.hero-card-fan::before {
+  background: radial-gradient(
+    ellipse,
+    #8a389a45,
+    #185a7138 45%,
+    transparent 70%
+  );
+}
+.hero-card-fan img,
+.tarot-card,
+.sign-hero-art img,
+.learning-hero-art img {
+  box-shadow:
+    0 16px 38px #02051280,
+    0 0 25px #b130dc1c;
+}
+.calculator-feature,
+.calculation-panel,
+.preview-form,
+.email-sample,
+.zodiac-card,
+.sign-facts,
+.match-grid article,
+.sign-subscription,
+.daily-panel,
+.major-entry,
+.suit-links a,
+.prologue,
+.study-card,
+.shop-subscriptions article {
+  background: linear-gradient(125deg, #192037b5, #1a142aaf 62%, #0e1b2ba8);
+  border-color: #a0b8e53b;
+  box-shadow:
+    inset 0 1px 0 #d0f1ff08,
+    0 15px 40px #0205141c;
+}
+.calculator-feature::before {
+  background: radial-gradient(ellipse, #7e3f9b24, transparent 65%);
+}
+.zodiac-card:hover,
+.major-entry:hover,
+.suit-links a:hover,
+.merch-product:hover {
+  border-color: #72dce48c;
+  box-shadow: 0 0 25px #7b34a822;
+}
+.card-art::after {
+  background: linear-gradient(transparent 40%, #10172ae8);
+}
+.card-art {
+  background: #090d1c;
+}
+.card-element {
+  color: #d5f1fa;
+  border: 1px solid #7ecbd72e;
+  background: #07101ccc;
+}
+.zodiac-card h3,
+.profile-topic h3,
+.position-reading h3 {
+  color: #eef2ff;
+}
+.daily-teaser {
+  color: #f0caee;
+}
+.zodiac-glyph,
+.sign-hero-glyph {
+  color: #bdeaf1;
+  text-shadow: 0 0 12px #54bcd84d;
+}
+.big-three-section,
+.subscription-band,
+.tarot-subscription,
+.tarot-section {
+  background: linear-gradient(120deg, #1d254638, #32144355 62%, #102b3a38);
+  border-color: #b691e02b;
+}
+.intro-strip,
+.astro-manifesto,
+.daily-strip,
+.astrology-entry {
+  border-color: #98c2ee38;
+}
+.astro-manifesto,
+.intro-strip {
+  background: linear-gradient(90deg, #0b536f08, #71329612, #0b536f08);
+}
+.email-masthead > span:first-child {
+  color: var(--cyber-cyan);
+}
+.email-sample h3 {
+  color: #f0d3fa;
+}
+.email-paragraph .eyebrow,
+.spread-position > .eyebrow,
+.chapter-links,
+.profile-jumps {
+  color: #a6e2ee;
+}
+.email-sample,
+.daily-panel {
+  backdrop-filter: blur(8px);
+}
+.edition-badges span,
+.coming-soon,
+.launch-pill {
+  color: #aeeff1;
+  border-color: #77dce34d;
+  background: #1a566425;
+}
+.filter-bar button[aria-pressed="true"],
+.category-filters button[aria-pressed="true"] {
+  color: #dcfaff;
+  border-color: #6ddde080;
+  background: #22505c55;
+}
+.preview-form select,
+.preview-form input,
+.search-box {
+  border-color: #88b4d35c;
+  background-color: #081421c7;
+  color: #e7f5ff;
+}
+.tarot-faq summary,
+.birth-time-note summary,
+.session-journal summary {
+  color: #c4e9f8;
+}
+.tarot-faq details[open],
+.birth-time-note[open] {
+  background: linear-gradient(90deg, #264b6522, transparent);
+}
+.story-act blockquote,
+.suit-question,
+.profile-section blockquote {
+  background: linear-gradient(110deg, #173c5438, #5422592e);
+  border-left-color: #99e5eb;
+}
+.merch-section {
+  background: linear-gradient(115deg, #192b4266, #361b4661 55%, #132a3b6b);
+  border-color: #a282cf40;
+}
+.merch-section .merch-product {
+  background: linear-gradient(145deg, #1024378c, #24152e8c);
+  border-color: #95afdd3d;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+.merch-section h2 em {
+  color: var(--cyber-cyan);
+  font-style: normal;
+}
+.merch-product img {
+  box-shadow:
+    0 7px 22px #0006,
+    0 0 16px #dc42df21;
+}
+.merch-section .merch-link {
+  color: #b4e5f2;
+}
+.merch-section .merch-price {
+  color: #ffd080;
+}
+.tarot-footer,
+.astro-footer,
+.site-footer {
+  border-top-color: #a2b4df30;
+}
+/* The calculator receives the same palette without changing its layout or formulas. */
+.panel {
+  border-color: #96b5df40;
+  background: linear-gradient(135deg, #18243dcc, #21192ecc);
+  box-shadow: 0 15px 45px #02041233;
+}
+#output .card {
+  background: linear-gradient(135deg, #16344888, #34204399);
+  border-color: #8bb4d440;
+}
+#output .card strong {
+  color: #b2edf4;
+}
+#form input,
+#form select {
+  border-color: #8faed354;
+  background: #0a1526b8;
+  color: #f1f4ff;
+}
+#form button[type="submit"] {
+  color: #09121f;
+  background: linear-gradient(110deg, #91e8ef, #c0b2ff);
+  border-color: #b4d7f5;
+}
+#output h2 {
+  color: #e8d5ff;
+}
+@media (max-width: 1100px) {
+  .header-cta {
+    font-size: 9px;
+  }
+  .hero h1,
+  .astro-hero h1,
+  .tarot-hero h1,
+  .learning-hero h1,
+  .shop-hero h1 {
+    font-size: clamp(46px, 5.5vw, 65px);
+  }
+}
+@media (max-width: 760px) {
+  body::before {
+    background-position:
+      center,
+      center,
+      65% 35%;
+    opacity: 0.28;
+  }
+  body::after {
+    background-size: 48px 48px;
+  }
+  .hero h1,
+  .astro-hero h1,
+  .tarot-hero h1,
+  .learning-hero h1,
+  .shop-hero h1 {
+    font-size: clamp(43px, 9.7vw, 62px);
+    letter-spacing: -1.8px;
+  }
+  .js #site-nav {
+    background: linear-gradient(115deg, #10233bf5, #271733f5);
+    border-bottom-color: #8b91d960;
+    backdrop-filter: blur(12px);
+  }
+  .sign-hero h1 {
+    font-size: clamp(48px, 12vw, 66px);
+  }
+  .daily-panel,
+  .email-sample {
+    backdrop-filter: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .merch-section .merch-product {
+    transition: none;
+  }
+}
+@media print {
+  body::before,
+  body::after {
+    display: none;
+  }
+  .merch-section {
+    display: none;
+  }
+}
+
+.calculator-site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px 25px;
+  border-bottom: 1px solid #8cdbea3b;
+  margin-bottom: 35px;
+  padding-bottom: 20px;
+  font-size: 11px;
+}
+.calculator-site-nav a {
+  color: #b6e9f1;
+  text-decoration: none;
+}
+.calculator-site-nav a:hover {
+  color: #f5a4df;
+}
+.calculator-site-nav a:first-child {
+  margin-right: auto;
+}

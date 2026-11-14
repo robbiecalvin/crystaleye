@@ -1,0 +1,9 @@
+{
+  "currency": "CAD",
+  "status": "coming_soon",
+  "products": [
+    {"id": "book", "name": "Tarot Guide Book", "price": "19.99", "image": "card-back", "description": "A companion for learning card meanings, asking better questions, and building a thoughtful reading practice."},
+    {"id": "deck", "name": "Crystal Eye Tarot Deck", "price": "39.99", "image": "the-star", "description": "Explore the full 78-card Major and Minor Arcana through Crystal Eye’s vivid cyberpunk artwork."},
+    {"id": "bundle", "name": "Book + Card bundle", "price": "49.99", "image": "the-magician", "description": "Bring the guide and deck together: a place to learn, a deck to practice with, and a ritual to make your own."}
+  ]
+}

@@ -1,0 +1,1193 @@
+:root {
+  --tarot-violet: #baa1db;
+  --tarot-pink: #dba6c9;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+figure {
+  margin-top: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 400;
+}
+h2 {
+  font: 54px/1.12 var(--serif);
+  letter-spacing: -1.6px;
+  margin-bottom: 25px;
+}
+h2 em,
+h1 em {
+  color: var(--tarot-violet);
+  font-weight: 400;
+}
+h3 {
+  font: 28px/1.25 var(--serif);
+}
+.section-copy {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.95;
+  max-width: 580px;
+}
+.fine-print {
+  font-size: 11px;
+  color: #b1a5bf;
+  line-height: 1.85;
+}
+.section-space {
+  padding-top: 85px;
+}
+.tarot-topline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+.tarot-topline > p {
+  margin-bottom: 0;
+}
+.site-header {
+  gap: 22px;
+}
+#site-nav {
+  gap: 25px;
+}
+.header-cta {
+  white-space: nowrap;
+  font-size: 11px;
+}
+.tarot-hero {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  align-items: center;
+  gap: 65px;
+  min-height: 640px;
+  padding-block: 75px;
+}
+.tarot-hero h1,
+.shop-hero h1 {
+  font: 76px/1.08 var(--serif);
+  letter-spacing: -2.5px;
+  margin-block: 30px;
+}
+.tarot-hero .section-copy {
+  max-width: 480px;
+}
+.tarot-hero .fine-print {
+  margin-top: 30px;
+}
+.hero-card-fan {
+  position: relative;
+  min-width: 0;
+  height: 410px;
+  isolation: isolate;
+}
+.hero-card-fan::before {
+  content: "";
+  position: absolute;
+  inset: 0 -20px;
+  border-radius: 50%;
+  background: radial-gradient(ellipse, #73478e40, transparent 68%);
+  z-index: -1;
+}
+.hero-card-fan img {
+  position: absolute;
+  width: 42%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 14px 32px #0008;
+  top: 35px;
+}
+.fan-left {
+  left: 2%;
+  transform: rotate(-13deg) translateY(30px);
+}
+.fan-center {
+  left: 29%;
+  z-index: 2;
+}
+.fan-right {
+  right: 0;
+  transform: rotate(13deg) translateY(30px);
+}
+.daily-panel {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 70px;
+  align-items: center;
+  padding: 50px 65px;
+  border: 1px solid var(--line);
+  background:
+    radial-gradient(ellipse at 20% 40%, #5e367832, transparent 65%), #1b172180;
+  border-radius: 6px;
+  margin-top: 32px;
+}
+.single-altar {
+  position: relative;
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.altar-line {
+  position: absolute;
+  width: 95%;
+  height: 130px;
+  border: 1px solid #b797d32e;
+  border-radius: 50%;
+  bottom: -10px;
+  z-index: -1;
+}
+.card-slot {
+  width: 220px;
+  max-width: 100%;
+  text-align: center;
+  perspective: 1000px;
+}
+.draw-card {
+  width: 100%;
+  aspect-ratio: 2/3;
+  position: relative;
+}
+.flip-inner {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+  transition: transform 0.65s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.card-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 5px;
+  background: #17111e;
+  box-shadow: 0 14px 30px #0006;
+}
+.card-face img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}
+.card-front {
+  transform: rotateY(180deg);
+}
+.card-back-label {
+  position: absolute;
+  bottom: 16px;
+  left: 10px;
+  right: 10px;
+  text-align: center;
+  color: #f0dcb9;
+  background: #110c1cde;
+  border: 1px solid #c9abd859;
+  padding: 6px;
+  font: 11px var(--sans);
+}
+.draw-card-name {
+  color: #cbb9dd;
+  font: 14px/1.6 var(--serif);
+  margin: 20px 0 0;
+  min-height: 23px;
+}
+.card-slot.is-revealed .flip-inner {
+  transform: rotateY(180deg);
+}
+.card-slot.is-animating .draw-card {
+  animation: tarot-deal 0.8s ease both;
+}
+.card-slot.is-animating .flip-inner {
+  animation: tarot-turn 0.65s 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+@keyframes tarot-deal {
+  0% {
+    transform: translateY(-15px) rotate(-6deg);
+    opacity: 0.6;
+  }
+  20% {
+    transform: translateX(17px) rotate(6deg);
+    opacity: 1;
+  }
+  45% {
+    transform: translateX(-14px) rotate(-5deg);
+  }
+  65% {
+    transform: translateX(8px) rotate(3deg);
+  }
+  100% {
+    transform: translate(0) rotate(0);
+  }
+}
+@keyframes tarot-turn {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}
+.daily-copy h3 {
+  font-size: 37px;
+  margin-block: 20px;
+}
+.daily-copy p:not(.eyebrow, .fine-print) {
+  color: #c3b8cd;
+  font-size: 14px;
+  line-height: 1.9;
+}
+.day-tone {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #b89bd74d;
+  background: #af8bd510;
+  color: #d4bfe9;
+  border-radius: 3px;
+  font-size: 11px;
+  margin-top: 12px;
+}
+.day-tone[data-tone="easy"] {
+  color: #b0d4bd;
+  border-color: #8fbba44d;
+}
+.day-tone[data-tone="hard"] {
+  color: #e3b6a6;
+  border-color: #d5a38c4d;
+}
+.daily-copy .button {
+  margin-top: 20px;
+}
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.draw-status {
+  min-height: 21px;
+  margin: 13px 0;
+}
+.notice {
+  border: 1px solid var(--line);
+  padding: 18px;
+  background: #33243d;
+  color: var(--muted);
+}
+.session-journal {
+  border-bottom: 1px solid var(--line);
+  padding-block: 25px;
+  margin-top: 15px;
+}
+.session-journal summary {
+  cursor: pointer;
+  font: 21px var(--serif);
+  color: var(--gold);
+}
+.session-journal ol {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+.session-journal li {
+  color: #beb1cc;
+  font-size: 12px;
+  padding-block: 9px;
+  border-bottom: 1px solid #cdb5df17;
+}
+.tarot-subscription {
+  margin-top: 65px;
+  padding-bottom: 75px;
+  border-block: 1px solid var(--line);
+  background: linear-gradient(135deg, #1d1924, #20182b88 60%, #15131d);
+}
+.subscribe-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 110px;
+  align-items: start;
+}
+.subscribe-layout h2 {
+  font-size: 62px;
+  margin-top: 25px;
+}
+.tarot-price {
+  font: 50px/1.2 var(--serif);
+  color: var(--gold);
+  margin-block: 25px 15px;
+}
+.tarot-price span {
+  font: 12px var(--sans);
+  color: var(--muted);
+  white-space: nowrap;
+}
+.coming-soon {
+  display: table;
+  color: #b3d6d6;
+  border: 1px solid #a0c9cb40;
+  background: #91b6c509;
+  padding: 6px 10px;
+  font-size: 11px;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+.subscribe-layout .fine-print {
+  max-width: 420px;
+  margin-top: 20px;
+}
+.spread-positions {
+  list-style: none;
+  padding: 0;
+  margin: 35px 0 0;
+}
+.spread-positions li {
+  padding: 0 0 30px 25px;
+  border-left: 1px solid #baa1db45;
+}
+.spread-positions span {
+  color: var(--gold);
+  font-size: 10px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+.spread-positions h3 {
+  font-size: 28px;
+  margin: 12px 0;
+}
+.spread-positions p {
+  font-size: 13px;
+  line-height: 1.9;
+  color: var(--muted);
+}
+.spread-preview {
+  margin-top: 65px;
+  padding-top: 45px;
+  border-top: 1px solid var(--line);
+}
+.preview-badge {
+  font-size: 10px;
+  color: #c4b0d5;
+}
+.spread-preview > .section-copy {
+  max-width: 700px;
+}
+.spread-preview .button {
+  margin-top: 12px;
+}
+.spread-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 50px;
+  margin-top: 38px;
+}
+.spread-position {
+  min-width: 0;
+  text-align: center;
+}
+.spread-position > .eyebrow {
+  color: var(--gold);
+  margin-bottom: 25px;
+}
+.spread-position .card-slot {
+  width: 190px;
+  margin-inline: auto;
+}
+.position-reading {
+  border-top: 1px solid var(--line);
+  margin-top: 25px;
+  padding-top: 20px;
+  text-align: left;
+}
+.position-reading h3 {
+  font-size: 26px;
+  margin: 0 0 16px;
+}
+.position-reading p {
+  color: #c3b4ce;
+  font-size: 13px;
+  line-height: 1.95;
+}
+.tarot-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 65px;
+}
+.tarot-intro-grid p {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.95;
+}
+.tarot-faq {
+  margin-top: 30px;
+}
+.tarot-faq details {
+  border-top: 1px solid var(--line);
+  padding-block: 25px;
+}
+.tarot-faq details:last-child {
+  border-bottom: 1px solid var(--line);
+}
+.tarot-faq summary {
+  color: #e6d8ef;
+  font: 27px/1.4 var(--serif);
+  cursor: pointer;
+}
+.tarot-faq details > p {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.95;
+  max-width: 850px;
+  margin: 22px 0;
+}
+.tarot-faq a {
+  font-size: 11px;
+  color: var(--gold);
+}
+.major-entry {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 40px;
+  align-items: center;
+  padding: 35px;
+  background: #2a1f3280;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  margin-top: 35px;
+}
+.major-entry img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+.major-entry h3 {
+  font-size: 35px;
+  color: #e9d8f3;
+  margin: 20px 0;
+}
+.major-entry p:not(.eyebrow) {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.9;
+  max-width: 600px;
+  margin-bottom: 0;
+}
+.suit-links {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+  margin: 25px 0 75px;
+}
+.suit-links a {
+  padding: 25px;
+  border: 1px solid var(--line);
+  background: #18151f;
+  border-radius: 4px;
+}
+.suit-links a:hover,
+.major-entry:hover {
+  border-color: #c7a9dd80;
+}
+.suit-links span {
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  font-size: 9px;
+}
+.suit-links h3 {
+  font-size: 28px;
+  margin: 15px 0;
+}
+.suit-links p {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.85;
+  margin-bottom: 0;
+}
+.tarot-footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 28px;
+  padding-bottom: 30px;
+}
+.tarot-footer nav {
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  font-size: 11px;
+}
+.tarot-footer > p {
+  width: 100%;
+  margin: 0;
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+  color: #b1a2bd;
+  font-size: 10px;
+}
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  font-size: 11px;
+  color: #bca5cf;
+  margin-top: 25px;
+}
+.breadcrumb span:last-child {
+  color: var(--gold);
+}
+.learning-hero {
+  display: grid;
+  grid-template-columns: 1.5fr 0.6fr;
+  gap: 100px;
+  align-items: center;
+  padding-block: 60px;
+}
+.learning-hero h1 {
+  font: 66px/1.13 var(--serif);
+  letter-spacing: -2px;
+  margin: 25px 0;
+}
+.learning-hero h1 em {
+  font-size: 0.85em;
+}
+.learning-hero-art {
+  max-width: 240px;
+  justify-self: end;
+}
+.learning-hero-art img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 16px 35px #0007;
+}
+.domain-note {
+  font: italic 20px/1.7 var(--serif);
+  color: #c8b2dd;
+  max-width: 600px;
+}
+.chapter-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-block: 25px;
+  font-size: 12px;
+  color: var(--gold);
+}
+.chapter-links a {
+  padding-block: 8px;
+  border-bottom: 1px solid #a88cbd44;
+}
+.prologue {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 50px;
+  padding: 40px;
+  background: #251d2c80;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  margin-bottom: 70px;
+}
+.prologue img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+.prologue h2 {
+  font-size: 42px;
+  margin: 20px 0;
+}
+.prologue p:not(.eyebrow) {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.95;
+}
+.story-act {
+  padding-bottom: 55px;
+  margin-bottom: 65px;
+  border-bottom: 1px solid var(--line);
+}
+.story-act h2 {
+  font-size: 46px;
+  margin-block: 25px;
+}
+.story-prose {
+  columns: 2;
+  column-gap: 55px;
+}
+.story-prose p {
+  margin: 0 0 22px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.95;
+  break-inside: avoid;
+}
+.story-act blockquote,
+.suit-question {
+  margin: 25px 0 40px;
+  border-left: 2px solid var(--gold);
+  background: #af85c60b;
+  padding: 25px 30px;
+}
+.story-act blockquote p,
+.suit-question p {
+  font: italic 24px/1.6 var(--serif);
+  color: #e4d3ee;
+  margin: 0 0 15px;
+}
+.story-act cite,
+.suit-question cite {
+  font: 10px var(--sans);
+  color: var(--gold);
+}
+.study-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 35px;
+  align-items: start;
+}
+.study-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: #1b1721;
+  padding: 22px;
+  min-width: 0;
+}
+.study-card > img {
+  width: 125px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 25px;
+  border-radius: 3px;
+  display: block;
+}
+.study-card h3 {
+  font-size: 24px;
+  margin: 12px 0;
+}
+.study-card .eyebrow {
+  font-size: 9px;
+  margin: 0;
+}
+.card-keywords {
+  font-size: 11px;
+  line-height: 1.8;
+  color: var(--muted);
+  min-height: 39px;
+}
+.study-card summary {
+  color: var(--gold);
+  font-size: 11px;
+  cursor: pointer;
+  padding-block: 8px;
+}
+.study-card details p {
+  color: #c1b5cb;
+  font-size: 12px;
+  line-height: 1.9;
+  margin-top: 14px;
+}
+.study-question {
+  font-style: italic;
+  border-top: 1px solid var(--line);
+  padding-top: 15px;
+}
+.suit-explainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 65px;
+  padding-block: 30px;
+}
+.suit-explainer h2 {
+  font-size: 34px;
+  margin-block: 20px;
+}
+.suit-explainer article > p:not(.eyebrow) {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.95;
+}
+.learning-next {
+  padding-block: 40px 65px;
+}
+.learning-next h2 {
+  font-size: 45px;
+  margin-block: 25px;
+}
+.learning-next > p:not(.eyebrow) {
+  color: var(--muted);
+  font-size: 14px;
+  max-width: 650px;
+  line-height: 1.9;
+}
+.learning-next .button {
+  margin-top: 20px;
+}
+.shop-hero {
+  padding-block: 70px 10px;
+}
+.shop-hero .section-copy {
+  max-width: 550px;
+}
+.shop-hero .coming-soon {
+  margin-top: 25px;
+}
+.ordering-info {
+  padding-block: 60px 75px;
+}
+.ordering-info > p:not(.eyebrow) {
+  max-width: 850px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.95;
+}
+.shop-subscriptions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  padding-top: 35px;
+}
+.shop-subscriptions article {
+  border: 1px solid var(--line);
+  padding: 25px;
+  border-radius: 4px;
+}
+.shop-subscriptions h3 {
+  font-size: 28px;
+}
+.shop-subscriptions p {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.9;
+}
+.shop-subscriptions .text-link {
+  color: var(--gold);
+  font-size: 11px;
+}
+@media (max-width: 1100px) {
+  .tarot-hero {
+    gap: 35px;
+  }
+  .tarot-hero h1 {
+    font-size: 65px;
+  }
+  .hero-card-fan {
+    height: 360px;
+  }
+  .daily-panel {
+    gap: 40px;
+    padding: 40px;
+  }
+  .subscribe-layout {
+    gap: 65px;
+  }
+  .study-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .learning-hero {
+    gap: 60px;
+  }
+  .learning-hero h1 {
+    font-size: 57px;
+  }
+  .suit-links {
+    grid-template-columns: 1fr 1fr;
+  }
+  .header-cta {
+    font-size: 9px;
+    padding-inline: 12px;
+  }
+  #site-nav {
+    gap: 20px;
+  }
+  .spread-grid {
+    gap: 30px;
+  }
+}
+@media (max-width: 760px) {
+  h2 {
+    font-size: 43px;
+  }
+  .section-space {
+    padding-top: 55px;
+  }
+  .section-copy {
+    font-size: 13px;
+  }
+  .tarot-hero {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding-block: 48px 25px;
+    min-height: 0;
+  }
+  .tarot-hero h1,
+  .shop-hero h1 {
+    font-size: clamp(49px, 10vw, 68px);
+    letter-spacing: -2px;
+    margin-block: 25px;
+  }
+  .tarot-hero .hero-actions {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .tarot-hero .fine-print {
+    margin-top: 25px;
+  }
+  .hero-card-fan {
+    height: 330px;
+    width: 95%;
+    max-width: 380px;
+    margin-inline: auto;
+  }
+  .hero-card-fan::before {
+    inset: 0;
+  }
+  .hero-card-fan img {
+    top: 20px;
+    width: 40%;
+  }
+  .fan-left {
+    left: 4%;
+  }
+  .fan-center {
+    left: 30%;
+  }
+  .fan-right {
+    right: 2%;
+  }
+  .tarot-topline {
+    align-items: start;
+    gap: 20px;
+    margin-bottom: 25px;
+  }
+  .tarot-topline .fine-print,
+  .tarot-topline .section-aside {
+    text-align: right;
+    font-size: 9px;
+    max-width: 160px;
+  }
+  .tarot-topline .eyebrow {
+    max-width: 160px;
+    font-size: 9px;
+  }
+  .daily-panel {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 30px 24px;
+  }
+  .single-altar {
+    padding-top: 5px;
+  }
+  .card-slot {
+    width: 185px;
+  }
+  .daily-copy h3 {
+    font-size: 33px;
+  }
+  .daily-copy p:not(.eyebrow, .fine-print) {
+    font-size: 13px;
+  }
+  .daily-copy .button {
+    width: 100%;
+    justify-content: center;
+    font-size: 12px;
+  }
+  .daily-copy .fine-print {
+    font-size: 10px;
+  }
+  .session-journal summary {
+    font-size: 20px;
+  }
+  .subscribe-layout {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .subscribe-layout h2 {
+    font-size: 50px;
+  }
+  .tarot-subscription {
+    margin-top: 40px;
+    padding-bottom: 50px;
+  }
+  .spread-positions {
+    margin-top: 15px;
+  }
+  .spread-positions li {
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+  .spread-positions h3 {
+    font-size: 26px;
+  }
+  .spread-preview {
+    margin-top: 30px;
+    padding-top: 30px;
+  }
+  .spread-preview .tarot-topline {
+    display: block;
+  }
+  .preview-badge {
+    display: block;
+    margin-top: 15px;
+  }
+  .spread-grid {
+    grid-template-columns: 1fr;
+    gap: 38px;
+  }
+  .spread-position {
+    display: grid;
+    grid-template-columns: 115px minmax(0, 1fr);
+    gap: 0 23px;
+    text-align: left;
+  }
+  .spread-position > .eyebrow {
+    grid-column: 1/-1;
+    margin-bottom: 20px;
+  }
+  .spread-position .card-slot {
+    width: 115px;
+  }
+  .draw-card-name {
+    font-size: 12px;
+    margin-top: 14px;
+  }
+  .position-reading {
+    padding-top: 0;
+    border: 0;
+    margin-top: 0;
+  }
+  .position-reading h3 {
+    font-size: 25px;
+    margin-top: 0;
+  }
+  .position-reading p {
+    font-size: 12px;
+    line-height: 1.9;
+  }
+  .tarot-intro-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .tarot-intro-grid p {
+    font-size: 13px;
+  }
+  .tarot-faq summary {
+    font-size: 24px;
+  }
+  .tarot-faq details > p {
+    font-size: 13px;
+  }
+  .major-entry {
+    grid-template-columns: 95px 1fr;
+    gap: 25px;
+    padding: 24px;
+  }
+  .major-entry h3 {
+    font-size: 27px;
+    margin-block: 15px;
+  }
+  .major-entry .eyebrow {
+    font-size: 8px;
+  }
+  .major-entry p:not(.eyebrow) {
+    font-size: 11px;
+  }
+  .suit-links {
+    gap: 15px;
+    margin-bottom: 45px;
+  }
+  .suit-links a {
+    padding: 20px;
+  }
+  .suit-links h3 {
+    font-size: 26px;
+  }
+  .suit-links p {
+    font-size: 11px;
+  }
+  .tarot-footer nav {
+    margin-left: 0;
+    gap: 20px;
+    font-size: 10px;
+  }
+  .breadcrumb {
+    font-size: 10px;
+    margin-top: 20px;
+  }
+  .learning-hero {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding-block: 40px;
+  }
+  .learning-hero h1 {
+    font-size: 51px;
+    letter-spacing: -1.7px;
+  }
+  .learning-hero-art {
+    justify-self: center;
+    width: 160px;
+  }
+  .domain-note {
+    font-size: 18px;
+  }
+  .chapter-links {
+    font-size: 11px;
+    gap: 15px;
+  }
+  .prologue {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 26px;
+    width: calc(100% - 40px);
+    margin-bottom: 45px;
+  }
+  .prologue > img {
+    width: 110px;
+  }
+  .prologue h2 {
+    font-size: 35px;
+  }
+  .prologue p:not(.eyebrow) {
+    font-size: 13px;
+  }
+  .story-act {
+    margin-bottom: 45px;
+    padding-bottom: 40px;
+  }
+  .story-act h2 {
+    font-size: 37px;
+  }
+  .story-prose {
+    columns: 1;
+  }
+  .story-prose p {
+    font-size: 13px;
+  }
+  .study-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+  .study-card {
+    padding: 17px 13px;
+  }
+  .study-card > img {
+    width: 100px;
+    margin-bottom: 18px;
+  }
+  .study-card h3 {
+    font-size: 22px;
+  }
+  .card-keywords {
+    font-size: 10px;
+    min-height: 50px;
+  }
+  .study-card details p {
+    font-size: 11px;
+  }
+  .study-card summary {
+    font-size: 10px;
+  }
+  .story-act blockquote,
+  .suit-question {
+    padding: 22px;
+    margin-block: 25px;
+  }
+  .story-act blockquote p,
+  .suit-question p {
+    font-size: 22px;
+  }
+  .suit-explainer {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding-block: 15px;
+  }
+  .suit-explainer h2 {
+    font-size: 31px;
+  }
+  .suit-explainer article > p:not(.eyebrow) {
+    font-size: 13px;
+  }
+  .learning-next {
+    padding-block: 30px 45px;
+  }
+  .learning-next h2 {
+    font-size: 39px;
+  }
+  .learning-next > p:not(.eyebrow) {
+    font-size: 13px;
+  }
+  .shop-hero {
+    padding-block: 45px 0;
+  }
+  .ordering-info {
+    padding-block: 45px;
+  }
+  .ordering-info > p:not(.eyebrow) {
+    font-size: 13px;
+  }
+  .shop-subscriptions {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+@media (max-width: 380px) {
+  .hero-card-fan {
+    height: 285px;
+  }
+  .daily-panel {
+    padding: 25px 20px;
+  }
+  .spread-position {
+    grid-template-columns: 95px minmax(0, 1fr);
+    gap: 0 18px;
+  }
+  .spread-position .card-slot {
+    width: 95px;
+  }
+  .position-reading h3 {
+    font-size: 23px;
+  }
+  .position-reading p {
+    font-size: 11px;
+  }
+  .study-card h3 {
+    font-size: 20px;
+  }
+  .major-entry {
+    grid-template-columns: 75px 1fr;
+    gap: 18px;
+    padding: 20px;
+  }
+  .major-entry h3 {
+    font-size: 24px;
+  }
+  .suit-links a {
+    padding: 16px;
+  }
+  .suit-links h3 {
+    font-size: 23px;
+  }
+  .learning-hero h1 {
+    font-size: 45px;
+  }
+  .card-slot {
+    width: 165px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+    animation: none !important;
+  }
+}

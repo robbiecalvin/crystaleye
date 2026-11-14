@@ -148,3 +148,14 @@ Rebuild instructions are in [README.md](README.md). No environment configuration
 - The user confirmed $5.99 CAD/month and deferred Stripe/email integration. The offer is labeled coming soon; no payment, email collection, or sending service is active.
 - Calendar/reading tests cover all signs and placement lenses, Sunday/month-boundary overlaps, leap years, invalid dates, preview shortcuts, and teaser/detail consistency. Browser checks cover profiles, local links/assets, anchors, element filters, preview controls, mobile navigation, and responsive/no-JavaScript behavior.
 - Existing numerology calculations and PDFs are preserved. This separate website task does not advance the pending Karmic Lessons PDF.
+
+
+## Tarot wing, merchandise, and shared cyberpunk styling
+
+- Built the tarot hub with an animated free one-card daily draw, easy/mixed/demanding symbolic themes, and a local browser-tab session journal. Draws persist through refresh, including refresh during animation, and reset by local calendar date. All 78 cards are eligible; the three-card preview draws without replacement. Blocked storage and reduced motion have explicit fallbacks.
+- Added a $5.99 CAD/month three-card subscription offer and public preview: yesterday's reflection, today's energy, and tomorrow's gratitude. Paid enrollment is coming soon, with no active account, payment, or sending service.
+- Added five learning pages: a detailed three-act Major Arcana story with The Fool as prologue and all four suits with their symbolism, numbered-card narratives, court cards, and individual meanings. The existing deck artwork and reference PDF are preserved. Optimized derivatives cover all 78 cards and the supplied card back.
+- Added the merchandise catalog and shop: guide $19.99 CAD, deck $39.99 CAD, bundle $49.99 CAD. All 22 pages include static product promotions and working shop links. Purchase ordering remains coming soon; no packaging, stock, or fulfillment details are fabricated.
+- The user requested a full-site cyberpunk visual direction that blends with the supplied imagery. Added one shared theme across every page, using a continuous nebula backdrop, cyan/violet highlights, a subtle grid, geometric typography, and translucent surfaces. Site generators retain the shared theme and merchandise component on rebuild.
+- Tests cover full-deck integrity, random selection, session restore and isolation, corrupt/blocked storage, unique spread cards, journal retention, and all existing astrology calendar rules. Browser checks cover 22 pages with product prices/links, animations, session persistence, no-JavaScript fallback, mobile navigation, and 320/390/768/1440px layouts. Local-day rollover and the calculator's 21-result behavior were also checked.
+- No deployment, checkout activation, calculator formula changes, or PDF regeneration is part of this work. The pending Karmic Lessons guide remains at its prior status.
