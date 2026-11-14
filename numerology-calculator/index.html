@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Numerology Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="eyebrow">Names · Numbers · Patterns</div>
+            <h1>Your name.<br>Your numbers.</h1>
+            <p>A personal numerology calculator built around your birth name, the name you use today, and your date of
+                birth.</p>
+        </header>
+        <div class="layout">
+            <section class="panel form-panel">
+                <h2>Start with your story</h2>
+                <form id="form">
+                    <fieldset>
+                        <legend>01 / Name at birth</legend><label for="first">First name at birth</label><input
+                            id="first" required maxlength="100" autocomplete="given-name"><label for="middle">Middle
+                            name at birth <span class="small">(optional)</span></label><input id="middle"
+                            maxlength="150" autocomplete="additional-name"><label for="last">Last name at
+                            birth</label><input id="last" required maxlength="100" autocomplete="family-name">
+                    </fieldset><label class="check"><input type="checkbox" id="alternate"><span>I go by a different
+                            version of my name now</span></label>
+                    <fieldset id="current" hidden>
+                        <legend>02 / Current name</legend><label for="currentFirst">Current first name</label><input
+                            id="currentFirst" maxlength="100"><label for="currentMiddle">Current middle name <span
+                                class="small">(optional)</span></label><input id="currentMiddle" maxlength="150"><label
+                            for="currentLast">Current last name</label><input id="currentLast" maxlength="100">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Date of birth</legend>
+                        <div class="date">
+                            <div><label for="month">Month</label><select id="month" required>
+                                    <option value="">Month</option>
+                                </select></div>
+                            <div><label for="day">Day</label><select id="day" required disabled>
+                                    <option value="">Day</option>
+                                </select></div>
+                            <div><label for="year">Year</label><select id="year" required>
+                                    <option value="">Year</option>
+                                </select></div>
+                        </div>
+                        <p class="small">Years 1800–2026. Select a leap year to enable February 29.</p>
+                    </fieldset>
+                    <p id="error" class="error" role="alert"></p><button type="submit">Calculate my numbers
+                        ↗</button><button type="reset" class="secondary">Clear form</button>
+                    <p class="small">Calculated in your browser. Your entries are not uploaded or stored by this
+                        calculator.</p>
+                </form>
+            </section>
+            <section class="panel" id="output" aria-live="polite">
+                <div class="empty">
+                    <div class="symbol">✧</div>
+                    <h2>A little detail.<br>A whole set of numbers.</h2>
+                    <p>Enter your names and birthday to reveal your results.</p>
+                    <p class="small">Master numbers 11, 22, and 33 are preserved.</p>
+                </div>
+            </section>
+        </div>
+        <footer>Uses your custom calculation rules. Vowels: A, E, I, O, U; Y is a consonant. Negative Challenge results
+            become zero. Numerology is a reflective tradition, not a scientific prediction.</footer>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
