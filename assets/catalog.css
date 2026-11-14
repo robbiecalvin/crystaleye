@@ -1,0 +1,347 @@
+/* Complete catalog: merchandise, one-time reading, and two distinct monthly plans. */
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+.catalog-hero {
+  padding-block: 70px 25px;
+}
+.catalog-eyebrow {
+  color: #9ce4ed;
+  font-size: 10px;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
+}
+.catalog-hero h1 {
+  font: 68px/1.12 var(--serif);
+  letter-spacing: -2px;
+  margin-block: 28px;
+}
+.catalog-hero h1 em,
+.catalog-heading h2 em,
+.catalog-ordering h2 em {
+  color: #8cecf6;
+  font-style: normal;
+}
+.catalog-hero > p:not(.catalog-eyebrow, .catalog-status) {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.95;
+  max-width: 650px;
+}
+.catalog-jumps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 25px;
+  font-size: 12px;
+  margin-block: 25px;
+  color: #c7dff3;
+}
+.catalog-jumps a {
+  padding-block: 8px;
+  border-bottom: 1px solid #9cb8dd45;
+}
+.catalog-status {
+  display: table;
+  border: 1px solid #85c7ce4d;
+  color: #b6e6e5;
+  padding: 6px 10px;
+  border-radius: 3px;
+  background: #1c54601f;
+  font-size: 11px;
+  line-height: 1.75;
+}
+#products .merch-section {
+  margin-top: 25px;
+}
+.catalog-section {
+  padding-top: 75px;
+}
+.catalog-heading h2,
+.catalog-ordering h2 {
+  font: 48px/1.15 var(--serif);
+  letter-spacing: -1.5px;
+  margin-block: 25px;
+}
+.catalog-heading > p:not(.catalog-eyebrow),
+.catalog-ordering > p:not(.catalog-eyebrow) {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.95;
+  max-width: 800px;
+}
+.report-offer {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr);
+  gap: 50px;
+  align-items: center;
+  padding: 40px;
+  margin-top: 35px;
+  border: 1px solid #9bb0df42;
+  border-radius: 5px;
+  background: linear-gradient(125deg, #1732468a, #321c418a);
+}
+.report-offer > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 12px 30px #0005;
+}
+.report-offer h3,
+.subscription-offer h3 {
+  font: 30px/1.3 var(--serif);
+  color: #f0edf9;
+  margin-bottom: 20px;
+}
+.report-offer p:not(.catalog-price, .catalog-status),
+.subscription-offer > p:not(.catalog-price, .catalog-status, .catalog-eyebrow) {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.95;
+}
+.catalog-price {
+  color: #ffd080;
+  font: 43px/1.2 var(--serif);
+  margin-block: 25px 20px;
+}
+.catalog-price span {
+  font: 12px var(--sans);
+  color: #c1c8dc;
+  white-space: nowrap;
+}
+.report-offer .button {
+  font-size: 12px;
+  margin-block: 5px 15px;
+}
+.catalog-note a {
+  color: #c2e6f2;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.subscription-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  align-items: stretch;
+  margin-top: 35px;
+}
+.subscription-offer {
+  min-width: 0;
+  padding: 35px;
+  background: linear-gradient(145deg, #1b28408c, #301b398c);
+  border: 1px solid #9cb4df3d;
+  border-radius: 5px;
+}
+.subscription-art {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  min-height: 200px;
+  margin-bottom: 28px;
+}
+.subscription-art img {
+  width: 29%;
+  height: auto;
+  max-height: 185px;
+  object-fit: contain;
+  display: block;
+}
+.catalog-astrology-art img {
+  mix-blend-mode: screen;
+}
+.catalog-tarot-art img {
+  border-radius: 3px;
+  filter: drop-shadow(0 9px 12px #0007);
+}
+.subscription-offer ul {
+  padding-left: 20px;
+  color: #c2c4d8;
+  font-size: 13px;
+  line-height: 1.9;
+  margin: 20px 0 25px;
+}
+.subscription-offer li {
+  padding-block: 5px;
+}
+.catalog-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+.catalog-actions .button {
+  font-size: 11px;
+}
+.catalog-actions .text-link {
+  font-size: 11px;
+  color: #bde8f4;
+}
+.catalog-ordering {
+  padding-bottom: 70px;
+}
+.free-practice {
+  margin-top: 35px;
+  padding: 28px;
+  border: 1px solid #9dafdb38;
+  background: #17233b7a;
+  border-radius: 4px;
+}
+.free-practice h3 {
+  font: 28px var(--serif);
+  margin-bottom: 20px;
+}
+.free-practice a {
+  display: inline-block;
+  margin: 8px 25px 8px 0;
+  color: #b7e4ef;
+  font-size: 12px;
+}
+.catalog-footer {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+.catalog-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-left: auto;
+  font-size: 11px;
+}
+.catalog-footer > p {
+  width: 100%;
+  margin: 0;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  color: #b2acc2;
+  font-size: 10px;
+  line-height: 1.9;
+}
+@media (max-width: 1100px) {
+  .catalog-hero h1 {
+    font-size: 60px;
+  }
+  .report-offer {
+    grid-template-columns: 170px minmax(0, 1fr);
+    padding: 30px;
+    gap: 35px;
+  }
+  .subscription-offer {
+    padding: 27px;
+  }
+  .subscription-art {
+    gap: 10px;
+    min-height: 170px;
+  }
+  .catalog-actions {
+    align-items: start;
+  }
+  .catalog-price span {
+    display: block;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 760px) {
+  .catalog-hero {
+    padding-block: 45px 15px;
+  }
+  .catalog-hero h1 {
+    font-size: clamp(43px, 9vw, 60px);
+    letter-spacing: -1.5px;
+  }
+  .catalog-hero > p:not(.catalog-eyebrow, .catalog-status) {
+    font-size: 13px;
+  }
+  .catalog-jumps {
+    font-size: 11px;
+    gap: 12px 20px;
+  }
+  .catalog-status {
+    font-size: 10px;
+  }
+  .catalog-section {
+    padding-top: 50px;
+  }
+  .catalog-heading h2,
+  .catalog-ordering h2 {
+    font-size: 39px;
+    letter-spacing: -1px;
+  }
+  .catalog-heading > p:not(.catalog-eyebrow),
+  .catalog-ordering > p:not(.catalog-eyebrow) {
+    font-size: 13px;
+  }
+  .report-offer {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 25px;
+  }
+  .report-offer > img {
+    width: 140px;
+  }
+  .report-offer h3,
+  .subscription-offer h3 {
+    font-size: 27px;
+  }
+  .catalog-price {
+    font-size: 39px;
+  }
+  .subscription-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .subscription-offer {
+    padding: 25px;
+  }
+  .subscription-art {
+    min-height: 180px;
+  }
+  .subscription-art img {
+    max-height: 170px;
+  }
+  .subscription-offer ul {
+    font-size: 12px;
+  }
+  .catalog-ordering {
+    padding-bottom: 45px;
+  }
+  .free-practice {
+    padding: 23px;
+  }
+  .free-practice a {
+    display: block;
+    margin-right: 0;
+  }
+  .catalog-footer nav {
+    margin-left: 0;
+    gap: 20px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 380px) {
+  .catalog-hero h1 {
+    font-size: 41px;
+  }
+  .subscription-offer {
+    padding: 22px;
+  }
+  .catalog-actions .button {
+    padding-inline: 15px;
+  }
+  .catalog-price {
+    font-size: 36px;
+  }
+  .subscription-art {
+    min-height: 150px;
+  }
+  .subscription-art img {
+    max-height: 145px;
+  }
+}

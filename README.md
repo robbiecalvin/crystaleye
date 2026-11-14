@@ -76,7 +76,7 @@ See [astrology/README.md](astrology/README.md) for editable sources, rebuild ins
 
 The [tarot wing](tarot/index.html) has an animated free daily card, a browser-session journal, a clearly labeled three-card subscription preview ($5.99 CAD/month), and five learning pages covering the three-act Major Arcana story and all four suits. All 78 existing cards have upright interpretations for the daily focus and each spread position. [Tarot documentation](tarot/README.md) describes session behavior, editable sources, rebuild commands, and tests.
 
-The [shop](shop/index.html) presents the Tarot Guide Book ($19.99 CAD), Crystal Eye Tarot Deck ($39.99 CAD), and Book + Card bundle ($49.99 CAD). All 22 pages advertise and link to these items through a shared static component. Checkout remains coming soon, consistent with the user's decision to connect payment systems later.
+The [shop](shop/index.html) presents the Tarot Guide Book ($19.99 CAD), Crystal Eye Tarot Deck ($39.99 CAD), and Book + Card bundle ($49.99 CAD). Every page advertises and links to these items through a shared static component. Checkout remains coming soon, consistent with the user's decision to connect payment systems later.
 
 ## Shared cyberpunk design
 
@@ -116,4 +116,13 @@ The audit verifies that every uploaded image has a placement or documented ident
 
 The homepage now leads with Astrology, followed by Tarot and the embedded three-number numerology calculator. The guide library and merchandise remain below these primary sections. Both the homepage and numerology hub use the same form component (`quick_numerology_calculator` in `scripts/site_components.py`) and the same calculation module. Its result and artwork links resolve relative to the module, so they work from either location.
 
-All 321 pages include a fixed bottom toolbar on mobile widths up to 760px, linking to the Astrology, Tarot, and Numerology main pages. It works without JavaScript, indicates the active wing, provides touch-sized targets, and reserves bottom space including device safe-area insets. Desktop layouts hide it. Styles are in `assets/mobile-toolbar.css`; generated pages and the hand-maintained-page refresh helper preserve it on rebuild.
+Every page includes a fixed bottom toolbar on mobile widths up to 900px and on touch-first devices, linking to the Astrology, Tarot, Numerology, and Shop main pages. It works without JavaScript, indicates the active wing, provides touch-sized targets, and reserves bottom space including device safe-area insets. Desktop layouts hide it. Styles are in `assets/mobile-toolbar.css`; generated pages and the hand-maintained-page refresh helper preserve it on rebuild.
+
+
+## Merchandise and subscriptions catalog
+
+[merchandise/index.html](merchandise/index.html) is the complete catalog: Tarot Guide Book ($19.99 CAD), Crystal Eye Tarot Deck ($39.99 CAD), Book + Card bundle ($49.99 CAD), Full Numerology report ($19.99 CAD one-time), Daily Astrology Subscription ($5.99 CAD/month), and Daily Three-Card Tarot Subscription ($5.99 CAD/month). The existing `/shop/index.html` remains compatible, with the merchandise URL identified as the preferred location.
+
+The Shop tab, homepage navigation, product promotions, and footer links lead to this page. All prices and availability remain explicit; ordering and enrollment are still coming soon. Merchandise data is in `data/merchandise.json`, monthly plans in `data/subscriptions.json`, and the report in `data/numerology-topics.json`. Rebuild with `python scripts/build_catalog.py` (also called by `build_tarot.py`).
+
+Mobile navigation is rendered statically on every page, including the catalog and full calculator. The shared script can also repair an older/missing toolbar. Its stylesheet is versioned for the updated four-tab layout. Validate with `python tests/catalog-navigation.py` and `python tests/numerology-pages.py`.

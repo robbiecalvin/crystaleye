@@ -88,3 +88,74 @@ if (search && count && empty) {
     search.focus();
   });
 }
+
+// Repair navigation on a legacy page that loads this shared script without a current toolbar.
+(() => {
+  const script = document.currentScript;
+  if (!script?.src) return;
+  const base = new URL("../", script.src);
+  const stylesheetURL = new URL("assets/mobile-toolbar.css?v=2", base).href;
+  let stylesheet = document.querySelector('link[href*="mobile-toolbar.css"]');
+  if (!stylesheet) {
+    stylesheet = document.createElement("link");
+    stylesheet.rel = "stylesheet";
+    document.head.append(stylesheet);
+  }
+  if (stylesheet.href !== stylesheetURL) stylesheet.href = stylesheetURL;
+  let toolbar = document.querySelector(".mobile-toolbar");
+  const expectedDestinations = [
+    "astrology",
+    "tarot",
+    "numerology",
+    "merchandise",
+  ].map((directory) => new URL(`${directory}/index.html`, base).href);
+  const currentLinks = [...(toolbar?.querySelectorAll("a") ?? [])];
+  if (
+    currentLinks.length === 4 &&
+    currentLinks.every((link, i) => link.href === expectedDestinations[i])
+  )
+    return;
+  if (!toolbar) {
+    toolbar = document.createElement("nav");
+    toolbar.className = "mobile-toolbar";
+    toolbar.setAttribute("aria-label", "Explore Crystaleye");
+    document.body.append(toolbar);
+  }
+  const links = [
+    [
+      "Astrology",
+      "astrology",
+      '<path d="m12 2 2.4 6.6L21 11l-6.6 2.4L12 20l-2.4-6.6L3 11l6.6-2.4Z"/>',
+    ],
+    [
+      "Tarot",
+      "tarot",
+      '<rect x="5" y="3" width="14" height="19" rx="2"/><path d="m12 8 3 4-3 4-3-4Z"/>',
+    ],
+    [
+      "Numerology",
+      "numerology",
+      '<path d="M9 3 6 21M18 3l-3 18M3 9h18M2 15h18"/>',
+    ],
+    [
+      "Shop",
+      "merchandise",
+      '<path d="M5 7h14l1 14H4L5 7Z"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/>',
+    ],
+  ].map(([label, directory, icon]) => {
+    const link = document.createElement("a");
+    link.href = new URL(`${directory}/index.html`, base).href;
+    const current =
+      location.pathname.startsWith(new URL(`${directory}/`, base).pathname) ||
+      (directory === "merchandise" &&
+        location.pathname.startsWith(new URL("shop/", base).pathname)) ||
+      (directory === "numerology" &&
+        location.pathname.startsWith(
+          new URL("numerology-calculator/", base).pathname,
+        ));
+    if (current) link.setAttribute("aria-current", "true");
+    link.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true">${icon}</svg><span>${label}</span>`;
+    return link;
+  });
+  toolbar.replaceChildren(...links);
+})();

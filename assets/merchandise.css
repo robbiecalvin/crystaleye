@@ -208,3 +208,25 @@
     font-size: 8px;
   }
 }
+.merch-catalog-link {
+  text-align: right;
+  margin: 25px 0 0;
+}
+.merch-catalog-link a {
+  color: #b8e5f0;
+  font-size: 12px;
+  text-decoration: none;
+  padding-block: 8px;
+  display: inline-block;
+}
+.merch-catalog-link a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 600px) {
+  .merch-catalog-link {
+    text-align: left;
+  }
+  .merch-catalog-link a {
+    font-size: 11px;
+  }
+}

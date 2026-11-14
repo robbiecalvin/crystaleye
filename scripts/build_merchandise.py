@@ -18,8 +18,14 @@ def main():
         toolbar=mobile_toolbar(prefix,'Numerology' if rel.startswith('numerology-calculator/') else None)
         if '<!-- mobile-toolbar:start -->' in s:s=re.sub(r'<!-- mobile-toolbar:start -->.*?<!-- mobile-toolbar:end -->',lambda _:toolbar,s,flags=re.S)
         else:s=s.replace('</body>',toolbar+'\n</body>')
-        toolbar_css=f'<link rel="stylesheet" href="{prefix}assets/mobile-toolbar.css">'
-        if f'href="{prefix}assets/mobile-toolbar.css"' not in s:s=s.replace('</head>',toolbar_css+'\n</head>')
+        s=s.replace(f'href="{prefix}assets/mobile-toolbar.css"',f'href="{prefix}assets/mobile-toolbar.css?v=2"')
+        s=s.replace(f'href="{prefix}shop/index.html',f'href="{prefix}merchandise/index.html')
+        if rel=='index.html':s=s.replace('<a href="#library">The library</a>', '<a href="merchandise/index.html">Shop</a>')
+        if rel.startswith('numerology-calculator/'):
+            nav=re.search(r'<nav class="calculator-site-nav".*?</nav>',s,re.S)
+            if nav and 'merchandise/index.html' not in nav.group():s=s[:nav.start()]+nav.group().replace('</nav>','<a href="../merchandise/index.html">Shop</a></nav>')+s[nav.end():]
+        toolbar_css=f'<link rel="stylesheet" href="{prefix}assets/mobile-toolbar.css?v=2">'
+        if f'href="{prefix}assets/mobile-toolbar.css' not in s:s=s.replace('</head>',toolbar_css+'\n</head>')
         if rel=='index.html':
             start='<!-- home-calculator:start -->';end='<!-- home-calculator:end -->'
             s=re.sub(start+r'.*?'+end,lambda _:start+quick_numerology_calculator('','03')+end,s,flags=re.S)

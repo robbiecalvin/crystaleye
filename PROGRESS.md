@@ -190,3 +190,11 @@ Rebuild instructions are in [README.md](README.md). No environment configuration
 - Extracted a shared calculator component used by both the homepage and numerology hub. Both retain Personality, Life Path, and app Destiny only; formulas remain unchanged. Module-relative profile/artwork URLs work from both locations.
 - Added static mobile bottom navigation across all 321 pages, with Astrology, Tarot, and Numerology links to their main pages, active-wing indicators, keyboard focus, touch targets, safe-area-aware padding, and content clearance. It is hidden above the mobile breakpoint and works without JavaScript.
 - Shared components and all page generators retain the toolbar and calculator on rebuild. Static checks cover every page and homepage order; browser checks cover calculator results and links on both pages, mobile/desktop navigation, nested routes, page-end clearance, and no-JavaScript links.
+
+
+## Mobile navigation coverage and complete catalog — November 14, 2026
+
+- Added a dedicated merchandise/index.html page containing all six offers: three merchandise products, the one-time numerology report, and both separate daily subscriptions. Prices remain CAD and ordering/enrollment remain coming soon. No payment or delivery integration was activated.
+- Kept shop/index.html compatible with the full catalog and a preferred merchandise URL. Linked the catalog from a new Shop tab, homepage navigation, shared product-promotion links, and wing footers. Product/report/subscription data are separately editable without changing the page template.
+- Ensured the same static four-tab bottom bar appears on every page, now covering widths through 900px plus touch-first landscape devices. Retained safe-area padding, page-end clearance, focus states, and active-wing indicators. Added a versioned stylesheet and a shared-script fallback for missing or outdated navigation.
+- The site now contains 322 HTML pages. Static checks verify all four main-page destinations on every page and all six catalog offers/prices. Browser verification covers page-by-page mobile visibility, landscape touch, no-JavaScript links, legacy navigation repair, catalog previews, desktop hiding, and footer clearance. All earlier calculators, written guides, and artwork remain intact.

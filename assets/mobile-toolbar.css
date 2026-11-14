@@ -2,15 +2,15 @@
 .mobile-toolbar {
   display: none;
 }
-@media (max-width: 760px) {
+@media (max-width: 900px), (hover: none) and (pointer: coarse) {
   body {
     padding-bottom: calc(84px + env(safe-area-inset-bottom, 0px));
   }
   .mobile-toolbar {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     position: fixed;
-    z-index: 50;
+    z-index: 1000;
     bottom: 0;
     left: 0;
     right: 0;

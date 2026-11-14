@@ -1,0 +1,28 @@
+{
+  "currency": "CAD",
+  "status": "coming_soon",
+  "plans": [
+    {
+      "id": "astrology",
+      "name": "Daily Astrology Subscription",
+      "price": "5.99",
+      "interval": "month",
+      "description": "A daily email with a separate paragraph for your Sun, Moon, and rising signs.",
+      "benefits": ["Three perspectives in one daily email", "Longer Sunday reflections on the week", "A month-opening preview and month-end growth challenge"],
+      "preview": "astrology/index.html#email-preview",
+      "details": "astrology/index.html#subscription",
+      "images": ["astrology.sun", "astrology.moon", "astrology.rising"]
+    },
+    {
+      "id": "tarot",
+      "name": "Daily Three-Card Tarot Subscription",
+      "price": "5.99",
+      "interval": "month",
+      "description": "An animated daily spread for yesterday’s reflection, today’s focus, and tomorrow’s gratitude.",
+      "benefits": ["Yesterday: reflect on a lesson to carry forward", "Today: choose where to put your energy", "Tomorrow: consider a possibility to appreciate"],
+      "preview": "tarot/index.html#three-card-preview",
+      "details": "tarot/index.html#subscription",
+      "images": ["tarot.the-moon", "tarot.the-star", "tarot.the-sun"]
+    }
+  ]
+}

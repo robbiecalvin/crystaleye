@@ -10,7 +10,7 @@ Birthday also gets the other calendar-day values through 31, and each Challenge 
 
 **81 result pages** reproduce profiles from the seven completed guides: Personality, Soul’s Desire, Life Path, Destiny/Expression, Minor Personality, Minor Soul’s Desire, and Balance. Other valid results are marked “Profile coming soon”; unsupported/reserved routes have range notes. Unfinished and convention-only pages use `noindex,follow`. Karmic Lessons research drafts have not been relabeled as completed PDF material.
 
-All pages retain the shared cyberpunk theme, navigation, and three merchandise promotions. The root homepage, full calculator, astrology footer, tarot footer, and shop link into the new wing or report offer. The site now has 321 HTML pages in total.
+All pages retain the shared cyberpunk theme, navigation, and three merchandise promotions. The root homepage, full calculator, astrology footer, tarot footer, and shop link into the new wing or report offer. The site now has 322 HTML pages, including the complete merchandise/subscription catalog.
 
 ## Sources and editable files
 
@@ -58,4 +58,4 @@ node --test tests/*.test.mjs
 python tests/numerology-pages.py
 ```
 
-Checks cover all 321 pages' local links/assets/anchors, twelve standard routes per topic, calendar/Challenge extras, source-profile text, and shared styling/merchandise. Browser checks cover the mini calculator, method differences, invalid input and clear, topic filters/search, completed/placeholder/convention examples, no-JavaScript navigation, and desktop/mobile layouts. No paid report is generated, customer information collected, or deployment performed.
+Checks cover all site pages’ local links/assets/anchors, twelve standard routes per topic, calendar/Challenge extras, source-profile text, and shared styling/merchandise. Browser checks cover the mini calculator, method differences, invalid input and clear, topic filters/search, completed/placeholder/convention examples, no-JavaScript navigation, and desktop/mobile layouts. No paid report is generated, customer information collected, or deployment performed.
