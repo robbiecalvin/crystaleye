@@ -8,7 +8,7 @@
   }
   .mobile-toolbar {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: 44px repeat(4, minmax(0, 1fr));
     position: fixed;
     z-index: 1000;
     bottom: 0;
@@ -75,3 +75,11 @@
     padding-bottom: 0;
   }
 }
+
+.mobile-toolbar .toolbar-logo { width:32px;height:32px;object-fit:contain;mix-blend-mode:screen; }
+.visually-hidden { position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0; }
+@media (max-width:900px),(hover:none) and (pointer:coarse) {
+ .mobile-toolbar a[aria-current="true"] { box-shadow:inset 0 2px 0 #9cebf3; background:#367d8e38; }
+ .mobile-toolbar a { font-weight:500; }
+}
+@media(max-width:380px) { .mobile-toolbar {padding-left:8px;padding-right:8px;grid-template-columns:40px repeat(4,minmax(0,1fr))}.mobile-toolbar a{font-size:10.5px;padding-inline:2px} }

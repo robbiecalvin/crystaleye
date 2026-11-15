@@ -1,0 +1,167 @@
+/* Usability refinements: quieter reading surfaces, clear actions, honest availability. */
+:root { --muted:#c7cde0; --ui-panel:#10192cf0; --ui-border:#a3badb33; }
+body::before { opacity:.19; }
+p { text-wrap:pretty; }
+.section-copy { font-size:16px;line-height:1.85; }
+.fine-print,.small-note,.library-note,.sign-dates,.catalog-status,.num-status,.launch-pill,.coming-soon { font-size:12px;line-height:1.75; }
+.eyebrow,.catalog-eyebrow { font-size:11px;line-height:1.7;letter-spacing:1.5px; }
+.num-topline>span,.section-aside { font-size:12px;line-height:1.7; }
+a,button,input,select,summary { scroll-margin-bottom:100px; }
+.button { min-height:46px;align-items:center;justify-content:center;line-height:1.5; }
+.button,.header-cta,.merch-link { text-wrap:balance; }
+.text-link,.profile-link { line-height:1.6; }
+/* Keep long reads on a consistent dark canvas, with a comfortable line length. */
+.profile-reading,.profile-prose,.story-prose,.num-explainer article,.suit-explainer article {
+ background:var(--ui-panel);border:1px solid var(--ui-border);border-radius:10px;padding:clamp(22px,3vw,36px);min-width:0;
+}
+.profile-section p:not(.eyebrow),.reading-part p,.profile-topic p,.story-prose p,.num-explainer p,.suit-explainer article>p:not(.eyebrow) {
+ font-size:16px;line-height:1.85;color:#d8ddeb;max-width:72ch;
+}
+.story-prose { columns:1; }
+.story-prose p { margin-bottom:22px; }
+.story-prose p:last-child { margin-bottom:0; }
+.profile-topic h3,.reading-part h2 { line-height:1.35; }
+.profile-section { margin-bottom:35px;padding-bottom:35px; }
+.profile-section:last-child { margin-bottom:0;border-bottom:0; }
+.reading-part { padding-bottom:26px;margin-bottom:28px; }
+.reading-part h2 { font-size:29px; }
+.profile-evidence { background:#19253c; }
+.profile-evidence p,.profile-evidence a,.profile-evidence summary { font-size:13px;line-height:1.8; }
+.sign-facts { background:#121d30ed; }
+.sign-facts dt { font-size:12px; }
+.sign-facts .fine-print { font-size:12px; }
+.profile-intro { border-color:#9dd7e763; }
+.method-box,.placeholder-panel,.calculation-panel,.email-sample,.daily-panel { background:linear-gradient(125deg,#142136f5,#201b31f5); }
+.method-box p,.method-box ol,.chart-steps p,.calculation-panel p { font-size:14px;line-height:1.9; }
+.email-paragraph p:not(.eyebrow),.position-reading p { font-size:15px;line-height:1.85; }
+.daily-copy p:not(.eyebrow,.fine-print) { font-size:16px;line-height:1.85; }
+.tarot-faq details>p { font-size:16px;line-height:1.85;max-width:72ch; }
+/* Homepage focuses on the three entry points, then a compact store preview. */
+.home-astrology { min-height:530px;padding-block:48px; }
+.home-astrology .astrology-entry-art { max-width:410px; }
+.home-astrology h1 { font-size:clamp(46px,4.5vw,65px); }
+.home-astrology p:not(.eyebrow) { font-size:16px;line-height:1.8; }
+.home-astrology .text-link { color:#bdc7da;font-size:13px; }
+.home-library-link { padding-top:25px;font-size:14px; }
+.home-library-link a { color:#badfeb;display:inline-block;padding-block:10px; }
+.home-shop-preview.merch-section { padding-block:40px;margin-top:30px; }
+.home-shop-preview .merch-product { grid-template-columns:65px minmax(0,1fr);padding:20px;gap:18px; }
+.home-shop-preview .merch-product img { width:65px; }
+.home-shop-preview .merch-kicker { font-size:10px;letter-spacing:1px; }
+.home-shop-preview .merch-heading h2 { font-size:35px; }
+.home-shop-preview .merch-product h3 { font-size:21px;min-height:0; }
+.home-shop-preview .merch-price { font-size:27px; }
+.home-shop-preview .merch-link { font-size:12px; }
+.home-shop-preview .merch-description { display:none; }
+/* The calculator shows a usable next step, not just a bare digit. */
+.mini-output,.mini-form { background:#121d30eb; }
+.mini-results { align-items:stretch; }
+.mini-result { display:flex;flex-direction:column;padding:20px 16px;min-width:0;gap:0; }
+.mini-result h3 { font-size:18px;line-height:1.4;margin-bottom:16px; }
+.mini-result>strong { font-size:50px;margin:0 0 16px;align-self:flex-start; }
+.mini-result .result-availability { display:table;width:fit-content;max-width:100%;font-size:11px;line-height:1.6;color:#b7e6d2;border:1px solid #80bea64d;background:#224d3e40;border-radius:20px;padding:3px 8px;margin-bottom:14px; }
+.mini-result .result-subtitle { font-size:16px;line-height:1.5;color:#ecedf7;min-height:0;margin:0 0 10px; }
+.mini-result p:not(.result-subtitle) { font-size:13px;line-height:1.75;min-height:0;margin-bottom:20px; }
+.mini-result a { margin-top:auto;display:block;min-height:40px;padding-top:10px;border-top:1px solid #b5c5e330;font-size:13px;line-height:1.6;color:#aee8f3; }
+.mini-number-art { opacity:.09; }
+.mini-form .fine-print,.mini-output>.fine-print,.mini-details ul { font-size:12.5px; }
+/* Availability is visible before a profile is opened. */
+.topic-state { font-size:12px;line-height:1.5;padding:6px 10px; }
+.topic-state.is-ready { background:#214c3a55;color:#b9ead2; }
+.topic-state:not(.is-ready) { background:#37314c66;color:#dfc9f1; }
+.topic-card>p:not(.eyebrow) { font-size:14px;line-height:1.8; }
+.number-tile { gap:12px;border-radius:8px; }
+.number-tile:has(.number-tile-image)>span { font-size:18px; }
+.number-tile .availability-badge { font-size:11px;line-height:1.55;display:block;border-radius:12px;padding:4px 7px;width:fit-content;background:#2e354d;color:#d4d8e7; }
+.number-tile[data-status=ready] { background:linear-gradient(140deg,#183e448a,#201f399c);border-color:#86caba66; }
+.number-tile[data-status=ready] .availability-badge { background:#214b3a;color:#bcead1; }
+.number-tile[data-status=coming-soon] .availability-badge { background:#39304b;color:#e4cef4; }
+.number-tile[data-status=coming-soon] .number-tile-image { opacity:.58; }
+.number-tile[data-status=reference] .availability-badge { background:#203f58;color:#bde7fa; }
+.number-profile-title { font-size:14px;line-height:1.55;font-weight:500;overflow-wrap:anywhere; }
+.number-profile-action { font-size:12px!important;line-height:1.7;color:#bce8f3!important;margin-top:auto; }
+/* Consistent catalog cards with larger art and explicit billing cadence. */
+#products .merch-grid { align-items:stretch; }
+#products .merch-product { display:flex;flex-direction:column;padding:28px;gap:24px; }
+#products .merch-product>img { width:145px;height:218px;object-fit:contain;align-self:center; }
+#products .merch-product>div { display:flex;flex-direction:column;flex:1; }
+#products .merch-product h3 { font-size:26px;line-height:1.3;min-height:68px;margin:10px 0 14px; }
+#products .merch-description { font-size:14px;line-height:1.8;flex:1;margin-bottom:18px; }
+#products .merch-price { font-size:37px;margin:15px 0; }
+#products .merch-price span { display:block;font-size:12px;line-height:1.6;margin-top:8px; }
+#products .merch-link { min-height:44px;padding-top:13px;border-top:1px solid #acc1e32d;font-size:13px; }
+.catalog-price { font-size:42px; }
+.catalog-price span { display:block;font-size:13px;line-height:1.6;margin-top:10px; }
+.subscription-offer { display:flex;flex-direction:column; }
+.subscription-art { min-height:200px; }
+.subscription-offer>p:not(.catalog-price,.catalog-status,.catalog-eyebrow),.subscription-offer ul,.report-offer p:not(.catalog-price,.catalog-status) { font-size:15px;line-height:1.8; }
+.subscription-offer .catalog-actions { margin-top:auto;padding-top:22px; }
+.catalog-status { font-size:12px; }
+.catalog-actions .button,.catalog-actions .text-link { font-size:13px; }
+.merch-catalog-link a { font-size:14px; }
+@media(max-width:1100px) {
+ .mini-results { grid-template-columns:1fr; }
+ .mini-result { display:grid;grid-template-columns:minmax(0,1fr) 65px;column-gap:16px; }
+ .mini-result>strong { grid-column:2;grid-row:1/4;align-self:center;justify-self:end; }
+ .mini-result>h3,.mini-result>.result-availability,.mini-result>p,.mini-result>a { grid-column:1; }
+ .mini-result>a { grid-column:1/-1; }
+ .mini-result .result-subtitle { margin-top:5px; }
+ .mini-number-art { grid-column:unset!important; }
+ .home-shop-preview .merch-grid { gap:15px; }
+ .home-shop-preview .merch-product { grid-template-columns:1fr; }
+ #products .merch-product { padding:23px; }
+ #products .merch-product h3 { font-size:24px;min-height:64px; }
+}
+@media(max-width:760px) {
+ body::before { opacity:.16; }
+ h2 { overflow-wrap:normal; }
+ .section-copy { font-size:15px;line-height:1.85; }
+ .profile-reading,.profile-prose,.story-prose,.num-explainer article,.suit-explainer article { padding:22px 20px; }
+ .profile-section p:not(.eyebrow),.reading-part p,.profile-topic p,.story-prose p,.num-explainer p,.suit-explainer article>p:not(.eyebrow) { font-size:15px;line-height:1.85; }
+ .profile-section h2 { font-size:33px;letter-spacing:-1px; }
+ .profile-topic h3,.reading-part h2 { font-size:25px; }
+ .num-explainer h3 { font-size:25px; }
+ .fine-print,.small-note,.library-note,.catalog-status,.num-status { font-size:12px; }
+ .eyebrow,.catalog-eyebrow { font-size:10.5px; }
+ .home-astrology { padding-block:28px 35px;gap:20px; }
+ .home-astrology h1 { font-size:clamp(42px,10vw,56px); }
+ .home-astrology .astrology-entry-art { max-width:245px; }
+ .home-astrology p:not(.eyebrow) { font-size:15px; }
+ .home-astrology .text-link { font-size:12px; }
+ .home-shop-preview .merch-grid { grid-template-columns:1fr; }
+ .home-shop-preview .merch-product { grid-template-columns:58px minmax(0,1fr);gap:20px; }
+ .home-shop-preview .merch-product img { width:58px; }
+ .home-shop-preview .merch-product h3 { font-size:21px;margin-top:0; }
+ .home-shop-preview .merch-kicker { display:none; }
+ .home-shop-preview .merch-price { margin:8px 0; }
+ .home-shop-preview .merch-heading>p { font-size:12px; }
+ .number-grid { grid-template-columns:repeat(2,minmax(0,1fr));gap:14px; }
+ .number-tile { padding:13px; }
+ .number-tile:has(.number-tile-image)>span { left:18px;top:18px;font-size:17px; }
+ .number-profile-title { font-size:14px; }
+ .number-tile .availability-badge { font-size:11px; }
+ #products .merch-grid { grid-template-columns:1fr; }
+ #products .merch-product { display:grid;grid-template-columns:100px minmax(0,1fr);gap:24px;padding:25px; }
+ #products .merch-product>img { width:100px;height:150px;align-self:start; }
+ #products .merch-product h3 { min-height:0;font-size:25px;margin-top:8px; }
+ #products .merch-description { font-size:14px; }
+ #products .merch-price { font-size:33px; }
+ .catalog-heading h2,.catalog-ordering h2 { font-size:36px; }
+ .subscription-offer h3,.report-offer h3 { font-size:26px; }
+ .subscription-offer>p:not(.catalog-price,.catalog-status,.catalog-eyebrow),.subscription-offer ul,.report-offer p:not(.catalog-price,.catalog-status) { font-size:14px; }
+ .subscription-offer { padding:25px; }
+}
+@media(max-width:380px) {
+ .profile-reading,.profile-prose { padding:20px 16px; }
+ .profile-section h2 { font-size:30px; }
+ .number-grid { gap:12px; }
+ .number-tile { padding:11px; }
+ .number-tile .availability-badge { font-size:10.5px;padding:4px 6px; }
+ .number-profile-title { font-size:13px; }
+ #products .merch-product { grid-template-columns:75px minmax(0,1fr);gap:18px;padding:20px; }
+ #products .merch-product>img { width:75px;height:113px; }
+ #products .merch-product h3 { font-size:22px; }
+ .mini-result { grid-template-columns:minmax(0,1fr) 50px; }
+ .mini-result>strong { font-size:44px; }
+}
+@media print { .profile-reading,.profile-prose,.story-prose { background:none;border:0;padding:0; } }

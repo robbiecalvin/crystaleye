@@ -207,3 +207,13 @@ Rebuild instructions are in [README.md](README.md). No environment configuration
 - Added static Open Graph, Twitter, image-src, and touch-icon metadata to all 322 HTML pages. Every page uses the same logo while retaining its own title, description, and correct page URL. The shop alias uses the preferred merchandise URL. Removed competing preview tags and made metadata updates idempotent.
 - Integrated the shared metadata writer into astrology, numerology, tarot, catalog, homepage, and calculator rebuild paths. The standalone sharing builder refreshes the image files and existing pages together.
 - Tests verify all page tags, absolute HTTPS image URLs, correct PNG format/dimensions/size, no competing images, valid titles/descriptions/canonical paths, and repeatable rebuilds. Public GitHub raw hosting is used for preview assets; the environment blocks direct GitHub Pages requests, so public image availability is checked independently of the Pages host. No text messages are sent.
+
+
+## Approved site UI improvements — November 15, 2026
+
+- Shortened the homepage to Astrology, Tarot, the three-number calculator, and a compact shop preview. Moved the seven completed PDF guides into the Numerology hub with their existing search and download links.
+- Clarified primary actions, strengthened reading surfaces and typography, and retained the supplied cyberpunk artwork.
+- Added an eye-logo Home destination and stronger active states to the mobile toolbar across all 322 pages, including legacy navigation repair.
+- Added source-backed summaries and direct profile links to calculator results, and visible availability labels to number-profile tiles. Calculator formulas remain unchanged.
+- Standardized catalog imagery/cards and distinguished one-time CAD prices from monthly subscriptions. Payment and email integrations remain deferred.
+- Verified local links, artwork coverage, social previews, calculator/deck tests, and responsive browser interactions. No research guides or PDFs were regenerated.

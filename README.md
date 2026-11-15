@@ -114,9 +114,9 @@ The audit verifies that every uploaded image has a placement or documented ident
 
 ## Homepage and mobile navigation
 
-The homepage now leads with Astrology, followed by Tarot and the embedded three-number numerology calculator. The guide library and merchandise remain below these primary sections. Both the homepage and numerology hub use the same form component (`quick_numerology_calculator` in `scripts/site_components.py`) and the same calculation module. Its result and artwork links resolve relative to the module, so they work from either location.
+The homepage now leads with Astrology, followed by Tarot and the embedded three-number numerology calculator. A compact merchandise preview follows; the full PDF guide library is on the Numerology hub. Both the homepage and numerology hub use the same form component (`quick_numerology_calculator` in `scripts/site_components.py`) and the same calculation module. Its result and artwork links resolve relative to the module, so they work from either location.
 
-Every page includes a fixed bottom toolbar on mobile widths up to 900px and on touch-first devices, linking to the Astrology, Tarot, Numerology, and Shop main pages. It works without JavaScript, indicates the active wing, provides touch-sized targets, and reserves bottom space including device safe-area insets. Desktop layouts hide it. Styles are in `assets/mobile-toolbar.css`; generated pages and the hand-maintained-page refresh helper preserve it on rebuild.
+Every page includes a fixed bottom toolbar on mobile widths up to 900px and on touch-first devices, linking home through the eye logo and to the Astrology, Tarot, Numerology, and Shop main pages. It works without JavaScript, indicates the active wing, provides touch-sized targets, and reserves bottom space including device safe-area insets. Desktop layouts hide it. Styles are in `assets/mobile-toolbar.css`; generated pages and the hand-maintained-page refresh helper preserve it on rebuild.
 
 
 ## Merchandise and subscriptions catalog
@@ -125,7 +125,7 @@ Every page includes a fixed bottom toolbar on mobile widths up to 900px and on t
 
 The Shop tab, homepage navigation, product promotions, and footer links lead to this page. All prices and availability remain explicit; ordering and enrollment are still coming soon. Merchandise data is in `data/merchandise.json`, monthly plans in `data/subscriptions.json`, and the report in `data/numerology-topics.json`. Rebuild with `python scripts/build_catalog.py` (also called by `build_tarot.py`).
 
-Mobile navigation is rendered statically on every page, including the catalog and full calculator. The shared script can also repair an older/missing toolbar. Its stylesheet is versioned for the updated four-tab layout. Validate with `python tests/catalog-navigation.py` and `python tests/numerology-pages.py`.
+Mobile navigation is rendered statically on every page, including the catalog and full calculator. The shared script can also repair an older/missing toolbar. Its stylesheet is versioned for the updated Home-plus-four-section layout. Validate with `python tests/catalog-navigation.py` and `python tests/numerology-pages.py`.
 
 
 ## Logo-only shared-link previews
@@ -135,3 +135,5 @@ All pages include static Open Graph and Twitter preview metadata for the supplie
 `data/site.json` controls the site address and preview assets. The logo-only 1200×630 PNG and 180×180 Apple touch icon are generated from the original supplied logo into `assets/social/`. They contain no tarot, zodiac, product artwork, or promotional text. PNG is used for broad preview-crawler compatibility. Image URLs are absolute HTTPS public GitHub raw URLs, independent of page depth or JavaScript. The normal page imagery remains unchanged.
 
 Rebuild the logo framing and metadata with `/workspace/.crystaleye-tools/venv/bin/python scripts/build_social_previews.py`. All regular page builders also apply the shared metadata helper, so regeneration preserves the logo preview. Verify every page with `python tests/social-previews.py`. Existing previews may remain cached by individual messaging apps; previously sent messages are not changed by editing the website.
+
+Shared UI refinements in `assets/ui.css` are inserted on all pages by `scripts/site_layout.py` through the final HTML writer. Calculator result summaries are generated from completed profiles into `numerology/result-summaries.mjs`. Number tiles distinguish available profiles, reference mappings, and coming-soon previews. The catalog separates one-time CAD purchases from monthly subscriptions.

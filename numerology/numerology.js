@@ -1,3 +1,4 @@
+import summaries from "./result-summaries.mjs";
 import { calculate, localDate } from "./number-engine.mjs";
 const form = document.querySelector("#mini-form");
 if (form) {
@@ -8,7 +9,7 @@ if (form) {
   const date = form.elements.birthDate;
   date.max = localDate() < "2026-12-31" ? localDate() : "2026-12-31";
   submit.disabled = false;
-  submit.textContent = "Show my three numbers →";
+  submit.textContent = "Find your three numbers →";
   form.addEventListener("submit", (event) => {
     event.preventDefault();
     error.textContent = "";
@@ -45,15 +46,21 @@ if (form) {
       description.textContent =
         result[key] === 0
           ? "No counted consonants; this guide has no Personality 0 profile."
-          : meaning;
+          : (summaries[slug]?.[result[key]]?.summary ?? meaning);
       const link = document.createElement("a");
       link.href =
         result[key] === 0
           ? new URL(`${slug}/#calculation`, import.meta.url).href
           : new URL(`${slug}/number-${result[key]}/`, import.meta.url).href;
       link.textContent =
-        result[key] === 0 ? "Read the method →" : "Explore this result →";
-      article.append(heading, value, description, link);
+        result[key] === 0 ? "Read the method →" : "Read your profile →";
+      const status = document.createElement("span");
+      status.className = "result-availability";
+      status.textContent = result[key] === 0 ? "Not interpreted" : "Profile available";
+      const subtitle = document.createElement("p");
+      subtitle.className = "result-subtitle";
+      subtitle.textContent = summaries[slug]?.[result[key]]?.title ?? meaning;
+      article.append(heading, value, status, subtitle, description, link);
       if ([1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33].includes(result[key])) {
         const art = document.createElement("img");
         art.className = "mini-number-art";

@@ -1,5 +1,6 @@
 """Static social metadata shared by every page builder; no client JavaScript required."""
 import json,re
+from site_layout import with_ui_styles
 from pathlib import Path
 from html import escape as e
 from html.parser import HTMLParser
@@ -42,4 +43,4 @@ def with_social_metadata(html,relative_path):
     assert '</head>' in html,relative_path
     return html.replace('</head>','\n'+'\n'.join(tags)+'\n</head>',1)
 def write_html(path,html):
-    path=Path(path);path.write_text(with_social_metadata(html,path.relative_to(ROOT).as_posix()))
+    path=Path(path);path.write_text(with_social_metadata(with_ui_styles(html,path.relative_to(ROOT).as_posix()),path.relative_to(ROOT).as_posix()))

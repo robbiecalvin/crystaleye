@@ -20,12 +20,12 @@ def main():
     pages=list(ROOT.rglob('*.html'))
     for page in pages:
         text=page.read_text();nav=Toolbar(text)
-        assert len(nav.links)==4,page
-        for (href,label),(name,folder) in zip(nav.links,[('Astrology','astrology'),('Tarot','tarot'),('Numerology','numerology'),('Shop','merchandise')]):
+        assert len(nav.links)==5,page
+        for (href,label),(name,folder) in zip(nav.links,[('Home',''),('Astrology','astrology'),('Tarot','tarot'),('Numerology','numerology'),('Shop','merchandise')]):
             assert label.strip()==name,(page,label)
             target=(page.parent/unquote(urlparse(href).path)).resolve()
             assert target==ROOT/folder/'index.html',(page,href)
-        assert 'assets/mobile-toolbar.css?v=2' in text,page
+        assert 'assets/mobile-toolbar.css?v=3' in text,page
     page=(ROOT/'merchandise/index.html').read_text()
     catalog=json.loads((ROOT/'data/merchandise.json').read_text())
     report=json.loads((ROOT/'data/numerology-topics.json').read_text())['report']
@@ -38,5 +38,5 @@ def main():
     assert page.count('class="report-offer"')==1
     assert 'no orders, payments, or subscription enrollments are being accepted' in page
     assert (ROOT/'shop/index.html').read_text()==page
-    print(f'Passed: correct four-link mobile navigation and versioned stylesheet on all {len(pages)} pages; all six products/subscriptions, CAD prices, availability, and compatible shop route.')
+    print(f'Passed: correct five-link mobile navigation and versioned stylesheet on all {len(pages)} pages; all six products/subscriptions, CAD prices, availability, and compatible shop route.')
 if __name__=='__main__':main()

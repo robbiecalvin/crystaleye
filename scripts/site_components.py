@@ -6,18 +6,21 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = json.loads((ROOT/'data/merchandise.json').read_text())
 
-def merchandise(prefix='', shop_page=False):
+def merchandise(prefix='', shop_page=False, compact=False):
     prices={p['id']:Decimal(p['price']) for p in CATALOG['products']}
     savings=f"{prices['book']+prices['deck']-prices['bundle']:.2f}"
     products=[]
     for p in CATALOG['products']:
         href=('#' if shop_page else prefix+'merchandise/index.html#')+p['id']
-        products.append(f'''<article class="merch-product" {'id="'+p['id']+'"' if shop_page else ''}><img src="{prefix}assets/images/tarot/{p['image']}.webp" width="480" height="720" alt="{'Card-back artwork preview' if p['id']=='book' else 'Tarot card artwork preview'}" loading="lazy" decoding="async"><div><p class="merch-kicker">{'Save $'+savings+' together' if p['id']=='bundle' else ('Read the symbols' if p['id']=='book' else 'Make it your ritual')}</p><h3>{e(p['name'])}</h3><p class="merch-description">{e(p['description'])}</p><p class="merch-price">${p['price']} <span>CAD</span></p><a class="merch-link" href="{href}">{'Ordering information' if shop_page else 'Explore '+('the bundle' if p['id']=='bundle' else 'the '+p['id'])} →</a></div></article>''')
+        products.append(f'''<article class="merch-product" {'id="'+p['id']+'"' if shop_page else ''}><img src="{prefix}assets/images/tarot/{p['image']}.webp" width="480" height="720" alt="{'Card-back artwork preview' if p['id']=='book' else 'Tarot card artwork preview'}" loading="lazy" decoding="async"><div><p class="merch-kicker">{'Save $'+savings+' together' if p['id']=='bundle' else ('Read the symbols' if p['id']=='book' else 'Make it your ritual')}</p><h3>{e(p['name'])}</h3><p class="merch-description">{e(p['description'])}</p><p class="merch-price">${p['price']} <span>CAD{' · one-time' if shop_page else ''}</span></p><a class="merch-link" href="{href}">{'Ordering information' if shop_page else 'Explore '+('the bundle' if p['id']=='bundle' else 'the '+p['id'])} →</a></div></article>''')
+    if compact:
+        import re
+        products=[re.sub(r'<p class="merch-description">.*?</p>','',card) for card in products]
     if shop_page:
         products=[x.replace(f'href="#{p["id"]}"', 'href="#ordering"') for x,p in zip(products,CATALOG['products'])]
     browse='' if shop_page else f'<p class="merch-catalog-link"><a href="{prefix}merchandise/index.html">Browse all products &amp; subscriptions →</a></p>'
     return f'''<!-- merchandise:start -->
-<section class="merch-section" aria-label="Crystaleye books and tarot decks"><div class="merch-inner"><div class="merch-heading"><div><p class="merch-kicker">A little wonder, in your hands</p><h2>Keep the <em>ritual.</em></h2></div><p>Learn with the guide. Read with the deck. Find your own way in.<br><span>Prices in Canadian dollars · ordering coming soon.</span></p></div><div class="merch-grid">{''.join(products)}</div>{browse}</div></section>
+<section class="merch-section{' home-shop-preview' if compact else ''}" aria-label="Crystaleye books and tarot decks"><div class="merch-inner"><div class="merch-heading"><div><p class="merch-kicker">A little wonder, in your hands</p><h2>Keep the <em>ritual.</em></h2></div><p>Learn with the guide. Read with the deck. Find your own way in.<br><span>Prices in Canadian dollars · ordering coming soon.</span></p></div><div class="merch-grid">{''.join(products)}</div>{browse}</div></section>
 <!-- merchandise:end -->'''
 
 
@@ -26,12 +29,16 @@ def quick_numerology_calculator(prefix='../',step='02'):
 
 
 def mobile_toolbar(prefix='',active=None):
+    if active is None and prefix=='':active='Home'
     icons={
-        'Astrology':'<path d="m12 2 2.4 6.6L21 11l-6.6 2.4L12 20l-2.4-6.6L3 11l6.6-2.4Z"/><path d="m20 2 .8 2.2L23 5l-2.2.8L20 8l-.8-2.2L17 5l2.2-.8Z"/>',
+        'Astrology':'<path d="m12 2 2.4 6.6L21 11l-6.6 2.4L12 20l-2.4-6.6L3 11l6.6-2.4Z"/>',
         'Tarot':'<rect x="5" y="3" width="14" height="19" rx="2"/><path d="m12 8 3 4-3 4-3-4Z"/>',
         'Numerology':'<path d="M9 3 6 21M18 3l-3 18M3 9h18M2 15h18"/>',
         'Shop':'<path d="M5 7h14l1 14H4L5 7Z"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/>'
     }
-    destinations={'Astrology':'astrology','Tarot':'tarot','Numerology':'numerology','Shop':'merchandise'}
-    links=''.join(f'<a href="{prefix}{destinations[name]}/index.html" {"aria-current=\"true\"" if active==name else ""}><svg viewBox="0 0 24 24" aria-hidden="true">{icons[name]}</svg><span>{name}</span></a>' for name in ['Astrology','Tarot','Numerology','Shop'])
-    return '<!-- mobile-toolbar:start --><nav class="mobile-toolbar" aria-label="Explore Crystaleye">'+links+'</nav><!-- mobile-toolbar:end -->'
+    destinations={'Home':'index.html','Astrology':'astrology/index.html','Tarot':'tarot/index.html','Numerology':'numerology/index.html','Shop':'merchandise/index.html'}
+    links=[]
+    for name,path in destinations.items():
+        content=f'<img class="toolbar-logo" src="{prefix}assets/images/site-logo.webp" alt="" width="32" height="32"><span class="visually-hidden">Home</span>' if name=='Home' else f'<svg viewBox="0 0 24 24" aria-hidden="true">{icons[name]}</svg><span>{name}</span>'
+        links.append(f'<a href="{prefix}{path}" class="{"mobile-home" if name=="Home" else "mobile-destination"}" {"aria-current=\"true\"" if active==name else ""} {"aria-label=\"Crystal Eye home\" title=\"Crystal Eye home\"" if name=="Home" else ""}>{content}</a>')
+    return '<!-- mobile-toolbar:start --><nav class="mobile-toolbar" aria-label="Explore Crystaleye">'+''.join(links)+'</nav><!-- mobile-toolbar:end -->'
