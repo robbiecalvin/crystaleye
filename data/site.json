@@ -1,0 +1,19 @@
+{
+  "name": "Crystal Eye",
+  "url": "https://robbiecalvin.github.io/crystaleye/",
+  "logo_source": "assets/images/webpimages/kristalizelogo.webp",
+  "social_image": {
+    "file": "assets/social/crystal-eye-logo-v1.png",
+    "url": "https://raw.githubusercontent.com/robbiecalvin/crystaleye/main/assets/social/crystal-eye-logo-v1.png",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png",
+    "alt": "Crystal Eye gemstone eye logo"
+  },
+  "touch_icon": {
+    "file": "assets/social/crystal-eye-icon-v1.png",
+    "url": "https://raw.githubusercontent.com/robbiecalvin/crystaleye/main/assets/social/crystal-eye-icon-v1.png",
+    "size": 180
+  },
+  "description": "Explore Crystal Eye: astrology, tarot, and numerology for a little self-discovery."
+}

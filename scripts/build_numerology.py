@@ -4,6 +4,7 @@ import json
 from html import escape as e
 from site_images import image_tag, brand_mark
 from pathlib import Path
+from site_metadata import write_html
 from site_components import ROOT, merchandise, mobile_toolbar, quick_numerology_calculator
 CONFIG=json.loads((ROOT/'data/numerology-topics.json').read_text())
 READINGS=json.loads((ROOT/'data/numerology-profiles.json').read_text())['topics']
@@ -93,13 +94,13 @@ def report():
     return page(r['name']+' — $'+r['price']+' CAD, coming soon','Explore the planned one-time $19.99 CAD full numerology report for all 21 chart positions. Ordering is not yet open.',body)
 
 def main():
-    OUT.mkdir(exist_ok=True);(OUT/'index.html').write_text(hub());(OUT/'report.html').write_text(report());count=0
+    OUT.mkdir(exist_ok=True);write_html(OUT/'index.html',hub());write_html(OUT/'report.html',report());count=0
     for t in TOPICS:
-        folder=OUT/t['slug'];folder.mkdir(exist_ok=True);(folder/'index.html').write_text(topic_page(t))
+        folder=OUT/t['slug'];folder.mkdir(exist_ok=True);write_html(folder/'index.html',topic_page(t))
         values=([0] if t['group']=='Challenges' else [])+STANDARD
         if t['slug']=='birthday':values+= [n for n in range(1,32) if n not in values]
         for n in values:
-            dest=folder/f'number-{n}';dest.mkdir(exist_ok=True);(dest/'index.html').write_text(result_page(t,n));count+=1
+            dest=folder/f'number-{n}';dest.mkdir(exist_ok=True);write_html(dest/'index.html',result_page(t,n));count+=1
     print(f'Built numerology hub, report offer, {len(TOPICS)} topic pages, and {count} result routes.')
 
 if __name__=='__main__':main()

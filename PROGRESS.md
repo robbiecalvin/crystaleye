@@ -198,3 +198,12 @@ Rebuild instructions are in [README.md](README.md). No environment configuration
 - Kept shop/index.html compatible with the full catalog and a preferred merchandise URL. Linked the catalog from a new Shop tab, homepage navigation, shared product-promotion links, and wing footers. Product/report/subscription data are separately editable without changing the page template.
 - Ensured the same static four-tab bottom bar appears on every page, now covering widths through 900px plus touch-first landscape devices. Retained safe-area padding, page-end clearance, focus states, and active-wing indicators. Added a versioned stylesheet and a shared-script fallback for missing or outdated navigation.
 - The site now contains 322 HTML pages. Static checks verify all four main-page destinations on every page and all six catalog offers/prices. Browser verification covers page-by-page mobile visibility, landscape touch, no-JavaScript links, legacy navigation repair, catalog previews, desktop hiding, and footer clearance. All earlier calculators, written guides, and artwork remain intact.
+
+
+## Crystal Eye logo-only text-message previews — November 14, 2026
+
+- The user confirmed the public website URL as https://robbiecalvin.github.io/crystaleye/. Added this base and the public preview-image URLs to data/site.json.
+- Generated a logo-only 1200×630 PNG sharing image and 180×180 Apple touch icon from the supplied gem-eye logo. Framing contains only the logo on its existing black background, with no card/product illustrations or promotional text. Original artwork is unchanged.
+- Added static Open Graph, Twitter, image-src, and touch-icon metadata to all 322 HTML pages. Every page uses the same logo while retaining its own title, description, and correct page URL. The shop alias uses the preferred merchandise URL. Removed competing preview tags and made metadata updates idempotent.
+- Integrated the shared metadata writer into astrology, numerology, tarot, catalog, homepage, and calculator rebuild paths. The standalone sharing builder refreshes the image files and existing pages together.
+- Tests verify all page tags, absolute HTTPS image URLs, correct PNG format/dimensions/size, no competing images, valid titles/descriptions/canonical paths, and repeatable rebuilds. Public GitHub raw hosting is used for preview assets; the environment blocks direct GitHub Pages requests, so public image availability is checked independently of the Pages host. No text messages are sent.

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Refresh shared promotions on hand-maintained pages; builders handle generated pages."""
 import re
+from site_metadata import write_html
 from site_components import ROOT, merchandise, mobile_toolbar, quick_numerology_calculator
 from site_images import brand_mark
 
@@ -32,7 +33,7 @@ def main():
         fragment=merchandise(prefix)
         if '<!-- merchandise:start -->' in s:s=re.sub(r'<!-- merchandise:start -->.*?<!-- merchandise:end -->',lambda _:fragment,s,flags=re.S)
         else:s=s.replace('</main>',fragment+'\n</main>')
-        p.write_text(s)
+        write_html(p,s)
     print('Refreshed homepage and calculator merchandise promotions.')
 
 if __name__=='__main__':main()

@@ -4,6 +4,7 @@ import json
 from html import escape as e
 from site_images import image_tag, brand_mark
 from pathlib import Path
+from site_metadata import write_html
 from site_components import merchandise, ROOT, CATALOG, mobile_toolbar
 from decimal import Decimal
 
@@ -57,9 +58,9 @@ def shop():
 
 def main():
     OUT.mkdir(exist_ok=True)
-    (OUT/'index.html').write_text(hub())
-    (OUT/'major-arcana.html').write_text(major())
-    for s in LEARNING['suits']:(OUT/f'{s["slug"]}.html').write_text(suit_page(s))
+    write_html(OUT/'index.html',hub())
+    write_html(OUT/'major-arcana.html',major())
+    for s in LEARNING['suits']:write_html(OUT/f'{s["slug"]}.html',suit_page(s))
     from build_catalog import main as build_catalog
     build_catalog()
     payload=[{k:v for k,v in c.items() if k!='source'} for c in CARDS]

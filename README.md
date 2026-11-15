@@ -126,3 +126,12 @@ Every page includes a fixed bottom toolbar on mobile widths up to 900px and on t
 The Shop tab, homepage navigation, product promotions, and footer links lead to this page. All prices and availability remain explicit; ordering and enrollment are still coming soon. Merchandise data is in `data/merchandise.json`, monthly plans in `data/subscriptions.json`, and the report in `data/numerology-topics.json`. Rebuild with `python scripts/build_catalog.py` (also called by `build_tarot.py`).
 
 Mobile navigation is rendered statically on every page, including the catalog and full calculator. The shared script can also repair an older/missing toolbar. Its stylesheet is versioned for the updated four-tab layout. Validate with `python tests/catalog-navigation.py` and `python tests/numerology-pages.py`.
+
+
+## Logo-only shared-link previews
+
+All pages include static Open Graph and Twitter preview metadata for the supplied Crystal Eye gem-eye logo. Titles and descriptions remain page-specific. Page URLs use the confirmed public base `https://robbiecalvin.github.io/crystaleye/`; the old shop page shares the merchandise canonical URL.
+
+`data/site.json` controls the site address and preview assets. The logo-only 1200×630 PNG and 180×180 Apple touch icon are generated from the original supplied logo into `assets/social/`. They contain no tarot, zodiac, product artwork, or promotional text. PNG is used for broad preview-crawler compatibility. Image URLs are absolute HTTPS public GitHub raw URLs, independent of page depth or JavaScript. The normal page imagery remains unchanged.
+
+Rebuild the logo framing and metadata with `/workspace/.crystaleye-tools/venv/bin/python scripts/build_social_previews.py`. All regular page builders also apply the shared metadata helper, so regeneration preserves the logo preview. Verify every page with `python tests/social-previews.py`. Existing previews may remain cached by individual messaging apps; previously sent messages are not changed by editing the website.

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build the complete merchandise/subscription catalog and compatible /shop route."""
 import json
+from site_metadata import write_html
 from html import escape as e
 from site_components import ROOT,CATALOG,merchandise,mobile_toolbar
 from site_images import image_tag,brand_mark
@@ -18,6 +19,6 @@ def catalog_page():
 def main():
     html=catalog_page()
     for folder in ['merchandise','shop']:
-        dest=ROOT/folder;dest.mkdir(exist_ok=True);(dest/'index.html').write_text(html)
+        dest=ROOT/folder;dest.mkdir(exist_ok=True);write_html(dest/'index.html',html)
     print('Built all-six-offers merchandise page and compatible shop page.')
 if __name__=='__main__':main()
