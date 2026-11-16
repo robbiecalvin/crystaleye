@@ -1,0 +1,8 @@
+{
+  "currency": "CAD",
+  "products": {
+    "book": {"ready": false, "payment_link": "", "fulfillment": ""},
+    "deck": {"ready": false, "payment_link": "", "fulfillment": ""},
+    "bundle": {"ready": false, "payment_link": "", "fulfillment": ""}
+  }
+}

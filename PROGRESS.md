@@ -217,3 +217,10 @@ Rebuild instructions are in [README.md](README.md). No environment configuration
 - Added source-backed summaries and direct profile links to calculator results, and visible availability labels to number-profile tiles. Calculator formulas remain unchanged.
 - Standardized catalog imagery/cards and distinguished one-time CAD prices from monthly subscriptions. Payment and email integrations remain deferred.
 - Verified local links, artwork coverage, social previews, calculator/deck tests, and responsive browser interactions. No research guides or PDFs were regenerated.
+
+
+## Stripe merchandise checkout preparation — November 16, 2026
+
+- Added public per-product Stripe Payment Link configuration and static checkout rendering for the book, deck, and bundle. Live checkout requires an explicit ready flag, a Stripe-hosted live URL, and confirmed fulfillment.
+- Added URL/gating/rendering checks and setup documentation in docs/STRIPE_SETUP.md. No Stripe account credentials or live links are available in this session; purchasing remains closed pending the owner's account and fulfillment details.
+- Subscriptions and the full report remain unavailable until their delivery/access implementations are ready. No payment processing or email service has been activated.
