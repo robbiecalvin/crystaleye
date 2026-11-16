@@ -233,3 +233,10 @@ Rebuild instructions are in [README.md](README.md). No environment configuration
 - Added verification, input validation, contact consent, non-public appointment records, and a manual-confirmation workflow. No payment, automated email, or video-room creation is claimed.
 - Booking infrastructure is not deployed: no owner Cloudflare account/database/widget is connected. The public form explicitly stays closed rather than pretending to save appointments. Setup and owner operations are documented in booking-service/README.md.
 - Tests cover clock changes, notice rules, double bookings, validation, verification, and origin restrictions. Browser checks exercise the contact/phone flow with mocked API responses and responsive widths; static checks cover all 323 pages and artwork.
+
+
+## Robbie’s psychic profile — November 16, 2026
+
+- Added the user's four-paragraph personal profile verbatim to the Psychic Readings page, between its introduction and appointment form. Profile content is editable in data/psychic-profile.json and preserved by the page builder.
+- Added a responsive reading panel and direct link to session booking. Pricing, availability, and booking behavior are unchanged.
+- The portrait is visible in chat but has no accessible uploaded file in this workspace; it is pending a downloadable attachment rather than using a substitute.
