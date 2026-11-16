@@ -25,7 +25,7 @@ def main():
     for config,width,height in [(CONFIG['social_image'],1200,630),(CONFIG['touch_icon'],180,180)]:
         raw=(ROOT/config['file']).read_bytes();assert raw[:8]==b'\x89PNG\r\n\x1a\n';assert struct.unpack('>II',raw[16:24])==(width,height);assert len(raw)<1024*1024
         assert urlparse(config['url']).scheme=='https'
-    image=CONFIG['social_image'];pages=list(ROOT.rglob('*.html'))
+    image=CONFIG['social_image'];pages=[p for p in ROOT.rglob('*.html') if 'node_modules' not in p.parts and '.wrangler' not in p.parts]
     for page in pages:
         html=page.read_text();m=Metadata(html);relative=page.relative_to(ROOT).as_posix()
         assert m.tags['og:image']==[image['url']],page

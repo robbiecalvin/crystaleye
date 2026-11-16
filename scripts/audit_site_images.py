@@ -12,12 +12,12 @@ class Images(HTMLParser):
         if tag=='img' and attrs.get('src'):self.paths.append(attrs['src'])
 def main():
     manifest=json.loads((ROOT/'data/site-images.json').read_text());built=json.loads((ROOT/'data/site-image-build.json').read_text())['images'];used=set();refs=0
-    for page in ROOT.rglob('*.html'):
+    for page in (p for p in ROOT.rglob('*.html') if 'node_modules' not in p.parts and '.wrangler' not in p.parts):
         for src in Images(page.read_text()).paths:
             u=urlparse(src)
             if u.scheme or u.netloc:continue
             path=(page.parent/unquote(u.path)).resolve();assert path.is_file(),(page,src);used.add(path);refs+=1
-    for css in ROOT.rglob('*.css'):
+    for css in (p for p in ROOT.rglob('*.css') if 'node_modules' not in p.parts and '.wrangler' not in p.parts):
         for src in re.findall(r'url\(\s*[\'"]?([^\'"\)]+)[\'"]?\s*\)',css.read_text()):
             u=urlparse(src)
             if u.scheme or u.netloc or not u.path:continue

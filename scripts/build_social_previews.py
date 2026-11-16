@@ -17,7 +17,7 @@ def main():
         art=ImageOps.contain(cropped,(preview['width']-64,preview['height']-64),Image.Resampling.LANCZOS)
         card.paste(art,((card.width-art.width)//2,(card.height-art.height)//2));save_png(card,ROOT/preview['file'])
         size=CONFIG['touch_icon']['size'];save_png(ImageOps.contain(logo,(size,size),Image.Resampling.LANCZOS),ROOT/CONFIG['touch_icon']['file'])
-    pages=list(ROOT.rglob('*.html'))
+    pages=[p for p in ROOT.rglob('*.html') if 'node_modules' not in p.parts and '.wrangler' not in p.parts]
     for path in pages:write_html(path,path.read_text())
     print(f'Built logo-only {card.width}×{card.height} PNG and touch icon; added static sharing metadata to all {len(pages)} pages.')
 if __name__=='__main__':main()

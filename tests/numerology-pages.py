@@ -14,7 +14,7 @@ class Page(HTMLParser):
         if tag in ['img','script'] and attrs.get('src'):self.links.append(attrs['src'])
         if tag=='link' and attrs.get('href'):self.links.append(attrs['href'])
 def main():
-    files=list(ROOT.rglob('*.html'));parsed={p:Page(p.read_text()) for p in files};count=0
+    files=[p for p in ROOT.rglob('*.html') if 'node_modules' not in p.parts and '.wrangler' not in p.parts];parsed={p:Page(p.read_text()) for p in files};count=0
     assert len(list((ROOT/'numerology').rglob('*.html')))==299
     for p,page in parsed.items():
         text=p.read_text()

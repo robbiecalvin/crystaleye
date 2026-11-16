@@ -1,0 +1,11 @@
+{
+  "name": "Psychic Reading",
+  "price": "29.99",
+  "currency": "CAD",
+  "duration_minutes": 30,
+  "timezone": "America/Vancouver",
+  "minimum_notice_hours": 24,
+  "booking_horizon_days": 30,
+  "api_url": "",
+  "turnstile_site_key": ""
+}

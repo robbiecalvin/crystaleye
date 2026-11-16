@@ -21,10 +21,11 @@ def merchandise(prefix='', shop_page=False, compact=False):
         products=[re.sub(r'<p class="merch-description">.*?</p>','',card) for card in products]
     if shop_page:
         products=[x.replace(f'href="#{p["id"]}"', 'href="#ordering"') for x,p in zip(products,CATALOG['products'])]
+    readings=f'<aside class="reading-service" id="psychic-reading"><p class="merch-kicker">One-to-one / By appointment</p><h3>Psychic Readings</h3><p>A personal 30-minute session with Robbie by video or phone. $29.99 CAD · available day or night with at least 24 hours’ notice.</p><a class="text-link" href="{prefix}psychic-readings/index.html#booking">Explore appointments →</a></aside>'
     browse='' if shop_page else f'<p class="merch-catalog-link"><a href="{prefix}merchandise/index.html">Browse all products &amp; subscriptions →</a></p>'
     ordering_note='Secure Stripe checkout available for ready products.' if any_ready() else 'ordering coming soon.'
     return f'''<!-- merchandise:start -->
-<section class="merch-section{' home-shop-preview' if compact else ''}" aria-label="Crystaleye books and tarot decks"><div class="merch-inner"><div class="merch-heading"><div><p class="merch-kicker">A little wonder, in your hands</p><h2>Keep the <em>ritual.</em></h2></div><p>Learn with the guide. Read with the deck. Find your own way in.<br><span>Prices in Canadian dollars · {ordering_note}</span></p></div><div class="merch-grid">{''.join(products)}</div>{browse}</div></section>
+<section class="merch-section{' home-shop-preview' if compact else ''}" aria-label="Crystaleye books and tarot decks"><div class="merch-inner"><div class="merch-heading"><div><p class="merch-kicker">A little wonder, in your hands</p><h2>Keep the <em>ritual.</em></h2></div><p>Learn with the guide. Read with the deck. Find your own way in.<br><span>Prices in Canadian dollars · {ordering_note}</span></p></div><div class="merch-grid">{''.join(products)}</div>{readings}{browse}</div></section>
 <!-- merchandise:end -->'''
 
 

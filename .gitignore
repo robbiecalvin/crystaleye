@@ -1,2 +1,8 @@
 __pycache__/
 *.py[cod]
+
+# Local booking service dependencies, secrets, and appointment databases
+booking-service/node_modules/
+booking-service/.wrangler/
+booking-service/.dev.vars
+booking-service/.env*

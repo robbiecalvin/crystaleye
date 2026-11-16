@@ -165,3 +165,5 @@ a,button,input,select,summary { scroll-margin-bottom:100px; }
  .mini-result>strong { font-size:44px; }
 }
 @media print { .profile-reading,.profile-prose,.story-prose { background:none;border:0;padding:0; } }
+
+.reading-service{margin:28px 0;padding:24px;background:#142136e8;border:1px solid #8be2ef44;border-radius:8px}.reading-service h3{font-size:26px;margin:8px 0}.reading-service p{font-size:14px;line-height:1.8}.reading-service .text-link{display:inline-block;margin-top:8px}

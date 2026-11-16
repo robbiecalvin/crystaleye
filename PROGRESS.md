@@ -224,3 +224,12 @@ Rebuild instructions are in [README.md](README.md). No environment configuration
 - Added public per-product Stripe Payment Link configuration and static checkout rendering for the book, deck, and bundle. Live checkout requires an explicit ready flag, a Stripe-hosted live URL, and confirmed fulfillment.
 - Added URL/gating/rendering checks and setup documentation in docs/STRIPE_SETUP.md. No Stripe account credentials or live links are available in this session; purchasing remains closed pending the owner's account and fulfillment details.
 - Subscriptions and the full report remain unavailable until their delivery/access implementations are ready. No payment processing or email service has been activated.
+
+
+## Psychic Readings and appointment booking — November 16, 2026
+
+- Added a Psychic Readings page, shared header links, and service promotions on the homepage and catalog: $29.99 CAD, 30 minutes, personally with Robbie by video or phone.
+- Implemented on-site date/time/contact selection and pending-request feedback, plus a Cloudflare Worker/D1 backend with unique active slots, server-side 24-hour notice, day/night availability, Vancouver timezone display, and a rolling 30-day window.
+- Added verification, input validation, contact consent, non-public appointment records, and a manual-confirmation workflow. No payment, automated email, or video-room creation is claimed.
+- Booking infrastructure is not deployed: no owner Cloudflare account/database/widget is connected. The public form explicitly stays closed rather than pretending to save appointments. Setup and owner operations are documented in booking-service/README.md.
+- Tests cover clock changes, notice rules, double bookings, validation, verification, and origin restrictions. Browser checks exercise the contact/phone flow with mocked API responses and responsive widths; static checks cover all 323 pages and artwork.

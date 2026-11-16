@@ -17,7 +17,7 @@ class Toolbar(HTMLParser):
         if tag=='nav':self.inside=False
 
 def main():
-    pages=list(ROOT.rglob('*.html'))
+    pages=[p for p in ROOT.rglob('*.html') if 'node_modules' not in p.parts and '.wrangler' not in p.parts]
     for page in pages:
         text=page.read_text();nav=Toolbar(text)
         assert len(nav.links)==5,page
