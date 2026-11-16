@@ -14,6 +14,7 @@ def main():
         if f'href="{prefix}assets/cyberpunk.css"' not in s:s=s.replace('</head>',theme+'\n</head>')
         s=re.sub(r'<svg class="brand-mark".*?</svg>|<img class="brand-mark image-logo"[^>]*>',lambda _:brand_mark(prefix),s,flags=re.S)
         if rel.startswith('numerology-calculator/'):
+            if '../account/calculator-save.mjs' not in s:s=s.replace('</body>','<script type="module" src="../account/calculator-save.mjs"></script>\n</body>')
             marker='<a href="../numerology/index.html">'
             if marker in s and 'image-logo' not in s:s=s.replace(marker,marker+brand_mark(prefix),1)
         toolbar=mobile_toolbar(prefix,'Numerology' if rel.startswith('numerology-calculator/') else None)

@@ -240,3 +240,13 @@ Rebuild instructions are in [README.md](README.md). No environment configuration
 - Added the user's four-paragraph personal profile verbatim to the Psychic Readings page, between its introduction and appointment form. Profile content is editable in data/psychic-profile.json and preserved by the page builder.
 - Added a responsive reading panel and direct link to session booking. Pricing, availability, and booking behavior are unchanged.
 - The portrait is visible in chat but has no accessible uploaded file in this workspace; it is pending a downloadable attachment rather than using a substitute.
+
+
+## Customer profiles and saved readings — November 16, 2026
+
+- Added passwordless Supabase account UI with display name and optional Sun/Moon/rising signs; linked My Account across page headers.
+- Added explicit account saves to the quick calculator, untouched full-calculator output, and astrology previews. Snapshots omit entered birth names/full birth dates and preserve numerical/reading content and method notes. Added saved-reading browsing, filters, deletion, pagination, and sign-out clearing.
+- Added owner-readable tarot and astrology subscription status. The database grants no customer write access to subscription state, and no paid access or Stripe fulfillment is implied.
+- Added namespaced Supabase migration with row-level security for profiles/readings and backend-only subscription writes. Verified with real embedded PostgreSQL role tests, plus browser tests of the SDK's mocked auth callback, profile editing, saved readings, and responsive views.
+- The owner supplied the existing Supabase project URL and public publishable key, now configured. No connected Supabase administration tool is available; the environment proxy blocks live project API requests with HTTP 403. Migration application, email/Auth callback setup, and live checks remain pending. The enabled=false flag keeps sign-in unavailable until setup is confirmed; public site features still work.
+- No hosted database was modified, and no real authentication emails, payments, or deployment were performed.

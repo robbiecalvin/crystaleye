@@ -1,0 +1,1 @@
+{"name":"crystaleye-account","private":true,"type":"module","scripts":{"build:vendor":"esbuild vendor-entry.mjs --bundle --format=esm --platform=browser --minify --legal-comments=eof --outfile=vendor/supabase.mjs"},"dependencies":{"@supabase/supabase-js":"2.95.3"},"devDependencies":{"@electric-sql/pglite":"^0.5.16","esbuild":"0.25.12"}}

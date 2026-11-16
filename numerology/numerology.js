@@ -1,3 +1,5 @@
+import {readingSaveControl} from "../account/client.mjs";
+import {numerologySnapshot} from "../account/model.mjs";
 import summaries from "./result-summaries.mjs";
 import { calculate, localDate } from "./number-engine.mjs";
 const form = document.querySelector("#mini-form");
@@ -99,7 +101,7 @@ if (form) {
       list.append(item);
     }
     details.append(summary, list);
-    output.replaceChildren(intro, grid, note, details);
+    output.replaceChildren(intro, grid, note, details, readingSaveControl(numerologySnapshot(result, summaries)));
   });
   form.addEventListener("reset", () => {
     error.textContent = "";

@@ -1,3 +1,5 @@
+import {readingSaveControl} from "../account/client.mjs";
+import {astrologySnapshot} from "../account/model.mjs";
 import {
   signs,
   localDate,
@@ -83,7 +85,10 @@ if (form) {
       article.append(heading, text);
       paragraphs.push(article);
     }
-    output.replaceChildren(...paragraphs);
+    const placements=Object.fromEntries(['sun','moon','rising'].map(role=>[role,form.elements[role].value]));
+    const save=readingSaveControl(astrologySnapshot(placements,dateInput.value,readingFor));
+    save.querySelector('p').textContent='Save this on-page preview to your account. Sign-in does not enroll you in daily email delivery.';
+    output.replaceChildren(...paragraphs,save);
     document.querySelector("#preview-status").textContent =
       `${dateLabel(dateInput.value)} · on-page email preview`;
     document.querySelector("#preview-theme").textContent =
