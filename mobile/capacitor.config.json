@@ -1,0 +1,10 @@
+{
+ "appId":"com.crystaleye.app",
+ "appName":"Crystal Eye",
+ "webDir":"www",
+ "backgroundColor":"#080b19",
+ "server":{"androidScheme":"https","hostname":"localhost"},
+ "ios":{"contentInset":"never","backgroundColor":"#080b19"},
+ "android":{"backgroundColor":"#080b19","allowMixedContent":false},
+ "plugins":{"SplashScreen":{"backgroundColor":"#080b19","showSpinner":false}}
+}

@@ -32,3 +32,8 @@ The vendored Supabase SDK is pinned by `account/package-lock.json`; licenses are
 - `node tests/account-database.mjs`: applies the real migration to an isolated embedded PostgreSQL database (PGlite), switches roles/users, and exercises grants and RLS; requires the account dev dependencies above. No hosted project is touched.
 - `python tests/numerology-pages.py`, `python tests/catalog-navigation.py`, `python tests/social-previews.py`, `python tests/ui-layout.py`, `python scripts/audit_site_images.py`: every page, links, navigation, images, and metadata.
 - With the site served locally on port 8007, `python tests/accounts-browser.py` (Playwright + Chromium): passwordless callback, profile CRUD, saved reading controls, status display, logout, and responsive layout against mocked Supabase endpoints. Override the base with `CRYSTALEYE_TEST_URL` if necessary. No actual emails, payments, or hosted records are created by this test.
+
+
+## Native apps
+
+The Capacitor apps use the same Supabase project with the additional allowed redirect `crystaleye://auth/callback`. Native sign-in emails must be opened on the requesting device/app installation. The website's HTTPS callback remains unchanged. See `mobile/README.md` for the platform URL handlers and native build instructions.

@@ -1,3 +1,4 @@
+import {authRedirect,isNative} from './platform.mjs';
 import {getClient,accountURL,currentUser,saveReading} from './client.mjs';
 import {profileInput,signSlugs,astrologySnapshot,subscriptionLabel} from './model.mjs';
 import {readingFor,localDate} from '../astrology/reading-engine.mjs';
@@ -69,7 +70,7 @@ async function refresh(){
 $('login-form').addEventListener('submit',async event=>{
  event.preventDefault();if(!client||!$('login-form').reportValidity())return;
  $('login-fields').disabled=true;notice($('login-status'),'Sending your sign-in link…');
- try{const {error}=await client.auth.signInWithOtp({email:$('login-email').value.trim(),options:{emailRedirectTo:accountURL,shouldCreateUser:true}});if(error)throw error;notice($('login-status'),'Check your email for a sign-in link. Open it in this browser. If it doesn’t arrive, check spam or try again in a minute.');}
+ try{const {error}=await client.auth.signInWithOtp({email:$('login-email').value.trim(),options:{emailRedirectTo:authRedirect(accountURL),shouldCreateUser:true}});if(error)throw error;notice($('login-status'),isNative()?'Check your email on this device. The sign-in link will bring you back to Crystal Eye.':'Check your email for a sign-in link. Open it in this browser. If it doesn’t arrive, check spam or try again in a minute.');}
  catch{notice($('login-status'),'The email could not be sent. Check the address and try again in a minute.',true);}
  finally{setTimeout(()=>{$('login-fields').disabled=false;},60000);}
 });
@@ -104,3 +105,5 @@ try{
 }catch{notice(status,'Accounts are temporarily unavailable. Please try again later.',true);}
 // Re-check private data when the browser restores a previous dashboard page.
 window.addEventListener('pageshow',event=>{if(event.persisted&&client)refresh();});
+
+if(isNative()){const help=document.querySelector('#login-panel .account-panel>p.fine-print');if(help)help.textContent='Open your sign-in email on this device to return to Crystal Eye. Signing in does not start a paid subscription. Your session remains signed in until you sign out.';}

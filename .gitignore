@@ -11,3 +11,19 @@ booking-service/.env*
 account/node_modules/
 account/.env*
 supabase/.temp/
+
+# Rebuildable native app payloads, artifacts, and private signing files
+mobile/node_modules/
+mobile/www/
+mobile/releases/
+mobile/android/app/src/main/assets/public/
+mobile/android/app/src/main/assets/capacitor.config.json
+mobile/android/app/src/main/assets/capacitor.plugins.json
+mobile/ios/App/App/public/
+mobile/ios/App/App/capacitor.config.json
+mobile/.cache/
+*.keystore
+*.jks
+*.mobileprovision
+*.p12
+mobile/build-ios/

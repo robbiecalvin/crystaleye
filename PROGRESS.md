@@ -256,3 +256,14 @@ Rebuild instructions are in [README.md](README.md). No environment configuration
 
 - The owner confirmed completion of the Supabase SQL migration and allowed Auth redirect setup. Enabled customer sign-in in the public configuration and rebuilt the account page/settings.
 - Kept browser tests independent of live activation by explicitly mocking the disabled setup case before testing the enabled flow. Live email delivery and an actual customer session still need a user-side smoke test; no real sign-in emails are sent by the automated tests.
+
+
+## Native iOS and Android packaging — November 16, 2026
+
+- Added Capacitor 8 iOS/Xcode/Swift Package Manager and Android/Gradle projects under mobile, using the initial ID com.crystaleye.app. The ID must be confirmed with developer accounts before store release.
+- Bundled all 324 site pages, optimized artwork, and linked public PDF guides locally, excluding the 661 MB source-artwork directory, backend source, dependency folders, signing secrets, and duplicate payloads.
+- Added native-aware Supabase PKCE callback handling, preserving website auth behavior. Mobile sign-in requires the additional Supabase redirect crystaleye://auth/callback. Both platform URL handlers are registered, with replay handling for launch callbacks.
+- Added native PDF export/share, external HTTPS browser opening, Android back navigation, safe-area styling, and native icon/splash resources from the supplied logo. No in-app payment, camera, microphone, or notification service was activated.
+- Generated and synchronized both native projects; separately extracted the portable ZIP and verified dependency installation and both platform syncs. Verified all bundled HTML asset/link references and browser-tested the packaged account/calculator flows using mock Supabase responses. Website checks and existing tests remain green.
+- Added a portable source ZIP builder and a manual GitHub Actions workflow for Android debug and iOS simulator builds. No workflow was dispatched: the available GitHub API token is invalid. Local native compilation is unavailable because Android SDK and Xcode are not installed. No APK, IPA, simulator/device validation, or store publication is claimed.
+- Release work remains developer signing/device testing, live native auth verification, privacy/support URLs, functional account deletion, and native purchase/backend integration for digital subscriptions. Existing booking infrastructure remains pending.

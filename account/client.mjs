@@ -1,3 +1,4 @@
+import {isNative} from './platform.mjs';
 import {createClient} from './vendor/supabase.mjs';
 import {validateSnapshot} from './model.mjs';
 let promise;
@@ -27,7 +28,7 @@ export async function saveReading(snapshot,id=crypto.randomUUID()){
 export function readingSaveControl(snapshot){
  const wrap=document.createElement('div');wrap.className='account-save';
  const button=document.createElement('button');button.type='button';button.className='button button-outline';button.textContent='Save to my account';
- const link=document.createElement('a');link.href=accountURL;link.textContent='My account (new tab) →';link.target='_blank';link.rel='noopener';
+ const link=document.createElement('a');link.href=accountURL;link.textContent=isNative()?'My account →':'My account (new tab) →';if(!isNative()){link.target='_blank';link.rel='noopener';}
  const status=document.createElement('p');status.className='fine-print';status.setAttribute('role','status');status.textContent='Only this reading is saved when you choose. Birth names and dates are not included.';
  const id=crypto.randomUUID();
  button.addEventListener('click',async()=>{button.disabled=true;status.textContent='Saving…';try{await saveReading(snapshot,id);status.textContent='Saved to your private account.';button.textContent='Saved';}catch(error){status.textContent=error.message;button.disabled=false;}});
