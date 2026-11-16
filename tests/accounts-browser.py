@@ -10,6 +10,7 @@ session={'access_token':token,'refresh_token':'test-refresh-token','token_type':
 with sync_playwright() as p:
  b=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
  page=b.new_page(viewport={'width':390,'height':844});errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
+ page.route('**/account/config.json',lambda r:r.fulfill(json={'enabled':False,'supabase_url':'','publishable_key':''}))
  page.goto(BASE+'/account/');page.wait_for_function("document.querySelector('#account-status').textContent.includes('being connected')")
  assert page.locator('#login-email').is_disabled()
  assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')

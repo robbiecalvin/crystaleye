@@ -250,3 +250,9 @@ Rebuild instructions are in [README.md](README.md). No environment configuration
 - Added namespaced Supabase migration with row-level security for profiles/readings and backend-only subscription writes. Verified with real embedded PostgreSQL role tests, plus browser tests of the SDK's mocked auth callback, profile editing, saved readings, and responsive views.
 - The owner supplied the existing Supabase project URL and public publishable key, now configured. No connected Supabase administration tool is available; the environment proxy blocks live project API requests with HTTP 403. Migration application, email/Auth callback setup, and live checks remain pending. The enabled=false flag keeps sign-in unavailable until setup is confirmed; public site features still work.
 - No hosted database was modified, and no real authentication emails, payments, or deployment were performed.
+
+
+## Customer sign-in activation — November 16, 2026
+
+- The owner confirmed completion of the Supabase SQL migration and allowed Auth redirect setup. Enabled customer sign-in in the public configuration and rebuilt the account page/settings.
+- Kept browser tests independent of live activation by explicitly mocking the disabled setup case before testing the enabled flow. Live email delivery and an actual customer session still need a user-side smoke test; no real sign-in emails are sent by the automated tests.

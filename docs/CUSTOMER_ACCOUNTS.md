@@ -1,6 +1,6 @@
 # Crystal Eye customer accounts
 
-The site uses Supabase Auth and namespaced PostgreSQL tables. The existing GitHub Pages frontend remains static. The owner supplied the existing project URL and public publishable key, now configured in `data/account.json`. The `enabled` flag remains false until the migration and Auth callback are configured; the form shows setup pending. The environment blocks live requests to the Supabase project, so hosted connectivity/authentication has not been verified here.
+The site uses Supabase Auth and namespaced PostgreSQL tables. The existing GitHub Pages frontend remains static. The owner supplied the existing project URL and public publishable key, now configured in `data/account.json`. The owner confirmed the migration and Auth callback setup; `enabled` is now true and sign-in is open. The environment blocks live requests to the Supabase project, so hosted connectivity/authentication has not been verified here.
 
 ## Connect the existing project
 
