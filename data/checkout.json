@@ -1,8 +1,20 @@
 {
   "currency": "CAD",
   "products": {
-    "book": {"ready": false, "payment_link": "", "fulfillment": ""},
-    "deck": {"ready": false, "payment_link": "", "fulfillment": ""},
-    "bundle": {"ready": false, "payment_link": "", "fulfillment": ""}
+    "book": {
+      "ready": true,
+      "payment_link": "https://buy.stripe.com/28E4gA7SNgd6dPLaQ39Ve00",
+      "fulfillment": "Physical merchandise ships within Canada using CAD $9.99 flat-rate shipping."
+    },
+    "deck": {
+      "ready": true,
+      "payment_link": "https://buy.stripe.com/aFa5kEflf3qk8vr8HV9Ve01",
+      "fulfillment": "Physical merchandise ships within Canada using CAD $9.99 flat-rate shipping."
+    },
+    "bundle": {
+      "ready": true,
+      "payment_link": "https://buy.stripe.com/aFa28s8WR6Cw2734rF9Ve02",
+      "fulfillment": "Physical merchandise ships within Canada using CAD $9.99 flat-rate shipping."
+    }
   }
 }

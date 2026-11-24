@@ -36,7 +36,12 @@ def main():
     assert page.count('class="merch-product"')==3
     assert page.count('class="subscription-offer"')==2
     assert page.count('class="report-offer"')==1
-    assert 'no orders, payments, or subscription enrollments are being accepted' in page
+    checkout=json.loads((ROOT/'data/checkout.json').read_text())['products']
+    for offer in checkout.values():
+        if offer['ready']:
+            assert offer['payment_link'] in page
+    if not any(offer['ready'] for offer in checkout.values()):
+        assert 'no orders, payments, or subscription enrollments are being accepted' in page
     assert (ROOT/'shop/index.html').read_text()==page
     print(f'Passed: correct five-link mobile navigation and versioned stylesheet on all {len(pages)} pages; all six products/subscriptions, CAD prices, availability, and compatible shop route.')
 if __name__=='__main__':main()
