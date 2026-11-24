@@ -1236,3 +1236,11 @@ h2 {
     max-width: 310px;
   }
 }
+
+[data-install-app][hidden] {
+  display: none;
+}
+
+#install-help summary {
+  cursor: pointer;
+}

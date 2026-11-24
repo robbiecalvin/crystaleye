@@ -38,6 +38,8 @@
 <link rel="image_src" href="https://raw.githubusercontent.com/robbiecalvin/crystaleye/main/assets/social/crystal-eye-logo-v1.png">
 <link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/robbiecalvin/crystaleye/main/assets/social/crystal-eye-icon-v1.png">
 <!-- social-preview:end -->
+    <link rel="manifest" href="manifest.webmanifest">
+    <script src="assets/install-app.js" defer></script>
 </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -101,6 +103,14 @@
           <a class="button button-gold" href="astrology/index.html#signs"
             >Read your horoscope →</a
           >
+          <div id="install-app">
+            <button class="button button-outline" type="button" data-install-app hidden>Install Crystaleye</button>
+            <details id="install-help">
+              <summary>Add Crystaleye to your home screen</summary>
+              <p><strong>iPhone:</strong> Open this page in Safari. Tap Share, then Add to Home Screen. Turn on Open as Web App if shown, then tap Add.</p>
+              <p><strong>Android:</strong> Open this page in Chrome. Tap the three-dot menu, then Install app or Add to Home screen.</p>
+            </details>
+          </div>
           <a class="text-link" href="downloads/Crystaleye-Web-App.zip" download
             >Download the web app (ZIP, 29 MB) ↓</a
           >
