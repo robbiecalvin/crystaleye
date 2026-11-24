@@ -5,5 +5,5 @@
   "compatibility_date": "2026-11-16",
   "workers_dev": true,
   "vars": {"SITE_ORIGIN": "https://robbiecalvin.github.io"},
-  "d1_databases": [{"binding": "DB", "database_name": "crystaleye-bookings", "database_id": "REPLACE_WITH_D1_DATABASE_ID"}]
+  "d1_databases": [{"binding": "DB", "database_name": "crystaleye-bookings", "database_id": "c814f8d8-df5d-49d3-a831-70b6140f0e0a"}]
 }

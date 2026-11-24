@@ -2,7 +2,7 @@
 
 This Cloudflare Worker and D1 database support the static site's on-page booking form. Sessions cost $29.99 CAD and last 30 minutes. Availability is day and night, in half-hour increments, with at least 24 hours' notice and a rolling 30-day booking window. Display dates use `America/Vancouver`, including the runtime's timezone rules. UTC timestamps avoid ambiguous local-time reservations.
 
-**Not deployed yet.** The public form stays disabled while its API URL or Turnstile site key is blank. A successful request reserves the time with status `requested`; Robbie must confirm it and arrange video/phone details. No automated email, payment, video room, or customer account is claimed or supplied. The form displays a reference after a successful save. Do not open booking until the owner can monitor and contact clients.
+**The Cloudflare Worker is deployed at https://crystaleye-bookings.robert-calvin-dev.workers.dev.** The public form uses the Worker once the updated site configuration is published. A successful request reserves the time with status `requested`; Robbie must confirm it and arrange video/phone details. No automated email, payment, video room, or customer account is claimed or supplied. The form displays a reference after a successful save. Do not open booking until the owner can monitor and contact clients.
 
 ## Connect the backend
 
