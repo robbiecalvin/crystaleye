@@ -130,3 +130,7 @@ Customer accounts are built in `account/` with passwordless Supabase sign-in, ed
 
 
 Native iOS and Android projects are available in [mobile](mobile/README.md), built with Capacitor and a curated local copy of the site. Run `npm ci --prefix mobile` and `npm run sync --prefix mobile` to prepare both projects. Native auth adds the Supabase callback `crystaleye://auth/callback`; the website retains its HTTPS callback. Android back navigation, external browser links, logo resources, safe-area styling, and native PDF sharing are included. A manual GitHub Actions workflow builds Android debug/iOS simulator artifacts when run with suitable GitHub access. These are source projects; no signed APK/IPA or store submission has been produced here. See the mobile README for device-build and store-release requirements.
+
+## Regression testing and structured data
+
+The `data/`, `content/` and `research/` directories separate machine-readable resources, editorial material and source notes. `tests/numerology-calculator.test.mjs` compares calculations with a reference implementation and checks invalid inputs, leap years and punctuation. Run it with `node --test tests/numerology-calculator.test.mjs`. Numerology is presented as a symbolic tradition, not a scientifically validated prediction method.
