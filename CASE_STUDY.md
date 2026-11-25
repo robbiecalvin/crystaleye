@@ -39,6 +39,14 @@ The fixture uses `John Smith`, birth date `1980-10-22`, and comparison date `202
 node --test tests/numerology-calculator.test.mjs
 ```
 
+## Browser demonstration
+
+Open the [live quick calculator](https://robbiecalvin.github.io/crystaleye/#calculator), enter the synthetic name and date from the fixture above, and select **Find your three numbers**.
+
+![Crystal Eye quick calculator displaying Personality 11, Life Path 5, and Destiny 8 for the synthetic John Smith example](docs/images/calculator-demo.jpg)
+
+Captured from the running application in Chromium at revision `5164a12b52df`. The browser check asserted all three displayed values.
+
 ## Resume summary
 Implemented structured content generation, reference-based algorithm tests and reproducible asset validation for a static web application.
 
