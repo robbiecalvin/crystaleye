@@ -33,3 +33,12 @@ Numerology is a symbolic tradition, not a scientifically validated predictive me
 
 ## Resume summary
 Implemented structured content generation, reference-based algorithm tests and reproducible asset validation for a static web application.
+
+## Verified CI evidence — 2026-11-25
+
+Five numerology calculator tests passed. Other site checks were not part of this run.
+
+- [GitHub Actions run](https://github.com/robbiecalvin/crystaleye/actions/runs/45641450245)
+- [Tested revision](https://github.com/robbiecalvin/crystaleye/commit/8804e53d0fa632619c1378e0337daf3edbfde77c)
+
+Results were inspected from completed job logs. They apply to the linked revision and executed checks only.
