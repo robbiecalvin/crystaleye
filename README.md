@@ -134,3 +134,8 @@ Native iOS and Android projects are available in [mobile](mobile/README.md), bui
 ## Regression testing and structured data
 
 The `data/`, `content/` and `research/` directories separate machine-readable resources, editorial material and source notes. `tests/numerology-calculator.test.mjs` compares calculations with a reference implementation and checks invalid inputs, leap years and punctuation. Run it with `node --test tests/numerology-calculator.test.mjs`. Numerology is presented as a symbolic tradition, not a scientifically validated prediction method.
+
+
+## Technical portfolio case study
+
+[Read the technical case study](CASE_STUDY.md) for the problem, architecture, engineering decisions, evaluation evidence and limitations.
