@@ -31,6 +31,14 @@ Keep calculation conventions explicit, retain original artwork, and mark unfinis
 ## Limitations
 Numerology is a symbolic tradition, not a scientifically validated predictive method. Tests verify implementation conventions, not predictive accuracy. No fresh test run was performed for this case study.
 
+## Reproducible fixture demonstration
+
+The fixture uses `John Smith`, birth date `1980-10-22`, and comparison date `2026-11-13`. Expected values are Personality 11, Life Path 5, and Destiny 8. The same suite exercises leap-day validation and master-number handling.
+
+```sh
+node --test tests/numerology-calculator.test.mjs
+```
+
 ## Resume summary
 Implemented structured content generation, reference-based algorithm tests and reproducible asset validation for a static web application.
 
